@@ -2,7 +2,15 @@
     "actions": [],
     "binder": {
         "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
-        "properties": {"formDefId": "venueMangement"}
+        "properties": {
+            "customSelectionValue": "",
+            "extraCondition": "",
+            "filters": [],
+            "formDefId": "venueMangement",
+            "functionColumns": [],
+            "groupBy": "",
+            "joins": []
+        }
     },
     "buttonPosition": "bottomLeft",
     "checkboxPosition": "left",
@@ -208,6 +216,28 @@
             "id": "column_14",
             "label": "Auth. Sign. Designation",
             "name": "authorisedSignatoryDesignation",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_9",
+            "label": "Auth. Sign. Email",
+            "name": "authorisedSignatoryEmailID",
             "sortable": "false",
             "style": "",
             "width": ""
