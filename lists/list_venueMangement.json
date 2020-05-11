@@ -1,0 +1,46 @@
+{
+    "actions": [],
+    "binder": {
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {"formDefId": "venueMangement"}
+    },
+    "buttonPosition": "bottomLeft",
+    "checkboxPosition": "left",
+    "columns": [
+        {
+            "id": "column_0",
+            "label": "Authorised Signatory Designation",
+            "name": "authorisedSignatoryDesignation"
+        },
+        {
+            "id": "column_1",
+            "label": "Authorised Signatory Mobile No.",
+            "name": "authorisedSignatoryMobile"
+        },
+        {
+            "id": "column_2",
+            "label": "Authorised Signatory Name",
+            "name": "authorisedSignatoryName"
+        },
+        {
+            "id": "column_3",
+            "label": "City",
+            "name": "city"
+        },
+        {
+            "id": "column_4",
+            "label": "Days on Which Venue shall be exclusively provided to NSEIT",
+            "name": "days"
+        }
+    ],
+    "filters": [],
+    "id": "list_venueMangement",
+    "name": "List - Venue Management",
+    "order": "",
+    "orderBy": "",
+    "pageSize": 0,
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "rowActions": [],
+    "showPageSizeSelector": "true",
+    "useSession": "false"
+}
