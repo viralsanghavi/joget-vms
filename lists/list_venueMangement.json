@@ -273,35 +273,155 @@
             "sortable": "false"
         },
         {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
             "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
             "hidden": "false",
             "id": "column_18",
-            "label": "Venue SPOC Designation",
+            "label": "Venue SPOC Desig.",
             "name": "venueSPOCDesignation",
-            "sortable": "false"
+            "sortable": "false",
+            "style": "",
+            "width": ""
         },
         {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
             "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
             "hidden": "false",
             "id": "column_19",
-            "label": "Venue SPOC Email ID",
+            "label": "Venue SPOC Email",
             "name": "venueSPOCEmailID",
-            "sortable": "false"
+            "sortable": "false",
+            "style": "",
+            "width": ""
         },
         {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
             "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
             "hidden": "false",
             "id": "column_20",
-            "label": "Alternate Email ID",
+            "label": "Alternate Email",
             "name": "alternateEmailID",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_21",
+            "label": "Venue SPOC Mobile",
+            "name": "venueSPOCMobileNo",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_22",
+            "label": "Venue Payment SPOC Name",
+            "name": "venuePaymentSPOCName",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_21",
-            "label": "Venue SPOC Mobile No.",
-            "name": "venueSPOCMobileNo",
+            "id": "column_26",
+            "label": "Venue Payment SPOC Designation",
+            "name": "venuePaymentSPOCDesignation",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_24",
+            "label": "Venue Payment SPOC Email ID",
+            "name": "venuePaymentSPOCEmailID",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_25",
+            "label": "Venue Payment SPOC Mobile No.",
+            "name": "venuePaymentSPOCMobileNo",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_27",
+            "label": "Name of the Nearest Bus Stop from Test Venue",
+            "name": "nearestBusStop",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_28",
+            "label": "Distance of Nearest Bus Stop from Venue (in KMS)",
+            "name": "distanceNearestBusStop",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_30",
+            "label": "Name of the Nearest Bus Stop from Test Venue",
+            "name": "nearestBusStop",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_29",
+            "label": "Distance of Nearest Railway Station from Venue (in KMS)",
+            "name": "distanceNearestRailywayStop",
             "sortable": "false"
         }
     ],
@@ -309,42 +429,6 @@
     "description": "",
     "disableResponsive": "",
     "filters": [
-        {
-            "id": "filter_20",
-            "label": "Date Modified",
-            "name": "dateModified",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
-            }
-        },
-        {
-            "id": "filter_19",
-            "label": "Date Created",
-            "name": "dateCreated",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
-            }
-        },
-        {
-            "id": "filter_1",
-            "label": "Created By Name",
-            "name": "createdByName",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
-            }
-        },
-        {
-            "id": "filter_0",
-            "label": "Created By",
-            "name": "createdBy",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
-            }
-        },
         {
             "id": "filter_18",
             "label": "Organisation Name",
@@ -493,6 +577,127 @@
             "id": "filter_2",
             "label": "Authorised Signatory Mobile No.",
             "name": "authorisedSignatoryMobile",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_0",
+            "label": "Venue SPOC Name",
+            "name": "venueSPOCName",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_1",
+            "label": "Venue SPOC Designation",
+            "name": "venueSPOCDesignation",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_21",
+            "label": "Venue SPOC Email ID",
+            "name": "venueSPOCEmailID",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_20",
+            "label": "Alternate Email ID",
+            "name": "alternateEmailID",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_22",
+            "label": "Venue SPOC Mobile No.",
+            "name": "venueSPOCMobileNo",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_19",
+            "label": "Venue Payment SPOC Name",
+            "name": "venuePaymentSPOCName",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_venuePaymentSPOCDesignation",
+            "id": "filter_23",
+            "label": "Venue Payment SPOC Designation",
+            "name": "venuePaymentSPOCDesignation",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_venuePaymentSPOCEmailID",
+            "id": "filter_24",
+            "label": "Venue Payment SPOC Email ID",
+            "name": "venuePaymentSPOCEmailID",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_25",
+            "label": "Venue Payment SPOC Mobile No.",
+            "name": "venuePaymentSPOCMobileNo",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_26",
+            "label": "Name of the Nearest Bus Stop from Test Venue",
+            "name": "nearestBusStop",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_27",
+            "label": "Distance of Nearest Bus Stop from Venue (in KMS)",
+            "name": "distanceNearestBusStop",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_29",
+            "label": "Name of the Nearest Bus Stop from Test Venue",
+            "name": "nearestBusStop",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_28",
+            "label": "Distance of Nearest Railway Station from Venue (in KMS)",
+            "name": "distanceNearestRailywayStop",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
                 "properties": {}
