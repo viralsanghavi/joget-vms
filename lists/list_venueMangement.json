@@ -520,12 +520,36 @@
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_organisationType",
+            "hidden": "",
             "id": "filter_17",
             "label": "Organisation Type",
             "name": "organisationType",
             "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "defaultValue": "",
+                    "multiple": "autocomplete",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "venueMangement",
+                            "groupingColumn": "",
+                            "idColumn": "organisationType",
+                            "labelColumn": "organisationType",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
             }
         },
         {
