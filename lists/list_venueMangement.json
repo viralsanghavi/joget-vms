@@ -423,6 +423,62 @@
             "label": "Distance of Nearest Railway Station from Venue (in KMS)",
             "name": "distanceNearestRailywayStop",
             "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_23",
+            "label": "Total No. of Seats Available in Campus / Premises",
+            "name": "seatsAvailable",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_32",
+            "label": "No. of Computer Labs / Rooms with computer terminal and seats offered for booking",
+            "name": "noOfComputerLab",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_31",
+            "label": "Total No. of Seats offered for booking",
+            "name": "seatsOfferedBooking",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_33",
+            "label": "Lab No.",
+            "name": "labNo",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_34",
+            "label": "No. of Seats",
+            "name": "noOfSeats",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_35",
+            "label": "Floor No.",
+            "name": "floorNo",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_36",
+            "label": "PC Configuration",
+            "name": "pcConfiguration",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
@@ -698,6 +754,69 @@
             "id": "filter_28",
             "label": "Distance of Nearest Railway Station from Venue (in KMS)",
             "name": "distanceNearestRailywayStop",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_30",
+            "label": "Total No. of Seats Available in Campus / Premises",
+            "name": "seatsAvailable",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_31",
+            "label": "Total No. of Seats offered for booking",
+            "name": "seatsOfferedBooking",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_32",
+            "label": "No. of Computer Labs / Rooms with computer terminal and seats offered for booking",
+            "name": "noOfComputerLab",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_33",
+            "label": "Lab No.",
+            "name": "labNo",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_34",
+            "label": "No. of Seats",
+            "name": "noOfSeats",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_35",
+            "label": "Floor No.",
+            "name": "floorNo",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_36",
+            "label": "PC Configuration",
+            "name": "pcConfiguration",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
                 "properties": {}
