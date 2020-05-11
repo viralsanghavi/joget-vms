@@ -65,24 +65,17 @@
         "welcomeMessage": "#date.EEE, d MMM yyyy#"
     },
     "setting": {"properties": {
+        "hideThisUserviewInAppCenter": "",
         "permission": {
             "className": "",
             "properties": {}
         },
+        "tempDisablePermissionChecking": "",
         "theme": {
-            "className": "org.joget.plugin.enterprise.ProgressiveTheme",
-            "properties": {
-                "accentColor": "BLUE",
-                "buttonColor": "ORANGE",
-                "buttonTextColor": "WHITE",
-                "fontColor": "WHITE",
-                "menuFontColor": "BLACK",
-                "mobileCacheEnabled": "",
-                "mobileViewDisabled": "",
-                "primaryColor": "INDIGO",
-                "themeScheme": "light"
-            }
+            "className": "org.joget.plugin.enterprise.XadminTheme",
+            "properties": {}
         },
-        "userviewDescription": ""
+        "userviewDescription": "",
+        "userview_thumbnail": ""
     }}
 }
