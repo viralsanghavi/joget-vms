@@ -553,12 +553,15 @@
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_address1",
+            "hidden": "",
             "id": "filter_16",
             "label": "Registered Address Line 1",
             "name": "address1",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "properties": {"defaultValue": ""}
             }
         },
         {
