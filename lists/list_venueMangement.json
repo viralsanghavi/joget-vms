@@ -8,31 +8,103 @@
     "checkboxPosition": "left",
     "columns": [
         {
+            "filterable": true,
+            "hidden": "false",
             "id": "column_0",
-            "label": "Authorised Signatory Designation",
-            "name": "authorisedSignatoryDesignation"
+            "label": "Organisation Name",
+            "name": "organisationName",
+            "sortable": "false"
         },
         {
+            "filterable": true,
+            "hidden": "false",
             "id": "column_1",
-            "label": "Authorised Signatory Mobile No.",
-            "name": "authorisedSignatoryMobile"
+            "label": "Organisation Type",
+            "name": "organisationType",
+            "sortable": "false"
         },
         {
+            "filterable": true,
+            "hidden": "false",
             "id": "column_2",
-            "label": "Authorised Signatory Name",
-            "name": "authorisedSignatoryName"
+            "label": "Registered Address Line 1",
+            "name": "address1",
+            "sortable": "false"
         },
         {
+            "filterable": true,
+            "hidden": "false",
             "id": "column_3",
-            "label": "City",
-            "name": "city"
+            "label": "Registered Address Line 2",
+            "name": "address2",
+            "sortable": "false"
         },
         {
+            "filterable": true,
+            "hidden": "false",
             "id": "column_4",
+            "label": "Landmark",
+            "name": "landmark",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_5",
+            "label": "Pincode",
+            "name": "pincode",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_6",
+            "label": "State",
+            "name": "state",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_7",
+            "label": "City",
+            "name": "city",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_8",
+            "label": "Region",
+            "name": "region",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_11",
             "label": "Days on Which Venue shall be exclusively provided to NSEIT",
-            "name": "days"
+            "name": "days",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_9",
+            "label": "Venue Landline No.",
+            "name": "venueLandlineNo",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_10",
+            "label": "Venue Fax No.",
+            "name": "venueFaxNo",
+            "sortable": "false"
         }
     ],
+    "considerFilterWhenGetTotal": "",
     "filters": [],
     "id": "list_venueMangement",
     "name": "List - Venue Management",
