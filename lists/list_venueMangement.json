@@ -268,16 +268,40 @@
             "filterable": true,
             "hidden": "false",
             "id": "column_10",
-            "label": "City",
-            "name": "city",
+            "label": "Venue SPOC Name",
+            "name": "venueSPOCName",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
             "id": "column_18",
-            "label": "Created By",
-            "name": "createdBy",
+            "label": "Venue SPOC Designation",
+            "name": "venueSPOCDesignation",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_19",
+            "label": "Venue SPOC Email ID",
+            "name": "venueSPOCEmailID",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_20",
+            "label": "Alternate Email ID",
+            "name": "alternateEmailID",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_21",
+            "label": "Venue SPOC Mobile No.",
+            "name": "venueSPOCMobileNo",
             "sortable": "false"
         }
     ],
