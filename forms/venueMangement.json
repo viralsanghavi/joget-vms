@@ -1037,7 +1037,7 @@
                                 "properties": {
                                     "mandatory": "",
                                     "message": "",
-                                    "type": "numeric"
+                                    "type": ""
                                 }
                             },
                             "value": "",
@@ -1077,9 +1077,25 @@
     "properties": {
         "description": "",
         "id": "venueMangement",
-        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "loadBinder": {
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
+        },
         "name": "Venue Management",
-        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "noPermissionMessage": "",
+        "permission": {
+            "className": "",
+            "properties": {}
+        },
+        "postProcessor": {
+            "className": "",
+            "properties": {}
+        },
+        "postProcessorRunOn": "create",
+        "storeBinder": {
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
+        },
         "tableName": "vm"
     }
 }
