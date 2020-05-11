@@ -82,6 +82,22 @@
         {
             "filterable": true,
             "hidden": "false",
+            "id": "column_16",
+            "label": "Venue Landline No.",
+            "name": "venueLandlineNo",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_17",
+            "label": "Venue Fax No.",
+            "name": "venueFaxNo",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
             "id": "column_11",
             "label": "Days on Which Venue shall be exclusively provided to NSEIT",
             "name": "days",
@@ -90,17 +106,33 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_9",
-            "label": "Venue Landline No.",
-            "name": "venueLandlineNo",
+            "id": "column_12",
+            "label": "Minimum Advance Notice required by Venue to block facilities for Specific Exam",
+            "name": "notice",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_10",
-            "label": "Venue Fax No.",
-            "name": "venueFaxNo",
+            "id": "column_13",
+            "label": "Authorised Signatory Name",
+            "name": "authorisedSignatoryName",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_14",
+            "label": "Authorised Signatory Designation",
+            "name": "authorisedSignatoryDesignation",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_15",
+            "label": "Authorised Signatory Mobile No.",
+            "name": "authorisedSignatoryMobile",
             "sortable": "false"
         }
     ],
