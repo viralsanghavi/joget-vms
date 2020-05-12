@@ -40,14 +40,6 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_30",
-            "label": "Name of the Nearest Bus Stop from Test Venue",
-            "name": "nearestBusStop",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
             "id": "column_36",
             "label": "PC Configuration",
             "name": "pcConfiguration",
