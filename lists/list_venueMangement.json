@@ -785,12 +785,21 @@
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_distanceNearestBusStop",
+            "hidden": "",
             "id": "filter_27",
             "label": "Distance of Nearest Bus Stop from Venue (in KMS)",
             "name": "distanceNearestBusStop",
             "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "className": "org.joget.plugin.enterprise.NumberRangeDatalistFilterType",
+                "properties": {
+                    "maxDefaultValue": "",
+                    "maxLabel": "Max",
+                    "minDefaultValue": "",
+                    "minLabel": "Min",
+                    "showFieldLabel": "true"
+                }
             }
         },
         {
@@ -803,66 +812,129 @@
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_distanceNearestRailywayStop",
+            "hidden": "",
             "id": "filter_28",
             "label": "Distance of Nearest Railway Station from Venue (in KMS)",
             "name": "distanceNearestRailywayStop",
             "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "className": "org.joget.plugin.enterprise.NumberRangeDatalistFilterType",
+                "properties": {
+                    "maxDefaultValue": "",
+                    "maxLabel": "Max",
+                    "minDefaultValue": "",
+                    "minLabel": "Min",
+                    "showFieldLabel": "true"
+                }
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_seatsAvailable",
+            "hidden": "",
             "id": "filter_30",
             "label": "Total No. of Seats Available in Campus / Premises",
             "name": "seatsAvailable",
             "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "className": "org.joget.plugin.enterprise.NumberRangeDatalistFilterType",
+                "properties": {
+                    "maxDefaultValue": "",
+                    "maxLabel": "Max",
+                    "minDefaultValue": "",
+                    "minLabel": "Min",
+                    "showFieldLabel": "true"
+                }
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_seatsOfferedBooking",
+            "hidden": "",
             "id": "filter_31",
             "label": "Total No. of Seats offered for booking",
             "name": "seatsOfferedBooking",
             "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "className": "org.joget.plugin.enterprise.NumberRangeDatalistFilterType",
+                "properties": {
+                    "maxDefaultValue": "",
+                    "maxLabel": "Max",
+                    "minDefaultValue": "",
+                    "minLabel": "Min",
+                    "showFieldLabel": "true"
+                }
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_noOfComputerLab",
+            "hidden": "",
             "id": "filter_32",
             "label": "No. of Computer Labs / Rooms with computer terminal and seats offered for booking",
             "name": "noOfComputerLab",
             "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "className": "org.joget.plugin.enterprise.NumberRangeDatalistFilterType",
+                "properties": {
+                    "maxDefaultValue": "",
+                    "maxLabel": "Max",
+                    "minDefaultValue": "",
+                    "minLabel": "Min",
+                    "showFieldLabel": "true"
+                }
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_labNo",
+            "hidden": "",
             "id": "filter_33",
             "label": "Lab No.",
             "name": "labNo",
             "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "className": "org.joget.plugin.enterprise.NumberRangeDatalistFilterType",
+                "properties": {
+                    "maxDefaultValue": "",
+                    "maxLabel": "Max",
+                    "minDefaultValue": "",
+                    "minLabel": "Min",
+                    "showFieldLabel": "true"
+                }
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_noOfSeats",
+            "hidden": "",
             "id": "filter_34",
             "label": "No. of Seats",
             "name": "noOfSeats",
             "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "className": "org.joget.plugin.enterprise.NumberRangeDatalistFilterType",
+                "properties": {
+                    "maxDefaultValue": "",
+                    "maxLabel": "Max",
+                    "minDefaultValue": "",
+                    "minLabel": "Min",
+                    "showFieldLabel": "true"
+                }
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_floorNo",
+            "hidden": "",
             "id": "filter_35",
             "label": "Floor No.",
             "name": "floorNo",
             "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "className": "org.joget.plugin.enterprise.NumberRangeDatalistFilterType",
+                "properties": {
+                    "maxDefaultValue": "",
+                    "maxLabel": "Max",
+                    "minDefaultValue": "",
+                    "minLabel": "Min",
+                    "showFieldLabel": "true"
+                }
             }
         },
         {
