@@ -758,21 +758,25 @@
         {
             "datalist_type": "filter",
             "filterParamName": "d-4819342-fn_venuePaymentSPOCEmailID",
+            "hidden": "",
             "id": "filter_24",
             "label": "Venue Payment SPOC Email ID",
             "name": "venuePaymentSPOCEmailID",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "properties": {"defaultValue": ""}
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_venuePaymentSPOCMobileNo",
+            "hidden": "",
             "id": "filter_25",
             "label": "Venue Payment SPOC Mobile No.",
             "name": "venuePaymentSPOCMobileNo",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "properties": {"defaultValue": ""}
             }
         },
         {
