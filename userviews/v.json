@@ -17,7 +17,7 @@
                     "cacheListAction": "",
                     "checkboxPosition": "left",
                     "customId": "venueMangement_crud",
-                    "datalistId": "vms_edit_lsit",
+                    "datalistId": "list_venueMangement",
                     "edit-afterSaved": "continue",
                     "edit-allowRecordTraveling": "",
                     "edit-backButtonLabel": "",
