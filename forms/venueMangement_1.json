@@ -22,7 +22,7 @@
                             "page1_readonlyLabel": "",
                             "page1_subFormParentId": "",
                             "page1_validate": "",
-                            "page2_formDefId": "venueMangement_1",
+                            "page2_formDefId": "vm",
                             "page2_label": "page2",
                             "page2_parentSubFormId": "venue1",
                             "page2_readonly": "",
