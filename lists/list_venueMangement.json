@@ -575,6 +575,70 @@
             "label": "Up-Time SLA for Internet Service (%)",
             "name": "upTimeSLA",
             "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_49",
+            "label": "CCTV / DVR Availability in Test Rooms",
+            "name": "cctvDVRAvailability",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_50",
+            "label": "Air Conditioners in Test Room",
+            "name": "airConditioner",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_51",
+            "label": "Licensed AV Software installed on all Desktop Machines",
+            "name": "licensedAVSoftware",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_52",
+            "label": "Printer (Inkjet / Laser) connected in LAN",
+            "name": "printerConnectedLAN",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_53",
+            "label": "Licensed Operating System Installed on the Desktop Machines",
+            "name": "licensedOperatingSystem",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_54",
+            "label": "UPS Capacity (KVA)",
+            "name": "upsCapacity",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_55",
+            "label": "UPS back-up duration (HRS)",
+            "name": "upsBackUp",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_56",
+            "label": "Generator Capacity (KVA)",
+            "name": "generatorCapacity",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
@@ -1332,6 +1396,230 @@
             "id": "filter_48",
             "label": "Up-Time SLA for Internet Service (%)",
             "name": "upTimeSLA",
+            "type": {
+                "className": "org.joget.plugin.enterprise.NumberRangeDatalistFilterType",
+                "properties": {
+                    "maxDefaultValue": "",
+                    "maxLabel": "Max",
+                    "minDefaultValue": "",
+                    "minLabel": "Min",
+                    "showFieldLabel": "true"
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_cctvDVRAvailability",
+            "hidden": "",
+            "id": "filter_49",
+            "label": "CCTV / DVR Availability in Test Rooms",
+            "name": "cctvDVRAvailability",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "venueMangement",
+                            "groupingColumn": "",
+                            "idColumn": "cctvDVRAvailability",
+                            "labelColumn": "cctvDVRAvailability",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_airConditioner",
+            "hidden": "",
+            "id": "filter_50",
+            "label": "Air Conditioners in Test Room",
+            "name": "airConditioner",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "venueMangement",
+                            "groupingColumn": "",
+                            "idColumn": "airConditioner",
+                            "labelColumn": "airConditioner",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_licensedAVSoftware",
+            "hidden": "",
+            "id": "filter_51",
+            "label": "Licensed AV Software installed on all Desktop Machines",
+            "name": "licensedAVSoftware",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "venueMangement",
+                            "groupingColumn": "",
+                            "idColumn": "licensedAVSoftware",
+                            "labelColumn": "licensedAVSoftware",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_printerConnectedLAN",
+            "hidden": "",
+            "id": "filter_52",
+            "label": "Printer (Inkjet / Laser) connected in LAN",
+            "name": "printerConnectedLAN",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "venueMangement",
+                            "groupingColumn": "",
+                            "idColumn": "printerConnectedLAN",
+                            "labelColumn": "printerConnectedLAN",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_licensedOperatingSystem",
+            "hidden": "",
+            "id": "filter_53",
+            "label": "Licensed Operating System Installed on the Desktop Machines",
+            "name": "licensedOperatingSystem",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "venueMangement",
+                            "groupingColumn": "",
+                            "idColumn": "licensedOperatingSystem",
+                            "labelColumn": "licensedOperatingSystem",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_upsCapacity",
+            "hidden": "",
+            "id": "filter_54",
+            "label": "UPS Capacity (KVA)",
+            "name": "upsCapacity",
+            "type": {
+                "className": "org.joget.plugin.enterprise.NumberRangeDatalistFilterType",
+                "properties": {
+                    "maxDefaultValue": "",
+                    "maxLabel": "Max",
+                    "minDefaultValue": "",
+                    "minLabel": "Min",
+                    "showFieldLabel": "true"
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_upsBackUp",
+            "hidden": "",
+            "id": "filter_55",
+            "label": "UPS back-up duration (HRS)",
+            "name": "upsBackUp",
+            "type": {
+                "className": "org.joget.plugin.enterprise.NumberRangeDatalistFilterType",
+                "properties": {
+                    "maxDefaultValue": "",
+                    "maxLabel": "Max",
+                    "minDefaultValue": "",
+                    "minLabel": "Min",
+                    "showFieldLabel": "true"
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_generatorCapacity",
+            "hidden": "",
+            "id": "filter_56",
+            "label": "Generator Capacity (KVA)",
+            "name": "generatorCapacity",
             "type": {
                 "className": "org.joget.plugin.enterprise.NumberRangeDatalistFilterType",
                 "properties": {
