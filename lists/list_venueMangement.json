@@ -487,6 +487,46 @@
             "label": "Network Switch (100 Mbps) Availability",
             "name": "networkSwitch",
             "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_38",
+            "label": "Firewall Availability",
+            "name": "firewallAvailabiity",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_39",
+            "label": "No. of Computers in the LAN network connected to the firewall",
+            "name": "noOfComputersConnectedToFirewall",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_41",
+            "label": "Primary Internet Connection with Static IP (Availability)",
+            "name": "primaryInternetConnectionStatic",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_42",
+            "label": "Primary Internet Connection (Type)",
+            "name": "primaryInternetConnection",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_43",
+            "label": "Primary Internet Connection (Bandwidth) (Required @ 8 Mbps / 100 Machine)",
+            "name": "priamryInternetConnection8mbps",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
@@ -990,6 +1030,129 @@
                     },
                     "size": ""
                 }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_firewallAvailabiity",
+            "hidden": "",
+            "id": "filter_39",
+            "label": "Firewall Availability",
+            "name": "firewallAvailabiity",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "venueMangement",
+                            "groupingColumn": "",
+                            "idColumn": "firewallAvailabiity",
+                            "labelColumn": "firewallAvailabiity",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_noOfComputersConnectedToFirewall",
+            "hidden": "",
+            "id": "filter_40",
+            "label": "No. of Computers in the LAN network connected to the firewall",
+            "name": "noOfComputersConnectedToFirewall",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_primaryInternetConnectionStatic",
+            "hidden": "",
+            "id": "filter_41",
+            "label": "Primary Internet Connection with Static IP (Availability)",
+            "name": "primaryInternetConnectionStatic",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "venueMangement",
+                            "groupingColumn": "",
+                            "idColumn": "primaryInternetConnectionStatic",
+                            "labelColumn": "primaryInternetConnectionStatic",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_primaryInternetConnection",
+            "hidden": "",
+            "id": "filter_42",
+            "label": "Primary Internet Connection (Type)",
+            "name": "primaryInternetConnection",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "venueMangement",
+                            "groupingColumn": "",
+                            "idColumn": "primaryInternetConnection",
+                            "labelColumn": "primaryInternetConnection",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
+            }
+        },
+        {
+            "id": "filter_43",
+            "label": "Primary Internet Connection (Bandwidth) (Required @ 8 Mbps / 100 Machine)",
+            "name": "priamryInternetConnection8mbps",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
             }
         }
     ],
