@@ -37,7 +37,7 @@
                         "enableOffline": "",
                         "id": "56705D0DD4EC4712A1C5E64095C74EB9",
                         "keyName": "",
-                        "label": "CRUD",
+                        "label": "Datalist",
                         "list-abortRelatedRunningProcesses": "true",
                         "list-customFooter": "",
                         "list-customHeader": "",
@@ -51,7 +51,7 @@
                         "list-newButtonLabel": "New",
                         "list-newLinkTarget": "",
                         "list-showDeleteButton": "yes",
-                        "rowCount": "",
+                        "rowCount": "true",
                         "selectionType": "multiple",
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": ""
@@ -83,7 +83,7 @@
             ],
             "properties": {
                 "id": "category-2AA8274ABDB749C7A56B2F33A800EEB4",
-                "label": "New Category"
+                "label": "Purchase Order"
             }
         },
         {
