@@ -7,13 +7,11 @@
                 "className": "org.joget.apps.form.model.Column",
                 "elements": [
                     {
-                        "className": "org.joget.apps.form.lib.IdGeneratorField",
+                        "className": "org.joget.apps.form.lib.HiddenField",
                         "properties": {
-                            "envVariable": "counter",
-                            "format": "ID-??????",
-                            "hidden": "true",
-                            "id": "recordid",
-                            "label": "IdGeneratorField",
+                            "id": "purchase_order",
+                            "useDefaultWhenEmpty": "",
+                            "value": "",
                             "workflowVariable": ""
                         }
                     },
