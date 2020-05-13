@@ -124,7 +124,29 @@
     "orderBy": "",
     "pageSize": "0",
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
-    "rowActions": [],
+    "rowActions": [
+        {
+            "className": "org.joget.tutorial.DownloadPdfDatalistAction",
+            "icon": "",
+            "id": "rowAction_0",
+            "label": "Download PDF",
+            "name": "Download PDF Datalist Action",
+            "properties": {
+                "datalist_type": "row_action",
+                "label": "Download PDF"
+            },
+            "type": "text"
+        },
+        {
+            "className": "org.joget.tutorial.DownloadPdfDatalistAction",
+            "icon": "",
+            "id": "rowAction_1",
+            "label": "Download PDF",
+            "name": "Download PDF Datalist Action",
+            "properties": {"label": "Download PDF"},
+            "type": "text"
+        }
+    ],
     "showPageSizeSelector": "true",
     "useSession": "false"
 }
