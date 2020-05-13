@@ -104,6 +104,14 @@
             "width": ""
         },
         {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_115",
+            "label": "Date of Issue of Certificate",
+            "name": "dateOfIssue",
+            "sortable": "false"
+        },
+        {
             "datalist_type": "column",
             "filterable": true,
             "hidden": "false",
@@ -1100,6 +1108,14 @@
             "id": "column_112",
             "label": "Approving Authority \u2013 Designation",
             "name": "approvingAuthorityDesignation",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_114",
+            "label": "Approving Authority \u2013 Jurisdictional Office",
+            "name": "approvingAuthorityJurisdictionalOffice",
             "sortable": "false"
         }
     ],
