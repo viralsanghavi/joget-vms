@@ -4,28 +4,39 @@
         "className": "org.joget.apps.form.model.Section",
         "elements": [{
             "className": "org.joget.apps.form.model.Column",
-            "elements": [{
-                "className": "org.joget.apps.form.lib.SubForm",
-                "properties": {
-                    "formDefId": "purchase_order",
-                    "id": "field1",
-                    "label": "Preview",
-                    "loadBinder": {
-                        "className": "org.joget.plugin.enterprise.ParentFormBinder",
-                        "properties": {}
-                    },
-                    "noframe": "true",
-                    "parentSubFormId": "",
-                    "permissionHidden": "",
-                    "readonly": "true",
-                    "readonlyLabel": "",
-                    "storeBinder": {
-                        "className": "org.joget.apps.form.lib.WorkflowFormBinder",
-                        "properties": {}
-                    },
-                    "subFormParentId": "purchase_order"
+            "elements": [
+                {
+                    "className": "org.joget.apps.form.lib.HiddenField",
+                    "properties": {
+                        "id": "parent",
+                        "useDefaultWhenEmpty": "",
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.SubForm",
+                    "properties": {
+                        "formDefId": "purchase_order",
+                        "id": "field1",
+                        "label": "Preview",
+                        "loadBinder": {
+                            "className": "org.joget.plugin.enterprise.ParentFormBinder",
+                            "properties": {}
+                        },
+                        "noframe": "true",
+                        "parentSubFormId": "parent",
+                        "permissionHidden": "",
+                        "readonly": "true",
+                        "readonlyLabel": "",
+                        "storeBinder": {
+                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                            "properties": {}
+                        },
+                        "subFormParentId": "purchase_order"
+                    }
                 }
-            }],
+            ],
             "properties": {"width": "100%"}
         }],
         "properties": {
