@@ -132,8 +132,24 @@
             "label": "Download PDF",
             "name": "Download PDF Datalist Action",
             "properties": {
+                "confirmation": "",
                 "datalist_type": "row_action",
-                "label": "Download PDF"
+                "footerHtml": "",
+                "formDefId": "template_1",
+                "formatting": "",
+                "headerHtml": "",
+                "hideEmptyValueField": "",
+                "label": "Download Template 1",
+                "recordIdColumn": "",
+                "repeatFooter": "",
+                "repeatHeader": "",
+                "rules": [{
+                    "field": "purchase_poSubjectTemplate",
+                    "join": "AND",
+                    "operator": "=",
+                    "value": "Template 1"
+                }],
+                "showNotSelectedOptions": ""
             },
             "type": "text"
         },
@@ -143,7 +159,26 @@
             "id": "rowAction_1",
             "label": "Download PDF",
             "name": "Download PDF Datalist Action",
-            "properties": {"label": "Download PDF"},
+            "properties": {
+                "confirmation": "",
+                "datalist_type": "row_action",
+                "footerHtml": "",
+                "formDefId": "template_2",
+                "formatting": "",
+                "headerHtml": "",
+                "hideEmptyValueField": "",
+                "label": "Download Template 2",
+                "recordIdColumn": "",
+                "repeatFooter": "",
+                "repeatHeader": "",
+                "rules": [{
+                    "field": "purchase_poSubjectTemplate",
+                    "join": "AND",
+                    "operator": "=",
+                    "value": "Template 2"
+                }],
+                "showNotSelectedOptions": ""
+            },
             "type": "text"
         }
     ],
