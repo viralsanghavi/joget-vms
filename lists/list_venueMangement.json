@@ -743,6 +743,102 @@
             "label": "Hiring charges for test candidates",
             "name": "hiringCharges",
             "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_70",
+            "label": "Venue Head",
+            "name": "venueHeadPayment",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_71",
+            "label": "Invigilator",
+            "name": "invigilatorPayment",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_72",
+            "label": "IT Administrator",
+            "name": "itAdministratorPayment",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_73",
+            "label": "Electrician",
+            "name": "electrician",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_74",
+            "label": "Security/Helper /Cleaner",
+            "name": "securityHelperCleaner",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_75",
+            "label": "Upto 50 PC usage",
+            "name": "upto50PCUsage",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_76",
+            "label": "51-100 PC usage",
+            "name": "51Usage",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_77",
+            "label": "101-150 PC usage",
+            "name": "101Usage",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_78",
+            "label": "151-200 PC usage",
+            "name": "151Usage",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_79",
+            "label": "201-250 PC usage",
+            "name": "201usage",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_80",
+            "label": "251- 300 PC usage",
+            "name": "251usage",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_81",
+            "label": "Above 300 PC usage",
+            "name": "300Usage",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
@@ -2175,6 +2271,54 @@
                     },
                     "size": ""
                 }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_venueHeadPayment",
+            "hidden": "",
+            "id": "filter_70",
+            "label": "Venue Head",
+            "name": "venueHeadPayment",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
+            }
+        },
+        {
+            "id": "filter_71",
+            "label": "Invigilator",
+            "name": "invigilatorPayment",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_72",
+            "label": "IT Administrator",
+            "name": "itAdministratorPayment",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_73",
+            "label": "Electrician",
+            "name": "electrician",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_74",
+            "label": "Security/Helper /Cleaner",
+            "name": "securityHelperCleaner",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
             }
         }
     ],
