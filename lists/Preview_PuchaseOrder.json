@@ -91,7 +91,7 @@
             "filterable": true,
             "hidden": "false",
             "id": "column_5",
-            "label": "PO Subject Template",
+            "label": "PO Template",
             "name": "purchase_poSubjectTemplate",
             "sortable": "false"
         }

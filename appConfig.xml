@@ -8,7 +8,15 @@
    <datalistDefinitionList/>
    <builderDefinitionList/>
    <pluginDefaultPropertiesList/>
-   <environmentVariableList/>
+   <environmentVariableList>
+      <environmentVariable>
+         <id>counter</id>
+         <appId>vms</appId>
+         <appVersion>1</appVersion>
+         <value>1</value>
+         <remarks>Used for plugin: Id Generator Field</remarks>
+      </environmentVariable>
+   </environmentVariableList>
    <messageList/>
    <resourceList/>
    <license>W6nLQcJrzt7nqMGmCeuphCh1LoSGyzBI6Tshfh9Z/UngnJgdM6dBuq4RXu6rZKA8oTvMMsNc+l/H/T1IXdGFYQ==</license>
