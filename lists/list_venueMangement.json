@@ -1117,6 +1117,86 @@
             "label": "Approving Authority \u2013 Jurisdictional Office",
             "name": "approvingAuthorityJurisdictionalOffice",
             "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_113",
+            "label": "Date of Issue of Certificate",
+            "name": "dateOfIssue",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_116",
+            "label": "Pay Group",
+            "name": "payGroup",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_117",
+            "label": "Liability Code",
+            "name": "liabilityCode",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_118",
+            "label": "TDS Section",
+            "name": "tdsSection",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_119",
+            "label": "TDS Rate",
+            "name": "tdsRate",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_120",
+            "label": "Vendor Relationship Manager",
+            "name": "vendorRelationshipManager",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_121",
+            "label": "Date of Agreement",
+            "name": "dateofAgreement",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_122",
+            "label": "Date of Renewal / Expiry of Agreement",
+            "name": "dateofRenewalExpiryAgreement",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_123",
+            "label": "Venue Rating",
+            "name": "venueRating",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_124",
+            "label": "Venue Status",
+            "name": "venueStatus",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
