@@ -1,0 +1,978 @@
+{
+    "actions": [],
+    "binder": {
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {
+            "customSelectionValue": "",
+            "extraCondition": "",
+            "filters": [],
+            "formDefId": "venueMangement",
+            "functionColumns": [],
+            "groupBy": "",
+            "joins": []
+        }
+    },
+    "buttonPosition": "bottomLeft",
+    "checkboxPosition": "left",
+    "columns": [
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_0",
+            "label": "Org. Name",
+            "name": "organisationName",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_1",
+            "label": "Org. Type",
+            "name": "organisationType",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_2",
+            "label": "Reg. Add. 1",
+            "name": "address1",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_3",
+            "label": "Reg. Add. 2",
+            "name": "address2",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "datalist_type": "column",
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_4",
+            "label": "Landmark",
+            "name": "landmark",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_5",
+            "label": "Pincode",
+            "name": "pincode",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_6",
+            "label": "State",
+            "name": "state",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_7",
+            "label": "City",
+            "name": "city",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_8",
+            "label": "Region",
+            "name": "region",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_16",
+            "label": "Venue Landline No.",
+            "name": "venueLandlineNo",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_17",
+            "label": "Venue Fax No.",
+            "name": "venueFaxNo",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_11",
+            "label": "Days on Which Venue shall be exclusively provided to NSEIT",
+            "name": "days",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_12",
+            "label": "Minimum Advance Notice required by Venue to block facilities for Specific Exam",
+            "name": "notice",
+            "sortable": "false"
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_13",
+            "label": "Auth. Sign. Name",
+            "name": "authorisedSignatoryName",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_14",
+            "label": "Auth. Sign. Designation",
+            "name": "authorisedSignatoryDesignation",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_9",
+            "label": "Auth. Sign. Email",
+            "name": "authorisedSignatoryEmailID",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_15",
+            "label": "Auth. Sign. Mobile No.",
+            "name": "authorisedSignatoryMobile",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_10",
+            "label": "Venue SPOC Name",
+            "name": "venueSPOCName",
+            "sortable": "false"
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_18",
+            "label": "Venue SPOC Desig.",
+            "name": "venueSPOCDesignation",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_19",
+            "label": "Venue SPOC Email",
+            "name": "venueSPOCEmailID",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_20",
+            "label": "Alternate Email",
+            "name": "alternateEmailID",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_21",
+            "label": "Venue SPOC Mobile",
+            "name": "venueSPOCMobileNo",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_22",
+            "label": "Venue Payment SPOC Name",
+            "name": "venuePaymentSPOCName",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_26",
+            "label": "Venue Payment SPOC Designation",
+            "name": "venuePaymentSPOCDesignation",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_24",
+            "label": "Venue Payment SPOC Email ID",
+            "name": "venuePaymentSPOCEmailID",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_25",
+            "label": "Venue Payment SPOC Mobile No.",
+            "name": "venuePaymentSPOCMobileNo",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_27",
+            "label": "Name of the Nearest Bus Stop from Test Venue",
+            "name": "nearestBusStop",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_28",
+            "label": "Distance of Nearest Bus Stop from Venue (in KMS)",
+            "name": "distanceNearestBusStop",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_30",
+            "label": "Name of the Nearest Bus Stop from Test Venue",
+            "name": "nearestBusStop",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_29",
+            "label": "Distance of Nearest Railway Station from Venue (in KMS)",
+            "name": "distanceNearestRailywayStop",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_23",
+            "label": "Total No. of Seats Available in Campus / Premises",
+            "name": "seatsAvailable",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_32",
+            "label": "No. of Computer Labs / Rooms with computer terminal and seats offered for booking",
+            "name": "noOfComputerLab",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_31",
+            "label": "Total No. of Seats offered for booking",
+            "name": "seatsOfferedBooking",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_33",
+            "label": "Lab No.",
+            "name": "labNo",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_34",
+            "label": "No. of Seats",
+            "name": "noOfSeats",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_35",
+            "label": "Floor No.",
+            "name": "floorNo",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_36",
+            "label": "PC Configuration",
+            "name": "pcConfiguration",
+            "sortable": "false"
+        }
+    ],
+    "considerFilterWhenGetTotal": "",
+    "description": "",
+    "disableResponsive": "",
+    "filters": [
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_organisationName",
+            "hidden": "",
+            "id": "filter_18",
+            "label": "Organisation Name",
+            "name": "organisationName",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "venueMangement",
+                            "groupingColumn": "",
+                            "idColumn": "organisationName",
+                            "labelColumn": "organisationName",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_organisationType",
+            "hidden": "",
+            "id": "filter_17",
+            "label": "Organisation Type",
+            "name": "organisationType",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "defaultValue": "",
+                    "multiple": "autocomplete",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "venueMangement",
+                            "groupingColumn": "",
+                            "idColumn": "organisationType",
+                            "labelColumn": "organisationType",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_address1",
+            "hidden": "",
+            "id": "filter_16",
+            "label": "Registered Address Line 1",
+            "name": "address1",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
+            }
+        },
+        {
+            "id": "filter_15",
+            "label": "Registered Address Line 2",
+            "name": "address2",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_14",
+            "label": "Landmark",
+            "name": "landmark",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_13",
+            "label": "Pincode",
+            "name": "pincode",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_12",
+            "label": "State",
+            "name": "state",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_11",
+            "label": "City",
+            "name": "city",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_10",
+            "label": "Region",
+            "name": "region",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_9",
+            "label": "Venue Landline No.",
+            "name": "venueLandlineNo",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_8",
+            "label": "Venue Fax No.",
+            "name": "venueFaxNo",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_7",
+            "label": "Days on Which Venue shall be exclusively provided to NSEIT",
+            "name": "days",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_6",
+            "label": "Minimum Advance Notice required by Venue to block facilities for Specific Exam",
+            "name": "notice",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_5",
+            "label": "Authorised Signatory Name",
+            "name": "authorisedSignatoryName",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_4",
+            "label": "Authorised Signatory Designation",
+            "name": "authorisedSignatoryDesignation",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_3",
+            "label": "Authorised Signatory Email ID",
+            "name": "authorisedSignatoryEmailID",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_2",
+            "label": "Authorised Signatory Mobile No.",
+            "name": "authorisedSignatoryMobile",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_0",
+            "label": "Venue SPOC Name",
+            "name": "venueSPOCName",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_1",
+            "label": "Venue SPOC Designation",
+            "name": "venueSPOCDesignation",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_21",
+            "label": "Venue SPOC Email ID",
+            "name": "venueSPOCEmailID",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_20",
+            "label": "Alternate Email ID",
+            "name": "alternateEmailID",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_22",
+            "label": "Venue SPOC Mobile No.",
+            "name": "venueSPOCMobileNo",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_19",
+            "label": "Venue Payment SPOC Name",
+            "name": "venuePaymentSPOCName",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_venuePaymentSPOCDesignation",
+            "id": "filter_23",
+            "label": "Venue Payment SPOC Designation",
+            "name": "venuePaymentSPOCDesignation",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_venuePaymentSPOCEmailID",
+            "hidden": "",
+            "id": "filter_24",
+            "label": "Venue Payment SPOC Email ID",
+            "name": "venuePaymentSPOCEmailID",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_venuePaymentSPOCMobileNo",
+            "hidden": "",
+            "id": "filter_25",
+            "label": "Venue Payment SPOC Mobile No.",
+            "name": "venuePaymentSPOCMobileNo",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
+            }
+        },
+        {
+            "id": "filter_26",
+            "label": "Name of the Nearest Bus Stop from Test Venue",
+            "name": "nearestBusStop",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_distanceNearestBusStop",
+            "hidden": "",
+            "id": "filter_27",
+            "label": "Distance of Nearest Bus Stop from Venue (in KMS)",
+            "name": "distanceNearestBusStop",
+            "type": {
+                "className": "org.joget.plugin.enterprise.NumberRangeDatalistFilterType",
+                "properties": {
+                    "maxDefaultValue": "",
+                    "maxLabel": "Max",
+                    "minDefaultValue": "",
+                    "minLabel": "Min",
+                    "showFieldLabel": "true"
+                }
+            }
+        },
+        {
+            "id": "filter_29",
+            "label": "Name of the Nearest Bus Stop from Test Venue",
+            "name": "nearestBusStop",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_distanceNearestRailywayStop",
+            "hidden": "",
+            "id": "filter_28",
+            "label": "Distance of Nearest Railway Station from Venue (in KMS)",
+            "name": "distanceNearestRailywayStop",
+            "type": {
+                "className": "org.joget.plugin.enterprise.NumberRangeDatalistFilterType",
+                "properties": {
+                    "maxDefaultValue": "",
+                    "maxLabel": "Max",
+                    "minDefaultValue": "",
+                    "minLabel": "Min",
+                    "showFieldLabel": "true"
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_seatsAvailable",
+            "hidden": "",
+            "id": "filter_30",
+            "label": "Total No. of Seats Available in Campus / Premises",
+            "name": "seatsAvailable",
+            "type": {
+                "className": "org.joget.plugin.enterprise.NumberRangeDatalistFilterType",
+                "properties": {
+                    "maxDefaultValue": "",
+                    "maxLabel": "Max",
+                    "minDefaultValue": "",
+                    "minLabel": "Min",
+                    "showFieldLabel": "true"
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_seatsOfferedBooking",
+            "hidden": "",
+            "id": "filter_31",
+            "label": "Total No. of Seats offered for booking",
+            "name": "seatsOfferedBooking",
+            "type": {
+                "className": "org.joget.plugin.enterprise.NumberRangeDatalistFilterType",
+                "properties": {
+                    "maxDefaultValue": "",
+                    "maxLabel": "Max",
+                    "minDefaultValue": "",
+                    "minLabel": "Min",
+                    "showFieldLabel": "true"
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_noOfComputerLab",
+            "hidden": "",
+            "id": "filter_32",
+            "label": "No. of Computer Labs / Rooms with computer terminal and seats offered for booking",
+            "name": "noOfComputerLab",
+            "type": {
+                "className": "org.joget.plugin.enterprise.NumberRangeDatalistFilterType",
+                "properties": {
+                    "maxDefaultValue": "",
+                    "maxLabel": "Max",
+                    "minDefaultValue": "",
+                    "minLabel": "Min",
+                    "showFieldLabel": "true"
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_labNo",
+            "hidden": "",
+            "id": "filter_33",
+            "label": "Lab No.",
+            "name": "labNo",
+            "type": {
+                "className": "org.joget.plugin.enterprise.NumberRangeDatalistFilterType",
+                "properties": {
+                    "maxDefaultValue": "",
+                    "maxLabel": "Max",
+                    "minDefaultValue": "",
+                    "minLabel": "Min",
+                    "showFieldLabel": "true"
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_noOfSeats",
+            "hidden": "",
+            "id": "filter_34",
+            "label": "No. of Seats",
+            "name": "noOfSeats",
+            "type": {
+                "className": "org.joget.plugin.enterprise.NumberRangeDatalistFilterType",
+                "properties": {
+                    "maxDefaultValue": "",
+                    "maxLabel": "Max",
+                    "minDefaultValue": "",
+                    "minLabel": "Min",
+                    "showFieldLabel": "true"
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_floorNo",
+            "hidden": "",
+            "id": "filter_35",
+            "label": "Floor No.",
+            "name": "floorNo",
+            "type": {
+                "className": "org.joget.plugin.enterprise.NumberRangeDatalistFilterType",
+                "properties": {
+                    "maxDefaultValue": "",
+                    "maxLabel": "Max",
+                    "minDefaultValue": "",
+                    "minLabel": "Min",
+                    "showFieldLabel": "true"
+                }
+            }
+        },
+        {
+            "id": "filter_36",
+            "label": "PC Configuration",
+            "name": "pcConfiguration",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        }
+    ],
+    "hidePageSize": "",
+    "id": "venueMangement",
+    "name": "List - Add Screen",
+    "order": "",
+    "orderBy": "",
+    "pageSize": "0",
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "responsiveView": [
+        {
+            "breakpoint": "",
+            "columns": "",
+            "view": "Mobile"
+        },
+        {
+            "breakpoint": "",
+            "columns": "",
+            "view": "Tablet"
+        }
+    ],
+    "rowActions": [],
+    "searchPopup": "",
+    "showDataWhenFilterSet": "",
+    "showPageSizeSelector": "true",
+    "useSession": ""
+}
