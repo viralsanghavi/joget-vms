@@ -1082,6 +1082,24 @@
         },
         {
             "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_noOfComputersConnectedToFirewall",
+            "hidden": "",
+            "id": "filter_40",
+            "label": "No. of Computers in the LAN network connected to the firewall",
+            "name": "noOfComputersConnectedToFirewall",
+            "type": {
+                "className": "org.joget.plugin.enterprise.NumberRangeDatalistFilterType",
+                "properties": {
+                    "maxDefaultValue": "",
+                    "maxLabel": "Max",
+                    "minDefaultValue": "",
+                    "minLabel": "Min",
+                    "showFieldLabel": "true"
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
             "filterParamName": "d-4819342-fn_firewallAvailabiity",
             "hidden": "",
             "id": "filter_39",
@@ -1111,24 +1129,6 @@
                         }
                     },
                     "size": ""
-                }
-            }
-        },
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-4819342-fn_noOfComputersConnectedToFirewall",
-            "hidden": "",
-            "id": "filter_40",
-            "label": "No. of Computers in the LAN network connected to the firewall",
-            "name": "noOfComputersConnectedToFirewall",
-            "type": {
-                "className": "org.joget.plugin.enterprise.NumberRangeDatalistFilterType",
-                "properties": {
-                    "maxDefaultValue": "",
-                    "maxLabel": "Max",
-                    "minDefaultValue": "",
-                    "minLabel": "Min",
-                    "showFieldLabel": "true"
                 }
             }
         },
