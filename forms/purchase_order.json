@@ -5,6 +5,59 @@
             "className": "org.joget.apps.form.model.Section",
             "elements": [{
                 "className": "org.joget.apps.form.model.Column",
+                "elements": [{
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "",
+                        "id": "purchase_otherOS",
+                        "label": "Other",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                }],
+                "properties": {"width": "100%"}
+            }],
+            "properties": {
+                "comment": "",
+                "id": "section2",
+                "join": "",
+                "label": "",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permissionReadonly": "",
+                "readonly": "",
+                "readonlyLabel": "",
+                "regex": "",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityControl": "purchase_OS",
+                "visibilityValue": "Other"
+            }
+        },
+        {
+            "className": "org.joget.apps.form.model.Section",
+            "elements": [{
+                "className": "org.joget.apps.form.model.Column",
                 "elements": [
                     {
                         "className": "org.joget.apps.form.lib.SelectBox",
@@ -355,59 +408,6 @@
             "elements": [{
                 "className": "org.joget.apps.form.model.Column",
                 "elements": [{
-                    "className": "org.joget.apps.form.lib.TextField",
-                    "properties": {
-                        "encryption": "",
-                        "id": "purchase_otherOS",
-                        "label": "Other",
-                        "maxlength": "",
-                        "placeholder": "",
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "size": "",
-                        "storeNumeric": "",
-                        "style": "",
-                        "validator": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "value": "",
-                        "workflowVariable": ""
-                    }
-                }],
-                "properties": {"width": "100%"}
-            }],
-            "properties": {
-                "comment": "",
-                "id": "section2",
-                "join": "",
-                "label": "",
-                "loadBinder": {
-                    "className": "",
-                    "properties": {}
-                },
-                "permission": {
-                    "className": "",
-                    "properties": {}
-                },
-                "permissionReadonly": "",
-                "readonly": "",
-                "readonlyLabel": "",
-                "regex": "",
-                "reverse": "",
-                "storeBinder": {
-                    "className": "",
-                    "properties": {}
-                },
-                "visibilityControl": "purchase_OS",
-                "visibilityValue": "Other"
-            }
-        },
-        {
-            "className": "org.joget.apps.form.model.Section",
-            "elements": [{
-                "className": "org.joget.apps.form.model.Column",
-                "elements": [{
                     "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
                         "controlField": "",
@@ -534,6 +534,130 @@
                     "properties": {}
                 },
                 "visibilityControl": "purchase_browserVersion",
+                "visibilityValue": "Other"
+            }
+        },
+        {
+            "className": "org.joget.apps.form.model.Section",
+            "elements": [{
+                "className": "org.joget.apps.form.model.Column",
+                "elements": [{
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "controlField": "",
+                        "id": "purchase_AntiVirus",
+                        "label": "Anti Virus",
+                        "multiple": "",
+                        "options": [
+                            {
+                                "grouping": "",
+                                "label": "",
+                                "value": ""
+                            },
+                            {
+                                "grouping": "",
+                                "label": "Any licensed AV with latest definitions",
+                                "value": "Any licensed AV with latest definitions"
+                            },
+                            {
+                                "grouping": "",
+                                "label": "Other",
+                                "value": "Other"
+                            }
+                        ],
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                }],
+                "properties": {"width": "100%"}
+            }],
+            "properties": {
+                "comment": "",
+                "id": "section5",
+                "join": "",
+                "label": "",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permissionReadonly": "",
+                "readonly": "",
+                "readonlyLabel": "",
+                "regex": "",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityControl": "",
+                "visibilityValue": ""
+            }
+        },
+        {
+            "className": "org.joget.apps.form.model.Section",
+            "elements": [{
+                "className": "org.joget.apps.form.model.Column",
+                "elements": [{
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "",
+                        "id": "purchase_otherAntiVirus",
+                        "label": "Other",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                }],
+                "properties": {"width": "100%"}
+            }],
+            "properties": {
+                "comment": "",
+                "id": "section6",
+                "join": "",
+                "label": "",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permissionReadonly": "",
+                "readonly": "",
+                "readonlyLabel": "",
+                "regex": "",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityControl": "purchase_AntiVirus",
                 "visibilityValue": "Other"
             }
         }
