@@ -3,37 +3,6 @@
         "className": "org.joget.apps.userview.model.UserviewCategory",
         "menus": [
             {
-                "className": "org.joget.apps.userview.lib.FormMenu",
-                "properties": {
-                    "actionAfterSaved": "",
-                    "actionOnCancel": "",
-                    "cancelButtonLabel": "",
-                    "customFooter": "",
-                    "customHeader": "",
-                    "customId": "",
-                    "enableOffline": "",
-                    "fieldPassover": "",
-                    "fieldPassoverMethod": "append",
-                    "formId": "venueMangement",
-                    "id": "9D20F5BB24A24D36B1BB53651C4B20DA",
-                    "keyName": "",
-                    "label": "Form",
-                    "loadDataWithKey": "",
-                    "messageShowAfterComplete": "",
-                    "paramName": "",
-                    "readonly": "",
-                    "readonlyLabel": "",
-                    "redirectTargetOnCancel": "top",
-                    "redirectTargetOnComplete": "",
-                    "redirectUrlAfterComplete": "",
-                    "redirectUrlOnCancel": "",
-                    "showInPopupDialog": "",
-                    "submitButtonLabel": "",
-                    "userviewCacheDuration": "20",
-                    "userviewCacheScope": ""
-                }
-            },
-            {
                 "className": "org.joget.plugin.enterprise.CrudMenu",
                 "properties": {
                     "add-afterSaved": "list",
@@ -75,7 +44,7 @@
                     "list-deleteFiles": "",
                     "list-deleteGridData": "",
                     "list-deleteSubformData": "",
-                    "list-editLinkLabel": "Add",
+                    "list-editLinkLabel": "Edit",
                     "list-editLinkTarget": "",
                     "list-moreActions": [],
                     "list-newButtonLabel": "",
