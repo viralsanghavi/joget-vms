@@ -6,7 +6,7 @@
             "customSelectionValue": "",
             "extraCondition": "",
             "filters": [],
-            "formDefId": "Preview_PuchaseOrder",
+            "formDefId": "purchase_order",
             "functionColumns": [],
             "groupBy": "",
             "joins": []
@@ -16,12 +16,26 @@
     "checkboxPosition": "left",
     "columns": [
         {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
             "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
             "hidden": "false",
             "id": "column_0",
             "label": "Venue",
             "name": "purchase_Venue",
-            "sortable": "false"
+            "sortable": "false",
+            "style": "",
+            "width": ""
         },
         {
             "filterable": true,
