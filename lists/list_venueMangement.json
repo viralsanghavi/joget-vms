@@ -639,6 +639,22 @@
             "label": "Generator Capacity (KVA)",
             "name": "generatorCapacity",
             "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_57",
+            "label": "Administrative room on the same floor of the test room for candidate verification & waiting purpose",
+            "name": "housekeeping",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_58",
+            "label": "House Keeping / Cleaning Attendants",
+            "name": "houseKeepingCleaningAttendants",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
