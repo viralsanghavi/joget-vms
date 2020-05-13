@@ -48,7 +48,7 @@
                     "cacheListAction": "",
                     "checkboxPosition": "left",
                     "customId": "venueMangement_crud",
-                    "datalistId": "list_venueMangement",
+                    "datalistId": "venueMangement",
                     "edit-afterSaved": "continue",
                     "edit-allowRecordTraveling": "",
                     "edit-backButtonLabel": "",
