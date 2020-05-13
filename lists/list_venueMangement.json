@@ -535,6 +535,46 @@
             "label": "Primary Internet Service Provider (Name of the vendor)",
             "name": "primaryInternetConnectionVendorName",
             "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_43",
+            "label": "Secondary Internet Connection with Static IP (Availability)",
+            "name": "secondaryConnectionStaticIP",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_46",
+            "label": "Secondary Internet Connection (Type)",
+            "name": "secondaryConnectionType",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_45",
+            "label": "Secondary Internet Connection (Bandwidth)",
+            "name": "secondaryConnectionBandwidth",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_47",
+            "label": "Secondary Internet Connection (Service Provider Name)",
+            "name": "secondaryConnectionProviderName",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_48",
+            "label": "Up-Time SLA for Internet Service (%)",
+            "name": "upTimeSLA",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
@@ -1082,8 +1122,14 @@
             "label": "No. of Computers in the LAN network connected to the firewall",
             "name": "noOfComputersConnectedToFirewall",
             "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {"defaultValue": ""}
+                "className": "org.joget.plugin.enterprise.NumberRangeDatalistFilterType",
+                "properties": {
+                    "maxDefaultValue": "",
+                    "maxLabel": "Max",
+                    "minDefaultValue": "",
+                    "minLabel": "Min",
+                    "showFieldLabel": "true"
+                }
             }
         },
         {
@@ -1162,8 +1208,14 @@
             "label": "Primary Internet Connection (Bandwidth) (Required @ 8 Mbps / 100 Machine)",
             "name": "primaryInternetConnection8mbps",
             "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {"defaultValue": ""}
+                "className": "org.joget.plugin.enterprise.NumberRangeDatalistFilterType",
+                "properties": {
+                    "maxDefaultValue": "",
+                    "maxLabel": "Max",
+                    "minDefaultValue": "",
+                    "minLabel": "Min",
+                    "showFieldLabel": "true"
+                }
             }
         },
         {
@@ -1173,6 +1225,122 @@
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
                 "properties": {}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_secondaryConnectionStaticIP",
+            "hidden": "",
+            "id": "filter_43",
+            "label": "Secondary Internet Connection with Static IP (Availability)",
+            "name": "secondaryConnectionStaticIP",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "venueMangement",
+                            "groupingColumn": "",
+                            "idColumn": "secondaryConnectionStaticIP",
+                            "labelColumn": "secondaryConnectionStaticIP",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_secondaryConnectionType",
+            "hidden": "",
+            "id": "filter_46",
+            "label": "Secondary Internet Connection (Type)",
+            "name": "secondaryConnectionType",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "venueMangement",
+                            "groupingColumn": "",
+                            "idColumn": "secondaryConnectionType",
+                            "labelColumn": "secondaryConnectionType",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_secondaryConnectionBandwidth",
+            "hidden": "",
+            "id": "filter_45",
+            "label": "Secondary Internet Connection (Bandwidth)",
+            "name": "secondaryConnectionBandwidth",
+            "type": {
+                "className": "org.joget.plugin.enterprise.NumberRangeDatalistFilterType",
+                "properties": {
+                    "maxDefaultValue": "",
+                    "maxLabel": "Max",
+                    "minDefaultValue": "",
+                    "minLabel": "Min",
+                    "showFieldLabel": "true"
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_secondaryConnectionProviderName",
+            "hidden": "",
+            "id": "filter_47",
+            "label": "Secondary Internet Connection (Service Provider Name)",
+            "name": "secondaryConnectionProviderName",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_upTimeSLA",
+            "hidden": "",
+            "id": "filter_48",
+            "label": "Up-Time SLA for Internet Service (%)",
+            "name": "upTimeSLA",
+            "type": {
+                "className": "org.joget.plugin.enterprise.NumberRangeDatalistFilterType",
+                "properties": {
+                    "maxDefaultValue": "",
+                    "maxLabel": "Max",
+                    "minDefaultValue": "",
+                    "minLabel": "Min",
+                    "showFieldLabel": "true"
+                }
             }
         }
     ],
