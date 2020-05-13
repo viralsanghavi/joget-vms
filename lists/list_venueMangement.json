@@ -989,6 +989,70 @@
             "label": "Are you Micro or Small enterprise under MSMED Act 2006",
             "name": "microSmallEnterprise",
             "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_97",
+            "label": "Legal Name",
+            "name": "legalName",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_100",
+            "label": "Trade Name, If Any",
+            "name": "tradeName",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_101",
+            "label": "Constitution of Business",
+            "name": "consitutionOfBusiness",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_102",
+            "label": "Address of Principal Place of Business",
+            "name": "addressOfPrincipalPlace",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_106",
+            "label": "Pincode",
+            "name": "addressOfPrincipalPlacePincode",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_107",
+            "label": "City",
+            "name": "addressOfPrincipalPlaceCity",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_108",
+            "label": "State",
+            "name": "addressOfPrincipalPlaceState",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_109",
+            "label": "Region",
+            "name": "addressOfPrincipalPlaceRegion",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
