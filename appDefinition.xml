@@ -15,7 +15,7 @@
                   <activityDefId>activity2</activityDefId>
                   <formId>Preview_PuchaseOrder</formId>
                   <type>SINGLE</type>
-                  <autoContinue>true</autoContinue>
+                  <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>true</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
