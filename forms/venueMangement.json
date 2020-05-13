@@ -1495,6 +1495,272 @@
                 "visibilityControl": "",
                 "visibilityValue": ""
             }
+        },
+        {
+            "className": "org.joget.apps.form.model.Section",
+            "elements": [
+                {
+                    "className": "org.joget.apps.form.model.Column",
+                    "elements": [
+                        {
+                            "className": "org.joget.apps.form.lib.Radio",
+                            "properties": {
+                                "controlField": "",
+                                "id": "cctvDVRAvailability",
+                                "label": "CCTV / DVR Availability in Test Rooms",
+                                "options": [
+                                    {
+                                        "grouping": "",
+                                        "label": "Yes",
+                                        "value": "Yes"
+                                    },
+                                    {
+                                        "grouping": "",
+                                        "label": "No",
+                                        "value": "No"
+                                    }
+                                ],
+                                "optionsBinder": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "readonly": "",
+                                "readonlyLabel": "",
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "value": "",
+                                "workflowVariable": ""
+                            }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.Radio",
+                            "properties": {
+                                "controlField": "",
+                                "id": "airConditioner",
+                                "label": "Air Conditioners in Test Room",
+                                "options": [
+                                    {
+                                        "grouping": "",
+                                        "label": "Yes",
+                                        "value": "Yes"
+                                    },
+                                    {
+                                        "grouping": "",
+                                        "label": "No",
+                                        "value": "No"
+                                    }
+                                ],
+                                "optionsBinder": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "readonly": "",
+                                "readonlyLabel": "",
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "value": "",
+                                "workflowVariable": ""
+                            }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.Radio",
+                            "properties": {
+                                "controlField": "",
+                                "id": "printerConnectedLAN",
+                                "label": "Printer (Inkjet / Laser) connected in LAN",
+                                "options": [
+                                    {
+                                        "grouping": "",
+                                        "label": "Yes",
+                                        "value": "Yes"
+                                    },
+                                    {
+                                        "grouping": "",
+                                        "label": "No",
+                                        "value": "No"
+                                    }
+                                ],
+                                "optionsBinder": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "readonly": "",
+                                "readonlyLabel": "",
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "value": "",
+                                "workflowVariable": ""
+                            }
+                        }
+                    ],
+                    "properties": {"width": "49%"}
+                },
+                {
+                    "className": "org.joget.apps.form.model.Column",
+                    "elements": [
+                        {
+                            "className": "org.joget.apps.form.lib.Radio",
+                            "properties": {
+                                "controlField": "",
+                                "id": "licensedOperatingSystem",
+                                "label": "Licensed Operating System Installed on the Desktop Machines",
+                                "options": [
+                                    {
+                                        "grouping": "",
+                                        "label": "Yes",
+                                        "value": "Yes"
+                                    },
+                                    {
+                                        "grouping": "",
+                                        "label": "No",
+                                        "value": "No"
+                                    }
+                                ],
+                                "optionsBinder": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "readonly": "",
+                                "readonlyLabel": "",
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "value": "",
+                                "workflowVariable": ""
+                            }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.Radio",
+                            "properties": {
+                                "controlField": "",
+                                "id": "licensedAVSoftware",
+                                "label": "Licensed AV Software installed on all Desktop Machines",
+                                "options": [
+                                    {
+                                        "grouping": "",
+                                        "label": "Yes",
+                                        "value": "Yes"
+                                    },
+                                    {
+                                        "grouping": "",
+                                        "label": "No",
+                                        "value": "No"
+                                    }
+                                ],
+                                "optionsBinder": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "readonly": "",
+                                "readonlyLabel": "",
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "value": "",
+                                "workflowVariable": ""
+                            }
+                        }
+                    ],
+                    "properties": {"width": "49%"}
+                }
+            ],
+            "properties": {
+                "comment": "",
+                "id": "section8",
+                "join": "",
+                "label": "Venue Infra Details",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permissionReadonly": "",
+                "readonly": "",
+                "readonlyLabel": "",
+                "regex": "",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityControl": "",
+                "visibilityValue": ""
+            }
+        },
+        {
+            "className": "org.joget.apps.form.model.Section",
+            "elements": [
+                {
+                    "className": "org.joget.apps.form.model.Column",
+                    "elements": [{
+                        "className": "org.joget.apps.form.lib.TextField",
+                        "properties": {
+                            "encryption": "",
+                            "id": "upsCapacity",
+                            "label": "UPS Capacity (KVA)",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "storeNumeric": "",
+                            "style": "",
+                            "validator": {
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "",
+                                    "message": "",
+                                    "type": "numeric"
+                                }
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    }],
+                    "properties": {"width": "49%"}
+                },
+                {
+                    "className": "org.joget.apps.form.model.Column",
+                    "elements": [],
+                    "properties": {"width": "49%"}
+                }
+            ],
+            "properties": {
+                "comment": "",
+                "id": "section9",
+                "join": "",
+                "label": "Power Back \u2013 Up",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permissionReadonly": "",
+                "readonly": "",
+                "readonlyLabel": "",
+                "regex": "",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityControl": "",
+                "visibilityValue": ""
+            }
         }
     ],
     "properties": {
