@@ -3426,9 +3426,10 @@
                         {
                             "className": "org.joget.apps.form.lib.CustomHTML",
                             "properties": {
-                                "autoPopulate": "False",
+                                "autoPopulate": "",
                                 "id": "field107",
-                                "label": ""
+                                "label": "",
+                                "value": "<div>\n    <p>\n        &emsp;\n        &emsp;\n        &emsp;\n    <\/p>\n<\/div>"
                             }
                         },
                         {
