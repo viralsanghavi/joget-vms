@@ -643,14 +643,6 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_57",
-            "label": "Administrative room on the same floor of the test room for candidate verification & waiting purpose",
-            "name": "housekeeping",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
             "id": "column_58",
             "label": "Housekeeping staff, Security guards & Water supply should be made available on the test day",
             "name": "housekeepingStaffSecurity",
@@ -678,6 +670,70 @@
             "id": "column_61",
             "label": "Parking facility for the candidates vehicles, should be available inside the campus",
             "name": "parkingFacility",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_62",
+            "label": "Adequate provisioning of Fire Safety Equipments& Fire Extinguishers available at vulnerable locations inside the premises / campus",
+            "name": "fireSafety",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_63",
+            "label": "First Aid Box available in the vicinity of the test rooms / computer labs for emergency use",
+            "name": "firstAid",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_64",
+            "label": "Venue Head / SPOC",
+            "name": "venueHead",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_65",
+            "label": "Invigilators / Test Administrator",
+            "name": "invigilators",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_66",
+            "label": "IT System / Network Administrators",
+            "name": "itSystemAdministrators",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_67",
+            "label": "Security Guards",
+            "name": "securityGuards",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_68",
+            "label": "Electricians / Generator Operators",
+            "name": "electriciaOperator",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_69",
+            "label": "House Keeping / Cleaning Attendants",
+            "name": "houseKeepingCleaningAttendants",
             "sortable": "false"
         }
     ],
@@ -1673,40 +1729,6 @@
         },
         {
             "datalist_type": "filter",
-            "filterParamName": "d-4819342-fn_housekeeping",
-            "hidden": "",
-            "id": "filter_57",
-            "label": "Administrative room on the same floor of the test room for candidate verification & waiting purpose",
-            "name": "housekeeping",
-            "type": {
-                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
-                "properties": {
-                    "controlField": "",
-                    "defaultValue": "",
-                    "multiple": "",
-                    "options": [],
-                    "optionsBinder": {
-                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                        "properties": {
-                            "addEmptyOption": "",
-                            "autoHandleFiles": "",
-                            "autoHandleWorkflowVariable": "true",
-                            "cacheInterval": "",
-                            "emptyLabel": "",
-                            "extraCondition": "",
-                            "formDefId": "venueMangement",
-                            "groupingColumn": "",
-                            "idColumn": "administrativeRoom",
-                            "labelColumn": "administrativeRoom",
-                            "useAjax": ""
-                        }
-                    },
-                    "size": ""
-                }
-            }
-        },
-        {
-            "datalist_type": "filter",
             "filterParamName": "d-4819342-fn_housekeepingStaffSecurity",
             "hidden": "",
             "id": "filter_58",
@@ -1834,6 +1856,278 @@
                             "groupingColumn": "",
                             "idColumn": "parkingFacility",
                             "labelColumn": "parkingFacility",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_fireSafety",
+            "hidden": "",
+            "id": "filter_59",
+            "label": "Adequate provisioning of Fire Safety Equipments& Fire Extinguishers available at vulnerable locations inside the premises / campus",
+            "name": "fireSafety",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "venueMangement",
+                            "groupingColumn": "",
+                            "idColumn": "fireSafety",
+                            "labelColumn": "fireSafety",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_firstAid",
+            "hidden": "",
+            "id": "filter_63",
+            "label": "First Aid Box available in the vicinity of the test rooms / computer labs for emergency use",
+            "name": "firstAid",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "venueMangement",
+                            "groupingColumn": "",
+                            "idColumn": "firstAid",
+                            "labelColumn": "firstAid",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_venueHead",
+            "hidden": "",
+            "id": "filter_64",
+            "label": "Venue Head / SPOC",
+            "name": "venueHead",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "venueMangement",
+                            "groupingColumn": "",
+                            "idColumn": "venueHead",
+                            "labelColumn": "venueHead",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_invigilators",
+            "hidden": "",
+            "id": "filter_65",
+            "label": "Invigilators / Test Administrator",
+            "name": "invigilators",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "venueMangement",
+                            "groupingColumn": "",
+                            "idColumn": "invigilators",
+                            "labelColumn": "invigilators",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_itSystemAdministrators",
+            "hidden": "",
+            "id": "filter_66",
+            "label": "IT System / Network Administrators",
+            "name": "itSystemAdministrators",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "venueMangement",
+                            "groupingColumn": "",
+                            "idColumn": "itSystemAdministrators",
+                            "labelColumn": "itSystemAdministrators",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_securityGuards",
+            "hidden": "",
+            "id": "filter_67",
+            "label": "Security Guards",
+            "name": "securityGuards",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "venueMangement",
+                            "groupingColumn": "",
+                            "idColumn": "securityGuards",
+                            "labelColumn": "securityGuards",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_electriciaOperator",
+            "hidden": "",
+            "id": "filter_68",
+            "label": "Electricians / Generator Operators",
+            "name": "electriciaOperator",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "venueMangement",
+                            "groupingColumn": "",
+                            "idColumn": "electriciaOperator",
+                            "labelColumn": "electriciaOperator",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_houseKeepingCleaningAttendants",
+            "hidden": "",
+            "id": "filter_69",
+            "label": "House Keeping / Cleaning Attendants",
+            "name": "houseKeepingCleaningAttendants",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "venueMangement",
+                            "groupingColumn": "",
+                            "idColumn": "houseKeepingCleaningAttendants",
+                            "labelColumn": "houseKeepingCleaningAttendants",
                             "useAjax": ""
                         }
                     },
