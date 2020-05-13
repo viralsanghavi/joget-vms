@@ -138,7 +138,7 @@
         },
         {
             "datalist_type": "filter",
-            "filterParamName": "d-3907477-fn_organisationType",
+            "filterParamName": "d-4819342-fn_organisationType",
             "hidden": "",
             "id": "filter_17",
             "label": "Organisation Type",
@@ -170,15 +170,12 @@
             }
         },
         {
-            "datalist_type": "filter",
-            "filterParamName": "d-3907477-fn_state",
-            "hidden": "",
             "id": "filter_12",
             "label": "State",
             "name": "state",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {"defaultValue": ""}
+                "properties": {}
             }
         },
         {
