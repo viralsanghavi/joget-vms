@@ -22,11 +22,7 @@
                             "id": "purchase_Venue",
                             "label": "Venue",
                             "multiple": "",
-                            "options": [{
-                                "grouping": "",
-                                "label": "",
-                                "value": ""
-                            }],
+                            "options": [],
                             "optionsBinder": {
                                 "className": "org.joget.apps.form.lib.FormOptionsBinder",
                                 "properties": {
