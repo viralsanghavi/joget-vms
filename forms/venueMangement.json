@@ -1823,7 +1823,7 @@
                             "className": "org.joget.apps.form.lib.Radio",
                             "properties": {
                                 "controlField": "",
-                                "id": "housekeeping",
+                                "id": "administrativeRoom",
                                 "label": "Administrative room on the same floor of the test room for candidate verification & waiting purpose",
                                 "options": [
                                     {
