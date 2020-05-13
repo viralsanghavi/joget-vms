@@ -15,7 +15,7 @@
                         "properties": {}
                     },
                     "noframe": "",
-                    "parentSubFormId": "parent_id",
+                    "parentSubFormId": "recordid",
                     "readonly": "",
                     "readonlyLabel": "",
                     "storeBinder": {
