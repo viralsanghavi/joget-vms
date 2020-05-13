@@ -839,6 +839,108 @@
             "label": "Above 300 PC usage",
             "name": "300Usage",
             "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_82",
+            "label": "Printing charges / per page",
+            "name": "printingCharges",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_83",
+            "label": "CCTV recording @ pc / per day(multiple sessions)",
+            "name": "cctvRecording",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_84",
+            "label": "Mock Charges",
+            "name": "mockCharges",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_85",
+            "label": "Bank Account Name",
+            "name": "bankAccountName",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_86",
+            "label": "Bank Account Number",
+            "name": "bankAccountNumber",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_87",
+            "label": "NEFT/RTGS Code (IFSC Code)",
+            "name": "neftRtsCode",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_88",
+            "label": "Name of the Bank",
+            "name": "nameOfBank",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_89",
+            "label": "Branch",
+            "name": "branch",
+            "sortable": "false"
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_90",
+            "label": "City",
+            "name": "bankCity",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_91",
+            "label": "State",
+            "name": "bankState",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_92",
+            "label": "Address of the Bank",
+            "name": "bankAccountAddress",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
