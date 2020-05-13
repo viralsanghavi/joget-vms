@@ -1053,6 +1053,54 @@
             "label": "Region",
             "name": "addressOfPrincipalPlaceRegion",
             "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_103",
+            "label": "Date of Liability",
+            "name": "dateOfLiability",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_104",
+            "label": "Period of Validity \u2013 From",
+            "name": "periodOfValidity",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_105",
+            "label": "Period of Validity \u2013 To",
+            "name": "periodOfValidityTO",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_110",
+            "label": "Type of Registration",
+            "name": "typeOfRegistration",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_111",
+            "label": "Approving Authority \u2013 Name",
+            "name": "approvingAuthorityName",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_112",
+            "label": "Approving Authority \u2013 Designation",
+            "name": "approvingAuthorityDesignation",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
