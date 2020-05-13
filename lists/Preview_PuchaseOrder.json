@@ -6,7 +6,7 @@
             "customSelectionValue": "",
             "extraCondition": "",
             "filters": [],
-            "formDefId": "Preview_PuchaseOrderWithStatus",
+            "formDefId": "purchase_order",
             "functionColumns": [],
             "groupBy": "",
             "joins": []
