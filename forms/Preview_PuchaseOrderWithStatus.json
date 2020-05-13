@@ -31,7 +31,7 @@
                     "properties": {
                         "controlField": "",
                         "id": "purchase_status",
-                        "label": "SelectBox",
+                        "label": "Status",
                         "multiple": "",
                         "options": [
                             {
