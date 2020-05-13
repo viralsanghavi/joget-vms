@@ -15,7 +15,7 @@
                         "properties": {}
                     },
                     "noframe": "true",
-                    "parentSubFormId": "recordid",
+                    "parentSubFormId": "",
                     "permissionHidden": "",
                     "readonly": "true",
                     "readonlyLabel": "",
@@ -23,7 +23,7 @@
                         "className": "org.joget.apps.form.lib.WorkflowFormBinder",
                         "properties": {}
                     },
-                    "subFormParentId": ""
+                    "subFormParentId": "purchase_order"
                 }
             }],
             "properties": {"width": "100%"}
