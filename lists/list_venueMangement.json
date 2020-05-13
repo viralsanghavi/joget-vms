@@ -941,6 +941,54 @@
             "label": "Address of the Bank",
             "name": "bankAccountAddress",
             "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_93",
+            "label": "GST No.",
+            "name": "gstNo",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_94",
+            "label": "PAN",
+            "name": "pan",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_95",
+            "label": "TAN",
+            "name": "tan",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_96",
+            "label": "MVAT Number (TIN)",
+            "name": "tin",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_98",
+            "label": "CST Number",
+            "name": "cst",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_99",
+            "label": "Are you Micro or Small enterprise under MSMED Act 2006",
+            "name": "microSmallEnterprise",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
