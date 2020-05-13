@@ -6,7 +6,7 @@
             "customSelectionValue": "",
             "extraCondition": "",
             "filters": [],
-            "formDefId": "purchase_order",
+            "formDefId": "Preview_PuchaseOrderWithStatus",
             "functionColumns": [],
             "groupBy": "",
             "joins": []
@@ -93,6 +93,14 @@
             "id": "column_5",
             "label": "PO Template",
             "name": "purchase_poSubjectTemplate",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_6",
+            "label": "Status",
+            "name": "purchase_status",
             "sortable": "false"
         }
     ],
