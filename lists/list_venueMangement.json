@@ -652,8 +652,32 @@
             "filterable": true,
             "hidden": "false",
             "id": "column_58",
-            "label": "House Keeping / Cleaning Attendants",
-            "name": "houseKeepingCleaningAttendants",
+            "label": "Housekeeping staff, Security guards & Water supply should be made available on the test day",
+            "name": "housekeepingStaffSecurity",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_59",
+            "label": "The Cafeteria inside the campus should be kept opened on the test day",
+            "name": "cafeteria",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_60",
+            "label": "There will be a Medical Attendant Support available inside the campus on call for any emergency",
+            "name": "medicalAttendant",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_61",
+            "label": "Parking facility for the candidates vehicles, should be available inside the campus",
+            "name": "parkingFacility",
             "sortable": "false"
         }
     ],
@@ -1645,6 +1669,17 @@
                     "minLabel": "Min",
                     "showFieldLabel": "true"
                 }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_housekeeping",
+            "id": "filter_57",
+            "label": "Administrative room on the same floor of the test room for candidate verification & waiting purpose",
+            "name": "housekeeping",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
             }
         }
     ],
