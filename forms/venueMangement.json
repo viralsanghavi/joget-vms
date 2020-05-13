@@ -1855,6 +1855,38 @@
                             "className": "org.joget.apps.form.lib.Radio",
                             "properties": {
                                 "controlField": "",
+                                "id": "cafeteria",
+                                "label": "The Cafeteria inside the campus should be kept opened on the test day",
+                                "options": [
+                                    {
+                                        "grouping": "",
+                                        "label": "Yes",
+                                        "value": "Yes"
+                                    },
+                                    {
+                                        "grouping": "",
+                                        "label": "No",
+                                        "value": "No"
+                                    }
+                                ],
+                                "optionsBinder": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "readonly": "",
+                                "readonlyLabel": "",
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "value": "",
+                                "workflowVariable": ""
+                            }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.Radio",
+                            "properties": {
+                                "controlField": "",
                                 "id": "parkingFacility",
                                 "label": "Parking facility for the candidates vehicles, should be available inside the campus",
                                 "options": [
@@ -1893,8 +1925,8 @@
                             "className": "org.joget.apps.form.lib.Radio",
                             "properties": {
                                 "controlField": "",
-                                "id": "cafeteria",
-                                "label": "The Cafeteria inside the campus should be kept opened on the test day",
+                                "id": "housekeepingStaffSecurity",
+                                "label": "Housekeeping staff, Security guards & Water supply should be made available on the test day",
                                 "options": [
                                     {
                                         "grouping": "",
