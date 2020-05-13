@@ -1370,7 +1370,7 @@
                             "className": "org.joget.apps.form.lib.TextField",
                             "properties": {
                                 "encryption": "",
-                                "id": "priamryInternetConnection8mbps",
+                                "id": "primaryInternetConnection8mbps",
                                 "label": "Primary Internet Connection (Bandwidth) (Required @ 8 Mbps / 100 Machine)",
                                 "maxlength": "",
                                 "placeholder": "",
