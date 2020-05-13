@@ -136,7 +136,7 @@
                         "properties": {
                             "controlField": "",
                             "id": "purchase_poSubjectTemplate",
-                            "label": "PO Subject Template",
+                            "label": "PO Template",
                             "multiple": "",
                             "options": [
                                 {
@@ -162,66 +162,6 @@
                             "readonly": "",
                             "readonlyLabel": "",
                             "size": "",
-                            "validator": {
-                                "className": "",
-                                "properties": {}
-                            },
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.SelectBox",
-                        "properties": {
-                            "controlField": "",
-                            "id": "purchase_poCoverTemplate",
-                            "label": "PO Cover Content Template",
-                            "multiple": "",
-                            "options": [
-                                {
-                                    "grouping": "",
-                                    "label": "",
-                                    "value": ""
-                                },
-                                {
-                                    "grouping": "",
-                                    "label": "Template 1",
-                                    "value": "Template 1"
-                                },
-                                {
-                                    "grouping": "",
-                                    "label": "Template 2",
-                                    "value": "Template 2"
-                                }
-                            ],
-                            "optionsBinder": {
-                                "className": "",
-                                "properties": {}
-                            },
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "size": "",
-                            "validator": {
-                                "className": "",
-                                "properties": {}
-                            },
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.TextField",
-                        "properties": {
-                            "encryption": "",
-                            "id": "purchase_TemplateSelection",
-                            "label": "PO T&C Template Selection",
-                            "maxlength": "",
-                            "placeholder": "",
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "size": "",
-                            "storeNumeric": "",
-                            "style": "",
                             "validator": {
                                 "className": "",
                                 "properties": {}
