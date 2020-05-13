@@ -479,6 +479,14 @@
             "label": "PC Configuration",
             "name": "pcConfiguration",
             "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_37",
+            "label": "Network Switch (100 Mbps) Availability",
+            "name": "networkSwitch",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
@@ -948,6 +956,40 @@
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
                 "properties": {}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_networkSwitch",
+            "hidden": "",
+            "id": "filter_37",
+            "label": "Network Switch (100 Mbps) Availability",
+            "name": "networkSwitch",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "venueMangement",
+                            "groupingColumn": "",
+                            "idColumn": "",
+                            "labelColumn": "networkSwitch",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
             }
         }
     ],
