@@ -523,9 +523,17 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_43",
+            "id": "column_40",
             "label": "Primary Internet Connection (Bandwidth) (Required @ 8 Mbps / 100 Machine)",
-            "name": "priamryInternetConnection8mbps",
+            "name": "primaryInternetConnection8mbps",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_44",
+            "label": "Primary Internet Service Provider (Name of the vendor)",
+            "name": "primaryInternetConnectionVendorName",
             "sortable": "false"
         }
     ],
@@ -1147,9 +1155,21 @@
             }
         },
         {
-            "id": "filter_43",
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_primaryInternetConnection8mbps",
+            "hidden": "",
+            "id": "filter_38",
             "label": "Primary Internet Connection (Bandwidth) (Required @ 8 Mbps / 100 Machine)",
-            "name": "priamryInternetConnection8mbps",
+            "name": "primaryInternetConnection8mbps",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
+            }
+        },
+        {
+            "id": "filter_44",
+            "label": "Primary Internet Service Provider (Name of the vendor)",
+            "name": "primaryInternetConnectionVendorName",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
                 "properties": {}
