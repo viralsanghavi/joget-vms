@@ -14,9 +14,10 @@
                         "className": "org.joget.plugin.enterprise.ParentFormBinder",
                         "properties": {}
                     },
-                    "noframe": "",
+                    "noframe": "true",
                     "parentSubFormId": "recordid",
-                    "readonly": "",
+                    "permissionHidden": "",
+                    "readonly": "true",
                     "readonlyLabel": "",
                     "storeBinder": {
                         "className": "org.joget.apps.form.lib.WorkflowFormBinder",
