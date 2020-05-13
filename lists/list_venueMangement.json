@@ -968,8 +968,9 @@
             "type": {
                 "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
                 "properties": {
+                    "controlField": "",
                     "defaultValue": "",
-                    "multiple": "autocomplete",
+                    "multiple": "",
                     "options": [],
                     "optionsBinder": {
                         "className": "org.joget.apps.form.lib.FormOptionsBinder",
