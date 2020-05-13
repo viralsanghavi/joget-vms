@@ -3480,6 +3480,130 @@
                                 "workflowVariable": "",
                                 "yearRange": "c-10:c+10"
                             }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.SelectBox",
+                            "properties": {
+                                "controlField": "",
+                                "id": "typeOfRegistration",
+                                "label": "Type of Registration",
+                                "multiple": "",
+                                "options": [
+                                    {
+                                        "grouping": "",
+                                        "label": "Normal Taxpayer",
+                                        "value": "Normal Taxpayer"
+                                    },
+                                    {
+                                        "grouping": "",
+                                        "label": "Casual Taxable Person",
+                                        "value": "Casual Taxable Person"
+                                    },
+                                    {
+                                        "grouping": "",
+                                        "label": "Composition Taxpayer",
+                                        "value": "Composition Taxpayer"
+                                    },
+                                    {
+                                        "grouping": "",
+                                        "label": "Non-Resident Taxable Person",
+                                        "value": "Non-Resident Taxable Person"
+                                    },
+                                    {
+                                        "grouping": "",
+                                        "label": "Non-Resident Online Service Provider",
+                                        "value": "Non-Resident Online Service Provider"
+                                    },
+                                    {
+                                        "grouping": "",
+                                        "label": "Special Economic Zone Developer",
+                                        "value": "Special Economic Zone Developer"
+                                    },
+                                    {
+                                        "grouping": "",
+                                        "label": "GST TDS Deductor \u2013 Government Entities",
+                                        "value": "GST TDS Deductor \u2013 Government Entities"
+                                    },
+                                    {
+                                        "grouping": "",
+                                        "label": "UN Embassy/ Body/ other notified individuals",
+                                        "value": "UN Embassy/ Body/ other notified individuals"
+                                    },
+                                    {
+                                        "grouping": "",
+                                        "label": "Special Economic Zone Unit",
+                                        "value": "Special Economic Zone Unit"
+                                    },
+                                    {
+                                        "grouping": "",
+                                        "label": "GST TDS Collector \u2013 E-commerce Companies",
+                                        "value": "GST TDS Collector \u2013 E-commerce Companies"
+                                    }
+                                ],
+                                "optionsBinder": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "readonly": "",
+                                "readonlyLabel": "",
+                                "size": "",
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "value": "",
+                                "workflowVariable": ""
+                            }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.TextField",
+                            "properties": {
+                                "encryption": "",
+                                "id": "approvingAuthorityName",
+                                "label": "Approving Authority \u2013 Name",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "readonly": "",
+                                "readonlyLabel": "",
+                                "size": "",
+                                "storeNumeric": "true",
+                                "style": "",
+                                "validator": {
+                                    "className": "org.joget.apps.form.lib.DefaultValidator",
+                                    "properties": {
+                                        "mandatory": "",
+                                        "message": "",
+                                        "type": ""
+                                    }
+                                },
+                                "value": "",
+                                "workflowVariable": ""
+                            }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.TextField",
+                            "properties": {
+                                "encryption": "",
+                                "id": "approvingAuthorityJurisdictionalOffice",
+                                "label": "Approving Authority \u2013 Jurisdictional Office",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "readonly": "",
+                                "readonlyLabel": "",
+                                "size": "",
+                                "storeNumeric": "true",
+                                "style": "",
+                                "validator": {
+                                    "className": "org.joget.apps.form.lib.DefaultValidator",
+                                    "properties": {
+                                        "mandatory": "",
+                                        "message": "",
+                                        "type": ""
+                                    }
+                                },
+                                "value": "",
+                                "workflowVariable": ""
+                            }
                         }
                     ],
                     "properties": {"width": "49%"}
@@ -3727,6 +3851,55 @@
                                 "workflowVariable": "",
                                 "yearRange": "c-10:c+10"
                             }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.TextField",
+                            "properties": {
+                                "encryption": "",
+                                "id": "approvingAuthorityDesignation",
+                                "label": "Approving Authority \u2013 Designation",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "readonly": "",
+                                "readonlyLabel": "",
+                                "size": "",
+                                "storeNumeric": "true",
+                                "style": "",
+                                "validator": {
+                                    "className": "org.joget.apps.form.lib.DefaultValidator",
+                                    "properties": {
+                                        "mandatory": "",
+                                        "message": "",
+                                        "type": ""
+                                    }
+                                },
+                                "value": "",
+                                "workflowVariable": ""
+                            }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.DatePicker",
+                            "properties": {
+                                "allowManual": "",
+                                "currentDateAs": "",
+                                "dataFormat": "yyyy-MM-dd",
+                                "datePickerType": "",
+                                "endDateFieldId": "",
+                                "format": "",
+                                "id": "dateOfIssue",
+                                "label": "Date of Issue of Certificate",
+                                "placeholder": "",
+                                "readonly": "",
+                                "readonlyLabel": "",
+                                "startDateFieldId": "",
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "value": "",
+                                "workflowVariable": "",
+                                "yearRange": "c-10:c+10"
+                            }
                         }
                     ],
                     "properties": {"width": "49%"}
@@ -3737,6 +3910,305 @@
                 "id": "section18",
                 "join": "",
                 "label": "Taxation Details",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permissionReadonly": "",
+                "readonly": "",
+                "readonlyLabel": "",
+                "regex": "",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityControl": "",
+                "visibilityValue": ""
+            }
+        },
+        {
+            "className": "org.joget.apps.form.model.Section",
+            "elements": [
+                {
+                    "className": "org.joget.apps.form.model.Column",
+                    "elements": [
+                        {
+                            "className": "org.joget.apps.form.lib.TextField",
+                            "properties": {
+                                "encryption": "",
+                                "id": "payGroup",
+                                "label": "Pay Group",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "readonly": "",
+                                "readonlyLabel": "",
+                                "size": "",
+                                "storeNumeric": "true",
+                                "style": "",
+                                "validator": {
+                                    "className": "org.joget.apps.form.lib.DefaultValidator",
+                                    "properties": {
+                                        "mandatory": "",
+                                        "message": "",
+                                        "type": "alphanumeric"
+                                    }
+                                },
+                                "value": "",
+                                "workflowVariable": ""
+                            }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.TextField",
+                            "properties": {
+                                "encryption": "",
+                                "id": "tdsSection",
+                                "label": "TDS Section",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "readonly": "",
+                                "readonlyLabel": "",
+                                "size": "",
+                                "storeNumeric": "true",
+                                "style": "",
+                                "validator": {
+                                    "className": "org.joget.apps.form.lib.DefaultValidator",
+                                    "properties": {
+                                        "mandatory": "",
+                                        "message": "",
+                                        "type": "alphanumeric"
+                                    }
+                                },
+                                "value": "",
+                                "workflowVariable": ""
+                            }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.TextField",
+                            "properties": {
+                                "encryption": "",
+                                "id": "vendorRelationshipManager",
+                                "label": "Vendor Relationship Manager",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "readonly": "",
+                                "readonlyLabel": "",
+                                "size": "",
+                                "storeNumeric": "true",
+                                "style": "",
+                                "validator": {
+                                    "className": "org.joget.apps.form.lib.DefaultValidator",
+                                    "properties": {
+                                        "mandatory": "",
+                                        "message": "",
+                                        "type": "alphanumeric"
+                                    }
+                                },
+                                "value": "",
+                                "workflowVariable": ""
+                            }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.DatePicker",
+                            "properties": {
+                                "allowManual": "",
+                                "currentDateAs": "",
+                                "dataFormat": "yyyy-MM-dd",
+                                "datePickerType": "",
+                                "endDateFieldId": "",
+                                "format": "",
+                                "id": "dateofAgreement",
+                                "label": "Date of Agreement",
+                                "placeholder": "",
+                                "readonly": "",
+                                "readonlyLabel": "",
+                                "startDateFieldId": "",
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "value": "",
+                                "workflowVariable": "",
+                                "yearRange": "c-10:c+10"
+                            }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.SelectBox",
+                            "properties": {
+                                "controlField": "",
+                                "id": "venueRating",
+                                "label": "Venue Rating",
+                                "multiple": "",
+                                "options": [
+                                    {
+                                        "grouping": "",
+                                        "label": "A",
+                                        "value": "A"
+                                    },
+                                    {
+                                        "grouping": "",
+                                        "label": "B",
+                                        "value": "B"
+                                    },
+                                    {
+                                        "grouping": "",
+                                        "label": "C",
+                                        "value": "C"
+                                    },
+                                    {
+                                        "grouping": "",
+                                        "label": "D",
+                                        "value": "D"
+                                    }
+                                ],
+                                "optionsBinder": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "readonly": "",
+                                "readonlyLabel": "",
+                                "size": "",
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "value": "",
+                                "workflowVariable": ""
+                            }
+                        }
+                    ],
+                    "properties": {"width": "49%"}
+                },
+                {
+                    "className": "org.joget.apps.form.model.Column",
+                    "elements": [
+                        {
+                            "className": "org.joget.apps.form.lib.TextField",
+                            "properties": {
+                                "encryption": "",
+                                "id": "liabilityCode",
+                                "label": "Liability Code",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "readonly": "",
+                                "readonlyLabel": "",
+                                "size": "",
+                                "storeNumeric": "true",
+                                "style": "",
+                                "validator": {
+                                    "className": "org.joget.apps.form.lib.DefaultValidator",
+                                    "properties": {
+                                        "mandatory": "",
+                                        "message": "",
+                                        "type": "alphanumeric"
+                                    }
+                                },
+                                "value": "",
+                                "workflowVariable": ""
+                            }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.TextField",
+                            "properties": {
+                                "encryption": "",
+                                "id": "tdsRate",
+                                "label": "TDS Rate",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "readonly": "",
+                                "readonlyLabel": "",
+                                "size": "",
+                                "storeNumeric": "true",
+                                "style": "",
+                                "validator": {
+                                    "className": "org.joget.apps.form.lib.DefaultValidator",
+                                    "properties": {
+                                        "mandatory": "",
+                                        "message": "",
+                                        "type": "numeric"
+                                    }
+                                },
+                                "value": "",
+                                "workflowVariable": ""
+                            }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.CustomHTML",
+                            "properties": {
+                                "autoPopulate": "False",
+                                "id": "field130",
+                                "label": ""
+                            }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.DatePicker",
+                            "properties": {
+                                "allowManual": "",
+                                "currentDateAs": "",
+                                "dataFormat": "yyyy-MM-dd",
+                                "datePickerType": "",
+                                "endDateFieldId": "",
+                                "format": "",
+                                "id": "dateofRenewalExpiryAgreement",
+                                "label": "Date of Renewal / Expiry of Agreement",
+                                "placeholder": "",
+                                "readonly": "",
+                                "readonlyLabel": "",
+                                "startDateFieldId": "",
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "value": "",
+                                "workflowVariable": "",
+                                "yearRange": "c-10:c+10"
+                            }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.Radio",
+                            "properties": {
+                                "controlField": "",
+                                "id": "venueStatus",
+                                "label": "Venue Status",
+                                "options": [
+                                    {
+                                        "grouping": "",
+                                        "label": "Active",
+                                        "value": "Active"
+                                    },
+                                    {
+                                        "grouping": "",
+                                        "label": "Inactive",
+                                        "value": "Inactive"
+                                    }
+                                ],
+                                "optionsBinder": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "readonly": "",
+                                "readonlyLabel": "",
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "value": "",
+                                "workflowVariable": ""
+                            }
+                        }
+                    ],
+                    "properties": {"width": "49%"}
+                }
+            ],
+            "properties": {
+                "comment": "",
+                "id": "section19",
+                "join": "",
+                "label": "NSEIT Internal Information",
                 "loadBinder": {
                     "className": "",
                     "properties": {}
