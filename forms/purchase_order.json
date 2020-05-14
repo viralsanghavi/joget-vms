@@ -7,15 +7,6 @@
                 "className": "org.joget.apps.form.model.Column",
                 "elements": [
                     {
-                        "className": "org.joget.apps.form.lib.HiddenField",
-                        "properties": {
-                            "id": "purchase_order",
-                            "useDefaultWhenEmpty": "",
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
                         "className": "org.joget.apps.form.lib.SelectBox",
                         "properties": {
                             "controlField": "",
@@ -797,6 +788,15 @@
                                 "properties": {}
                             },
                             "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.HiddenField",
+                        "properties": {
+                            "id": "Status",
+                            "useDefaultWhenEmpty": "",
+                            "value": "Approved",
                             "workflowVariable": ""
                         }
                     }
