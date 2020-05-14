@@ -796,7 +796,7 @@
                         "properties": {
                             "id": "Status",
                             "useDefaultWhenEmpty": "",
-                            "value": "Approved",
+                            "value": "Active",
                             "workflowVariable": ""
                         }
                     }
