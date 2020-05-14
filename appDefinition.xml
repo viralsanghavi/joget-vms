@@ -32,17 +32,7 @@
             </entry>
          </packageActivityFormMap>
          <packageActivityPluginMap/>
-         <packageParticipantMap>
-            <entry>
-               <string>process1::processStartWhiteList</string>
-               <packageParticipant>
-                  <processDefId>process1</processDefId>
-                  <participantId>processStartWhiteList</participantId>
-                  <type>role</type>
-                  <value>adminUser</value>
-               </packageParticipant>
-            </entry>
-         </packageParticipantMap>
+         <packageParticipantMap/>
       </packageDefinition>
    </packageDefinitionList>
    <formDefinitionList/>
