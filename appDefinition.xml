@@ -19,17 +19,6 @@
                   <disableSaveAsDraft>true</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
-            <entry>
-               <string>process1::activity1</string>
-               <packageActivityForm>
-                  <processDefId>process1</processDefId>
-                  <activityDefId>activity1</activityDefId>
-                  <formId>purchase_order</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>true</autoContinue>
-                  <disableSaveAsDraft>true</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
          </packageActivityFormMap>
          <packageActivityPluginMap/>
          <packageParticipantMap>
