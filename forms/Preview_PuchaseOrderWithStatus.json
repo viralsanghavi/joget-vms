@@ -30,10 +30,15 @@
                     "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
                         "controlField": "",
-                        "id": "purchase_status",
+                        "id": "Status",
                         "label": "Status",
                         "multiple": "",
                         "options": [
+                            {
+                                "grouping": "",
+                                "label": "",
+                                "value": ""
+                            },
                             {
                                 "grouping": "",
                                 "label": "Active",
