@@ -2768,6 +2768,659 @@
                     "showFieldLabel": "true"
                 }
             }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_251usage",
+            "hidden": "",
+            "id": "filter_80",
+            "label": "251- 300 PC usage",
+            "name": "251usage",
+            "type": {
+                "className": "org.joget.plugin.enterprise.NumberRangeDatalistFilterType",
+                "properties": {
+                    "maxDefaultValue": "",
+                    "maxLabel": "Max",
+                    "minDefaultValue": "",
+                    "minLabel": "Min",
+                    "showFieldLabel": "true"
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_300Usage",
+            "hidden": "",
+            "id": "filter_81",
+            "label": "Above 300 PC usage",
+            "name": "300Usage",
+            "type": {
+                "className": "org.joget.plugin.enterprise.NumberRangeDatalistFilterType",
+                "properties": {
+                    "maxDefaultValue": "",
+                    "maxLabel": "Max",
+                    "minDefaultValue": "",
+                    "minLabel": "Min",
+                    "showFieldLabel": "true"
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_printingCharges",
+            "hidden": "",
+            "id": "filter_82",
+            "label": "Printing charges / per page",
+            "name": "printingCharges",
+            "type": {
+                "className": "org.joget.plugin.enterprise.NumberRangeDatalistFilterType",
+                "properties": {
+                    "maxDefaultValue": "",
+                    "maxLabel": "Max",
+                    "minDefaultValue": "",
+                    "minLabel": "Min",
+                    "showFieldLabel": "true"
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_cctvRecording",
+            "hidden": "",
+            "id": "filter_83",
+            "label": "CCTV recording @ pc / per day(multiple sessions)",
+            "name": "cctvRecording",
+            "type": {
+                "className": "org.joget.plugin.enterprise.NumberRangeDatalistFilterType",
+                "properties": {
+                    "maxDefaultValue": "",
+                    "maxLabel": "Max",
+                    "minDefaultValue": "",
+                    "minLabel": "Min",
+                    "showFieldLabel": "true"
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_mockCharges",
+            "hidden": "",
+            "id": "filter_84",
+            "label": "Mock Charges",
+            "name": "mockCharges",
+            "type": {
+                "className": "org.joget.plugin.enterprise.NumberRangeDatalistFilterType",
+                "properties": {
+                    "maxDefaultValue": "",
+                    "maxLabel": "Max",
+                    "minDefaultValue": "",
+                    "minLabel": "Min",
+                    "showFieldLabel": "true"
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_bankAccountName",
+            "hidden": "",
+            "id": "filter_85",
+            "label": "Bank Account Name",
+            "name": "bankAccountName",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
+            }
+        },
+        {
+            "id": "filter_86",
+            "label": "Bank Account Number",
+            "name": "bankAccountNumber",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_87",
+            "label": "NEFT/RTGS Code (IFSC Code)",
+            "name": "neftRtsCode",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_88",
+            "label": "Name of the Bank",
+            "name": "nameOfBank",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_branch",
+            "hidden": "",
+            "id": "filter_89",
+            "label": "Branch",
+            "name": "branch",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_bankCity",
+            "hidden": "",
+            "id": "filter_91",
+            "label": "City",
+            "name": "bankCity",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_bankState",
+            "hidden": "",
+            "id": "filter_93",
+            "label": "State",
+            "name": "bankState",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
+            }
+        },
+        {
+            "id": "filter_94",
+            "label": "Address of the Bank",
+            "name": "bankAccountAddress",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_95",
+            "label": "GST No.",
+            "name": "gstNo",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_96",
+            "label": "PAN",
+            "name": "pan",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_97",
+            "label": "TAN",
+            "name": "tan",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_98",
+            "label": "MVAT Number (TIN)",
+            "name": "tin",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_99",
+            "label": "CST Number",
+            "name": "cst",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_microSmallEnterprise",
+            "hidden": "",
+            "id": "filter_100",
+            "label": "Are you Micro or Small enterprise under MSMED Act 2006",
+            "name": "microSmallEnterprise",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "venueMangement",
+                            "groupingColumn": "",
+                            "idColumn": "microSmallEnterprise",
+                            "labelColumn": "microSmallEnterprise",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
+            }
+        },
+        {
+            "id": "filter_101",
+            "label": "Legal Name",
+            "name": "legalName",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_102",
+            "label": "Trade Name, If Any",
+            "name": "tradeName",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_consitutionOfBusiness",
+            "hidden": "",
+            "id": "filter_103",
+            "label": "Constitution of Business",
+            "name": "consitutionOfBusiness",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "venueMangement",
+                            "groupingColumn": "",
+                            "idColumn": "consitutionOfBusiness",
+                            "labelColumn": "consitutionOfBusiness",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
+            }
+        },
+        {
+            "id": "filter_104",
+            "label": "Address of Principal Place of Business",
+            "name": "addressOfPrincipalPlace",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_addressOfPrincipalPlacePincode",
+            "hidden": "",
+            "id": "filter_106",
+            "label": "Pincode",
+            "name": "addressOfPrincipalPlacePincode",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_addressOfPrincipalPlaceCity",
+            "hidden": "",
+            "id": "filter_107",
+            "label": "City",
+            "name": "addressOfPrincipalPlaceCity",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_addressOfPrincipalPlaceState",
+            "hidden": "",
+            "id": "filter_108",
+            "label": "State",
+            "name": "addressOfPrincipalPlaceState",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_addressOfPrincipalPlaceRegion",
+            "hidden": "",
+            "id": "filter_109",
+            "label": "Region",
+            "name": "addressOfPrincipalPlaceRegion",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_dateOfLiability",
+            "hidden": "",
+            "id": "filter_110",
+            "label": "Date of Liability",
+            "name": "dateOfLiability",
+            "type": {
+                "className": "org.joget.plugin.enterprise.DateRangeDataListFilterType",
+                "properties": {
+                    "format": "mm/dd/yy",
+                    "formatJava": "MM/dd/yyyy",
+                    "fromDefaultValue": "",
+                    "fromLabel": "From",
+                    "showFieldLabel": "true",
+                    "toDefaultValue": "",
+                    "toLabel": "To",
+                    "yearRange": "c-10:c+10"
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_periodOfValidity",
+            "hidden": "",
+            "id": "filter_111",
+            "label": "Period of Validity \u2013 From",
+            "name": "periodOfValidity",
+            "type": {
+                "className": "org.joget.plugin.enterprise.DateRangeDataListFilterType",
+                "properties": {
+                    "format": "mm/dd/yy",
+                    "formatJava": "MM/dd/yyyy",
+                    "fromDefaultValue": "",
+                    "fromLabel": "From",
+                    "showFieldLabel": "true",
+                    "toDefaultValue": "",
+                    "toLabel": "To",
+                    "yearRange": "c-10:c+10"
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_periodOfValidityTO",
+            "hidden": "",
+            "id": "filter_112",
+            "label": "Period of Validity \u2013 To",
+            "name": "periodOfValidityTO",
+            "type": {
+                "className": "org.joget.plugin.enterprise.DateRangeDataListFilterType",
+                "properties": {
+                    "format": "mm/dd/yy",
+                    "formatJava": "MM/dd/yyyy",
+                    "fromDefaultValue": "",
+                    "fromLabel": "From",
+                    "showFieldLabel": "true",
+                    "toDefaultValue": "",
+                    "toLabel": "To",
+                    "yearRange": "c-10:c+10"
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_typeOfRegistration",
+            "hidden": "",
+            "id": "filter_113",
+            "label": "Type of Registration",
+            "name": "typeOfRegistration",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "venueMangement",
+                            "groupingColumn": "",
+                            "idColumn": "typeOfRegistration",
+                            "labelColumn": "typeOfRegistration",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
+            }
+        },
+        {
+            "id": "filter_114",
+            "label": "Approving Authority \u2013 Name",
+            "name": "approvingAuthorityName",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_115",
+            "label": "Approving Authority \u2013 Designation",
+            "name": "approvingAuthorityDesignation",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_116",
+            "label": "Approving Authority \u2013 Jurisdictional Office",
+            "name": "approvingAuthorityJurisdictionalOffice",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_dateOfIssue",
+            "hidden": "",
+            "id": "filter_117",
+            "label": "Date of Issue of Certificate",
+            "name": "dateOfIssue",
+            "type": {
+                "className": "org.joget.plugin.enterprise.DateRangeDataListFilterType",
+                "properties": {
+                    "format": "mm/dd/yy",
+                    "formatJava": "MM/dd/yyyy",
+                    "fromDefaultValue": "",
+                    "fromLabel": "From",
+                    "showFieldLabel": "true",
+                    "toDefaultValue": "",
+                    "toLabel": "To",
+                    "yearRange": "c-10:c+10"
+                }
+            }
+        },
+        {
+            "id": "filter_118",
+            "label": "Pay Group",
+            "name": "payGroup",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_119",
+            "label": "Liability Code",
+            "name": "liabilityCode",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_120",
+            "label": "TDS Section",
+            "name": "tdsSection",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_121",
+            "label": "TDS Rate",
+            "name": "tdsRate",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_dateofAgreement",
+            "hidden": "",
+            "id": "filter_122",
+            "label": "Date of Agreement",
+            "name": "dateofAgreement",
+            "type": {
+                "className": "org.joget.plugin.enterprise.DateRangeDataListFilterType",
+                "properties": {
+                    "format": "mm/dd/yy",
+                    "formatJava": "MM/dd/yyyy",
+                    "fromDefaultValue": "",
+                    "fromLabel": "From",
+                    "showFieldLabel": "true",
+                    "toDefaultValue": "",
+                    "toLabel": "To",
+                    "yearRange": "c-10:c+10"
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_dateofRenewalExpiryAgreement",
+            "hidden": "",
+            "id": "filter_123",
+            "label": "Date of Renewal / Expiry of Agreement",
+            "name": "dateofRenewalExpiryAgreement",
+            "type": {
+                "className": "org.joget.plugin.enterprise.DateRangeDataListFilterType",
+                "properties": {
+                    "format": "mm/dd/yy",
+                    "formatJava": "MM/dd/yyyy",
+                    "fromDefaultValue": "",
+                    "fromLabel": "From",
+                    "showFieldLabel": "true",
+                    "toDefaultValue": "",
+                    "toLabel": "To",
+                    "yearRange": "c-10:c+10"
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_venueRating",
+            "hidden": "",
+            "id": "filter_124",
+            "label": "Venue Rating",
+            "name": "venueRating",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "venueMangement",
+                            "groupingColumn": "",
+                            "idColumn": "venueRating",
+                            "labelColumn": "venueRating",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-4819342-fn_venueStatus",
+            "hidden": "",
+            "id": "filter_125",
+            "label": "Venue Status",
+            "name": "venueStatus",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "venueMangement",
+                            "groupingColumn": "",
+                            "idColumn": "venueStatus",
+                            "labelColumn": "venueStatus",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
+            }
         }
     ],
     "hidePageSize": "",
