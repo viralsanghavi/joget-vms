@@ -122,21 +122,69 @@
     "description": "",
     "filters": [
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-7721494-fn_purchase_offerNo",
+            "hidden": "",
             "id": "filter_1",
             "label": "Offer No",
             "name": "purchase_offerNo",
             "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "defaultValue": "",
+                    "multiple": "autocomplete",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "Preview_PuchaseOrderWithStatus",
+                            "groupingColumn": "",
+                            "idColumn": "",
+                            "labelColumn": "purchase_offerNo",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-7721494-fn_purchase_Venue",
+            "hidden": "",
             "id": "filter_0",
             "label": "Venue",
             "name": "purchase_Venue",
             "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "defaultValue": "",
+                    "multiple": "autocomplete",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "Preview_PuchaseOrderWithStatus",
+                            "groupingColumn": "",
+                            "idColumn": "",
+                            "labelColumn": "purchase_Venue",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
             }
         }
     ],
