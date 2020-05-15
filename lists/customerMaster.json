@@ -67,31 +67,51 @@
     ],
     "considerFilterWhenGetTotal": "",
     "description": "",
-    "filters": [],
+    "filters": [
+        {
+            "id": "filter_3",
+            "label": "Customer Name",
+            "name": "customerName",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_2",
+            "label": "Customer Code",
+            "name": "customerCode",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_1",
+            "label": "Exam Type(S)",
+            "name": "examType",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_0",
+            "label": "Job Type",
+            "name": "jobType",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        }
+    ],
     "id": "customerMaster",
     "name": "Customer ",
     "order": "",
     "orderBy": "",
     "pageSize": "0",
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
-    "rowActions": [{
-        "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-        "icon": "<i class=\"fas fa-link\"><\/i>",
-        "id": "rowAction_0",
-        "label": "Hyperlink",
-        "name": "Data List Hyperlink Action",
-        "properties": {
-            "confirmation": "",
-            "datalist_type": "row_action",
-            "href": "",
-            "hrefColumn": "",
-            "hrefParam": "Edit",
-            "label": "EDIT",
-            "rules": [],
-            "target": "_self"
-        },
-        "type": "text"
-    }],
+    "rowActions": [],
     "showPageSizeSelector": "true",
     "useSession": "false"
 }
