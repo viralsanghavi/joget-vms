@@ -1,22 +1,5 @@
 {
-    "actions": [{
-        "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-        "icon": "<i class=\"fas fa-link\"><\/i>",
-        "id": "action_0",
-        "label": "Hyperlink",
-        "name": "Data List Hyperlink Action",
-        "properties": {
-            "confirmation": "",
-            "datalist_type": "action",
-            "href": "https://rushiharal1.cloud.joget.com/jw/web/userview/vms/v/_/_index",
-            "hrefColumn": "",
-            "hrefParam": "",
-            "label": "Hyperlink",
-            "target": "_self",
-            "visible": ""
-        },
-        "type": "text"
-    }],
+    "actions": [],
     "binder": {
         "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
         "properties": {
