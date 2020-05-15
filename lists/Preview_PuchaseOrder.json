@@ -88,12 +88,38 @@
             "sortable": "false"
         },
         {
+            "action": {
+                "className": "org.joget.tutorial.DownloadPdfDatalistAction",
+                "properties": {
+                    "confirmation": "",
+                    "footerHtml": "",
+                    "formDefId": "template_1",
+                    "formatting": "",
+                    "headerHtml": "",
+                    "hideEmptyValueField": "",
+                    "label": "Download",
+                    "recordIdColumn": "",
+                    "repeatFooter": "",
+                    "repeatHeader": "",
+                    "showNotSelectedOptions": ""
+                }
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
             "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
             "hidden": "false",
             "id": "column_5",
             "label": "PO Template",
             "name": "purchase_poSubjectTemplate",
-            "sortable": "false"
+            "sortable": "false",
+            "style": "",
+            "width": ""
         },
         {
             "action": {
