@@ -12,7 +12,7 @@
                     "collapsibleExpanded": "true",
                     "collapsibleLabelCollapsed": "View Details",
                     "collapsibleLabelExpanded": "Hide Details",
-                    "formDefId": "venueManagementPreview",
+                    "formDefId": "venueMangement",
                     "hideEmpty": "",
                     "id": "previewForm",
                     "label": "",
