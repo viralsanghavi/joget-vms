@@ -18,11 +18,11 @@
                     "label": "Preview",
                     "noLoad": "",
                     "noframe": "true",
-                    "parentSubFormId": "customer",
+                    "parentSubFormId": "",
                     "readonly": "",
                     "readonlyLabel": "",
                     "storeBinder": {
-                        "className": "org.joget.plugin.enterprise.ParentFormBinder",
+                        "className": "org.joget.apps.form.lib.WorkflowFormBinder",
                         "properties": {}
                     },
                     "subFormParentId": ""
