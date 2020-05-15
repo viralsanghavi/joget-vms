@@ -1,5 +1,22 @@
 {
-    "actions": [],
+    "actions": [{
+        "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+        "icon": "<i class=\"fas fa-link\"><\/i>",
+        "id": "action_0",
+        "label": "Hyperlink",
+        "name": "Data List Hyperlink Action",
+        "properties": {
+            "confirmation": "",
+            "datalist_type": "action",
+            "href": "/jw/web/userview/vms/v/_/5145DF9D59D147A5B74E8EA458737535",
+            "hrefColumn": "",
+            "hrefParam": "",
+            "label": "Hyperlink",
+            "target": "_self",
+            "visible": ""
+        },
+        "type": "text"
+    }],
     "binder": {
         "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
         "properties": {
