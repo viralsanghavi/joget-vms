@@ -266,6 +266,105 @@
                         "value": "",
                         "workflowVariable": ""
                     }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "",
+                        "id": "customerL3Name",
+                        "label": "Customer L3 / Escalation Name",
+                        "maxlength": "50",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "",
+                                "type": "alphabet"
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "",
+                        "id": "customerL3Designation",
+                        "label": "Customer L3 / Escalation Designation",
+                        "maxlength": "50",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "",
+                                "type": "alphabet"
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "",
+                        "id": "customerL3Email",
+                        "label": "Customer L3/Escalation E-Mail ID",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "",
+                        "id": "customerL3Mobile",
+                        "label": "Customer L3 / Escalation Mobile No.",
+                        "maxlength": "10",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DuplicateValueValidator",
+                            "properties": {
+                                "errorDuplicateMsg": "Mobile Number already exists",
+                                "errorFormatMsg": "Only numbers are allowed",
+                                "fieldId": "customerL2Mobile",
+                                "formDefId": "customer",
+                                "mandatory": "true",
+                                "regex": "^[0-9]"
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
                 }
             ],
             "properties": {"width": "100%"}
