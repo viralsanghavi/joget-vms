@@ -12,13 +12,13 @@
                     "collapsibleExpanded": "true",
                     "collapsibleLabelCollapsed": "View Details",
                     "collapsibleLabelExpanded": "Hide Details",
-                    "formDefId": "venueMangement",
+                    "formDefId": "venueManagementPreview",
                     "hideEmpty": "",
                     "id": "previewForm",
                     "label": "",
                     "noLoad": "",
                     "noframe": "true",
-                    "parentSubFormId": "",
+                    "parentSubFormId": "venueMangement",
                     "readonly": "",
                     "readonlyLabel": "",
                     "storeBinder": {
@@ -34,9 +34,9 @@
             "comment": "",
             "id": "section1",
             "join": "",
-            "label": "Preview Form",
+            "label": "",
             "loadBinder": {
-                "className": "",
+                "className": "org.joget.apps.form.lib.WorkflowFormBinder",
                 "properties": {}
             },
             "permission": {
