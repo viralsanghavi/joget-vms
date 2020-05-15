@@ -149,12 +149,12 @@
                         "validator": {
                             "className": "org.joget.apps.form.lib.DuplicateValueValidator",
                             "properties": {
-                                "errorDuplicateMsg": "Mobile Number already exists",
-                                "errorFormatMsg": "Only numbers are allowed",
+                                "errorDuplicateMsg": "Number already exists",
+                                "errorFormatMsg": "",
                                 "fieldId": "customerSpocMobile",
                                 "formDefId": "customer",
                                 "mandatory": "true",
-                                "regex": "^[0-9]"
+                                "regex": ""
                             }
                         },
                         "value": "",
