@@ -15,7 +15,7 @@
                     "formDefId": "venueMangement",
                     "hideEmpty": "",
                     "id": "previewForm",
-                    "label": "Preview Form",
+                    "label": "",
                     "noLoad": "",
                     "noframe": "true",
                     "parentSubFormId": "",
@@ -31,8 +31,29 @@
             "properties": {"width": "100%"}
         }],
         "properties": {
+            "comment": "",
             "id": "section1",
-            "label": "Section"
+            "join": "",
+            "label": "Preview Form",
+            "loadBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "permission": {
+                "className": "",
+                "properties": {}
+            },
+            "permissionReadonly": "",
+            "readonly": "",
+            "readonlyLabel": "",
+            "regex": "",
+            "reverse": "",
+            "storeBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "visibilityControl": "",
+            "visibilityValue": ""
         }
     }],
     "properties": {
