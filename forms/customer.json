@@ -119,8 +119,15 @@
                         "storeNumeric": "",
                         "style": "",
                         "validator": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.DuplicateValueValidator",
+                            "properties": {
+                                "errorDuplicateMsg": "E-mail already exists",
+                                "errorFormatMsg": "Enter Proper E-mail",
+                                "fieldId": "customerSpocEmail",
+                                "formDefId": "customer",
+                                "mandatory": "true",
+                                "regex": "^([a-zA-Z0-9_\\-\\.]+)@([a-zA-Z0-9_\\-\\.]+)\\.([a-zA-Z]{2,5})$"
+                            }
                         },
                         "value": "",
                         "workflowVariable": ""
@@ -129,13 +136,22 @@
                 {
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
-                        "encryption": "false",
-                        "id": "field6",
-                        "label": "TextField",
-                        "readonly": "False",
-                        "readonlyLabel": "False",
-                        "storeNumeric": "False",
-                        "style": ""
+                        "encryption": "",
+                        "id": "customerSpocMobile",
+                        "label": "Customer SPOC Mobile No.",
+                        "maxlength": "10",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
                     }
                 }
             ],
