@@ -1,11 +1,71 @@
 {
-    "actions": [],
+    "actions": [{
+        "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
+        "icon": "<i class=\"fas fa-trash-alt\"><\/i>",
+        "id": "action_0",
+        "label": "Delete",
+        "name": "Form Row Delete Action",
+        "properties": {
+            "abortRelatedRunningProcesses": "",
+            "confirmation": "Are you sure you want to delete the form ?",
+            "datalist_type": "action",
+            "deleteFiles": "",
+            "deleteGridData": "",
+            "deleteSubformData": "",
+            "formDefId": "customerPreview",
+            "label": "Delete"
+        },
+        "type": "text"
+    }],
     "binder": {
-        "className": "",
-        "name": "",
-        "properties": {}
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {
+            "customSelectionValue": "",
+            "extraCondition": "",
+            "filters": [],
+            "formDefId": "customerPreview",
+            "functionColumns": [],
+            "groupBy": "",
+            "joins": []
+        }
     },
-    "columns": [],
+    "buttonPosition": "bottomLeft",
+    "checkboxPosition": "left",
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_1",
+            "label": "Customer Name",
+            "name": "customerName",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_0",
+            "label": "Customer Code",
+            "name": "customerCode",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_3",
+            "label": "Exam Type(S)",
+            "name": "examType",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_4",
+            "label": "Job Type",
+            "name": "jobType",
+            "sortable": "false"
+        }
+    ],
+    "considerFilterWhenGetTotal": "",
     "description": "",
     "filters": [],
     "id": "customerMaster",
@@ -13,5 +73,25 @@
     "order": "",
     "orderBy": "",
     "pageSize": "0",
-    "rowActions": []
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "rowActions": [{
+        "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+        "icon": "<i class=\"fas fa-link\"><\/i>",
+        "id": "rowAction_0",
+        "label": "Hyperlink",
+        "name": "Data List Hyperlink Action",
+        "properties": {
+            "confirmation": "",
+            "datalist_type": "row_action",
+            "href": "",
+            "hrefColumn": "",
+            "hrefParam": "Edit",
+            "label": "EDIT",
+            "rules": [],
+            "target": "_self"
+        },
+        "type": "text"
+    }],
+    "showPageSizeSelector": "true",
+    "useSession": "false"
 }
