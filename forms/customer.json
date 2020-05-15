@@ -147,8 +147,15 @@
                         "storeNumeric": "",
                         "style": "",
                         "validator": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.DuplicateValueValidator",
+                            "properties": {
+                                "errorDuplicateMsg": "Mobile Number already exists",
+                                "errorFormatMsg": "Only numbers are allowed",
+                                "fieldId": "customerSpocMobile",
+                                "formDefId": "customer",
+                                "mandatory": "true",
+                                "regex": "^[0-9]"
+                            }
                         },
                         "value": "",
                         "workflowVariable": ""
