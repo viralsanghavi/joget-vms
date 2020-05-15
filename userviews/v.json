@@ -107,7 +107,7 @@
                         "datalistId": "list_venueMangement",
                         "edit-afterSaved": "redirect",
                         "edit-afterSavedRedirectParamName": "",
-                        "edit-afterSavedRedirectParamvalue": "organisationName",
+                        "edit-afterSavedRedirectParamvalue": "",
                         "edit-afterSavedRedirectUrl": "/jw/web/userview/vms/v/_/5145DF9D59D147A5B74E8EA458737535",
                         "edit-allowRecordTraveling": "",
                         "edit-backButtonLabel": "",
@@ -116,24 +116,7 @@
                         "edit-firstButtonLabel": "",
                         "edit-lastButtonLabel": "",
                         "edit-messageShowAfterComplete": "Preview will be shown after this page !",
-                        "edit-moreActions": [
-                            {
-                                "confirmation": "",
-                                "href": "",
-                                "hrefColumn": "organisationName",
-                                "hrefParam": "",
-                                "hrefTarget": "",
-                                "label": "Organisation Name"
-                            },
-                            {
-                                "confirmation": "",
-                                "href": "",
-                                "hrefColumn": "organisationType",
-                                "hrefParam": "",
-                                "hrefTarget": "",
-                                "label": "Organisation Type"
-                            }
-                        ],
+                        "edit-moreActions": [],
                         "edit-nextButtonLabel": "",
                         "edit-prevButtonLabel": "",
                         "edit-readonly": "",
