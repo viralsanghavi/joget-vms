@@ -228,7 +228,7 @@
                             "className": "org.joget.apps.form.lib.DuplicateValueValidator",
                             "properties": {
                                 "errorDuplicateMsg": "E-mail already exists",
-                                "errorFormatMsg": "Enter Proper E-mail",
+                                "errorFormatMsg": "Enter Proper E-mail ID",
                                 "fieldId": "customerL2Email",
                                 "formDefId": "customer",
                                 "mandatory": "true",
@@ -331,8 +331,15 @@
                         "storeNumeric": "",
                         "style": "",
                         "validator": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.DuplicateValueValidator",
+                            "properties": {
+                                "errorDuplicateMsg": "Email already exits",
+                                "errorFormatMsg": "Enter proper Email ID",
+                                "fieldId": "customerL3Email",
+                                "formDefId": "customer",
+                                "mandatory": "true",
+                                "regex": "^([a-zA-Z0-9_\\-\\.]+)@([a-zA-Z0-9_\\-\\.]+)\\.([a-zA-Z]{2,5})$"
+                            }
                         },
                         "value": "",
                         "workflowVariable": ""
@@ -356,10 +363,160 @@
                             "properties": {
                                 "errorDuplicateMsg": "Mobile Number already exists",
                                 "errorFormatMsg": "Only numbers are allowed",
-                                "fieldId": "customerL2Mobile",
+                                "fieldId": "customerL3Name",
                                 "formDefId": "customer",
                                 "mandatory": "true",
                                 "regex": "^[0-9]"
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.CheckBox",
+                    "properties": {
+                        "controlField": "",
+                        "id": "examType",
+                        "label": "Exam Type(S)",
+                        "options": [
+                            {
+                                "grouping": "",
+                                "label": "Recruitment",
+                                "value": "Recruitment"
+                            },
+                            {
+                                "grouping": "",
+                                "label": "Certification",
+                                "value": "Certification"
+                            },
+                            {
+                                "grouping": "",
+                                "label": "Admission",
+                                "value": "Admission"
+                            }
+                        ],
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "Select atleast one!",
+                                "type": ""
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "",
+                        "id": "approximateVolume",
+                        "label": "Approximate Volume",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "Only numbers are allowed!",
+                                "type": "numeric"
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "controlField": "",
+                        "id": "examGeography",
+                        "label": "Exam Geography",
+                        "multiple": "",
+                        "options": [
+                            {
+                                "grouping": "",
+                                "label": "- - Select - -",
+                                "value": ""
+                            },
+                            {
+                                "grouping": "",
+                                "label": "State",
+                                "value": "State"
+                            },
+                            {
+                                "grouping": "",
+                                "label": "PAN India",
+                                "value": "PAN India"
+                            }
+                        ],
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "",
+                                "type": ""
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.CheckBox",
+                    "properties": {
+                        "controlField": "",
+                        "id": "jobType",
+                        "label": "Job Type",
+                        "options": [
+                            {
+                                "grouping": "",
+                                "label": "Pre Exam",
+                                "value": "Pre Exam"
+                            },
+                            {
+                                "grouping": "",
+                                "label": "Exam",
+                                "value": "Exam"
+                            },
+                            {
+                                "grouping": "",
+                                "label": "Post Exam",
+                                "value": "Post Exam"
+                            }
+                        ],
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "Select atleast one",
+                                "type": ""
                             }
                         },
                         "value": "",
