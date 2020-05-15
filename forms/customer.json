@@ -150,11 +150,11 @@
                             "className": "org.joget.apps.form.lib.DuplicateValueValidator",
                             "properties": {
                                 "errorDuplicateMsg": "Number already exists",
-                                "errorFormatMsg": "",
+                                "errorFormatMsg": "Only Numbers",
                                 "fieldId": "customerSpocMobile",
                                 "formDefId": "customer",
                                 "mandatory": "true",
-                                "regex": ""
+                                "regex": "@\"^[0-9]{10}$"
                             }
                         },
                         "value": "",
@@ -260,7 +260,7 @@
                                 "fieldId": "customerL2Mobile",
                                 "formDefId": "customer",
                                 "mandatory": "true",
-                                "regex": "^[0-9]"
+                                "regex": "@\"^[0-9]{10}$"
                             }
                         },
                         "value": "",
@@ -366,7 +366,7 @@
                                 "fieldId": "customerL3Name",
                                 "formDefId": "customer",
                                 "mandatory": "true",
-                                "regex": "^[0-9]"
+                                "regex": "@\"^[0-9]{10}$"
                             }
                         },
                         "value": "",
