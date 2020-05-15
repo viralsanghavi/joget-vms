@@ -1,19 +1,19 @@
 {
     "actions": [{
-        "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
-        "icon": "<i class=\"fas fa-trash-alt\"><\/i>",
+        "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+        "icon": "<i class=\"fas fa-link\"><\/i>",
         "id": "action_0",
-        "label": "Delete",
-        "name": "Form Row Delete Action",
+        "label": "Hyperlink",
+        "name": "Data List Hyperlink Action",
         "properties": {
-            "abortRelatedRunningProcesses": "",
-            "confirmation": "Are you sure you want to delete the form ?",
+            "confirmation": "",
             "datalist_type": "action",
-            "deleteFiles": "",
-            "deleteGridData": "",
-            "deleteSubformData": "",
-            "formDefId": "customerPreview",
-            "label": "Delete"
+            "href": "",
+            "hrefColumn": "",
+            "hrefParam": "",
+            "label": "Hyperlink",
+            "target": "_self",
+            "visible": ""
         },
         "type": "text"
     }],
