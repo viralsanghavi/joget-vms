@@ -229,7 +229,7 @@
                             "properties": {
                                 "errorDuplicateMsg": "E-mail already exists",
                                 "errorFormatMsg": "Enter Proper E-mail",
-                                "fieldId": "customerSpocEmail",
+                                "fieldId": "customerL2Email",
                                 "formDefId": "customer",
                                 "mandatory": "true",
                                 "regex": "^([a-zA-Z0-9_\\-\\.]+)@([a-zA-Z0-9_\\-\\.]+)\\.([a-zA-Z]{2,5})$"
@@ -257,7 +257,7 @@
                             "properties": {
                                 "errorDuplicateMsg": "Mobile Number already exists",
                                 "errorFormatMsg": "Only numbers are allowed",
-                                "fieldId": "customerSpocMobile",
+                                "fieldId": "customerL2Mobile",
                                 "formDefId": "customer",
                                 "mandatory": "true",
                                 "regex": "^[0-9]"
