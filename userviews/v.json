@@ -104,7 +104,7 @@
                         "cacheListAction": "",
                         "checkboxPosition": "left",
                         "customId": "venueMangement_crud",
-                        "datalistId": "list_venueMangement",
+                        "datalistId": "venueMangement",
                         "edit-afterSaved": "redirect",
                         "edit-afterSavedRedirectParamName": "",
                         "edit-afterSavedRedirectParamvalue": "",
