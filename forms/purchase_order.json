@@ -334,7 +334,7 @@
                 "elements": [{
                     "className": "org.joget.apps.form.lib.HiddenField",
                     "properties": {
-                        "id": "download",
+                        "id": "download1",
                         "useDefaultWhenEmpty": "",
                         "value": "Download",
                         "workflowVariable": ""
