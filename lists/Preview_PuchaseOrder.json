@@ -89,8 +89,20 @@
         },
         {
             "action": {
-                "className": "",
-                "properties": {}
+                "className": "org.joget.tutorial.DownloadPdfDatalistAction",
+                "properties": {
+                    "confirmation": "",
+                    "footerHtml": "",
+                    "formDefId": "template_1",
+                    "formatting": "",
+                    "headerHtml": "",
+                    "hideEmptyValueField": "",
+                    "label": "Download",
+                    "recordIdColumn": "",
+                    "repeatFooter": "",
+                    "repeatHeader": "",
+                    "showNotSelectedOptions": ""
+                }
             },
             "alignment": "",
             "datalist_type": "column",
@@ -130,6 +142,22 @@
             "sortable": "false",
             "style": "",
             "width": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_7",
+            "label": "download",
+            "name": "download",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_8",
+            "label": "download1",
+            "name": "download1",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
