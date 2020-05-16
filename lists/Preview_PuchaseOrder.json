@@ -150,6 +150,14 @@
             "label": "download",
             "name": "download",
             "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_8",
+            "label": "download1",
+            "name": "download1",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
