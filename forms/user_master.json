@@ -286,7 +286,7 @@
                                 "fieldId": "mobile",
                                 "formDefId": "user_master",
                                 "mandatory": "true",
-                                "regex": "^[0-9]$"
+                                "regex": "/^[0-9]\\d{10}$/"
                             }
                         },
                         "value": "",
