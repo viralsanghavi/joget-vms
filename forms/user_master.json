@@ -160,7 +160,7 @@
                 {
                     "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
-                        "controlField": "",
+                        "controlField": "city",
                         "id": "state",
                         "label": "State",
                         "multiple": "",
@@ -199,7 +199,7 @@
                 {
                     "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
-                        "controlField": "",
+                        "controlField": "city",
                         "id": "region",
                         "label": "Region",
                         "multiple": "",
