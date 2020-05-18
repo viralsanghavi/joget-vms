@@ -1,11 +1,62 @@
 {
     "actions": [],
     "binder": {
-        "className": "",
-        "name": "",
-        "properties": {}
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {
+            "customSelectionValue": "",
+            "extraCondition": "",
+            "filters": [],
+            "formDefId": "user_master",
+            "functionColumns": [],
+            "groupBy": "",
+            "joins": []
+        }
     },
-    "columns": [],
+    "buttonPosition": "bottomLeft",
+    "checkboxPosition": "left",
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_0",
+            "label": "Employee Number",
+            "name": "employeeNumber",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_1",
+            "label": "Full Name",
+            "name": "fullName",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_2",
+            "label": "Mobile Number",
+            "name": "mobile",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_3",
+            "label": "Email",
+            "name": "email",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_4",
+            "label": "Designation",
+            "name": "designation",
+            "sortable": "false"
+        }
+    ],
+    "considerFilterWhenGetTotal": "",
     "description": "",
     "filters": [],
     "id": "user",
@@ -13,5 +64,8 @@
     "order": "",
     "orderBy": "",
     "pageSize": "0",
-    "rowActions": []
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "rowActions": [],
+    "showPageSizeSelector": "true",
+    "useSession": "false"
 }
