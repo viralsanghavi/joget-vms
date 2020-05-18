@@ -250,6 +250,27 @@
                         "value": "",
                         "workflowVariable": ""
                     }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.Radio",
+                    "properties": {
+                        "controlField": "",
+                        "id": "employeeStatus",
+                        "label": "Employee Status",
+                        "options": [],
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
                 }
             ],
             "properties": {"width": "100%"}
