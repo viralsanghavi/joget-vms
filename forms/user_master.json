@@ -257,7 +257,18 @@
                         "controlField": "",
                         "id": "employeeStatus",
                         "label": "Employee Status",
-                        "options": [],
+                        "options": [
+                            {
+                                "grouping": "",
+                                "label": "Active",
+                                "value": "Active"
+                            },
+                            {
+                                "grouping": "",
+                                "label": "Inactive",
+                                "value": "Inactive"
+                            }
+                        ],
                         "optionsBinder": {
                             "className": "",
                             "properties": {}
