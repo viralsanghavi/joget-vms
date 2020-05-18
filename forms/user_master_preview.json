@@ -15,7 +15,7 @@
                     "formDefId": "user_master",
                     "hideEmpty": "",
                     "id": "userMaster",
-                    "label": "review",
+                    "label": "Review",
                     "noLoad": "",
                     "noframe": "true",
                     "parentSubFormId": "userMaster",
