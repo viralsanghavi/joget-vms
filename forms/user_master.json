@@ -127,8 +127,20 @@
                         "multiple": "",
                         "options": [],
                         "optionsBinder": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                            "properties": {
+                                "addEmptyOption": "",
+                                "autoHandleFiles": "",
+                                "autoHandleWorkflowVariable": "true",
+                                "cacheInterval": "",
+                                "emptyLabel": "",
+                                "extraCondition": "",
+                                "formDefId": "pincode",
+                                "groupingColumn": "city",
+                                "idColumn": "city",
+                                "labelColumn": "city",
+                                "useAjax": ""
+                            }
                         },
                         "readonly": "",
                         "readonlyLabel": "",
@@ -154,8 +166,20 @@
                         "multiple": "",
                         "options": [],
                         "optionsBinder": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                            "properties": {
+                                "addEmptyOption": "",
+                                "autoHandleFiles": "",
+                                "autoHandleWorkflowVariable": "true",
+                                "cacheInterval": "",
+                                "emptyLabel": "",
+                                "extraCondition": "",
+                                "formDefId": "pincode",
+                                "groupingColumn": "city",
+                                "idColumn": "state",
+                                "labelColumn": "state",
+                                "useAjax": ""
+                            }
                         },
                         "readonly": "",
                         "readonlyLabel": "",
