@@ -325,8 +325,17 @@
                 }
             ],
             "properties": {
+                "comment": "",
+                "hide": "",
                 "id": "category-DF087D869DC44BF1A2D89E345A35EFE8",
-                "label": "<i class=\"fa fa-tasks\"><\/i>Customer Master"
+                "label": "<i class=\"fa fa-tasks\"><\/i>Customer Master",
+                "permission": {
+                    "className": "org.joget.apps.userview.lib.UserPermission",
+                    "properties": {
+                        "allowedUsernames": "cat",
+                        "orgId": "ORG-001"
+                    }
+                }
             }
         },
         {
