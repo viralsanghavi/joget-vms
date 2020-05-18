@@ -232,7 +232,7 @@
                         "encryption": "",
                         "id": "mobile",
                         "label": "Mobile Number",
-                        "maxlength": "",
+                        "maxlength": "10",
                         "placeholder": "",
                         "readonly": "",
                         "readonlyLabel": "",
@@ -247,7 +247,7 @@
                                 "type": "numeric"
                             }
                         },
-                        "value": "10",
+                        "value": "",
                         "workflowVariable": ""
                     }
                 }
