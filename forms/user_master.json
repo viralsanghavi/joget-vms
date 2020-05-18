@@ -48,7 +48,7 @@
                             "properties": {
                                 "mandatory": "true",
                                 "message": "",
-                                "type": "alphanumeric"
+                                "type": "alphabet"
                             }
                         },
                         "value": "",
