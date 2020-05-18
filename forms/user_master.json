@@ -22,11 +22,11 @@
                             "className": "org.joget.apps.form.lib.DuplicateValueValidator",
                             "properties": {
                                 "errorDuplicateMsg": "Employee Number already exists",
-                                "errorFormatMsg": "",
+                                "errorFormatMsg": "Invalid",
                                 "fieldId": "employeeNumber",
                                 "formDefId": "user_master",
                                 "mandatory": "true",
-                                "regex": "^[0-9]/d$"
+                                "regex": "^[0-9]/d{10}$"
                             }
                         },
                         "value": "",
