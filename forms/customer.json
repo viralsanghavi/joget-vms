@@ -154,7 +154,7 @@
                                 "fieldId": "customerSpocMobile",
                                 "formDefId": "customer",
                                 "mandatory": "true",
-                                "regex": "@\"^[0-9]{10}$"
+                                "regex": "^[0-9]"
                             }
                         },
                         "value": "",
@@ -260,7 +260,7 @@
                                 "fieldId": "customerL2Mobile",
                                 "formDefId": "customer",
                                 "mandatory": "true",
-                                "regex": "@\"^[0-9]{10}$"
+                                "regex": "^[0-9]"
                             }
                         },
                         "value": "",
@@ -366,7 +366,7 @@
                                 "fieldId": "customerL3Name",
                                 "formDefId": "customer",
                                 "mandatory": "true",
-                                "regex": "@\"^[0-9]{10}$"
+                                "regex": "^[0-9]"
                             }
                         },
                         "value": "",
