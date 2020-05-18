@@ -18,7 +18,7 @@
                     "label": "Review",
                     "noLoad": "",
                     "noframe": "true",
-                    "parentSubFormId": "userMaster",
+                    "parentSubFormId": "user_master",
                     "readonly": "",
                     "readonlyLabel": "",
                     "storeBinder": {
