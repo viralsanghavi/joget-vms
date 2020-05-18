@@ -19,11 +19,14 @@
                         "storeNumeric": "",
                         "style": "",
                         "validator": {
-                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "className": "org.joget.apps.form.lib.DuplicateValueValidator",
                             "properties": {
+                                "errorDuplicateMsg": "Employee Number already exists",
+                                "errorFormatMsg": "",
+                                "fieldId": "employeeNumber",
+                                "formDefId": "user_master",
                                 "mandatory": "true",
-                                "message": "",
-                                "type": "alphanumeric"
+                                "regex": "/^[0-9]\\d$/"
                             }
                         },
                         "value": "",
@@ -276,11 +279,14 @@
                         "storeNumeric": "",
                         "style": "",
                         "validator": {
-                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "className": "org.joget.apps.form.lib.DuplicateValueValidator",
                             "properties": {
+                                "errorDuplicateMsg": "Mobile number already exists",
+                                "errorFormatMsg": "Only numbers allowed!",
+                                "fieldId": "mobile",
+                                "formDefId": "user_master",
                                 "mandatory": "true",
-                                "message": "",
-                                "type": "numeric"
+                                "regex": "^[0-9]$"
                             }
                         },
                         "value": "",
