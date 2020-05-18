@@ -13,14 +13,6 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_0",
-            "label": "ID",
-            "name": "id",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
             "id": "column_1",
             "label": "Pincode",
             "name": "pincode",
