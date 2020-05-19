@@ -26,27 +26,28 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_1",
-            "label": "Customer Code",
-            "name": "customercode",
+            "id": "column_2",
+            "label": "Created By",
+            "name": "createdBy",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_2",
-            "label": "ID",
-            "name": "id",
+            "id": "column_1",
+            "label": "Customer Code",
+            "name": "customercode",
             "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
     "description": "",
+    "disableResponsive": "",
     "filters": [
         {
             "id": "filter_2",
-            "label": "ID",
-            "name": "id",
+            "label": "Created By",
+            "name": "createdBy",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
                 "properties": {}
@@ -71,13 +72,28 @@
             }
         }
     ],
+    "hidePageSize": "",
     "id": "examdrive",
     "name": "Exam Drive",
     "order": "",
     "orderBy": "",
     "pageSize": "0",
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "responsiveView": [
+        {
+            "breakpoint": "",
+            "columns": "",
+            "view": "Mobile"
+        },
+        {
+            "breakpoint": "",
+            "columns": "",
+            "view": "Tablet"
+        }
+    ],
     "rowActions": [],
+    "searchPopup": "",
+    "showDataWhenFilterSet": "",
     "showPageSizeSelector": "true",
-    "useSession": "false"
+    "useSession": ""
 }
