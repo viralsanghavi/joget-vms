@@ -46,6 +46,14 @@
             "label": "Status",
             "name": "status",
             "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_1",
+            "label": "record",
+            "name": "record",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
