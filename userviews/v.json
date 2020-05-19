@@ -833,7 +833,7 @@
                     "add-customHeader": "",
                     "add-messageShowAfterComplete": "Record Added",
                     "add-saveButtonLabel": "",
-                    "addFormId": "bank_master",
+                    "addFormId": "bank_master_preview",
                     "buttonPosition": "bottomLeft",
                     "cacheAllLinks": "",
                     "cacheListAction": "",
