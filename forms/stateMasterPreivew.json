@@ -4,12 +4,56 @@
         "className": "org.joget.apps.form.model.Section",
         "elements": [{
             "className": "org.joget.apps.form.model.Column",
-            "elements": [],
+            "elements": [{
+                "className": "org.joget.plugin.enterprise.AjaxSubForm",
+                "properties": {
+                    "ajax": "true",
+                    "collapsible": "",
+                    "collapsibleExpanded": "true",
+                    "collapsibleLabelCollapsed": "View Details",
+                    "collapsibleLabelExpanded": "Hide Details",
+                    "formDefId": "stateMaster",
+                    "hideEmpty": "",
+                    "id": "statePreivew",
+                    "label": "",
+                    "noLoad": "",
+                    "noframe": "true",
+                    "parentSubFormId": "stateMaster",
+                    "readonly": "",
+                    "readonlyLabel": "",
+                    "storeBinder": {
+                        "className": "org.joget.plugin.enterprise.ParentFormBinder",
+                        "properties": {}
+                    },
+                    "subFormParentId": ""
+                }
+            }],
             "properties": {"width": "100%"}
         }],
         "properties": {
-            "id": "section1",
-            "label": "Section"
+            "comment": "",
+            "id": "stateMasterPreview",
+            "join": "",
+            "label": "",
+            "loadBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "permission": {
+                "className": "",
+                "properties": {}
+            },
+            "permissionReadonly": "",
+            "readonly": "",
+            "readonlyLabel": "",
+            "regex": "",
+            "reverse": "",
+            "storeBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "visibilityControl": "",
+            "visibilityValue": ""
         }
     }],
     "properties": {
