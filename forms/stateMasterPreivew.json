@@ -71,7 +71,7 @@
                         "autoPopulate": "",
                         "id": "field3",
                         "label": "",
-                        "value": "<script>\n    document.getElement.ById('stateMasterPreview_stateMaster_stateName').disabled=true\n<\/script>"
+                        "value": "<script>\ndocument.getElementById(\"stateMasterPreview_stateMaster_stateCode\").disabled = true;\n<\/script>"
                     }
                 }
             ],
