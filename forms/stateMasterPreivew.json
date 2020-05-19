@@ -4,30 +4,68 @@
         "className": "org.joget.apps.form.model.Section",
         "elements": [{
             "className": "org.joget.apps.form.model.Column",
-            "elements": [{
-                "className": "org.joget.plugin.enterprise.AjaxSubForm",
-                "properties": {
-                    "ajax": "true",
-                    "collapsible": "",
-                    "collapsibleExpanded": "true",
-                    "collapsibleLabelCollapsed": "View Details",
-                    "collapsibleLabelExpanded": "Hide Details",
-                    "formDefId": "stateMaster",
-                    "hideEmpty": "",
-                    "id": "stateMasterPreview",
-                    "label": "",
-                    "noLoad": "",
-                    "noframe": "true",
-                    "parentSubFormId": "stateMaster",
-                    "readonly": "",
-                    "readonlyLabel": "",
-                    "storeBinder": {
-                        "className": "org.joget.plugin.enterprise.ParentFormBinder",
-                        "properties": {}
-                    },
-                    "subFormParentId": ""
+            "elements": [
+                {
+                    "className": "org.joget.plugin.enterprise.AjaxSubForm",
+                    "properties": {
+                        "ajax": "true",
+                        "collapsible": "",
+                        "collapsibleExpanded": "true",
+                        "collapsibleLabelCollapsed": "View Details",
+                        "collapsibleLabelExpanded": "Hide Details",
+                        "formDefId": "stateMaster",
+                        "hideEmpty": "",
+                        "id": "stateMasterPreview",
+                        "label": "",
+                        "noLoad": "",
+                        "noframe": "true",
+                        "parentSubFormId": "stateMaster",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "storeBinder": {
+                            "className": "org.joget.plugin.enterprise.ParentFormBinder",
+                            "properties": {}
+                        },
+                        "subFormParentId": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.Radio",
+                    "properties": {
+                        "controlField": "",
+                        "id": "record",
+                        "label": "Record",
+                        "options": [
+                            {
+                                "grouping": "",
+                                "label": "Active",
+                                "value": "active"
+                            },
+                            {
+                                "grouping": "",
+                                "label": "Inactive",
+                                "value": "inactive"
+                            }
+                        ],
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "",
+                                "type": ""
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
                 }
-            }],
+            ],
             "properties": {"width": "100%"}
         }],
         "properties": {
