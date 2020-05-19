@@ -123,22 +123,6 @@
                             "readonlyLabel": "",
                             "size": "",
                             "validator": {
-                                "className": "",
-                                "properties": {}
-                            },
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.plugin.enterprise.TimePicker",
-                        "properties": {
-                            "format24hr": "true",
-                            "id": "field5",
-                            "label": "Exam Start Time",
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "validator": {
                                 "className": "org.joget.apps.form.lib.DefaultValidator",
                                 "properties": {
                                     "mandatory": "true",
@@ -151,13 +135,39 @@
                         }
                     },
                     {
-                        "className": "org.joget.plugin.enterprise.TimePicker",
+                        "className": "org.joget.apps.form.lib.DatePicker",
                         "properties": {
-                            "format24hr": "true",
+                            "allowManual": "",
+                            "datePickerType": "timeOnly",
+                            "endDateFieldId": "",
+                            "format24hr": "",
                             "id": "field6",
-                            "label": "Exam End Time",
+                            "label": "Exam Start Time",
+                            "placeholder": "",
                             "readonly": "",
                             "readonlyLabel": "",
+                            "startDateFieldId": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.DatePicker",
+                        "properties": {
+                            "allowManual": "",
+                            "datePickerType": "timeOnly",
+                            "endDateFieldId": "",
+                            "format24hr": "",
+                            "id": "field7",
+                            "label": "Exam End Time",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "startDateFieldId": "",
                             "validator": {
                                 "className": "",
                                 "properties": {}
