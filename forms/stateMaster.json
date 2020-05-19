@@ -44,8 +44,15 @@
                         "storeNumeric": "",
                         "style": "",
                         "validator": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.DuplicateValueValidator",
+                            "properties": {
+                                "errorDuplicateMsg": "State code already exists!",
+                                "errorFormatMsg": "",
+                                "fieldId": "stateCode",
+                                "formDefId": "stateMaster",
+                                "mandatory": "true",
+                                "regex": "^[a-zA-Z0-9]+$"
+                            }
                         },
                         "value": "",
                         "workflowVariable": ""
