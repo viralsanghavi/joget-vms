@@ -38,6 +38,14 @@
             "label": "Region Status",
             "name": "regionStatus",
             "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_3",
+            "label": "record",
+            "name": "record",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
