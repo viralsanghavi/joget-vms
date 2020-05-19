@@ -46,6 +46,14 @@
             "label": "Region",
             "name": "region",
             "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_4",
+            "label": "record",
+            "name": "record",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
