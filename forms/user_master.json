@@ -282,7 +282,7 @@
                             "className": "org.joget.apps.form.lib.DuplicateValueValidator",
                             "properties": {
                                 "errorDuplicateMsg": "Mobile number already exists",
-                                "errorFormatMsg": "Only numbers allowed!",
+                                "errorFormatMsg": "Invalid",
                                 "fieldId": "mobile",
                                 "formDefId": "user_master",
                                 "mandatory": "true",
