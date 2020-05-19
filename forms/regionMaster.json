@@ -44,8 +44,44 @@
                         "storeNumeric": "",
                         "style": "",
                         "validator": {
+                            "className": "org.joget.apps.form.lib.DuplicateValueValidator",
+                            "properties": {
+                                "errorDuplicateMsg": "Region already exists",
+                                "errorFormatMsg": "Wrong Format",
+                                "fieldId": "regionCode",
+                                "formDefId": "regionMaster",
+                                "mandatory": "true",
+                                "regex": "^[a-zA-Z0-9]+$"
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.Radio",
+                    "properties": {
+                        "controlField": "",
+                        "id": "regionStatus",
+                        "label": "Region Status",
+                        "options": [{
+                            "grouping": "",
+                            "label": "Active",
+                            "value": "active"
+                        }],
+                        "optionsBinder": {
                             "className": "",
                             "properties": {}
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "",
+                                "type": ""
+                            }
                         },
                         "value": "",
                         "workflowVariable": ""
