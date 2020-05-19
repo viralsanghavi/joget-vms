@@ -26,41 +26,17 @@
         {
             "filterable": true,
             "hidden": "false",
+            "id": "column_2",
+            "label": "Created By",
+            "name": "createdBy",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
             "id": "column_1",
             "label": "Customer Code",
             "name": "customercode",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_4",
-            "label": "Project Name",
-            "name": "projectname",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_3",
-            "label": "Exam Start Time",
-            "name": "examstarttime",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_2",
-            "label": "Exam End Time",
-            "name": "examendtime",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_5",
-            "label": "No. of Seats",
-            "name": "noofseats",
             "sortable": "false"
         }
     ],
@@ -68,6 +44,15 @@
     "description": "",
     "disableResponsive": "",
     "filters": [
+        {
+            "id": "filter_2",
+            "label": "Created By",
+            "name": "createdBy",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
         {
             "id": "filter_1",
             "label": "Customer Code",
@@ -81,42 +66,6 @@
             "id": "filter_0",
             "label": "Customer Name",
             "name": "customername",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
-            }
-        },
-        {
-            "id": "filter_4",
-            "label": "Exam Start Time",
-            "name": "examstarttime",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
-            }
-        },
-        {
-            "id": "filter_2",
-            "label": "Project Name",
-            "name": "projectname",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
-            }
-        },
-        {
-            "id": "filter_5",
-            "label": "Exam End Time",
-            "name": "examendtime",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
-            }
-        },
-        {
-            "id": "filter_3",
-            "label": "No. of Seats",
-            "name": "noofseats",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
                 "properties": {}
