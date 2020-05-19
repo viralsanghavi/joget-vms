@@ -46,18 +46,32 @@
                         }
                     },
                     {
-                        "className": "org.joget.apps.form.lib.TextField",
+                        "className": "org.joget.apps.form.lib.SelectBox",
                         "properties": {
-                            "encryption": "",
+                            "controlField": "customername",
                             "id": "customercode",
                             "label": "Customer Code",
-                            "maxlength": "",
-                            "placeholder": "",
+                            "multiple": "",
+                            "options": [],
+                            "optionsBinder": {
+                                "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                                "properties": {
+                                    "addEmptyOption": "",
+                                    "autoHandleFiles": "",
+                                    "autoHandleWorkflowVariable": "true",
+                                    "cacheInterval": "",
+                                    "emptyLabel": "",
+                                    "extraCondition": "",
+                                    "formDefId": "customer",
+                                    "groupingColumn": "customerName",
+                                    "idColumn": "customerCode",
+                                    "labelColumn": "customerCode",
+                                    "useAjax": "true"
+                                }
+                            },
                             "readonly": "",
                             "readonlyLabel": "",
                             "size": "",
-                            "storeNumeric": "",
-                            "style": "",
                             "validator": {
                                 "className": "",
                                 "properties": {}
