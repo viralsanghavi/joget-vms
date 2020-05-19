@@ -512,38 +512,6 @@
                 "visibilityControl": "",
                 "visibilityValue": ""
             }
-        },
-        {
-            "className": "org.joget.apps.form.model.Section",
-            "elements": [{
-                "className": "org.joget.apps.form.model.Column",
-                "elements": [{
-                    "className": "org.joget.apps.form.lib.SubForm",
-                    "properties": {
-                        "formDefId": "examdrive",
-                        "id": "field8",
-                        "label": "Exam Drive Form Preview",
-                        "loadBinder": {
-                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
-                            "properties": {}
-                        },
-                        "noframe": "",
-                        "parentSubFormId": "",
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "storeBinder": {
-                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
-                            "properties": {}
-                        },
-                        "subFormParentId": ""
-                    }
-                }],
-                "properties": {"width": "100%"}
-            }],
-            "properties": {
-                "id": "section3",
-                "label": "Section"
-            }
         }
     ],
     "properties": {
