@@ -550,7 +550,7 @@
                                     "emptyLabel": "",
                                     "extraCondition": "",
                                     "formDefId": "pincodeMaster",
-                                    "groupingColumn": "state",
+                                    "groupingColumn": "city",
                                     "idColumn": "state",
                                     "labelColumn": "state",
                                     "useAjax": "true"
