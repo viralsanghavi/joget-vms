@@ -1,17 +1,552 @@
 {
     "className": "org.joget.apps.form.model.Form",
-    "elements": [{
-        "className": "org.joget.apps.form.model.Section",
-        "elements": [{
-            "className": "org.joget.apps.form.model.Column",
-            "elements": [],
-            "properties": {"width": "100%"}
-        }],
-        "properties": {
-            "id": "section1",
-            "label": "Section"
+    "elements": [
+        {
+            "className": "org.joget.apps.form.model.Section",
+            "elements": [{
+                "className": "org.joget.apps.form.model.Column",
+                "elements": [
+                    {
+                        "className": "org.joget.apps.form.lib.SelectBox",
+                        "properties": {
+                            "controlField": "",
+                            "id": "field1",
+                            "label": "Customer Name",
+                            "multiple": "",
+                            "options": [],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.TextField",
+                        "properties": {
+                            "encryption": "",
+                            "id": "field2",
+                            "label": "Customer Code",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "storeNumeric": "",
+                            "style": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.TextField",
+                        "properties": {
+                            "encryption": "",
+                            "id": "field3",
+                            "label": "Project Name",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "storeNumeric": "",
+                            "style": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.SelectBox",
+                        "properties": {
+                            "controlField": "",
+                            "id": "field4",
+                            "label": "No. of Sessions",
+                            "multiple": "",
+                            "options": [
+                                {
+                                    "grouping": "",
+                                    "label": "Single",
+                                    "value": "Single"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Double",
+                                    "value": "Double"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Multiple",
+                                    "value": "Multiple"
+                                }
+                            ],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.plugin.enterprise.TimePicker",
+                        "properties": {
+                            "format24hr": "true",
+                            "id": "field5",
+                            "label": "Exam Start Time",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.plugin.enterprise.TimePicker",
+                        "properties": {
+                            "format24hr": "true",
+                            "id": "field6",
+                            "label": "Exam End Time",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    }
+                ],
+                "properties": {"width": "100%"}
+            }],
+            "properties": {
+                "id": "section1",
+                "label": "Section"
+            }
+        },
+        {
+            "className": "org.joget.apps.form.model.Section",
+            "elements": [{
+                "className": "org.joget.apps.form.model.Column",
+                "elements": [
+                    {
+                        "className": "org.joget.apps.form.lib.DatePicker",
+                        "properties": {
+                            "allowManual": "",
+                            "currentDateAs": "",
+                            "dataFormat": "yyyy-MM-dd",
+                            "datePickerType": "",
+                            "endDateFieldId": "",
+                            "format": "",
+                            "id": "field7",
+                            "label": "From Date",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "startDateFieldId": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": "",
+                            "yearRange": "c-10:c+10"
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.DatePicker",
+                        "properties": {
+                            "allowManual": "",
+                            "currentDateAs": "",
+                            "dataFormat": "yyyy-MM-dd",
+                            "datePickerType": "",
+                            "endDateFieldId": "",
+                            "format": "",
+                            "id": "field8",
+                            "label": "To Date",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "startDateFieldId": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": "",
+                            "yearRange": "c-10:c+10"
+                        }
+                    }
+                ],
+                "properties": {"width": "100%"}
+            }],
+            "properties": {
+                "comment": "",
+                "id": "section2",
+                "join": "",
+                "label": "Exam Dates",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permissionReadonly": "",
+                "readonly": "",
+                "readonlyLabel": "",
+                "regex": "",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityControl": "",
+                "visibilityValue": ""
+            }
+        },
+        {
+            "className": "org.joget.apps.form.model.Section",
+            "elements": [{
+                "className": "org.joget.apps.form.model.Column",
+                "elements": [
+                    {
+                        "className": "org.joget.apps.form.lib.Radio",
+                        "properties": {
+                            "controlField": "",
+                            "id": "field11",
+                            "label": "CCTV / DVR Availability in Test Rooms",
+                            "options": [
+                                {
+                                    "grouping": "",
+                                    "label": "Yes",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "No",
+                                    "value": "No"
+                                }
+                            ],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.Radio",
+                        "properties": {
+                            "controlField": "",
+                            "id": "field9",
+                            "label": "Air Conditioners in Test Room",
+                            "options": [
+                                {
+                                    "grouping": "",
+                                    "label": "Yes",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "No",
+                                    "value": "No"
+                                }
+                            ],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.Radio",
+                        "properties": {
+                            "controlField": "",
+                            "id": "field13",
+                            "label": "Metal Detectors",
+                            "options": [
+                                {
+                                    "grouping": "",
+                                    "label": "Yes",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "No",
+                                    "value": "No"
+                                }
+                            ],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.Radio",
+                        "properties": {
+                            "controlField": "",
+                            "id": "field12",
+                            "label": "Manual Frisking",
+                            "options": [
+                                {
+                                    "grouping": "",
+                                    "label": "Yes",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "No",
+                                    "value": "No"
+                                }
+                            ],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.Radio",
+                        "properties": {
+                            "controlField": "",
+                            "id": "field10",
+                            "label": "Jammers",
+                            "options": [
+                                {
+                                    "grouping": "",
+                                    "label": "Yes",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "No",
+                                    "value": "No"
+                                }
+                            ],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    }
+                ],
+                "properties": {"width": "100%"}
+            }],
+            "properties": {
+                "comment": "",
+                "id": "section3",
+                "join": "",
+                "label": "Other Amenities Required",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permissionReadonly": "",
+                "readonly": "",
+                "readonlyLabel": "",
+                "regex": "",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityControl": "",
+                "visibilityValue": ""
+            }
+        },
+        {
+            "className": "org.joget.apps.form.model.Section",
+            "elements": [{
+                "className": "org.joget.apps.form.model.Column",
+                "elements": [
+                    {
+                        "className": "org.joget.apps.form.lib.SelectBox",
+                        "properties": {
+                            "controlField": "",
+                            "id": "field14",
+                            "label": "City Name",
+                            "multiple": "",
+                            "options": [],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.TextField",
+                        "properties": {
+                            "encryption": "",
+                            "id": "field17",
+                            "label": "Region",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "storeNumeric": "",
+                            "style": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.TextField",
+                        "properties": {
+                            "encryption": "",
+                            "id": "field16",
+                            "label": "State",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "storeNumeric": "",
+                            "style": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.TextField",
+                        "properties": {
+                            "encryption": "",
+                            "id": "field15",
+                            "label": "No. of Seats",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "storeNumeric": "",
+                            "style": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    }
+                ],
+                "properties": {"width": "100%"}
+            }],
+            "properties": {
+                "comment": "",
+                "id": "section4",
+                "join": "",
+                "label": "City Wise Forecast",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permissionReadonly": "",
+                "readonly": "",
+                "readonlyLabel": "",
+                "regex": "",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityControl": "",
+                "visibilityValue": ""
+            }
         }
-    }],
+    ],
     "properties": {
         "description": "",
         "id": "examdrive",
