@@ -15,17 +15,33 @@
                             "multiple": "",
                             "options": [],
                             "optionsBinder": {
-                                "className": "",
-                                "properties": {}
+                                "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                                "properties": {
+                                    "addEmptyOption": "",
+                                    "autoHandleFiles": "",
+                                    "autoHandleWorkflowVariable": "true",
+                                    "cacheInterval": "",
+                                    "emptyLabel": "",
+                                    "extraCondition": "",
+                                    "formDefId": "customer",
+                                    "groupingColumn": "customerName",
+                                    "idColumn": "customerName",
+                                    "labelColumn": "customerName",
+                                    "useAjax": "true"
+                                }
                             },
                             "readonly": "",
                             "readonlyLabel": "",
                             "size": "",
                             "validator": {
-                                "className": "",
-                                "properties": {}
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "true",
+                                    "message": "",
+                                    "type": "alphabet"
+                                }
                             },
-                            "value": "",
+                            "value": "EXAM",
                             "workflowVariable": ""
                         }
                     },
@@ -123,8 +139,12 @@
                             "readonly": "",
                             "readonlyLabel": "",
                             "validator": {
-                                "className": "",
-                                "properties": {}
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "true",
+                                    "message": "",
+                                    "type": ""
+                                }
                             },
                             "value": "",
                             "workflowVariable": ""
@@ -225,8 +245,12 @@
                             "readonly": "",
                             "readonlyLabel": "",
                             "validator": {
-                                "className": "",
-                                "properties": {}
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "true",
+                                    "message": "",
+                                    "type": ""
+                                }
                             },
                             "value": "",
                             "workflowVariable": ""
@@ -257,8 +281,12 @@
                             "readonly": "",
                             "readonlyLabel": "",
                             "validator": {
-                                "className": "",
-                                "properties": {}
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "true",
+                                    "message": "",
+                                    "type": ""
+                                }
                             },
                             "value": "",
                             "workflowVariable": ""
@@ -289,8 +317,12 @@
                             "readonly": "",
                             "readonlyLabel": "",
                             "validator": {
-                                "className": "",
-                                "properties": {}
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "true",
+                                    "message": "",
+                                    "type": ""
+                                }
                             },
                             "value": "",
                             "workflowVariable": ""
@@ -321,8 +353,12 @@
                             "readonly": "",
                             "readonlyLabel": "",
                             "validator": {
-                                "className": "",
-                                "properties": {}
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "true",
+                                    "message": "",
+                                    "type": ""
+                                }
                             },
                             "value": "",
                             "workflowVariable": ""
@@ -353,8 +389,12 @@
                             "readonly": "",
                             "readonlyLabel": "",
                             "validator": {
-                                "className": "",
-                                "properties": {}
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "true",
+                                    "message": "",
+                                    "type": ""
+                                }
                             },
                             "value": "",
                             "workflowVariable": ""
@@ -410,8 +450,12 @@
                             "readonlyLabel": "",
                             "size": "",
                             "validator": {
-                                "className": "",
-                                "properties": {}
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "true",
+                                    "message": "",
+                                    "type": ""
+                                }
                             },
                             "value": "",
                             "workflowVariable": ""
@@ -431,8 +475,12 @@
                             "storeNumeric": "",
                             "style": "",
                             "validator": {
-                                "className": "",
-                                "properties": {}
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "true",
+                                    "message": "",
+                                    "type": ""
+                                }
                             },
                             "value": "",
                             "workflowVariable": ""
@@ -452,8 +500,12 @@
                             "storeNumeric": "",
                             "style": "",
                             "validator": {
-                                "className": "",
-                                "properties": {}
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "true",
+                                    "message": "",
+                                    "type": ""
+                                }
                             },
                             "value": "",
                             "workflowVariable": ""
@@ -465,12 +517,12 @@
                             "encryption": "",
                             "id": "field15",
                             "label": "No. of Seats",
-                            "maxlength": "",
+                            "maxlength": "5",
                             "placeholder": "",
                             "readonly": "",
                             "readonlyLabel": "",
                             "size": "",
-                            "storeNumeric": "",
+                            "storeNumeric": "true",
                             "style": "",
                             "validator": {
                                 "className": "org.joget.apps.form.lib.DefaultValidator",
