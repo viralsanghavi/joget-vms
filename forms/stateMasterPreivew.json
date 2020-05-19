@@ -14,7 +14,7 @@
                     "collapsibleLabelExpanded": "Hide Details",
                     "formDefId": "stateMaster",
                     "hideEmpty": "",
-                    "id": "statePreivew",
+                    "id": "stateMasterPreview",
                     "label": "",
                     "noLoad": "",
                     "noframe": "true",
@@ -32,7 +32,7 @@
         }],
         "properties": {
             "comment": "",
-            "id": "stateMasterPreview",
+            "id": "section1",
             "join": "",
             "label": "",
             "loadBinder": {
