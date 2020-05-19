@@ -21,9 +21,11 @@
                         "validator": {
                             "className": "org.joget.apps.form.lib.DefaultValidator",
                             "properties": {
+                                "custom-regex": "^[a-zA-Z ]*$",
+                                "custom-regex-casesensitive": "",
                                 "mandatory": "true",
                                 "message": "",
-                                "type": ""
+                                "type": "custom"
                             }
                         },
                         "value": "",
