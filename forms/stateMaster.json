@@ -53,7 +53,7 @@
                                 "fieldId": "stateCode",
                                 "formDefId": "stateMaster",
                                 "mandatory": "true",
-                                "regex": "^[a-zA-Z]"
+                                "regex": "^[A-Za-z]+$"
                             }
                         },
                         "value": "",
