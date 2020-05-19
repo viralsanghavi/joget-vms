@@ -71,7 +71,7 @@
                         "autoPopulate": "",
                         "id": "field3",
                         "label": "",
-                        "value": "<script>\r\ndocument.getElementById(\"myText\").disabled = true;\r\n<\/script>\r\n"
+                        "value": "<script>\r\ndocument.getElementById(\"stateCode\").disabled = true;\r\n<\/script>\r\n"
                     }
                 }
             ],
