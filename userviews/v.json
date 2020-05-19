@@ -1015,7 +1015,7 @@
             ],
             "properties": {
                 "comment": "",
-                "hide": "",
+                "hide": "yes",
                 "id": "category-A68702E000014547AB68623C045A6B30",
                 "label": "New Category",
                 "permission": {
