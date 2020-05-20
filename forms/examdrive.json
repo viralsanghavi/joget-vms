@@ -204,6 +204,67 @@
                 "className": "org.joget.apps.form.model.Column",
                 "elements": [
                     {
+                        "className": "org.joget.apps.form.lib.DatePicker",
+                        "properties": {
+                            "allowManual": "true",
+                            "currentDateAs": "",
+                            "dataFormat": "yyyy-MM-dd",
+                            "datePickerType": "",
+                            "endDateFieldId": "",
+                            "format": "",
+                            "id": "fromdate",
+                            "label": "From Date",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "startDateFieldId": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": "",
+                            "yearRange": "c-10:c+10"
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.DatePicker",
+                        "properties": {
+                            "allowManual": "true",
+                            "currentDateAs": "",
+                            "dataFormat": "yyyy-MM-dd",
+                            "datePickerType": "",
+                            "endDateFieldId": "",
+                            "format": "",
+                            "id": "todate",
+                            "label": "To Date",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "startDateFieldId": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": "",
+                            "yearRange": "c-10:c+10"
+                        }
+                    }
+                ],
+                "properties": {"width": "100%"}
+            }],
+            "properties": {
+                "id": "section4",
+                "label": "Section"
+            }
+        },
+        {
+            "className": "org.joget.apps.form.model.Section",
+            "elements": [{
+                "className": "org.joget.apps.form.model.Column",
+                "elements": [
+                    {
                         "className": "org.joget.apps.form.lib.Radio",
                         "properties": {
                             "controlField": "",
