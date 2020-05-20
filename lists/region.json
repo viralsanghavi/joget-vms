@@ -32,14 +32,6 @@
             "sortable": "false"
         },
         {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_2",
-            "label": "Region Status",
-            "name": "regionStatus",
-            "sortable": "false"
-        },
-        {
             "action": {
                 "className": "",
                 "properties": {}
@@ -54,9 +46,9 @@
             },
             "headerAlignment": "",
             "hidden": "false",
-            "id": "column_3",
-            "label": "Record",
-            "name": "record",
+            "id": "column_2",
+            "label": "Status",
+            "name": "status",
             "sortable": "false",
             "style": "",
             "width": ""
@@ -85,8 +77,8 @@
         },
         {
             "id": "filter_0",
-            "label": "Region Status",
-            "name": "regionStatus",
+            "label": "status",
+            "name": "status",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
                 "properties": {}
