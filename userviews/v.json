@@ -85,7 +85,7 @@
                     "enableOffline": "",
                     "id": "ACDBEA5AA43743FFB2B162C74B2BAD23",
                     "keyName": "",
-                    "label": "Venue Management",
+                    "label": "CM - Venue Management",
                     "rowCount": "",
                     "selectionType": "multiple",
                     "userviewCacheDuration": "20",
@@ -96,7 +96,7 @@
                 "comment": "",
                 "hide": "",
                 "id": "category-F5F26DA870BD42FCBE7F5D3D61B4197D",
-                "label": "<i class=\"fa fa-tasks\"><\/i>Venue Management",
+                "label": "<i class=\"fa fa-tasks\"><\/i>CM - Venue Management",
                 "permission": {
                     "className": "org.joget.apps.userview.lib.UserPermission",
                     "properties": {
@@ -108,34 +108,57 @@
         },
         {
             "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [{
-                "className": "org.joget.plugin.enterprise.DataListInboxMenu",
-                "properties": {
-                    "appFilter": "all",
-                    "assignment-customFooter": "",
-                    "assignment-customHeader": "",
-                    "cacheAllLinks": "",
-                    "cacheListAction": "",
-                    "customId": "",
-                    "datalistId": "vmsDatalist",
-                    "enableOffline": "",
-                    "id": "16B6444232124A3193B2F32BF285E618",
-                    "keyName": "",
-                    "label": "Venue Management",
-                    "list-customFooter": "",
-                    "list-customHeader": "",
-                    "rowCount": "",
-                    "showDetail": "",
-                    "showPopup": "",
-                    "userviewCacheDuration": "20",
-                    "userviewCacheScope": ""
+            "menus": [
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "buttonPosition": "bottomLeft",
+                        "cacheAllLinks": "",
+                        "cacheListAction": "",
+                        "checkboxPosition": "left",
+                        "customFooter": "",
+                        "customHeader": "",
+                        "customId": "venueManagement",
+                        "datalistId": "vmsDatalist",
+                        "enableOffline": "",
+                        "id": "C60C116BA30B4BF1949AC423300A2558",
+                        "keyName": "",
+                        "label": "RH - Venue Management",
+                        "rowCount": "",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
+                },
+                {
+                    "className": "org.joget.plugin.enterprise.DataListInboxMenu",
+                    "properties": {
+                        "appFilter": "all",
+                        "assignment-customFooter": "",
+                        "assignment-customHeader": "",
+                        "cacheAllLinks": "",
+                        "cacheListAction": "",
+                        "customId": "",
+                        "datalistId": "vmsDatalist",
+                        "enableOffline": "",
+                        "id": "16B6444232124A3193B2F32BF285E618",
+                        "keyName": "",
+                        "label": "Venue Management",
+                        "list-customFooter": "",
+                        "list-customHeader": "",
+                        "rowCount": "",
+                        "showDetail": "",
+                        "showPopup": "",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
                 }
-            }],
+            ],
             "properties": {
                 "comment": "",
                 "hide": "",
                 "id": "category-C4EB13AEE10E46ED94999D517768D77A",
-                "label": "<i class=\"fa fa-tasks\"><\/i>Venue Management",
+                "label": "<i class=\"fa fa-tasks\"><\/i>RH - Venue Management",
                 "permission": {
                     "className": "org.joget.apps.userview.lib.UserPermission",
                     "properties": {
