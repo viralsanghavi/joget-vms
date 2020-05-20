@@ -63,8 +63,8 @@
             "headerAlignment": "",
             "hidden": "false",
             "id": "column_4",
-            "label": "Record",
-            "name": "record",
+            "label": "Status",
+            "name": "status",
             "sortable": "false",
             "style": "",
             "width": ""
@@ -104,6 +104,15 @@
             "id": "filter_0",
             "label": "Region",
             "name": "region",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_4",
+            "label": "status",
+            "name": "status",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
                 "properties": {}
