@@ -39,12 +39,12 @@
                             {
                                 "grouping": "",
                                 "label": "Active",
-                                "value": "active"
+                                "value": "Active"
                             },
                             {
                                 "grouping": "",
                                 "label": "Inactive",
-                                "value": "inactive"
+                                "value": "Inactive"
                             }
                         ],
                         "optionsBinder": {
