@@ -71,9 +71,11 @@
                         "validator": {
                             "className": "org.joget.apps.form.lib.DefaultValidator",
                             "properties": {
+                                "custom-regex": "^[A-Z0-9]\\d{11}$",
+                                "custom-regex-casesensitive": "",
                                 "mandatory": "true",
-                                "message": "",
-                                "type": "alphanumeric"
+                                "message": "11 Digits Compulsory",
+                                "type": "custom"
                             }
                         },
                         "value": "",
