@@ -38,6 +38,187 @@
                         "edit-saveButtonLabel": "",
                         "editFormId": "venueMangement",
                         "enableOffline": "",
+                        "id": "7E074D9DCBC8477B9845CEC46A55B130",
+                        "keyName": "",
+                        "label": "Venue Management",
+                        "list-customFooter": "",
+                        "list-customHeader": "",
+                        "list-deleteButtonLabel": "",
+                        "list-editLinkLabel": "Edit",
+                        "list-editLinkTarget": "",
+                        "list-moreActions": [],
+                        "list-newButtonLabel": "",
+                        "list-newLinkTarget": "",
+                        "list-showDeleteButton": "",
+                        "rowCount": "true",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "",
+                        "userviewCacheScope": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "buttonPosition": "bottomLeft",
+                        "cacheAllLinks": "",
+                        "cacheListAction": "",
+                        "checkboxPosition": "left",
+                        "customFooter": "",
+                        "customHeader": "",
+                        "customId": "",
+                        "datalistId": "venueMangement",
+                        "enableOffline": "",
+                        "id": "CB5F517710DF47D789945FD3ABABB9BA",
+                        "keyName": "",
+                        "label": "List",
+                        "rowCount": "",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
+                }
+            ],
+            "properties": {
+                "comment": "",
+                "hide": "",
+                "id": "category-426FC18A53C844E68AECF92411407867",
+                "label": "<i class=\"fa fa-tasks\"><\/i>Venue Management",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                }
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [
+                {
+                    "className": "org.joget.plugin.enterprise.CrudMenu",
+                    "properties": {
+                        "add-afterSaved": "list",
+                        "add-cancelButtonLabel": "",
+                        "add-customFooter": "",
+                        "add-customHeader": "",
+                        "add-messageShowAfterComplete": "",
+                        "add-saveButtonLabel": "",
+                        "addFormId": "venueMangement",
+                        "buttonPosition": "bottomLeft",
+                        "cacheAllLinks": "",
+                        "cacheListAction": "",
+                        "checkboxPosition": "left",
+                        "customId": "venueMangement_crud",
+                        "datalistId": "list_venueMangement",
+                        "edit-afterSaved": "redirect",
+                        "edit-afterSavedRedirectParamName": "",
+                        "edit-afterSavedRedirectParamvalue": "",
+                        "edit-afterSavedRedirectUrl": "/jw/web/userview/vms/v/_/5145DF9D59D147A5B74E8EA458737535",
+                        "edit-allowRecordTraveling": "",
+                        "edit-backButtonLabel": "",
+                        "edit-customFooter": "",
+                        "edit-customHeader": "",
+                        "edit-firstButtonLabel": "",
+                        "edit-lastButtonLabel": "",
+                        "edit-messageShowAfterComplete": "Preview will be shown after this page !",
+                        "edit-moreActions": [],
+                        "edit-nextButtonLabel": "",
+                        "edit-prevButtonLabel": "",
+                        "edit-readonly": "",
+                        "edit-readonlyLabel": "",
+                        "edit-saveButtonLabel": "",
+                        "editFormId": "venueMangement",
+                        "enableOffline": "",
+                        "id": "6737DE430FAF4BC69A829A7705485D74",
+                        "keyName": "",
+                        "label": "Venue Management",
+                        "list-customFooter": "",
+                        "list-customHeader": "",
+                        "list-deleteButtonLabel": "",
+                        "list-editLinkLabel": "Edit",
+                        "list-editLinkTarget": "",
+                        "list-moreActions": [],
+                        "list-newButtonLabel": "",
+                        "list-newLinkTarget": "",
+                        "list-showDeleteButton": "",
+                        "rowCount": "true",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "",
+                        "userviewCacheScope": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "buttonPosition": "bottomLeft",
+                        "cacheAllLinks": "",
+                        "cacheListAction": "",
+                        "checkboxPosition": "left",
+                        "customFooter": "",
+                        "customHeader": "",
+                        "customId": "",
+                        "datalistId": "venueMangement",
+                        "enableOffline": "",
+                        "id": "ACDBEA5AA43743FFB2B162C74B2BAD23",
+                        "keyName": "",
+                        "label": "List",
+                        "rowCount": "",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
+                }
+            ],
+            "properties": {
+                "comment": "",
+                "hide": "",
+                "id": "category-F5F26DA870BD42FCBE7F5D3D61B4197D",
+                "label": "<i class=\"fa fa-tasks\"><\/i>Venue Management",
+                "permission": {
+                    "className": "org.joget.apps.userview.lib.UserPermission",
+                    "properties": {
+                        "allowedUsernames": "cat",
+                        "orgId": "ORG-001"
+                    }
+                }
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [
+                {
+                    "className": "org.joget.plugin.enterprise.CrudMenu",
+                    "properties": {
+                        "add-afterSaved": "list",
+                        "add-cancelButtonLabel": "",
+                        "add-customFooter": "",
+                        "add-customHeader": "",
+                        "add-messageShowAfterComplete": "",
+                        "add-saveButtonLabel": "",
+                        "addFormId": "venueMangement",
+                        "buttonPosition": "bottomLeft",
+                        "cacheAllLinks": "",
+                        "cacheListAction": "",
+                        "checkboxPosition": "left",
+                        "customId": "venueMangement_crud",
+                        "datalistId": "list_venueMangement",
+                        "edit-afterSaved": "redirect",
+                        "edit-afterSavedRedirectParamName": "",
+                        "edit-afterSavedRedirectParamvalue": "",
+                        "edit-afterSavedRedirectUrl": "/jw/web/userview/vms/v/_/5145DF9D59D147A5B74E8EA458737535",
+                        "edit-allowRecordTraveling": "",
+                        "edit-backButtonLabel": "",
+                        "edit-customFooter": "",
+                        "edit-customHeader": "",
+                        "edit-firstButtonLabel": "",
+                        "edit-lastButtonLabel": "",
+                        "edit-messageShowAfterComplete": "Preview will be shown after this page !",
+                        "edit-moreActions": [],
+                        "edit-nextButtonLabel": "",
+                        "edit-prevButtonLabel": "",
+                        "edit-readonly": "",
+                        "edit-readonlyLabel": "",
+                        "edit-saveButtonLabel": "",
+                        "editFormId": "venueMangement",
+                        "enableOffline": "",
                         "id": "01265E72550A45AAB24A835A642410E7",
                         "keyName": "",
                         "label": "Venue Management",
@@ -84,8 +265,11 @@
                 "id": "category-C4EB13AEE10E46ED94999D517768D77A",
                 "label": "<i class=\"fa fa-tasks\"><\/i>Venue Management",
                 "permission": {
-                    "className": "",
-                    "properties": {}
+                    "className": "org.joget.apps.userview.lib.UserPermission",
+                    "properties": {
+                        "allowedUsernames": "clark",
+                        "orgId": "ORG-001"
+                    }
                 }
             }
         },
