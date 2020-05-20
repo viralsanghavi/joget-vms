@@ -84,8 +84,11 @@
                 "id": "category-426FC18A53C844E68AECF92411407867",
                 "label": "<i class=\"fa fa-tasks\"><\/i>Venue Management",
                 "permission": {
-                    "className": "",
-                    "properties": {}
+                    "className": "org.joget.apps.userview.lib.UserPermission",
+                    "properties": {
+                        "allowedUsernames": "admin",
+                        "orgId": ""
+                    }
                 }
             }
         },
