@@ -38,28 +38,6 @@
             "label": "Region Name",
             "name": "regionName",
             "sortable": "false"
-        },
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_1",
-            "label": "Status",
-            "name": "status",
-            "sortable": "false",
-            "style": "",
-            "width": ""
         }
     ],
     "considerFilterWhenGetTotal": "",
@@ -78,15 +56,6 @@
             "id": "filter_1",
             "label": "State Name",
             "name": "stateName",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
-            }
-        },
-        {
-            "id": "filter_3",
-            "label": "status",
-            "name": "status",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
                 "properties": {}
