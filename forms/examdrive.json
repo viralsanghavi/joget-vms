@@ -500,7 +500,7 @@
                         "options": [
                             {
                                 "format": "",
-                                "formatType": "text",
+                                "formatType": "options",
                                 "label": "City Name",
                                 "value": "cityname",
                                 "width": ""
@@ -537,7 +537,7 @@
                         },
                         "submit-label-normal": "",
                         "submit-label-readonly": "",
-                        "uniqueKey": "",
+                        "uniqueKey": "cityname",
                         "validateMaxRow": "",
                         "validateMinRow": "",
                         "validator": {
