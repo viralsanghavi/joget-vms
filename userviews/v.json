@@ -737,7 +737,7 @@
                     "add-cancelButtonLabel": "",
                     "add-customFooter": "",
                     "add-customHeader": "",
-                    "add-messageShowAfterComplete": "",
+                    "add-messageShowAfterComplete": "Record Added",
                     "add-saveButtonLabel": "",
                     "addFormId": "examdrive",
                     "buttonPosition": "bottomLeft",
