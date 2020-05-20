@@ -69,13 +69,14 @@
                         "storeNumeric": "",
                         "style": "",
                         "validator": {
-                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "className": "org.joget.apps.form.lib.DuplicateValueValidator",
                             "properties": {
-                                "custom-regex": "^[A-Z][A-Z0-9]{11}$",
-                                "custom-regex-casesensitive": "",
+                                "errorDuplicateMsg": "Already registered",
+                                "errorFormatMsg": "",
+                                "fieldId": "ifscCode",
+                                "formDefId": "bank_master",
                                 "mandatory": "true",
-                                "message": "11 Digits Compulsory Upper Case",
-                                "type": "custom"
+                                "regex": "^[A-Z]+$"
                             }
                         },
                         "value": "",
