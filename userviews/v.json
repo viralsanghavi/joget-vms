@@ -832,7 +832,7 @@
         "footerMessage": "Powered by Joget",
         "id": "v",
         "logoutText": "Logout",
-        "name": "VMS",
+        "name": "Venue Management System",
         "welcomeMessage": "#date.EEE, d MMM yyyy#"
     },
     "setting": {"properties": {
