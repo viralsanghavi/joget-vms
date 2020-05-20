@@ -64,6 +64,15 @@
                         "value": "",
                         "workflowVariable": ""
                     }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.CustomHTML",
+                    "properties": {
+                        "autoPopulate": "",
+                        "id": "field3",
+                        "label": "",
+                        "value": "<script>\ndocument.getElementById(\"regionMasterPreview_regionMaster_regionCode\").disabled = true;\n<\/script>"
+                    }
                 }
             ],
             "properties": {"width": "100%"}
