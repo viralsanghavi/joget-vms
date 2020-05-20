@@ -152,60 +152,74 @@
         },
         {
             "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [
-                {
-                    "className": "org.joget.apps.userview.lib.FormMenu",
+            "menus": [{
+                "className": "org.joget.apps.userview.lib.FormMenu",
+                "properties": {
+                    "actionAfterSaved": "",
+                    "actionOnCancel": "",
+                    "cancelButtonLabel": "",
+                    "customFooter": "",
+                    "customHeader": "",
+                    "customId": "",
+                    "enableOffline": "",
+                    "fieldPassover": "",
+                    "fieldPassoverMethod": "append",
+                    "formId": "venueMangement",
+                    "id": "22EB7D23C64847B38D1FE11BC5C4CB7A",
+                    "keyName": "",
+                    "label": "Form",
+                    "loadDataWithKey": "",
+                    "messageShowAfterComplete": "",
+                    "paramName": "",
+                    "readonly": "",
+                    "readonlyLabel": "",
+                    "redirectTargetOnCancel": "top",
+                    "redirectTargetOnComplete": "",
+                    "redirectUrlAfterComplete": "",
+                    "redirectUrlOnCancel": "",
+                    "showInPopupDialog": "",
+                    "submitButtonLabel": "",
+                    "userviewCacheDuration": "20",
+                    "userviewCacheScope": ""
+                }
+            }],
+            "properties": {
+                "comment": "",
+                "hide": "",
+                "id": "category-1D7B614DF7AE426F9A1ABC521EA55E03",
+                "label": "<i class=\"fa fa-tasks\"><\/i>RH - Venue Management",
+                "permission": {
+                    "className": "org.joget.apps.userview.lib.UserPermission",
                     "properties": {
-                        "actionAfterSaved": "",
-                        "actionOnCancel": "",
-                        "cancelButtonLabel": "",
-                        "customFooter": "",
-                        "customHeader": "",
-                        "customId": "",
-                        "enableOffline": "",
-                        "fieldPassover": "",
-                        "fieldPassoverMethod": "append",
-                        "formId": "venueMangement",
-                        "id": "22EB7D23C64847B38D1FE11BC5C4CB7A",
-                        "keyName": "",
-                        "label": "Form",
-                        "loadDataWithKey": "",
-                        "messageShowAfterComplete": "",
-                        "paramName": "",
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "redirectTargetOnCancel": "top",
-                        "redirectTargetOnComplete": "",
-                        "redirectUrlAfterComplete": "",
-                        "redirectUrlOnCancel": "",
-                        "showInPopupDialog": "",
-                        "submitButtonLabel": "",
-                        "userviewCacheDuration": "20",
-                        "userviewCacheScope": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "buttonPosition": "bottomLeft",
-                        "cacheAllLinks": "",
-                        "cacheListAction": "",
-                        "checkboxPosition": "left",
-                        "customFooter": "",
-                        "customHeader": "",
-                        "customId": "venueManagement",
-                        "datalistId": "vmsDatalist",
-                        "enableOffline": "",
-                        "id": "C60C116BA30B4BF1949AC423300A2558",
-                        "keyName": "",
-                        "label": "RH - Venue Management",
-                        "rowCount": "",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "userviewCacheScope": ""
+                        "allowedUsernames": "clark",
+                        "orgId": "ORG-001"
                     }
                 }
-            ],
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
+                "className": "org.joget.apps.userview.lib.DataListMenu",
+                "properties": {
+                    "buttonPosition": "bottomLeft",
+                    "cacheAllLinks": "",
+                    "cacheListAction": "",
+                    "checkboxPosition": "left",
+                    "customFooter": "",
+                    "customHeader": "",
+                    "customId": "venueManagement",
+                    "datalistId": "vmsDatalist",
+                    "enableOffline": "",
+                    "id": "C60C116BA30B4BF1949AC423300A2558",
+                    "keyName": "",
+                    "label": "RH - Venue Management",
+                    "rowCount": "",
+                    "selectionType": "multiple",
+                    "userviewCacheDuration": "20",
+                    "userviewCacheScope": ""
+                }
+            }],
             "properties": {
                 "comment": "",
                 "hide": "",
