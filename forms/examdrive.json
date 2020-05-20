@@ -537,7 +537,7 @@
                         },
                         "submit-label-normal": "",
                         "submit-label-readonly": "",
-                        "uniqueKey": "",
+                        "uniqueKey": "cityname",
                         "validateMaxRow": "",
                         "validateMinRow": "",
                         "validator": {
