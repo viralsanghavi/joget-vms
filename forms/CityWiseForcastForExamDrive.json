@@ -33,11 +33,14 @@
                         "readonlyLabel": "",
                         "size": "",
                         "validator": {
-                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "className": "org.joget.apps.form.lib.DuplicateValueValidator",
                             "properties": {
+                                "errorDuplicateMsg": "Error",
+                                "errorFormatMsg": "",
+                                "fieldId": "cityname",
+                                "formDefId": "CityWiseForcastForExamDrive",
                                 "mandatory": "true",
-                                "message": "",
-                                "type": ""
+                                "regex": ""
                             }
                         },
                         "value": "",
