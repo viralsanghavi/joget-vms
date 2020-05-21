@@ -18,7 +18,7 @@
                     "className": "org.joget.apps.form.lib.SubForm",
                     "properties": {
                         "formDefId": "purchase_order",
-                        "id": "field1",
+                        "id": "purchase_orderPreview",
                         "label": "Preview",
                         "loadBinder": {
                             "className": "org.joget.plugin.enterprise.ParentFormBinder",
