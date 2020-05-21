@@ -811,7 +811,7 @@
                 "className": "org.joget.apps.userview.lib.RunProcess",
                 "properties": {
                     "actionAfterSaved": "",
-                    "customId": "",
+                    "customId": "exam_run",
                     "enableOffline": "",
                     "fieldPassover": "",
                     "fieldPassoverMethod": "append",
@@ -824,7 +824,7 @@
                     "redirectTarget": "",
                     "redirectUrlAfterComplete": "",
                     "runProcessDirectly": "Yes",
-                    "runProcessSubmitLabel": "",
+                    "runProcessSubmitLabel": "Submit",
                     "showInPopupDialog": "",
                     "userviewCacheDuration": "20",
                     "userviewCacheScope": ""
