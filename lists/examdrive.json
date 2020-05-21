@@ -26,17 +26,129 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_2",
-            "label": "Created By",
-            "name": "createdBy",
+            "id": "column_1",
+            "label": "Customer Code",
+            "name": "customercode",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_1",
-            "label": "Customer Code",
-            "name": "customercode",
+            "id": "column_6",
+            "label": "Project Name",
+            "name": "projectname",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_7",
+            "label": "No. of Sessions",
+            "name": "noofsessions",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_3",
+            "label": "Exam Start Time",
+            "name": "examstarttime",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_2",
+            "label": "Exam End Time",
+            "name": "examendtime",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_4",
+            "label": "From Date",
+            "name": "fromdate",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_5",
+            "label": "To Date",
+            "name": "todate",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_13",
+            "label": "cityname",
+            "name": "cityname",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_8",
+            "label": "CCTV / DVR Availability in Test Rooms",
+            "name": "cctvdvr",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_14",
+            "label": "cityname",
+            "name": "cityname",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_15",
+            "label": "region",
+            "name": "region",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_16",
+            "label": "state",
+            "name": "state",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_9",
+            "label": "Air Conditioners in Test Room",
+            "name": "ac",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_10",
+            "label": "Metal Detectors",
+            "name": "metaldetector",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_11",
+            "label": "Manual Frisking",
+            "name": "manualfrisking",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_12",
+            "label": "Jammers",
+            "name": "jammers",
             "sortable": "false"
         }
     ],
@@ -45,16 +157,70 @@
     "disableResponsive": "",
     "filters": [
         {
-            "id": "filter_2",
-            "label": "Created By",
-            "name": "createdBy",
+            "id": "filter_8",
+            "label": "region",
+            "name": "region",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
                 "properties": {}
             }
         },
         {
-            "id": "filter_1",
+            "id": "filter_9",
+            "label": "state",
+            "name": "state",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_7",
+            "label": "cityname",
+            "name": "cityname",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_6",
+            "label": "Exam End Time",
+            "name": "examendtime",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_5",
+            "label": "Exam Start Time",
+            "name": "examstarttime",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_4",
+            "label": "No. of Sessions",
+            "name": "noofsessions",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_3",
+            "label": "Project Name",
+            "name": "projectname",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_2",
             "label": "Customer Code",
             "name": "customercode",
             "type": {
