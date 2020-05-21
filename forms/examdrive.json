@@ -49,7 +49,7 @@
                         "className": "org.joget.apps.form.lib.SelectBox",
                         "properties": {
                             "controlField": "customername",
-                            "id": "customercode",
+                            "id": "custcode",
                             "label": "Customer Code",
                             "multiple": "",
                             "options": [],
