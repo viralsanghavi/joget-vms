@@ -22,7 +22,7 @@
                             "className": "org.joget.apps.form.lib.DefaultValidator",
                             "properties": {
                                 "mandatory": "true",
-                                "message": "",
+                                "message": "Only Numbers allowed!",
                                 "type": "numeric"
                             }
                         },
@@ -47,12 +47,279 @@
                             "className": "org.joget.apps.form.lib.DefaultValidator",
                             "properties": {
                                 "mandatory": "true",
+                                "message": "Only Numbers allowed!",
+                                "type": "numeric"
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "",
+                        "id": "generatorRate",
+                        "label": "Generator Rate",
+                        "maxlength": "2",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "Only Numbers allowed!",
+                                "type": "numeric"
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "",
+                        "id": "printingRate",
+                        "label": "Prinnting Rate",
+                        "maxlength": "2",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "Only Numbers allowed!",
+                                "type": "numeric"
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "",
+                        "id": "cctvRate",
+                        "label": "CCTV Rate",
+                        "maxlength": "2",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
                                 "message": "",
                                 "type": "numeric"
                             }
                         },
                         "value": "",
                         "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "false",
+                        "id": "field5",
+                        "label": "TextField",
+                        "readonly": "False",
+                        "readonlyLabel": "False",
+                        "storeNumeric": "False",
+                        "style": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "false",
+                        "id": "field5",
+                        "label": "TextField",
+                        "readonly": "False",
+                        "readonlyLabel": "False",
+                        "storeNumeric": "False",
+                        "style": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "false",
+                        "id": "field5",
+                        "label": "TextField",
+                        "readonly": "False",
+                        "readonlyLabel": "False",
+                        "storeNumeric": "False",
+                        "style": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "false",
+                        "id": "field5",
+                        "label": "TextField",
+                        "readonly": "False",
+                        "readonlyLabel": "False",
+                        "storeNumeric": "False",
+                        "style": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "false",
+                        "id": "field5",
+                        "label": "TextField",
+                        "readonly": "False",
+                        "readonlyLabel": "False",
+                        "storeNumeric": "False",
+                        "style": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "false",
+                        "id": "field5",
+                        "label": "TextField",
+                        "readonly": "False",
+                        "readonlyLabel": "False",
+                        "storeNumeric": "False",
+                        "style": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "false",
+                        "id": "field5",
+                        "label": "TextField",
+                        "readonly": "False",
+                        "readonlyLabel": "False",
+                        "storeNumeric": "False",
+                        "style": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "false",
+                        "id": "field5",
+                        "label": "TextField",
+                        "readonly": "False",
+                        "readonlyLabel": "False",
+                        "storeNumeric": "False",
+                        "style": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "false",
+                        "id": "field5",
+                        "label": "TextField",
+                        "readonly": "False",
+                        "readonlyLabel": "False",
+                        "storeNumeric": "False",
+                        "style": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "false",
+                        "id": "field5",
+                        "label": "TextField",
+                        "readonly": "False",
+                        "readonlyLabel": "False",
+                        "storeNumeric": "False",
+                        "style": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "false",
+                        "id": "field5",
+                        "label": "TextField",
+                        "readonly": "False",
+                        "readonlyLabel": "False",
+                        "storeNumeric": "False",
+                        "style": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "false",
+                        "id": "field5",
+                        "label": "TextField",
+                        "readonly": "False",
+                        "readonlyLabel": "False",
+                        "storeNumeric": "False",
+                        "style": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "false",
+                        "id": "field5",
+                        "label": "TextField",
+                        "readonly": "False",
+                        "readonlyLabel": "False",
+                        "storeNumeric": "False",
+                        "style": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "false",
+                        "id": "field5",
+                        "label": "TextField",
+                        "readonly": "False",
+                        "readonlyLabel": "False",
+                        "storeNumeric": "False",
+                        "style": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "false",
+                        "id": "field5",
+                        "label": "TextField",
+                        "readonly": "False",
+                        "readonlyLabel": "False",
+                        "storeNumeric": "False",
+                        "style": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "false",
+                        "id": "field5",
+                        "label": "TextField",
+                        "readonly": "False",
+                        "readonlyLabel": "False",
+                        "storeNumeric": "False",
+                        "style": ""
                     }
                 }
             ],
