@@ -9,7 +9,7 @@
                     "className": "org.joget.apps.form.lib.SubForm",
                     "properties": {
                         "formDefId": "purchase_order",
-                        "id": "field1",
+                        "id": "purchase_orderPreviewStatus",
                         "label": "",
                         "loadBinder": {
                             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
