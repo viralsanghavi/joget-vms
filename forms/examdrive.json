@@ -173,62 +173,62 @@
                                 {
                                     "grouping": "",
                                     "label": "8:00 a.m",
-                                    "value": "2"
+                                    "value": "8:00 a.m"
                                 },
                                 {
                                     "grouping": "",
                                     "label": "9:00 a.m",
-                                    "value": "3"
+                                    "value": "9:00 a.m"
                                 },
                                 {
                                     "grouping": "",
                                     "label": "10:00 a.m",
-                                    "value": "4"
+                                    "value": "10:00 a.m"
                                 },
                                 {
                                     "grouping": "",
                                     "label": "11:00 a.m",
-                                    "value": "5"
+                                    "value": "11:00 a.m"
                                 },
                                 {
                                     "grouping": "",
                                     "label": "12:00 p.m",
-                                    "value": "6"
+                                    "value": "12:00 p.m"
                                 },
                                 {
                                     "grouping": "",
                                     "label": "1:00 p.m",
-                                    "value": "7"
+                                    "value": "1:00 p.m"
                                 },
                                 {
                                     "grouping": "",
                                     "label": "2:00 p.m",
-                                    "value": "8"
+                                    "value": "2:00 p.m"
                                 },
                                 {
                                     "grouping": "",
                                     "label": "3:00 p.m",
-                                    "value": "9"
+                                    "value": "3:00 p.m"
                                 },
                                 {
                                     "grouping": "",
                                     "label": "4:00 p.m",
-                                    "value": "10"
+                                    "value": "4:00 p.m"
                                 },
                                 {
                                     "grouping": "",
                                     "label": "5:00 p.m",
-                                    "value": "11"
+                                    "value": "5:00 p.m"
                                 },
                                 {
                                     "grouping": "",
                                     "label": "6:00 p.m",
-                                    "value": "12"
+                                    "value": "6:00 p.m"
                                 },
                                 {
                                     "grouping": "",
                                     "label": "7:00 p.m",
-                                    "value": "13"
+                                    "value": "7:00 p.m"
                                 }
                             ],
                             "optionsBinder": {
@@ -260,11 +260,6 @@
                             "options": [
                                 {
                                     "grouping": "7:00 a.m",
-                                    "label": "7:00 a.m",
-                                    "value": "7:00 a.m"
-                                },
-                                {
-                                    "grouping": "7:00 a.m",
                                     "label": "8:00 a.m",
                                     "value": "8:00 a.m"
                                 },
@@ -279,49 +274,74 @@
                                     "value": "10:00 a.m"
                                 },
                                 {
-                                    "grouping": "1",
+                                    "grouping": "7:00 a.m",
                                     "label": "11:00 a.m",
-                                    "value": "5"
+                                    "value": "11:00 a.m"
                                 },
                                 {
-                                    "grouping": "2",
+                                    "grouping": "7:00 a.m",
                                     "label": "12:00 p.m",
-                                    "value": "6"
+                                    "value": "12:00 p.m"
                                 },
                                 {
-                                    "grouping": "3",
+                                    "grouping": "7:00 a.m",
                                     "label": "1:00 p.m",
-                                    "value": "7"
+                                    "value": "1:00 p.m"
                                 },
                                 {
-                                    "grouping": "4",
+                                    "grouping": "7:00 a.m",
                                     "label": "2:00 p.m",
-                                    "value": "8"
+                                    "value": "2:00 p.m"
                                 },
                                 {
-                                    "grouping": "5",
+                                    "grouping": "8:00 a.m",
                                     "label": "3:00 p.m",
-                                    "value": "9"
+                                    "value": "3:00 p.m"
                                 },
                                 {
-                                    "grouping": "6",
+                                    "grouping": "8:00 a.m",
                                     "label": "4:00 p.m",
-                                    "value": "10"
+                                    "value": "4:00 p.m"
                                 },
                                 {
-                                    "grouping": "9",
+                                    "grouping": "8:00 a.m",
                                     "label": "5:00 p.m",
-                                    "value": "11"
+                                    "value": "5:00 p.m"
                                 },
                                 {
-                                    "grouping": "23",
+                                    "grouping": "8:00 a.m",
                                     "label": "6:00 p.m",
-                                    "value": "12"
+                                    "value": "6:00 p.m"
                                 },
                                 {
-                                    "grouping": "69",
+                                    "grouping": "8:00 a.m",
                                     "label": "7:00 p.m",
-                                    "value": "13"
+                                    "value": "7:00 p.m"
+                                },
+                                {
+                                    "grouping": "9:00 a.m",
+                                    "label": "10:00 a.m",
+                                    "value": "10:00 a.m"
+                                },
+                                {
+                                    "grouping": "9:00 a.m",
+                                    "label": "11:00 a.m",
+                                    "value": "11:00 a.m"
+                                },
+                                {
+                                    "grouping": "9:00 a.m",
+                                    "label": "12:00 p.m",
+                                    "value": "12:00 p.m"
+                                },
+                                {
+                                    "grouping": "9:00 a.m",
+                                    "label": "1:00 p.m",
+                                    "value": "1:00 p.m"
+                                },
+                                {
+                                    "grouping": "9:00 a.m",
+                                    "label": "2:00 p.m",
+                                    "value": "2:00 p.m"
                                 }
                             ],
                             "optionsBinder": {
