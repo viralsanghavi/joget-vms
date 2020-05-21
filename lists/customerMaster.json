@@ -183,9 +183,105 @@
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-134370-fn_customerSpocName",
+            "hidden": "",
+            "id": "filter_7",
+            "label": "Customer SPOC Name",
+            "name": "customerSpocName",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-134370-fn_customerSpocMobile",
+            "hidden": "",
+            "id": "filter_8",
+            "label": "Customer SPOC Mobile No.",
+            "name": "customerSpocMobile",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
+            }
+        },
+        {
+            "id": "filter_9",
+            "label": "Customer SPOC E-Mail ID",
+            "name": "customerSpocEmail",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_10",
+            "label": "Customer SPOC Mobile No.",
+            "name": "customerSpocMobile",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_4",
+            "label": "Customer L2 Name",
+            "name": "customerL2Name",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_11",
+            "label": "Customer L2 Designation",
+            "name": "customerL2Designation",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_12",
+            "label": "Customer L2 E-Mail ID",
+            "name": "customerL2Email",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_13",
+            "label": "Customer L2 Mobile No.",
+            "name": "customerL2Mobile",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
             "id": "filter_1",
             "label": "Exam Type(S)",
             "name": "examType",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_6",
+            "label": "Exam Geography",
+            "name": "examGeography",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_5",
+            "label": "Approximate Volume",
+            "name": "approximateVolume",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
                 "properties": {}
