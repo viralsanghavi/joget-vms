@@ -31,6 +31,17 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>Purchase_Order::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>Purchase_Order</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId>purchase_order</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>Purchase_Order::activity3</string>
                <packageActivityForm>
                   <processDefId>Purchase_Order</processDefId>
