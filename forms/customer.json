@@ -123,7 +123,7 @@
                             "properties": {
                                 "errorDuplicateMsg": "E-mail already exists",
                                 "errorFormatMsg": "Enter Proper E-mail",
-                                "fieldId": "customerL2Email",
+                                "fieldId": "customerSpocEmail",
                                 "formDefId": "customer",
                                 "mandatory": "true",
                                 "regex": "^([a-zA-Z0-9_\\-\\.]+)@([a-zA-Z0-9_\\-\\.]+)\\.([a-zA-Z]{2,5})$"
@@ -229,7 +229,7 @@
                             "properties": {
                                 "errorDuplicateMsg": "E-mail already exists",
                                 "errorFormatMsg": "Enter Proper E-mail ID",
-                                "fieldId": "customerL2Email",
+                                "fieldId": "customerSpocEmail",
                                 "formDefId": "customer",
                                 "mandatory": "true",
                                 "regex": "^([a-zA-Z0-9_\\-\\.]+)@([a-zA-Z0-9_\\-\\.]+)\\.([a-zA-Z]{2,5})$"
