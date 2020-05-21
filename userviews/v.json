@@ -56,11 +56,8 @@
                 "id": "category-149AA00AED2248EE9B2B8A9D7DF010A4",
                 "label": "New Category",
                 "permission": {
-                    "className": "org.joget.apps.userview.lib.UserPermission",
-                    "properties": {
-                        "allowedUsernames": "jack",
-                        "orgId": ""
-                    }
+                    "className": "org.joget.plugin.enterprise.AdminUserviewPermission",
+                    "properties": {}
                 }
             }
         },
