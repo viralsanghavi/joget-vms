@@ -73,8 +73,12 @@
                             "readonlyLabel": "",
                             "size": "",
                             "validator": {
-                                "className": "",
-                                "properties": {}
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "true",
+                                    "message": "",
+                                    "type": ""
+                                }
                             },
                             "value": "",
                             "workflowVariable": ""
@@ -230,8 +234,12 @@
                             "readonlyLabel": "",
                             "size": "",
                             "validator": {
-                                "className": "",
-                                "properties": {}
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "true",
+                                    "message": "",
+                                    "type": ""
+                                }
                             },
                             "value": "",
                             "workflowVariable": ""
@@ -319,10 +327,11 @@
                             "readonlyLabel": "",
                             "size": "",
                             "validator": {
-                                "className": "org.joget.apps.form.lib.BeanShellValidator",
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
                                 "properties": {
-                                    "decoration": "",
-                                    "script": "import java.util.Arrays;\r\nimport org.joget.apps.app.service.AppUtil;\r\nimport org.joget.apps.form.model.Element;\r\nimport org.joget.apps.form.model.Form;\r\nimport org.joget.apps.form.model.FormData;\r\nimport org.joget.apps.form.service.FormUtil;\r\n \r\npublic boolean validate(Element element, FormData formData, String[] values) {\r\n    boolean result = true;\r\n \r\n    //get field 1 value from form data object\r\n    String field1Id = \"examstarttime\";\r\n    Form form = FormUtil.findRootForm(element);\r\n    Element examstarttime = FormUtil.findElement(field1Id, form, formData);\r\n \r\n    if (examstarttime != null) {\r\n        //get value of field 1\r\n        String[] compareValues = FormUtil.getElementPropertyValues(examstarttime, formData);\r\n \r\n        //compare the value of field 2 and field 1 are equals\r\n        if (Arrays.equals(values, compareValues)) {\r\n            String id = FormUtil.getElementParameterName(element);\r\n            formData.addFormError(id, \"End Time should be greater than Start Time\");\r\n            result = false;\r\n        }\r\n    } else {\r\n        //ignore if the field 1 not exist\r\n    }\r\n    for(int i=0 , i <values.length, i++){\r\n    for(int j=i+1, j<compareValues.length, j++)\r\n{\r\n    if(values[i]<compareValues[j])\r\n    {\r\n        system.out.println(\"not valid\");\r\n    }\r\n\r\n}\r\n}\r\n \r\n    return result;\r\n}\r\n \r\n//call validate method with injected variable\r\nreturn validate(element, formData, values);"
+                                    "mandatory": "true",
+                                    "message": "",
+                                    "type": ""
                                 }
                             },
                             "value": "",
@@ -333,8 +342,29 @@
                 "properties": {"width": "100%"}
             }],
             "properties": {
+                "comment": "",
                 "id": "section1",
-                "label": "Section"
+                "join": "",
+                "label": "Section",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permissionReadonly": "",
+                "readonly": "",
+                "readonlyLabel": "",
+                "regex": "",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityControl": "",
+                "visibilityValue": ""
             }
         },
         {
@@ -358,8 +388,12 @@
                             "readonlyLabel": "",
                             "startDateFieldId": "",
                             "validator": {
-                                "className": "",
-                                "properties": {}
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "true",
+                                    "message": "",
+                                    "type": ""
+                                }
                             },
                             "value": "",
                             "workflowVariable": "",
@@ -382,8 +416,12 @@
                             "readonlyLabel": "",
                             "startDateFieldId": "",
                             "validator": {
-                                "className": "",
-                                "properties": {}
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "true",
+                                    "message": "",
+                                    "type": ""
+                                }
                             },
                             "value": "",
                             "workflowVariable": "",
@@ -394,8 +432,29 @@
                 "properties": {"width": "100%"}
             }],
             "properties": {
+                "comment": "",
                 "id": "section4",
-                "label": "Section"
+                "join": "",
+                "label": "Exam Dates",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permissionReadonly": "",
+                "readonly": "",
+                "readonlyLabel": "",
+                "regex": "",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityControl": "",
+                "visibilityValue": ""
             }
         },
         {
@@ -631,7 +690,7 @@
                         "formDefId": "CityWiseForcastForExamDrive",
                         "height": "500",
                         "id": "field14",
-                        "label": "Grid",
+                        "label": "",
                         "loadBinder": {
                             "className": "",
                             "properties": {}
@@ -689,8 +748,29 @@
                 "properties": {"width": "100%"}
             }],
             "properties": {
+                "comment": "",
                 "id": "section4",
-                "label": "Section"
+                "join": "",
+                "label": "City Wise Forecast",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permissionReadonly": "",
+                "readonly": "",
+                "readonlyLabel": "",
+                "regex": "",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityControl": "",
+                "visibilityValue": ""
             }
         }
     ],
