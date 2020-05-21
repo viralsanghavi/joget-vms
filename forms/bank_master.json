@@ -192,7 +192,7 @@
                         "autoPopulate": "",
                         "id": "field7",
                         "label": "",
-                        "value": "<script>]\ndocument.getElementById('ifscCode')['value'].addEventListener(\"change\",myScript)\nfunction myScript(){\n    function myFunction() {\n  var x = document.getElementById('ifscCode');\n  x.value = x.value.toUpperCase();\n}\n}\n<\/script>"
+                        "value": "<script>\ndocument.getElementById('ifscCode')['value'].addEventListener('change',myFunc)\nfunction myFunc(){\nvar x = document.getElementById('ifscCode').value\nx.toUpperCase()\n}\n<\/script>"
                     }
                 }
             ],
