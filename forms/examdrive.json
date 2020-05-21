@@ -63,7 +63,7 @@
                                     "emptyLabel": "",
                                     "extraCondition": "",
                                     "formDefId": "customer",
-                                    "groupingColumn": "customerName",
+                                    "groupingColumn": "customerCode",
                                     "idColumn": "customerCode",
                                     "labelColumn": "customerCode",
                                     "useAjax": "true"
@@ -134,8 +134,20 @@
                                 }
                             ],
                             "optionsBinder": {
-                                "className": "",
-                                "properties": {}
+                                "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                                "properties": {
+                                    "addEmptyOption": "true",
+                                    "autoHandleFiles": "",
+                                    "autoHandleWorkflowVariable": "true",
+                                    "cacheInterval": "",
+                                    "emptyLabel": "",
+                                    "extraCondition": "",
+                                    "formDefId": "examdrive",
+                                    "groupingColumn": "",
+                                    "idColumn": "",
+                                    "labelColumn": "noofsessions",
+                                    "useAjax": ""
+                                }
                             },
                             "readonly": "",
                             "readonlyLabel": "",
