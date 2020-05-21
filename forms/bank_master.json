@@ -185,6 +185,15 @@
                         "value": "",
                         "workflowVariable": ""
                     }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.CustomHTML",
+                    "properties": {
+                        "autoPopulate": "",
+                        "id": "field7",
+                        "label": "",
+                        "value": "document.getElementById('ifscCode').addEventListener('change',myFunc)\nfunction myFunc(){\nvar x = document.getElementById('ifscCode').value\nx.toUpperCase()\n\n}"
+                    }
                 }
             ],
             "properties": {"width": "100%"}
