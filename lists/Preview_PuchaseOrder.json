@@ -147,6 +147,14 @@
             "sortable": "false",
             "style": "",
             "width": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_7",
+            "label": "Type",
+            "name": "Type",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
