@@ -38,10 +38,10 @@
                                 "properties": {
                                     "mandatory": "true",
                                     "message": "",
-                                    "type": "alphabet"
+                                    "type": ""
                                 }
                             },
-                            "value": "EXAM",
+                            "value": "",
                             "workflowVariable": ""
                         }
                     },
