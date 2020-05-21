@@ -114,7 +114,7 @@
             "filterParamName": "d-4171274-fn_status",
             "hidden": "",
             "id": "filter_4",
-            "label": "status",
+            "label": "Status",
             "name": "status",
             "type": {
                 "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
