@@ -41,6 +41,17 @@
                   <disableSaveAsDraft>true</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
+            <entry>
+               <string>process2::activity1</string>
+               <packageActivityForm>
+                  <processDefId>process2</processDefId>
+                  <activityDefId>activity1</activityDefId>
+                  <formId>examdrive_preview</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
          </packageActivityFormMap>
          <packageActivityPluginMap/>
          <packageParticipantMap/>
