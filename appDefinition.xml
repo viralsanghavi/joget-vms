@@ -66,6 +66,8 @@
                <packageActivityForm>
                   <processDefId>Purchase_Order</processDefId>
                   <activityDefId>activity2_1</activityDefId>
+                  <formId>purchase_orderForapprover</formId>
+                  <type>SINGLE</type>
                   <autoContinue>true</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
