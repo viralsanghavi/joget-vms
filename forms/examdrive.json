@@ -207,6 +207,11 @@
                                 },
                                 {
                                     "grouping": "",
+                                    "label": "",
+                                    "value": ""
+                                },
+                                {
+                                    "grouping": "",
                                     "label": "3:00 p.m",
                                     "value": "3:00 p.m"
                                 },
