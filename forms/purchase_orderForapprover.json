@@ -128,6 +128,51 @@
                 "visibilityControl": "",
                 "visibilityValue": ""
             }
+        },
+        {
+            "className": "org.joget.apps.form.model.Section",
+            "elements": [{
+                "className": "org.joget.apps.form.model.Column",
+                "elements": [{
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "controlField": "",
+                        "id": "Type",
+                        "label": "Type",
+                        "multiple": "",
+                        "options": [
+                            {
+                                "grouping": "",
+                                "label": "Convert To Final PO",
+                                "value": "Convert To Final PO"
+                            },
+                            {
+                                "grouping": "",
+                                "label": "Final PO",
+                                "value": "Final PO"
+                            }
+                        ],
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                }],
+                "properties": {"width": "100%"}
+            }],
+            "properties": {
+                "id": "section3",
+                "label": "Section"
+            }
         }
     ],
     "properties": {
