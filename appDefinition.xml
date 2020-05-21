@@ -15,7 +15,7 @@
                   <activityDefId>runProcess</activityDefId>
                   <formId>examdrive</formId>
                   <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
+                  <autoContinue>true</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
@@ -48,8 +48,8 @@
                   <activityDefId>activity1</activityDefId>
                   <formId>examdrive_preview</formId>
                   <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
+                  <autoContinue>true</autoContinue>
+                  <disableSaveAsDraft>true</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
          </packageActivityFormMap>
