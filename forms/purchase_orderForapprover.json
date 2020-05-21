@@ -106,7 +106,7 @@
                             "properties": {}
                         },
                         "value": "",
-                        "workflowVariable": ""
+                        "workflowVariable": "status"
                     }
                 }],
                 "properties": {"width": "100%"}
