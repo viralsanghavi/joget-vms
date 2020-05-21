@@ -3,6 +3,46 @@
         {
             "className": "org.joget.apps.userview.model.UserviewCategory",
             "menus": [{
+                "className": "org.joget.plugin.enterprise.DataListInboxMenu",
+                "properties": {
+                    "appFilter": "process",
+                    "assignment-customFooter": "",
+                    "assignment-customHeader": "",
+                    "cacheAllLinks": "",
+                    "cacheListAction": "",
+                    "customId": "",
+                    "datalistId": "purchase_orderForapprover",
+                    "enableOffline": "",
+                    "id": "32F1FA75E18C480BAB9BDFEB631E71A1",
+                    "keyName": "",
+                    "label": "Purchase Order Approver",
+                    "list-customFooter": "",
+                    "list-customHeader": "",
+                    "processId": "Purchase_Order",
+                    "rowCount": "",
+                    "showDetail": "",
+                    "showPopup": "",
+                    "userviewCacheDuration": "20",
+                    "userviewCacheScope": ""
+                }
+            }],
+            "properties": {
+                "comment": "",
+                "hide": "",
+                "id": "category-2348B88248114A8897FB8B11BD176960",
+                "label": "New Category",
+                "permission": {
+                    "className": "org.joget.apps.userview.lib.UserPermission",
+                    "properties": {
+                        "allowedUsernames": "cat",
+                        "orgId": ""
+                    }
+                }
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
                 "className": "org.joget.plugin.enterprise.CrudMenu",
                 "properties": {
                     "add-afterSaved": "list",
