@@ -800,76 +800,87 @@
             "className": "org.joget.apps.form.model.Section",
             "elements": [{
                 "className": "org.joget.apps.form.model.Column",
-                "elements": [{
-                    "className": "org.joget.plugin.enterprise.FormGrid",
-                    "properties": {
-                        "abortRelatedRunningProcesses": "",
-                        "deleteFiles": "",
-                        "deleteGridData": "",
-                        "deleteMessage": "Delete row?",
-                        "deleteSubformData": "",
-                        "disabledAdd": "",
-                        "disabledDelete": "",
-                        "enableSorting": "",
-                        "errorMessage": "Invalid number of rows",
-                        "formDefId": "CityWiseForcastForExamDrive",
-                        "height": "500",
-                        "id": "field14",
-                        "label": "",
-                        "loadBinder": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "options": [
-                            {
-                                "format": "",
-                                "formatType": "text",
-                                "label": "City Name",
-                                "value": "cityname",
-                                "width": ""
+                "elements": [
+                    {
+                        "className": "org.joget.plugin.enterprise.FormGrid",
+                        "properties": {
+                            "abortRelatedRunningProcesses": "",
+                            "deleteFiles": "",
+                            "deleteGridData": "",
+                            "deleteMessage": "Delete row?",
+                            "deleteSubformData": "",
+                            "disabledAdd": "",
+                            "disabledDelete": "",
+                            "enableSorting": "",
+                            "errorMessage": "Invalid number of rows",
+                            "formDefId": "CityWiseForcastForExamDrive",
+                            "height": "500",
+                            "id": "field14",
+                            "label": "",
+                            "loadBinder": {
+                                "className": "",
+                                "properties": {}
                             },
-                            {
-                                "format": "",
-                                "formatType": "text",
-                                "label": "Region",
-                                "value": "region",
-                                "width": ""
+                            "options": [
+                                {
+                                    "format": "",
+                                    "formatType": "text",
+                                    "label": "City Name",
+                                    "value": "cityname",
+                                    "width": ""
+                                },
+                                {
+                                    "format": "",
+                                    "formatType": "text",
+                                    "label": "Region",
+                                    "value": "region",
+                                    "width": ""
+                                },
+                                {
+                                    "format": "",
+                                    "formatType": "text",
+                                    "label": "State",
+                                    "value": "state",
+                                    "width": ""
+                                },
+                                {
+                                    "format": "",
+                                    "formatType": "text",
+                                    "label": "No of Seats",
+                                    "value": "noofseats",
+                                    "width": ""
+                                }
+                            ],
+                            "pageSize": "20",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "showRowNumber": "",
+                            "storeBinder": {
+                                "className": "",
+                                "properties": {}
                             },
-                            {
-                                "format": "",
-                                "formatType": "text",
-                                "label": "State",
-                                "value": "state",
-                                "width": ""
+                            "submit-label-normal": "",
+                            "submit-label-readonly": "",
+                            "uniqueKey": "cityname",
+                            "validateMaxRow": "",
+                            "validateMinRow": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
                             },
-                            {
-                                "format": "",
-                                "formatType": "text",
-                                "label": "No of Seats",
-                                "value": "noofseats",
-                                "width": ""
-                            }
-                        ],
-                        "pageSize": "20",
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "showRowNumber": "",
-                        "storeBinder": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "submit-label-normal": "",
-                        "submit-label-readonly": "",
-                        "uniqueKey": "cityname",
-                        "validateMaxRow": "",
-                        "validateMinRow": "",
-                        "validator": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "width": "900"
+                            "width": "900"
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CustomHTML",
+                        "properties": {
+                            "autoPopulate": "",
+                            "id": "field15",
+                            "label": "",
+                            "value": "User Cannot Add same cities again.Add one city only once"
+                        }
                     }
-                }],
+                ],
                 "properties": {"width": "100%"}
             }],
             "properties": {
