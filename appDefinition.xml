@@ -32,7 +32,17 @@
             </entry>
          </packageActivityFormMap>
          <packageActivityPluginMap/>
-         <packageParticipantMap/>
+         <packageParticipantMap>
+            <entry>
+               <string>Purchase_Order::participant2_1</string>
+               <packageParticipant>
+                  <processDefId>Purchase_Order</processDefId>
+                  <participantId>participant2_1</participantId>
+                  <type>user</type>
+                  <value>cat</value>
+               </packageParticipant>
+            </entry>
+         </packageParticipantMap>
       </packageDefinition>
    </packageDefinitionList>
    <formDefinitionList/>
