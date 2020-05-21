@@ -17,7 +17,7 @@
                             "optionsBinder": {
                                 "className": "org.joget.apps.form.lib.FormOptionsBinder",
                                 "properties": {
-                                    "addEmptyOption": "true",
+                                    "addEmptyOption": "",
                                     "autoHandleFiles": "",
                                     "autoHandleWorkflowVariable": "true",
                                     "cacheInterval": "",
