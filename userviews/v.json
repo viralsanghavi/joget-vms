@@ -2,29 +2,54 @@
     "categories": [
         {
             "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [{
-                "className": "org.joget.apps.userview.lib.RunProcess",
-                "properties": {
-                    "actionAfterSaved": "",
-                    "customId": "purchase_run",
-                    "enableOffline": "",
-                    "fieldPassover": "",
-                    "fieldPassoverMethod": "append",
-                    "id": "C2475A4E4C0E4E8293AEC1135AADF8C2",
-                    "keyName": "",
-                    "label": "Purchase Order Form",
-                    "messageShowAfterComplete": "Purchase Order has been successfully created.",
-                    "paramName": "",
-                    "processDefId": "process1",
-                    "redirectTarget": "",
-                    "redirectUrlAfterComplete": "purchase_datalist",
-                    "runProcessDirectly": "Yes",
-                    "runProcessSubmitLabel": "Submit",
-                    "showInPopupDialog": "",
-                    "userviewCacheDuration": "20",
-                    "userviewCacheScope": ""
+            "menus": [
+                {
+                    "className": "org.joget.apps.userview.lib.RunProcess",
+                    "properties": {
+                        "actionAfterSaved": "",
+                        "customId": "exam_run",
+                        "enableOffline": "",
+                        "fieldPassover": "",
+                        "fieldPassoverMethod": "append",
+                        "id": "A0641885A83940AFB7A955FD21AD8CF7",
+                        "keyName": "",
+                        "label": "Exam Drive Process",
+                        "messageShowAfterComplete": "",
+                        "paramName": "",
+                        "processDefId": "process2",
+                        "redirectTarget": "",
+                        "redirectUrlAfterComplete": "examdrive_datalist",
+                        "runProcessDirectly": "Yes",
+                        "runProcessSubmitLabel": "Submit",
+                        "showInPopupDialog": "",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.RunProcess",
+                    "properties": {
+                        "actionAfterSaved": "",
+                        "customId": "purchase_run",
+                        "enableOffline": "",
+                        "fieldPassover": "",
+                        "fieldPassoverMethod": "append",
+                        "id": "C2475A4E4C0E4E8293AEC1135AADF8C2",
+                        "keyName": "",
+                        "label": "Purchase Order Form",
+                        "messageShowAfterComplete": "Purchase Order has been successfully created.",
+                        "paramName": "",
+                        "processDefId": "process1",
+                        "redirectTarget": "",
+                        "redirectUrlAfterComplete": "purchase_datalist",
+                        "runProcessDirectly": "Yes",
+                        "runProcessSubmitLabel": "Submit",
+                        "showInPopupDialog": "",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
                 }
-            }],
+            ],
             "properties": {
                 "comment": "",
                 "hide": "yes",
@@ -693,7 +718,7 @@
                     "cacheAllLinks": "",
                     "cacheListAction": "",
                     "checkboxPosition": "left",
-                    "customId": "",
+                    "customId": "examdrive_datalist",
                     "datalistId": "examdrive",
                     "edit-afterSaved": "list",
                     "edit-allowRecordTraveling": "",
@@ -803,36 +828,6 @@
                     "className": "",
                     "properties": {}
                 }
-            }
-        },
-        {
-            "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [{
-                "className": "org.joget.apps.userview.lib.RunProcess",
-                "properties": {
-                    "actionAfterSaved": "",
-                    "customId": "exam_run",
-                    "enableOffline": "",
-                    "fieldPassover": "",
-                    "fieldPassoverMethod": "append",
-                    "id": "A0641885A83940AFB7A955FD21AD8CF7",
-                    "keyName": "",
-                    "label": "Exam Drive Process",
-                    "messageShowAfterComplete": "",
-                    "paramName": "",
-                    "processDefId": "process2",
-                    "redirectTarget": "",
-                    "redirectUrlAfterComplete": "",
-                    "runProcessDirectly": "Yes",
-                    "runProcessSubmitLabel": "Submit",
-                    "showInPopupDialog": "",
-                    "userviewCacheDuration": "20",
-                    "userviewCacheScope": ""
-                }
-            }],
-            "properties": {
-                "id": "category-D31FDA59DF29429D99EDC0EFEDCF6030",
-                "label": "New Category"
             }
         }
     ],
