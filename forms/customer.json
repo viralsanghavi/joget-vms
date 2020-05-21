@@ -150,7 +150,7 @@
                             "className": "org.joget.apps.form.lib.DuplicateValueValidator",
                             "properties": {
                                 "errorDuplicateMsg": "Number already exists",
-                                "errorFormatMsg": "Only Numbers",
+                                "errorFormatMsg": "Starting digit (6-9)!!",
                                 "fieldId": "customerSpocMobile",
                                 "formDefId": "customer",
                                 "mandatory": "true",
@@ -256,7 +256,7 @@
                             "className": "org.joget.apps.form.lib.DuplicateValueValidator",
                             "properties": {
                                 "errorDuplicateMsg": "Mobile Number already exists",
-                                "errorFormatMsg": "Only numbers are allowed",
+                                "errorFormatMsg": "Starting digit (6-9)!!",
                                 "fieldId": "customerL2Mobile",
                                 "formDefId": "customer",
                                 "mandatory": "true",
@@ -362,7 +362,7 @@
                             "className": "org.joget.apps.form.lib.DuplicateValueValidator",
                             "properties": {
                                 "errorDuplicateMsg": "Mobile Number already exists",
-                                "errorFormatMsg": "Only numbers are allowed",
+                                "errorFormatMsg": "Starting digit (6-9)!!",
                                 "fieldId": "customerL3Name",
                                 "formDefId": "customer",
                                 "mandatory": "true",
