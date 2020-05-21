@@ -15,7 +15,7 @@
                   <activityDefId>runProcess</activityDefId>
                   <formId>examdrive</formId>
                   <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
+                  <autoContinue>true</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
