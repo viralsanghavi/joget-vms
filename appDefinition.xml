@@ -46,6 +46,8 @@
                <packageActivityForm>
                   <processDefId>Purchase_Order</processDefId>
                   <activityDefId>activity3</activityDefId>
+                  <formId>purchase_orderFinalPO</formId>
+                  <type>SINGLE</type>
                   <autoContinue>true</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
