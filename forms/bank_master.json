@@ -137,11 +137,11 @@
                         "optionsBinder": {
                             "className": "org.joget.apps.form.lib.FormOptionsBinder",
                             "properties": {
-                                "addEmptyOption": "",
+                                "addEmptyOption": "true",
                                 "autoHandleFiles": "",
                                 "autoHandleWorkflowVariable": "true",
                                 "cacheInterval": "",
-                                "emptyLabel": "",
+                                "emptyLabel": "Select State",
                                 "extraCondition": "",
                                 "formDefId": "pincodeMaster",
                                 "groupingColumn": "city",
