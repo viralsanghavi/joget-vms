@@ -261,7 +261,43 @@
             }
         },
         {
-            "id": "filter_1",
+            "id": "filter_14",
+            "label": "Customer L3/Escalation E-Mail ID",
+            "name": "customerL3Email",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_15",
+            "label": "Customer L3 / Escalation Designation",
+            "name": "customerL3Designation",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_16",
+            "label": "Customer L3/Escalation E-Mail ID",
+            "name": "customerL3Email",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_17",
+            "label": "Customer L3 / Escalation Mobile No.",
+            "name": "customerL3Mobile",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_18",
             "label": "Exam Type(S)",
             "name": "examType",
             "type": {
