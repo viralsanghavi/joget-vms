@@ -482,13 +482,51 @@
                     {
                         "className": "org.joget.apps.form.lib.TextField",
                         "properties": {
-                            "encryption": "false",
-                            "id": "field5",
-                            "label": "TextField",
-                            "readonly": "False",
-                            "readonlyLabel": "False",
-                            "storeNumeric": "False",
-                            "style": ""
+                            "encryption": "",
+                            "id": "nseitPrintingRate",
+                            "label": "Printing Rate",
+                            "maxlength": "2",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "storeNumeric": "",
+                            "style": "",
+                            "validator": {
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "true",
+                                    "message": "",
+                                    "type": "numeric"
+                                }
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.TextField",
+                        "properties": {
+                            "encryption": "",
+                            "id": "nseiCctvRate",
+                            "label": "CCTV Rate",
+                            "maxlength": "2",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "storeNumeric": "",
+                            "style": "",
+                            "validator": {
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "true",
+                                    "message": "",
+                                    "type": "numeric"
+                                }
+                            },
+                            "value": "",
+                            "workflowVariable": ""
                         }
                     }
                 ],
