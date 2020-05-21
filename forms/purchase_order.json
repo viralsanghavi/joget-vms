@@ -820,6 +820,15 @@
                             "value": "Active",
                             "workflowVariable": ""
                         }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.HiddenField",
+                        "properties": {
+                            "id": "Type",
+                            "useDefaultWhenEmpty": "",
+                            "value": "Provisional PO",
+                            "workflowVariable": ""
+                        }
                     }
                 ],
                 "properties": {"width": "100%"}
@@ -848,18 +857,6 @@
                 },
                 "visibilityControl": "",
                 "visibilityValue": ""
-            }
-        },
-        {
-            "className": "org.joget.apps.form.model.Section",
-            "elements": [{
-                "className": "org.joget.apps.form.model.Column",
-                "elements": [],
-                "properties": {"width": "100%"}
-            }],
-            "properties": {
-                "id": "section8",
-                "label": "Section"
             }
         }
     ],
