@@ -168,12 +168,7 @@
                                 {
                                     "grouping": "",
                                     "label": "7:00 a.m",
-                                    "value": "1"
-                                },
-                                {
-                                    "grouping": "",
-                                    "label": "",
-                                    "value": ""
+                                    "value": "7:00 a.m"
                                 },
                                 {
                                     "grouping": "",
@@ -258,30 +253,30 @@
                     {
                         "className": "org.joget.apps.form.lib.SelectBox",
                         "properties": {
-                            "controlField": "",
+                            "controlField": "examstarttime",
                             "id": "examendtime",
                             "label": "Exam End Time",
                             "multiple": "",
                             "options": [
                                 {
-                                    "grouping": "",
+                                    "grouping": "7:00 a.m",
                                     "label": "7:00 a.m",
-                                    "value": "1"
+                                    "value": "7:00 a.m"
                                 },
                                 {
-                                    "grouping": "",
+                                    "grouping": "7:00 a.m",
                                     "label": "8:00 a.m",
-                                    "value": "2"
+                                    "value": "8:00 a.m"
                                 },
                                 {
-                                    "grouping": "",
+                                    "grouping": "7:00 a.m",
                                     "label": "9:00 a.m",
-                                    "value": "3"
+                                    "value": "9:00 a.m"
                                 },
                                 {
-                                    "grouping": "",
+                                    "grouping": "7:00 a.m",
                                     "label": "10:00 a.m",
-                                    "value": "4"
+                                    "value": "10:00 a.m"
                                 },
                                 {
                                     "grouping": "",
