@@ -49,7 +49,7 @@
                   <formId>purchase_orderFinalPO</formId>
                   <type>SINGLE</type>
                   <autoContinue>true</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
+                  <disableSaveAsDraft>true</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
