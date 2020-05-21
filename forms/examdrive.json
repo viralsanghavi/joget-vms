@@ -56,14 +56,14 @@
                             "optionsBinder": {
                                 "className": "org.joget.apps.form.lib.FormOptionsBinder",
                                 "properties": {
-                                    "addEmptyOption": "",
+                                    "addEmptyOption": "true",
                                     "autoHandleFiles": "",
                                     "autoHandleWorkflowVariable": "true",
                                     "cacheInterval": "",
                                     "emptyLabel": "",
                                     "extraCondition": "",
                                     "formDefId": "customer",
-                                    "groupingColumn": "customerCode",
+                                    "groupingColumn": "customerName",
                                     "idColumn": "customerCode",
                                     "labelColumn": "customerCode",
                                     "useAjax": "true"
