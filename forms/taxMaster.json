@@ -36,7 +36,7 @@
                         "encryption": "",
                         "id": "manPowerRate",
                         "label": "Man Power Rate",
-                        "maxlength": "",
+                        "maxlength": "2",
                         "placeholder": "",
                         "readonly": "",
                         "readonlyLabel": "",
@@ -51,7 +51,7 @@
                                 "type": "numeric"
                             }
                         },
-                        "value": "2",
+                        "value": "",
                         "workflowVariable": ""
                     }
                 }
