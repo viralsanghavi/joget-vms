@@ -90,7 +90,11 @@
                         "id": "city",
                         "label": "City",
                         "multiple": "",
-                        "options": [],
+                        "options": [{
+                            "grouping": "",
+                            "label": "Select a city",
+                            "value": "Select A city"
+                        }],
                         "optionsBinder": {
                             "className": "org.joget.apps.form.lib.FormOptionsBinder",
                             "properties": {
