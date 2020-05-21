@@ -167,6 +167,11 @@
                             "options": [
                                 {
                                     "grouping": "",
+                                    "label": "",
+                                    "value": ""
+                                },
+                                {
+                                    "grouping": "",
                                     "label": "7:00 a.m",
                                     "value": "7:00 a.m"
                                 },
@@ -192,23 +197,18 @@
                                 },
                                 {
                                     "grouping": "",
-                                    "label": "12:00 p.m",
-                                    "value": "12:00 p.m"
-                                },
-                                {
-                                    "grouping": "",
                                     "label": "1:00 p.m",
                                     "value": "1:00 p.m"
                                 },
                                 {
                                     "grouping": "",
-                                    "label": "2:00 p.m",
-                                    "value": "2:00 p.m"
+                                    "label": "12:00 p.m",
+                                    "value": "12:00 p.m"
                                 },
                                 {
                                     "grouping": "",
-                                    "label": "",
-                                    "value": ""
+                                    "label": "2:00 p.m",
+                                    "value": "2:00 p.m"
                                 },
                                 {
                                     "grouping": "",
@@ -263,6 +263,11 @@
                             "label": "Exam End Time",
                             "multiple": "",
                             "options": [
+                                {
+                                    "grouping": "",
+                                    "label": "",
+                                    "value": ""
+                                },
                                 {
                                     "grouping": "7:00 a.m",
                                     "label": "8:00 a.m",
