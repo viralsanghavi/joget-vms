@@ -30,42 +30,6 @@
                     }
                 },
                 {
-                    "className": "org.joget.apps.form.lib.Radio",
-                    "properties": {
-                        "controlField": "",
-                        "id": "status",
-                        "label": "Status",
-                        "options": [
-                            {
-                                "grouping": "",
-                                "label": "Active",
-                                "value": "Active"
-                            },
-                            {
-                                "grouping": "",
-                                "label": "Inactive",
-                                "value": "Inactive"
-                            }
-                        ],
-                        "optionsBinder": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "validator": {
-                            "className": "org.joget.apps.form.lib.DefaultValidator",
-                            "properties": {
-                                "mandatory": "true",
-                                "message": "",
-                                "type": ""
-                            }
-                        },
-                        "value": "",
-                        "workflowVariable": ""
-                    }
-                },
-                {
                     "className": "org.joget.apps.form.lib.CustomHTML",
                     "properties": {
                         "autoPopulate": "",
