@@ -804,6 +804,36 @@
                     "properties": {}
                 }
             }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
+                "className": "org.joget.apps.userview.lib.RunProcess",
+                "properties": {
+                    "actionAfterSaved": "",
+                    "customId": "",
+                    "enableOffline": "",
+                    "fieldPassover": "",
+                    "fieldPassoverMethod": "append",
+                    "id": "A0641885A83940AFB7A955FD21AD8CF7",
+                    "keyName": "",
+                    "label": "Exam Drive Process",
+                    "messageShowAfterComplete": "",
+                    "paramName": "",
+                    "processDefId": "process2",
+                    "redirectTarget": "",
+                    "redirectUrlAfterComplete": "",
+                    "runProcessDirectly": "Yes",
+                    "runProcessSubmitLabel": "",
+                    "showInPopupDialog": "",
+                    "userviewCacheDuration": "20",
+                    "userviewCacheScope": ""
+                }
+            }],
+            "properties": {
+                "id": "category-D31FDA59DF29429D99EDC0EFEDCF6030",
+                "label": "New Category"
+            }
         }
     ],
     "className": "org.joget.apps.userview.model.Userview",
