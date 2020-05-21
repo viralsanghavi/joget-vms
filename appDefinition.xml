@@ -13,7 +13,7 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>runProcess</activityDefId>
-                  <formId>examdrive</formId>
+                  <formId>purchase_order</formId>
                   <type>SINGLE</type>
                   <autoContinue>true</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
