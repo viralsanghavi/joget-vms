@@ -20,6 +20,15 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>Purchase_Order::activity2</string>
+               <packageActivityForm>
+                  <processDefId>Purchase_Order</processDefId>
+                  <activityDefId>activity2</activityDefId>
+                  <autoContinue>true</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>process2::activity1</string>
                <packageActivityForm>
                   <processDefId>process2</processDefId>
