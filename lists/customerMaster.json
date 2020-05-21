@@ -34,6 +34,102 @@
         {
             "filterable": true,
             "hidden": "false",
+            "id": "column_2",
+            "label": "Customer SPOC Name",
+            "name": "customerSpocName",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_5",
+            "label": "Customer SPOC Designation",
+            "name": "customerSpocDesignation",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_6",
+            "label": "Customer SPOC E-Mail ID",
+            "name": "customerSpocEmail",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_7",
+            "label": "Customer SPOC Mobile No.",
+            "name": "customerSpocMobile",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_8",
+            "label": "Customer L2 Name",
+            "name": "customerL2Name",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_9",
+            "label": "Customer L2 Designation",
+            "name": "customerL2Designation",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_10",
+            "label": "Customer L2 E-Mail ID",
+            "name": "customerL2Email",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_11",
+            "label": "Customer L2 Mobile No.",
+            "name": "customerL2Mobile",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_12",
+            "label": "Customer L3 / Escalation Name",
+            "name": "customerL3Name",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_13",
+            "label": "Customer L3 / Escalation Designation",
+            "name": "customerL3Designation",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_15",
+            "label": "Customer L3 / Escalation Mobile No.",
+            "name": "customerL3Mobile",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_14",
+            "label": "Customer L3/Escalation E-Mail ID",
+            "name": "customerL3Email",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
             "id": "column_3",
             "label": "Exam Type(S)",
             "name": "examType",
