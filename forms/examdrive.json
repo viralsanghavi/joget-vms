@@ -49,7 +49,7 @@
                         "className": "org.joget.apps.form.lib.SelectBox",
                         "properties": {
                             "controlField": "customername",
-                            "id": "custcode",
+                            "id": "customercode",
                             "label": "Customer Code",
                             "multiple": "",
                             "options": [],
@@ -134,20 +134,8 @@
                                 }
                             ],
                             "optionsBinder": {
-                                "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                                "properties": {
-                                    "addEmptyOption": "true",
-                                    "autoHandleFiles": "",
-                                    "autoHandleWorkflowVariable": "true",
-                                    "cacheInterval": "",
-                                    "emptyLabel": "",
-                                    "extraCondition": "",
-                                    "formDefId": "examdrive",
-                                    "groupingColumn": "",
-                                    "idColumn": "",
-                                    "labelColumn": "noofsessions",
-                                    "useAjax": ""
-                                }
+                                "className": "",
+                                "properties": {}
                             },
                             "readonly": "",
                             "readonlyLabel": "",
