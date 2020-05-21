@@ -24,7 +24,7 @@
                <packageActivityForm>
                   <processDefId>Purchase_Order</processDefId>
                   <activityDefId>activity2</activityDefId>
-                  <formId>purchase_order</formId>
+                  <formId>Preview_PuchaseOrder</formId>
                   <type>SINGLE</type>
                   <autoContinue>true</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
