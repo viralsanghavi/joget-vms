@@ -37,7 +37,7 @@
                   <activityDefId>runProcess</activityDefId>
                   <formId>purchase_order</formId>
                   <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
+                  <autoContinue>true</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
