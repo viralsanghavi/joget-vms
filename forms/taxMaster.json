@@ -133,37 +133,76 @@
                 {
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
-                        "encryption": "false",
-                        "id": "field5",
-                        "label": "TextField",
-                        "readonly": "False",
-                        "readonlyLabel": "False",
-                        "storeNumeric": "False",
-                        "style": ""
+                        "encryption": "",
+                        "id": "otherRate",
+                        "label": "Other Rate",
+                        "maxlength": "2",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "Only Numbers allowed!",
+                                "type": "numeric"
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
                     }
                 },
                 {
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
-                        "encryption": "false",
-                        "id": "field5",
-                        "label": "TextField",
-                        "readonly": "False",
-                        "readonlyLabel": "False",
-                        "storeNumeric": "False",
-                        "style": ""
+                        "encryption": "",
+                        "id": "infraHsnSacCode",
+                        "label": "Infra HSN / SAC Code",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "Invalid",
+                                "type": "alphanumeric"
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
                     }
                 },
                 {
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
-                        "encryption": "false",
-                        "id": "field5",
-                        "label": "TextField",
-                        "readonly": "False",
-                        "readonlyLabel": "False",
-                        "storeNumeric": "False",
-                        "style": ""
+                        "encryption": "",
+                        "id": "manpowerHsnSacCode",
+                        "label": "Manpower HSN / SAC Code",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "Invalid",
+                                "type": "alphanumeric"
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
                     }
                 },
                 {
