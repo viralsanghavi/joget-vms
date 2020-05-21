@@ -1,146 +1,11 @@
 {
     "actions": [],
     "binder": {
-        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
-        "properties": {
-            "customSelectionValue": "",
-            "extraCondition": "",
-            "filters": [],
-            "formDefId": "Preview_PuchaseOrder",
-            "functionColumns": [],
-            "groupBy": "",
-            "joins": []
-        }
+        "className": "",
+        "name": "",
+        "properties": {}
     },
-    "buttonPosition": "bottomLeft",
-    "checkboxPosition": "left",
-    "columns": [
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "org.joget.plugin.enterprise.OptionsValueFormatter",
-                "properties": {
-                    "options": [],
-                    "optionsBinder": {
-                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                        "properties": {
-                            "addEmptyOption": "",
-                            "autoHandleFiles": "",
-                            "autoHandleWorkflowVariable": "true",
-                            "cacheInterval": "",
-                            "emptyLabel": "",
-                            "extraCondition": "",
-                            "formDefId": "venueMangement",
-                            "groupingColumn": "",
-                            "idColumn": "",
-                            "labelColumn": "organisationName",
-                            "useAjax": ""
-                        }
-                    }
-                }
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_0",
-            "label": "Venue",
-            "name": "purchase_Venue",
-            "sortable": "false",
-            "style": "",
-            "width": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_1",
-            "label": "Offer No",
-            "name": "purchase_offerNo",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_2",
-            "label": "Internet Connection (MBPS)",
-            "name": "purchase_internet",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_3",
-            "label": "Exam Dates",
-            "name": "purchase_examDate",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_4",
-            "label": "Authorized Signatory Selection",
-            "name": "purchase_authorizedSignatory",
-            "sortable": "false"
-        },
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_5",
-            "label": "PO Template",
-            "name": "purchase_poSubjectTemplate",
-            "sortable": "false",
-            "style": "",
-            "width": ""
-        },
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_6",
-            "label": "Status",
-            "name": "Status",
-            "sortable": "false",
-            "style": "",
-            "width": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_7",
-            "label": "Type",
-            "name": "Type",
-            "sortable": "false"
-        }
-    ],
-    "considerFilterWhenGetTotal": "",
+    "columns": [],
     "description": "",
     "filters": [],
     "id": "purchase_orderForapprover",
@@ -148,8 +13,5 @@
     "order": "",
     "orderBy": "",
     "pageSize": "0",
-    "pageSizeSelectorOptions": "10,20,30,40,50,100",
-    "rowActions": [],
-    "showPageSizeSelector": "true",
-    "useSession": "false"
+    "rowActions": []
 }
