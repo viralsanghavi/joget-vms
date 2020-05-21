@@ -76,7 +76,7 @@
                                 "fieldId": "ifscCode",
                                 "formDefId": "bank_master",
                                 "mandatory": "true",
-                                "regex": "^[A-Z]{4}0[A-Z0-9]{6}$"
+                                "regex": "^[A-Za-z]{4}0[A-Za-z0-9]{6}$"
                             }
                         },
                         "value": "",
