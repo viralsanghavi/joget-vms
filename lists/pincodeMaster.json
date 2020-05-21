@@ -46,28 +46,6 @@
             "label": "Region",
             "name": "region",
             "sortable": "false"
-        },
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_4",
-            "label": "Status",
-            "name": "status",
-            "sortable": "false",
-            "style": "",
-            "width": ""
         }
     ],
     "considerFilterWhenGetTotal": "",
@@ -107,39 +85,6 @@
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
                 "properties": {}
-            }
-        },
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-4171274-fn_status",
-            "hidden": "",
-            "id": "filter_4",
-            "label": "Status",
-            "name": "status",
-            "type": {
-                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
-                "properties": {
-                    "controlField": "",
-                    "defaultValue": "",
-                    "multiple": "",
-                    "options": [
-                        {
-                            "grouping": "",
-                            "label": "Active",
-                            "value": "Active"
-                        },
-                        {
-                            "grouping": "",
-                            "label": "Inactive",
-                            "value": "Inactive"
-                        }
-                    ],
-                    "optionsBinder": {
-                        "className": "",
-                        "properties": {}
-                    },
-                    "size": ""
-                }
             }
         }
     ],
