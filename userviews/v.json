@@ -874,7 +874,7 @@
                         "label": "Purchase Order Form",
                         "messageShowAfterComplete": "Purchase Order has been successfully created.",
                         "paramName": "",
-                        "processDefId": "process1",
+                        "processDefId": "Purchase_Order",
                         "redirectTarget": "",
                         "redirectUrlAfterComplete": "purchase_datalist",
                         "runProcessDirectly": "Yes",
