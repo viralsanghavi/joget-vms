@@ -208,49 +208,97 @@
                 {
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
-                        "encryption": "false",
-                        "id": "field5",
-                        "label": "TextField",
-                        "readonly": "False",
-                        "readonlyLabel": "False",
-                        "storeNumeric": "False",
-                        "style": ""
+                        "encryption": "",
+                        "id": "generatorHsnSacCode",
+                        "label": "Generator HSN/SAC Code",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
                     }
                 },
                 {
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
-                        "encryption": "false",
-                        "id": "field5",
-                        "label": "TextField",
-                        "readonly": "False",
-                        "readonlyLabel": "False",
-                        "storeNumeric": "False",
-                        "style": ""
+                        "encryption": "",
+                        "id": "printingHsnSacCode",
+                        "label": "Printing HSN/SAC Code",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "",
+                                "type": "alphanumeric"
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
                     }
                 },
                 {
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
-                        "encryption": "false",
-                        "id": "field5",
-                        "label": "TextField",
-                        "readonly": "False",
-                        "readonlyLabel": "False",
-                        "storeNumeric": "False",
-                        "style": ""
+                        "encryption": "",
+                        "id": "cctvHsnSacCode",
+                        "label": "CCTV HSN SAC Code",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "",
+                                "type": "alphanumeric"
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
                     }
                 },
                 {
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
-                        "encryption": "false",
-                        "id": "field5",
-                        "label": "TextField",
-                        "readonly": "False",
-                        "readonlyLabel": "False",
-                        "storeNumeric": "False",
-                        "style": ""
+                        "encryption": "",
+                        "id": "otherHsnSacCode",
+                        "label": "Other HSN/SAC Code",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "Invalid",
+                                "type": "alphanumeric"
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
                     }
                 },
                 {
