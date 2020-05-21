@@ -19,11 +19,14 @@
                         "storeNumeric": "",
                         "style": "",
                         "validator": {
-                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "className": "org.joget.apps.form.lib.DuplicateValueValidator",
                             "properties": {
+                                "errorDuplicateMsg": "Pincode already exists",
+                                "errorFormatMsg": "6 digits compulsory!!",
+                                "fieldId": "pincode",
+                                "formDefId": "pincodeMaster",
                                 "mandatory": "true",
-                                "message": "Only Number",
-                                "type": "numeric"
+                                "regex": "^[0-9]{6}$"
                             }
                         },
                         "value": "",
