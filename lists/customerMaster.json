@@ -138,6 +138,22 @@
         {
             "filterable": true,
             "hidden": "false",
+            "id": "column_17",
+            "label": "Exam Geography",
+            "name": "examGeography",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_18",
+            "label": "Approximate Volume",
+            "name": "approximateVolume",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
             "id": "column_4",
             "label": "Job Type",
             "name": "jobType",
