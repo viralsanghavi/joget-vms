@@ -93,12 +93,36 @@
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-149363-fn_status",
+            "hidden": "",
             "id": "filter_3",
-            "label": "status",
+            "label": "Status",
             "name": "status",
             "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [
+                        {
+                            "grouping": "",
+                            "label": "Active",
+                            "value": "Active"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "Inactive",
+                            "value": "Inactive"
+                        }
+                    ],
+                    "optionsBinder": {
+                        "className": "",
+                        "properties": {}
+                    },
+                    "size": ""
+                }
             }
         }
     ],
