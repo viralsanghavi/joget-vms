@@ -183,6 +183,15 @@
             }
         },
         {
+            "id": "filter_13",
+            "label": "City_Forecast",
+            "name": "City_Forecast",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
             "id": "filter_1",
             "label": "To Date",
             "name": "todate",
