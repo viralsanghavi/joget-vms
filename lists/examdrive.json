@@ -23,7 +23,7 @@
             "customSelectionValue": "",
             "extraCondition": "",
             "filters": [],
-            "formDefId": "CityWiseForcastForExamDrive",
+            "formDefId": "examdrive",
             "functionColumns": [],
             "groupBy": "",
             "joins": []
@@ -35,7 +35,7 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_0",
+            "id": "column_3",
             "label": "Customer Name",
             "name": "customername",
             "sortable": "false"
@@ -43,7 +43,7 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_1",
+            "id": "column_4",
             "label": "Customer Code",
             "name": "customercode",
             "sortable": "false"
@@ -51,7 +51,7 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_2",
+            "id": "column_5",
             "label": "Project Name",
             "name": "projectname",
             "sortable": "false"
@@ -59,7 +59,7 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_5",
+            "id": "column_6",
             "label": "No. of Sessions",
             "name": "noofsessions",
             "sortable": "false"
@@ -67,7 +67,7 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_3",
+            "id": "column_7",
             "label": "Exam Start Time",
             "name": "examstarttime",
             "sortable": "false"
@@ -75,7 +75,7 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_4",
+            "id": "column_8",
             "label": "Exam End Time",
             "name": "examendtime",
             "sortable": "false"
@@ -83,7 +83,7 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_9",
+            "id": "column_0",
             "label": "From Date",
             "name": "fromdate",
             "sortable": "false"
@@ -91,7 +91,7 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_8",
+            "id": "column_1",
             "label": "To Date",
             "name": "todate",
             "sortable": "false"
@@ -99,7 +99,7 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_6",
+            "id": "column_9",
             "label": "CCTV / DVR Availability in Test Rooms",
             "name": "cctvdvr",
             "sortable": "false"
@@ -107,7 +107,7 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_7",
+            "id": "column_10",
             "label": "Air Conditioners in Test Room",
             "name": "ac",
             "sortable": "false"
@@ -115,7 +115,7 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_10",
+            "id": "column_2",
             "label": "Metal Detectors",
             "name": "metaldetector",
             "sortable": "false"
@@ -142,476 +142,120 @@
     "disableResponsive": "",
     "filters": [
         {
-            "datalist_type": "filter",
-            "filterParamName": "d-3629385-fn_fromdate",
-            "hidden": "",
-            "id": "filter_9",
+            "id": "filter_0",
             "label": "From Date",
             "name": "fromdate",
             "type": {
-                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
-                "properties": {
-                    "controlField": "",
-                    "defaultValue": "",
-                    "multiple": "",
-                    "options": [],
-                    "optionsBinder": {
-                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                        "properties": {
-                            "addEmptyOption": "",
-                            "autoHandleFiles": "",
-                            "autoHandleWorkflowVariable": "true",
-                            "cacheInterval": "",
-                            "emptyLabel": "",
-                            "extraCondition": "",
-                            "formDefId": "examdrive",
-                            "groupingColumn": "",
-                            "idColumn": "fromdate",
-                            "labelColumn": "fromdate",
-                            "useAjax": "true"
-                        }
-                    },
-                    "size": ""
-                }
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
             }
         },
         {
-            "datalist_type": "filter",
-            "filterParamName": "d-3629385-fn_todate",
-            "hidden": "",
-            "id": "filter_8",
+            "id": "filter_1",
             "label": "To Date",
             "name": "todate",
             "type": {
-                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
-                "properties": {
-                    "controlField": "",
-                    "defaultValue": "",
-                    "multiple": "",
-                    "options": [],
-                    "optionsBinder": {
-                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                        "properties": {
-                            "addEmptyOption": "",
-                            "autoHandleFiles": "",
-                            "autoHandleWorkflowVariable": "true",
-                            "cacheInterval": "",
-                            "emptyLabel": "",
-                            "extraCondition": "",
-                            "formDefId": "examdrive",
-                            "groupingColumn": "",
-                            "idColumn": "todate",
-                            "labelColumn": "todate",
-                            "useAjax": "true"
-                        }
-                    },
-                    "size": ""
-                }
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
             }
         },
         {
-            "datalist_type": "filter",
-            "filterParamName": "d-3629385-fn_metaldetector",
-            "hidden": "",
-            "id": "filter_10",
+            "id": "filter_2",
             "label": "Metal Detectors",
             "name": "metaldetector",
             "type": {
-                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
-                "properties": {
-                    "controlField": "",
-                    "defaultValue": "",
-                    "multiple": "",
-                    "options": [
-                        {
-                            "grouping": "",
-                            "label": "Yes",
-                            "value": "Yes"
-                        },
-                        {
-                            "grouping": "",
-                            "label": "No",
-                            "value": "No"
-                        }
-                    ],
-                    "optionsBinder": {
-                        "className": "",
-                        "properties": {}
-                    },
-                    "size": ""
-                }
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
             }
         },
         {
-            "datalist_type": "filter",
-            "filterParamName": "d-3629385-fn_manualfrisking",
-            "hidden": "",
-            "id": "filter_11",
+            "id": "filter_3",
             "label": "Manual Frisking",
             "name": "manualfrisking",
             "type": {
-                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
-                "properties": {
-                    "controlField": "",
-                    "defaultValue": "",
-                    "multiple": "",
-                    "options": [
-                        {
-                            "grouping": "",
-                            "label": "Yes",
-                            "value": "Yes"
-                        },
-                        {
-                            "grouping": "",
-                            "label": "No",
-                            "value": "No"
-                        }
-                    ],
-                    "optionsBinder": {
-                        "className": "",
-                        "properties": {}
-                    },
-                    "size": ""
-                }
-            }
-        },
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-3629385-fn_jammers",
-            "hidden": "",
-            "id": "filter_12",
-            "label": "Jammers",
-            "name": "jammers",
-            "type": {
-                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
-                "properties": {
-                    "controlField": "",
-                    "defaultValue": "",
-                    "multiple": "",
-                    "options": [
-                        {
-                            "grouping": "",
-                            "label": "Yes",
-                            "value": "Yes"
-                        },
-                        {
-                            "grouping": "",
-                            "label": "No",
-                            "value": "No"
-                        }
-                    ],
-                    "optionsBinder": {
-                        "className": "",
-                        "properties": {}
-                    },
-                    "size": ""
-                }
-            }
-        },
-        {
-            "id": "filter_13",
-            "label": "cityname",
-            "name": "cityname",
-            "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
                 "properties": {}
             }
         },
         {
-            "id": "filter_14",
-            "label": "region",
-            "name": "region",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
-            }
-        },
-        {
-            "id": "filter_15",
-            "label": "state",
-            "name": "state",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
-            }
-        },
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-3629385-fn_ac",
-            "hidden": "",
-            "id": "filter_7",
+            "id": "filter_5",
             "label": "Air Conditioners in Test Room",
             "name": "ac",
             "type": {
-                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
-                "properties": {
-                    "controlField": "",
-                    "defaultValue": "",
-                    "multiple": "",
-                    "options": [
-                        {
-                            "grouping": "",
-                            "label": "Yes",
-                            "value": "Yes"
-                        },
-                        {
-                            "grouping": "",
-                            "label": "No",
-                            "value": "No"
-                        }
-                    ],
-                    "optionsBinder": {
-                        "className": "",
-                        "properties": {}
-                    },
-                    "size": ""
-                }
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
             }
         },
         {
-            "id": "filter_16",
-            "label": "noofseats",
-            "name": "noofseats",
+            "id": "filter_4",
+            "label": "Jammers",
+            "name": "jammers",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
                 "properties": {}
             }
         },
         {
-            "datalist_type": "filter",
-            "filterParamName": "d-3629385-fn_examendtime",
-            "hidden": "",
-            "id": "filter_5",
-            "label": "Exam End Time",
-            "name": "examendtime",
-            "type": {
-                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
-                "properties": {
-                    "controlField": "",
-                    "defaultValue": "",
-                    "multiple": "",
-                    "options": [],
-                    "optionsBinder": {
-                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                        "properties": {
-                            "addEmptyOption": "",
-                            "autoHandleFiles": "",
-                            "autoHandleWorkflowVariable": "true",
-                            "cacheInterval": "",
-                            "emptyLabel": "",
-                            "extraCondition": "",
-                            "formDefId": "examdrive",
-                            "groupingColumn": "",
-                            "idColumn": "examendtime",
-                            "labelColumn": "examendtime",
-                            "useAjax": "true"
-                        }
-                    },
-                    "size": ""
-                }
-            }
-        },
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-3629385-fn_cctvdvr",
-            "hidden": "",
-            "id": "filter_6",
-            "label": "CCTV / DVR Availability in Test Rooms",
-            "name": "cctvdvr",
-            "type": {
-                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
-                "properties": {
-                    "controlField": "",
-                    "defaultValue": "",
-                    "multiple": "",
-                    "options": [
-                        {
-                            "grouping": "",
-                            "label": "Yes",
-                            "value": "Yes"
-                        },
-                        {
-                            "grouping": "",
-                            "label": "No",
-                            "value": "No"
-                        }
-                    ],
-                    "optionsBinder": {
-                        "className": "",
-                        "properties": {}
-                    },
-                    "size": ""
-                }
-            }
-        },
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-3629385-fn_examstarttime",
-            "hidden": "",
-            "id": "filter_4",
+            "id": "filter_7",
             "label": "Exam Start Time",
             "name": "examstarttime",
             "type": {
-                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
-                "properties": {
-                    "controlField": "",
-                    "defaultValue": "",
-                    "multiple": "",
-                    "options": [],
-                    "optionsBinder": {
-                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                        "properties": {
-                            "addEmptyOption": "",
-                            "autoHandleFiles": "",
-                            "autoHandleWorkflowVariable": "true",
-                            "cacheInterval": "",
-                            "emptyLabel": "",
-                            "extraCondition": "",
-                            "formDefId": "examdrive",
-                            "groupingColumn": "",
-                            "idColumn": "examstarttime",
-                            "labelColumn": "examstarttime",
-                            "useAjax": "true"
-                        }
-                    },
-                    "size": ""
-                }
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
             }
         },
         {
-            "datalist_type": "filter",
-            "filterParamName": "d-3629385-fn_noofsessions",
-            "hidden": "",
-            "id": "filter_3",
+            "id": "filter_6",
+            "label": "Exam End Time",
+            "name": "examendtime",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_9",
             "label": "No. of Sessions",
             "name": "noofsessions",
             "type": {
-                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
-                "properties": {
-                    "controlField": "",
-                    "defaultValue": "",
-                    "multiple": "",
-                    "options": [],
-                    "optionsBinder": {
-                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                        "properties": {
-                            "addEmptyOption": "",
-                            "autoHandleFiles": "",
-                            "autoHandleWorkflowVariable": "true",
-                            "cacheInterval": "",
-                            "emptyLabel": "",
-                            "extraCondition": "",
-                            "formDefId": "examdrive",
-                            "groupingColumn": "",
-                            "idColumn": "noofsessions",
-                            "labelColumn": "noofsessions",
-                            "useAjax": "true"
-                        }
-                    },
-                    "size": ""
-                }
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
             }
         },
         {
-            "datalist_type": "filter",
-            "filterParamName": "d-3629385-fn_projectname",
-            "hidden": "",
-            "id": "filter_2",
+            "id": "filter_8",
+            "label": "CCTV / DVR Availability in Test Rooms",
+            "name": "cctvdvr",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_10",
             "label": "Project Name",
             "name": "projectname",
             "type": {
-                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
-                "properties": {
-                    "controlField": "",
-                    "defaultValue": "",
-                    "multiple": "",
-                    "options": [],
-                    "optionsBinder": {
-                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                        "properties": {
-                            "addEmptyOption": "",
-                            "autoHandleFiles": "",
-                            "autoHandleWorkflowVariable": "true",
-                            "cacheInterval": "",
-                            "emptyLabel": "",
-                            "extraCondition": "",
-                            "formDefId": "examdrive",
-                            "groupingColumn": "",
-                            "idColumn": "projectname",
-                            "labelColumn": "projectname",
-                            "useAjax": "true"
-                        }
-                    },
-                    "size": ""
-                }
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
             }
         },
         {
-            "datalist_type": "filter",
-            "filterParamName": "d-3629385-fn_customercode",
-            "hidden": "",
-            "id": "filter_1",
-            "label": "Customer Code",
-            "name": "customercode",
-            "type": {
-                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
-                "properties": {
-                    "controlField": "",
-                    "defaultValue": "",
-                    "multiple": "",
-                    "options": [],
-                    "optionsBinder": {
-                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                        "properties": {
-                            "addEmptyOption": "",
-                            "autoHandleFiles": "",
-                            "autoHandleWorkflowVariable": "true",
-                            "cacheInterval": "",
-                            "emptyLabel": "",
-                            "extraCondition": "",
-                            "formDefId": "examdrive",
-                            "groupingColumn": "",
-                            "idColumn": "customercode",
-                            "labelColumn": "customercode",
-                            "useAjax": "true"
-                        }
-                    },
-                    "size": ""
-                }
-            }
-        },
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-3629385-fn_customername",
-            "hidden": "",
-            "id": "filter_0",
+            "id": "filter_12",
             "label": "Customer Name",
             "name": "customername",
             "type": {
-                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
-                "properties": {
-                    "controlField": "",
-                    "defaultValue": "",
-                    "multiple": "",
-                    "options": [],
-                    "optionsBinder": {
-                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                        "properties": {
-                            "addEmptyOption": "",
-                            "autoHandleFiles": "",
-                            "autoHandleWorkflowVariable": "true",
-                            "cacheInterval": "",
-                            "emptyLabel": "",
-                            "extraCondition": "",
-                            "formDefId": "examdrive",
-                            "groupingColumn": "",
-                            "idColumn": "customername",
-                            "labelColumn": "customername",
-                            "useAjax": "true"
-                        }
-                    },
-                    "size": ""
-                }
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_11",
+            "label": "Customer Code",
+            "name": "customercode",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
             }
         }
     ],
