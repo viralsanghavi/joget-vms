@@ -21,9 +21,25 @@
         {
             "filterable": true,
             "hidden": "false",
+            "id": "column_6",
+            "label": "Username",
+            "name": "userName",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
             "id": "column_3",
             "label": "FirstName",
             "name": "firstname",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_5",
+            "label": "Last Name",
+            "name": "lastName",
             "sortable": "false"
         },
         {
