@@ -869,8 +869,11 @@
                             "id": "citywiseforecast",
                             "label": "",
                             "loadBinder": {
-                                "className": "",
-                                "properties": {}
+                                "className": "org.joget.plugin.enterprise.MultirowFormBinder",
+                                "properties": {
+                                    "foreignKey": "forecast",
+                                    "formDefId": "CityWiseForcastForExamDrive"
+                                }
                             },
                             "options": [
                                 {
@@ -907,8 +910,11 @@
                             "readonlyLabel": "",
                             "showRowNumber": "",
                             "storeBinder": {
-                                "className": "",
-                                "properties": {}
+                                "className": "org.joget.plugin.enterprise.MultirowFormBinder",
+                                "properties": {
+                                    "foreignKey": "forecast",
+                                    "formDefId": "CityWiseForcastForExamDrive"
+                                }
                             },
                             "submit-label-normal": "Add",
                             "submit-label-readonly": "",
