@@ -755,7 +755,7 @@
                             "autoPopulate": "",
                             "id": "field9",
                             "label": "",
-                            "value": "<script>\n    $('input[name=employeeStatus][value=\"Active\"]').prop('checked', true);\n    $('radio[name=employeeStatus][value=\"Inactive\"]').hide()\n    $('section[name=section1_1]').hide()\n<\/script>"
+                            "value": "<script>\n    $('input[name=employeeStatus][value=\"Active\"]').prop('checked', true);\n    $('radio[name=employeeStatus][value=\"Inactive\"]').hide()\n    $('section[name=section]').hide()\n<\/script>"
                         }
                     }
                 ],
@@ -763,7 +763,7 @@
             }],
             "properties": {
                 "comment": "",
-                "id": "section1_1",
+                "id": "section",
                 "join": "",
                 "label": "Section",
                 "loadBinder": {
@@ -785,18 +785,6 @@
                 },
                 "visibilityControl": "",
                 "visibilityValue": ""
-            }
-        },
-        {
-            "className": "org.joget.apps.form.model.Section",
-            "elements": [{
-                "className": "org.joget.apps.form.model.Column",
-                "elements": [],
-                "properties": {"width": "100%"}
-            }],
-            "properties": {
-                "id": "section3",
-                "label": "Section"
             }
         }
     ],
