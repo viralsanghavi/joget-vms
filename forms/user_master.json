@@ -118,11 +118,38 @@
                     }
                 },
                 {
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "controlField": "",
+                        "id": "groups",
+                        "label": "Group",
+                        "multiple": "",
+                        "options": [{
+                            "grouping": "",
+                            "label": "Channel Master",
+                            "value": "channelMaster"
+                        }],
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
                         "encryption": "",
-                        "id": "groups",
-                        "label": "channelMaster",
+                        "id": "grou",
+                        "label": "Group",
                         "maxlength": "",
                         "placeholder": "",
                         "readonly": "",
