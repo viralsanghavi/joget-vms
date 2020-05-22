@@ -13,39 +13,31 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_1",
-            "label": "Employee Number",
-            "name": "employeeNumber",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
             "id": "column_6",
+            "label": "Employee Number",
+            "name": "employeeNumber1",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_14",
             "label": "Username",
-            "name": "userName",
+            "name": "uName1",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_3",
+            "id": "column_8",
             "label": "FirstName",
-            "name": "firstname",
+            "name": "firstname1",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_5",
-            "label": "Last Name",
-            "name": "lastName",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_4",
+            "id": "column_9",
             "label": "Group",
             "name": "groups",
             "sortable": "false"
@@ -53,17 +45,33 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_0",
-            "label": "Email",
-            "name": "emailId",
+            "id": "column_10",
+            "label": "Last Name",
+            "name": "lastName1",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_2",
+            "id": "column_11",
+            "label": "Mobile Number",
+            "name": "mobile1",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_15",
+            "label": "Email",
+            "name": "emailId1",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_7",
             "label": "Employee Status",
-            "name": "employeeStatus",
+            "name": "employeeStatus1",
             "sortable": "false"
         }
     ],
