@@ -6,36 +6,32 @@
             "className": "org.joget.apps.form.model.Column",
             "elements": [
                 {
-                    "className": "org.joget.plugin.enterprise.AjaxSubForm",
+                    "className": "org.joget.apps.form.lib.SubForm",
                     "properties": {
-                        "ajax": "true",
-                        "collapsible": "",
-                        "collapsibleExpanded": "true",
-                        "collapsibleLabelCollapsed": "View Details",
-                        "collapsibleLabelExpanded": "Hide Details",
                         "formDefId": "regionMaster",
-                        "hideEmpty": "",
                         "id": "regionMasterPreview",
                         "label": "",
-                        "noLoad": "",
+                        "loadBinder": {
+                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                            "properties": {}
+                        },
                         "noframe": "true",
-                        "parentSubFormId": "regionMaster",
+                        "parentSubFormId": "",
                         "readonly": "",
                         "readonlyLabel": "",
                         "storeBinder": {
-                            "className": "org.joget.plugin.enterprise.ParentFormBinder",
+                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
                             "properties": {}
                         },
                         "subFormParentId": ""
                     }
                 },
                 {
-                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "className": "org.joget.apps.form.lib.Radio",
                     "properties": {
                         "controlField": "",
                         "id": "Status",
                         "label": "Status",
-                        "multiple": "",
                         "options": [
                             {
                                 "grouping": "",
@@ -54,12 +50,15 @@
                         },
                         "readonly": "",
                         "readonlyLabel": "",
-                        "size": "",
                         "validator": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "",
+                                "type": ""
+                            }
                         },
-                        "value": "Active",
+                        "value": "",
                         "workflowVariable": ""
                     }
                 },
