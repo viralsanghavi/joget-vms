@@ -26,9 +26,25 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_6",
-            "label": "Full Name",
-            "name": "fullName",
+            "id": "column_4",
+            "label": "Username",
+            "name": "userName",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_1",
+            "label": "FirstName",
+            "name": "firstname",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_3",
+            "label": "Last Name",
+            "name": "lastName",
             "sortable": "false"
         },
         {
@@ -37,22 +53,6 @@
             "id": "column_2",
             "label": "Mobile Number",
             "name": "mobile",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_3",
-            "label": "Email",
-            "name": "email",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_4",
-            "label": "Designation",
-            "name": "designation",
             "sortable": "false"
         },
         {
@@ -71,33 +71,6 @@
             "id": "filter_4",
             "label": "Employee Number",
             "name": "employeeNumber",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
-            }
-        },
-        {
-            "id": "filter_3",
-            "label": "Full Name",
-            "name": "fullName",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
-            }
-        },
-        {
-            "id": "filter_2",
-            "label": "Email",
-            "name": "email",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
-            }
-        },
-        {
-            "id": "filter_1",
-            "label": "Designation",
-            "name": "designation",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
                 "properties": {}
