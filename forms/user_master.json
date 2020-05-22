@@ -401,13 +401,13 @@
                             "lastName": "lastName",
                             "locale": "locale",
                             "organization": "organization",
-                            "password": "password",
+                            "password": "uPass",
                             "reportTo": "reportTo",
                             "startDate": "startDate",
                             "timeZone": "timeZone",
                             "useGridForOrgChart": "",
                             "userRoles": "userRoles",
-                            "username": "username"
+                            "username": "uName"
                         }
                     }
                 }
