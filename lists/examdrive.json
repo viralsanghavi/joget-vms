@@ -176,21 +176,69 @@
         {
             "datalist_type": "filter",
             "filterParamName": "d-3629385-fn_fromdate",
+            "hidden": "",
             "id": "filter_9",
             "label": "From Date",
             "name": "fromdate",
             "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "examdrive",
+                            "groupingColumn": "",
+                            "idColumn": "fromdate",
+                            "labelColumn": "fromdate",
+                            "useAjax": "true"
+                        }
+                    },
+                    "size": ""
+                }
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-3629385-fn_todate",
+            "hidden": "",
             "id": "filter_8",
             "label": "To Date",
             "name": "todate",
             "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "examdrive",
+                            "groupingColumn": "",
+                            "idColumn": "todate",
+                            "labelColumn": "todate",
+                            "useAjax": "true"
+                        }
+                    },
+                    "size": ""
+                }
             }
         },
         {
@@ -362,12 +410,37 @@
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-3629385-fn_examendtime",
+            "hidden": "",
             "id": "filter_5",
             "label": "Exam End Time",
             "name": "examendtime",
             "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "examdrive",
+                            "groupingColumn": "",
+                            "idColumn": "examendtime",
+                            "labelColumn": "examendtime",
+                            "useAjax": "true"
+                        }
+                    },
+                    "size": ""
+                }
             }
         },
         {
@@ -404,48 +477,173 @@
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-3629385-fn_examstarttime",
+            "hidden": "",
             "id": "filter_4",
             "label": "Exam Start Time",
             "name": "examstarttime",
             "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "examdrive",
+                            "groupingColumn": "",
+                            "idColumn": "examstarttime",
+                            "labelColumn": "examstarttime",
+                            "useAjax": "true"
+                        }
+                    },
+                    "size": ""
+                }
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-3629385-fn_noofsessions",
+            "hidden": "",
             "id": "filter_3",
             "label": "No. of Sessions",
             "name": "noofsessions",
             "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "examdrive",
+                            "groupingColumn": "",
+                            "idColumn": "noofsessions",
+                            "labelColumn": "noofsessions",
+                            "useAjax": "true"
+                        }
+                    },
+                    "size": ""
+                }
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-3629385-fn_projectname",
+            "hidden": "",
             "id": "filter_2",
             "label": "Project Name",
             "name": "projectname",
             "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "examdrive",
+                            "groupingColumn": "",
+                            "idColumn": "projectname",
+                            "labelColumn": "projectname",
+                            "useAjax": "true"
+                        }
+                    },
+                    "size": ""
+                }
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-3629385-fn_customercode",
+            "hidden": "",
             "id": "filter_1",
             "label": "Customer Code",
             "name": "customercode",
             "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "examdrive",
+                            "groupingColumn": "",
+                            "idColumn": "customercode",
+                            "labelColumn": "customercode",
+                            "useAjax": "true"
+                        }
+                    },
+                    "size": ""
+                }
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-3629385-fn_customername",
+            "hidden": "",
             "id": "filter_0",
             "label": "Customer Name",
             "name": "customername",
             "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "examdrive",
+                            "groupingColumn": "",
+                            "idColumn": "customername",
+                            "labelColumn": "customername",
+                            "useAjax": "true"
+                        }
+                    },
+                    "size": ""
+                }
             }
         }
     ],
