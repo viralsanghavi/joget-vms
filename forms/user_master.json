@@ -755,7 +755,7 @@
                             "autoPopulate": "",
                             "id": "field9",
                             "label": "",
-                            "value": "<script>\n    $('input[name=employeeStatus][value=\"Active\"]').prop('checked', true);\n    $(document).ready(function(){\n      $(\"#section\").hide();\n    });\n<\/script>"
+                            "value": "<script>\n    $('input[name=employeeStatus][value=\"Active\"]').prop('checked', true);\n    $(document).ready(function(){\n      $(\"#section\").hide();\n    });\n<\/script>\n"
                         }
                     }
                 ],
