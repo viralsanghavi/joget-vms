@@ -137,11 +137,11 @@
                         "optionsBinder": {
                             "className": "org.joget.apps.form.lib.FormOptionsBinder",
                             "properties": {
-                                "addEmptyOption": "",
+                                "addEmptyOption": "true",
                                 "autoHandleFiles": "",
                                 "autoHandleWorkflowVariable": "true",
                                 "cacheInterval": "",
-                                "emptyLabel": "",
+                                "emptyLabel": "Select State",
                                 "extraCondition": "",
                                 "formDefId": "pincodeMaster",
                                 "groupingColumn": "city",
@@ -196,7 +196,7 @@
                         "autoPopulate": "",
                         "id": "field7",
                         "label": "",
-                        "value": "<script>\ndocument.getElementById('ifscCode').addEventListener('change',myFunc)\nfunction myFunc(){\n var x = document.getElementById('ifscCode')\nx.value = x.value.toUpperCase();\n}\n<\/script>\n\n<script>\n    $(document).ready(function(){\n      $(\"select[name='state']\").disabled=true\n    // document.getElementById(\"#state\").disabled = true;\n\n    });\n<\/script>"
+                        "value": "<script>\ndocument.getElementById('ifscCode').addEventListener('change',myFunc)\nfunction myFunc(){\n var x = document.getElementById('ifscCode')\nx.value = x.value.toUpperCase();\n}\n<\/script>\n\n<script>\n    $(document).ready(function(){\n         $(\"select[name='state']\").prop('disabled', true);\n\n    });\n<\/script>"
                     }
                 }
             ],
