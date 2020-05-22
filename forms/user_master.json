@@ -362,7 +362,7 @@
                             "autoPopulate": "",
                             "id": "field9",
                             "label": "",
-                            "value": "<script>\n    $('input[name=employeeStatus][value=\"Active\"]').prop('checked', true);\n    $('radio[name=employeeStatus][value=\"Inactive\"]').hide()\n<\/script>\n<script>\n    $(document).on('change', function() {\n  alert('Changed')\n  // Does some stuff and logs the event to the console\n});\n<\/script>"
+                            "value": "<script>\n    $('input[name=employeeStatus][value=\"Active\"]').prop('checked', true);\n    $('radio[name=employeeStatus][value=\"Inactive\"]').hide()\n<\/script>\n<script>\n    $(document).on('change', function() {\n  console.log('Changed')\n  // Does some stuff and logs the event to the console\n});\n<\/script>"
                         }
                     }
                 ],
