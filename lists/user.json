@@ -26,14 +26,6 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_7",
-            "label": "Username",
-            "name": "uName",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
             "id": "column_8",
             "label": "Mobile Number",
             "name": "mobile",
