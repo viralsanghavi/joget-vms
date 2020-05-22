@@ -721,6 +721,63 @@
         {
             "className": "org.joget.apps.userview.model.UserviewCategory",
             "menus": [{
+                "className": "org.joget.plugin.enterprise.CrudMenu",
+                "properties": {
+                    "add-afterSaved": "list",
+                    "add-cancelButtonLabel": "",
+                    "add-customFooter": "",
+                    "add-customHeader": "",
+                    "add-messageShowAfterComplete": "Form successfully added!",
+                    "add-saveButtonLabel": "",
+                    "addFormId": "cityMaster",
+                    "buttonPosition": "bottomLeft",
+                    "cacheAllLinks": "",
+                    "cacheListAction": "",
+                    "checkboxPosition": "left",
+                    "customId": "",
+                    "datalistId": "city",
+                    "edit-afterSaved": "list",
+                    "edit-allowRecordTraveling": "",
+                    "edit-backButtonLabel": "",
+                    "edit-customFooter": "",
+                    "edit-customHeader": "",
+                    "edit-firstButtonLabel": "",
+                    "edit-lastButtonLabel": "",
+                    "edit-messageShowAfterComplete": "Form successfully edited!",
+                    "edit-moreActions": [],
+                    "edit-nextButtonLabel": "",
+                    "edit-prevButtonLabel": "",
+                    "edit-readonly": "",
+                    "edit-readonlyLabel": "",
+                    "edit-saveButtonLabel": "",
+                    "editFormId": "cityMasterPreview",
+                    "enableOffline": "",
+                    "id": "9A3436095A78464E964103B0D268BC4D",
+                    "keyName": "",
+                    "label": "City Master",
+                    "list-customFooter": "",
+                    "list-customHeader": "",
+                    "list-deleteButtonLabel": "",
+                    "list-editLinkLabel": "Edit",
+                    "list-editLinkTarget": "",
+                    "list-moreActions": [],
+                    "list-newButtonLabel": "Add New",
+                    "list-newLinkTarget": "",
+                    "list-showDeleteButton": "",
+                    "rowCount": "",
+                    "selectionType": "multiple",
+                    "userviewCacheDuration": "20",
+                    "userviewCacheScope": ""
+                }
+            }],
+            "properties": {
+                "id": "category-B309ED7D182546DD841D0425D00067D6",
+                "label": "<i class=\"fa fa-tasks\"><\/i>City Master"
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
                 "className": "org.joget.plugin.enterprise.JasperReportsMenu",
                 "properties": {
                     "customFooter": "",
