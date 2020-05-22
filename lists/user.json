@@ -62,6 +62,14 @@
             "label": "password",
             "name": "password",
             "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_5",
+            "label": "active",
+            "name": "active",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
