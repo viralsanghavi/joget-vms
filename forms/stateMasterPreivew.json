@@ -6,24 +6,21 @@
             "className": "org.joget.apps.form.model.Column",
             "elements": [
                 {
-                    "className": "org.joget.plugin.enterprise.AjaxSubForm",
+                    "className": "org.joget.apps.form.lib.SubForm",
                     "properties": {
-                        "ajax": "true",
-                        "collapsible": "",
-                        "collapsibleExpanded": "true",
-                        "collapsibleLabelCollapsed": "View Details",
-                        "collapsibleLabelExpanded": "Hide Details",
                         "formDefId": "stateMaster",
-                        "hideEmpty": "",
                         "id": "stateMasterPreview",
                         "label": "",
-                        "noLoad": "",
+                        "loadBinder": {
+                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                            "properties": {}
+                        },
                         "noframe": "true",
-                        "parentSubFormId": "stateMaster",
+                        "parentSubFormId": "",
                         "readonly": "",
                         "readonlyLabel": "",
                         "storeBinder": {
-                            "className": "org.joget.plugin.enterprise.ParentFormBinder",
+                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
                             "properties": {}
                         },
                         "subFormParentId": ""
