@@ -236,6 +236,16 @@
                             "grouping": "",
                             "label": "No",
                             "value": "No"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "Yes",
+                            "value": "Yes"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "No",
+                            "value": "No"
                         }
                     ],
                     "optionsBinder": {
