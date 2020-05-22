@@ -454,7 +454,7 @@
                         "className": "org.joget.apps.form.lib.TextField",
                         "properties": {
                             "encryption": "",
-                            "id": "uName",
+                            "id": "uName1",
                             "label": "Username",
                             "maxlength": "",
                             "placeholder": "",
