@@ -6,24 +6,21 @@
             "className": "org.joget.apps.form.model.Column",
             "elements": [
                 {
-                    "className": "org.joget.plugin.enterprise.AjaxSubForm",
+                    "className": "org.joget.apps.form.lib.SubForm",
                     "properties": {
-                        "ajax": "true",
-                        "collapsible": "",
-                        "collapsibleExpanded": "true",
-                        "collapsibleLabelCollapsed": "View Details",
-                        "collapsibleLabelExpanded": "Hide Details",
                         "formDefId": "pincodeMaster",
-                        "hideEmpty": "",
                         "id": "pincodeMasterPreview",
                         "label": "",
-                        "noLoad": "",
+                        "loadBinder": {
+                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                            "properties": {}
+                        },
                         "noframe": "true",
-                        "parentSubFormId": "pincodeMaster",
+                        "parentSubFormId": "",
                         "readonly": "",
                         "readonlyLabel": "",
                         "storeBinder": {
-                            "className": "org.joget.plugin.enterprise.ParentFormBinder",
+                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
                             "properties": {}
                         },
                         "subFormParentId": ""
@@ -36,6 +33,42 @@
                         "id": "field3",
                         "label": "",
                         "value": "<script>\ndocument.getElementById(\"pincodeMasterPreview_pincodeMaster_pincode\").disabled = true;\n<\/script>"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.Radio",
+                    "properties": {
+                        "controlField": "",
+                        "id": "Status",
+                        "label": "Status",
+                        "options": [
+                            {
+                                "grouping": "",
+                                "label": "Active",
+                                "value": "Active"
+                            },
+                            {
+                                "grouping": "",
+                                "label": "Invalid",
+                                "value": "Invalid"
+                            }
+                        ],
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "",
+                                "type": ""
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
                     }
                 }
             ],
