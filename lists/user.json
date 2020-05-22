@@ -26,6 +26,14 @@
         {
             "filterable": false,
             "hidden": "false",
+            "id": "column_3",
+            "label": "organization.description",
+            "name": "organization.description",
+            "sortable": "false"
+        },
+        {
+            "filterable": false,
+            "hidden": "false",
             "id": "column_2",
             "label": "organization.name",
             "name": "organization.name",
