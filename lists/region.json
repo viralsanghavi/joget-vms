@@ -32,10 +32,9 @@
             "sortable": "false"
         },
         {
-            "datalist_type": "column",
             "filterable": true,
             "hidden": "false",
-            "id": "column_2",
+            "id": "column_3",
             "label": "Status",
             "name": "Status",
             "sortable": "false"
