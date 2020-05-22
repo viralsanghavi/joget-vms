@@ -30,11 +30,12 @@
                     }
                 },
                 {
-                    "className": "org.joget.apps.form.lib.Radio",
+                    "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
                         "controlField": "",
-                        "id": "status",
+                        "id": "Status",
                         "label": "Status",
+                        "multiple": "",
                         "options": [
                             {
                                 "grouping": "",
@@ -53,15 +54,12 @@
                         },
                         "readonly": "",
                         "readonlyLabel": "",
+                        "size": "",
                         "validator": {
-                            "className": "org.joget.apps.form.lib.DefaultValidator",
-                            "properties": {
-                                "mandatory": "true",
-                                "message": "",
-                                "type": ""
-                            }
+                            "className": "",
+                            "properties": {}
                         },
-                        "value": "",
+                        "value": "Active",
                         "workflowVariable": ""
                     }
                 },
