@@ -121,7 +121,7 @@
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
                         "encryption": "",
-                        "id": "group",
+                        "id": "groups",
                         "label": "channelMaster",
                         "maxlength": "",
                         "placeholder": "",
@@ -392,7 +392,7 @@
                         "endDate": "endDate",
                         "firstName": "firstName",
                         "grade": "grade",
-                        "groups": "channelMaster",
+                        "groups": "group",
                         "isHod": "isHod",
                         "jobTitle": "jobTitle",
                         "lastName": "lastName",
