@@ -59,28 +59,6 @@
                         "value": "",
                         "workflowVariable": ""
                     }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.TextField",
-                    "properties": {
-                        "encryption": "",
-                        "id": "status",
-                        "label": "Region Status",
-                        "maxlength": "",
-                        "permissionHidden": "",
-                        "placeholder": "",
-                        "readonly": "true",
-                        "readonlyLabel": "true",
-                        "size": "",
-                        "storeNumeric": "",
-                        "style": "",
-                        "validator": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "value": "Active",
-                        "workflowVariable": ""
-                    }
                 }
             ],
             "properties": {"width": "100%"}
