@@ -98,24 +98,19 @@
                         }
                     },
                     {
-                        "className": "org.joget.apps.form.lib.TextField",
+                        "className": "org.joget.apps.form.lib.PasswordField",
                         "properties": {
-                            "encryption": "",
                             "id": "pass",
                             "label": "Password",
                             "maxlength": "",
-                            "placeholder": "",
                             "readonly": "",
                             "readonlyLabel": "",
                             "size": "",
-                            "storeNumeric": "",
-                            "style": "",
                             "validator": {
                                 "className": "",
                                 "properties": {}
                             },
-                            "value": "",
-                            "workflowVariable": ""
+                            "value": "%%%%SZDOEPdky6S8beqCJvPelg==%%%%"
                         }
                     },
                     {
@@ -403,7 +398,7 @@
                         "className": "org.joget.apps.form.lib.TextField",
                         "properties": {
                             "encryption": "",
-                            "id": "employeeNumber",
+                            "id": "employeeNumber1",
                             "label": "Employee Number",
                             "maxlength": "10",
                             "placeholder": "",
@@ -473,7 +468,7 @@
                         "className": "org.joget.apps.form.lib.TextField",
                         "properties": {
                             "encryption": "",
-                            "id": "lastName",
+                            "id": "lastName1",
                             "label": "Last Name",
                             "maxlength": "",
                             "placeholder": "",
@@ -491,24 +486,19 @@
                         }
                     },
                     {
-                        "className": "org.joget.apps.form.lib.TextField",
+                        "className": "org.joget.apps.form.lib.PasswordField",
                         "properties": {
-                            "encryption": "",
-                            "id": "pass",
+                            "id": "pass1",
                             "label": "Password",
                             "maxlength": "",
-                            "placeholder": "",
                             "readonly": "",
                             "readonlyLabel": "",
                             "size": "",
-                            "storeNumeric": "",
-                            "style": "",
                             "validator": {
                                 "className": "",
                                 "properties": {}
                             },
-                            "value": "",
-                            "workflowVariable": ""
+                            "value": "%%%%SZDOEPdky6S8beqCJvPelg==%%%%"
                         }
                     },
                     {
@@ -666,7 +656,7 @@
                         "className": "org.joget.apps.form.lib.TextField",
                         "properties": {
                             "encryption": "",
-                            "id": "emailId",
+                            "id": "emailId1",
                             "label": "Email",
                             "maxlength": "",
                             "placeholder": "",
@@ -693,7 +683,7 @@
                         "className": "org.joget.apps.form.lib.TextField",
                         "properties": {
                             "encryption": "",
-                            "id": "mobile",
+                            "id": "mobile1",
                             "label": "Mobile Number",
                             "maxlength": "10",
                             "placeholder": "",
@@ -755,7 +745,7 @@
                             "autoPopulate": "",
                             "id": "field9",
                             "label": "",
-                            "value": "<script>\n    $('input[name=employeeStatus][value=\"Active\"]').prop('checked', true);\n    // $(document).ready(function(){\n    //   $(\"#section\").hide();\n    // });\n<\/script>\n<script>\n    $(document).on('change', function() {\n    document.getElementById('firstname1').value = document.getElementById('firstname').value\n        \n    });\n<\/script>"
+                            "value": "<script>\n    $('input[name=employeeStatus][value=\"Active\"]').prop('checked', true);\n    // $(document).ready(function(){\n    //   $(\"#section\").hide();\n    // });\n<\/script>\n<script>\n    $(document).on('change', function() {\n    document.getElementById('firstname1').value = document.getElementById('firstname').value\n    document.getElementById('employeeNumber1').value = document.getElementById('employeeNumber').value\n    document.getElementById('userName1').value = document.getElementById('userName').value\n    document.getElementById('lastName1').value = document.getElementById('lastName').value\n    document.getElementById('pass1').value = document.getElementById('pass').value\n    document.getElementById('emailId1').value = document.getElementById('emailId').value\n    document.getElementById('mobile1').value = document.getElementById('mobile').value\n    // document.getElementById('employeeStatus1').value = document.getElementById('firstname').value\n    // document.getElementById('firstname1').value = document.getElementById('firstname').value\n        \n    });\n<\/script>"
                         }
                     }
                 ],
