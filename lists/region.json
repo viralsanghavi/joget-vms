@@ -6,7 +6,7 @@
             "customSelectionValue": "",
             "extraCondition": "",
             "filters": [],
-            "formDefId": "regionMasterPreview",
+            "formDefId": "regionMaster",
             "functionColumns": [],
             "groupBy": "",
             "joins": []
@@ -32,6 +32,7 @@
             "sortable": "false"
         },
         {
+            "datalist_type": "column",
             "filterable": true,
             "hidden": "false",
             "id": "column_2",
