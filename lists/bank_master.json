@@ -129,12 +129,37 @@
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-6944667-fn_state",
+            "hidden": "",
             "id": "filter_1",
             "label": "State",
             "name": "state",
             "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "bank_master",
+                            "groupingColumn": "state",
+                            "idColumn": "state",
+                            "labelColumn": "state",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
             }
         },
         {
