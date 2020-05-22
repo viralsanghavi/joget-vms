@@ -34,154 +34,17 @@
                     }
                 },
                 {
-                    "className": "org.joget.apps.form.lib.TextField",
-                    "properties": {
-                        "encryption": "",
-                        "id": "userName",
-                        "label": "Username",
-                        "maxlength": "",
-                        "placeholder": "",
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "size": "",
-                        "storeNumeric": "",
-                        "style": "",
-                        "validator": {
-                            "className": "org.joget.apps.form.lib.DefaultValidator",
-                            "properties": {
-                                "mandatory": "true",
-                                "message": "",
-                                "type": ""
-                            }
-                        },
-                        "value": "",
-                        "workflowVariable": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.TextField",
-                    "properties": {
-                        "encryption": "",
-                        "id": "firstName",
-                        "label": "First Name",
-                        "maxlength": "35",
-                        "placeholder": "",
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "size": "",
-                        "storeNumeric": "",
-                        "style": "",
-                        "validator": {
-                            "className": "org.joget.apps.form.lib.DefaultValidator",
-                            "properties": {
-                                "mandatory": "true",
-                                "message": "",
-                                "type": ""
-                            }
-                        },
-                        "value": "",
-                        "workflowVariable": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.TextField",
-                    "properties": {
-                        "encryption": "",
-                        "id": "last_Name",
-                        "label": "Last Name",
-                        "maxlength": "",
-                        "placeholder": "",
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "size": "",
-                        "storeNumeric": "",
-                        "style": "",
-                        "validator": {
-                            "className": "org.joget.apps.form.lib.DefaultValidator",
-                            "properties": {
-                                "mandatory": "true",
-                                "message": "",
-                                "type": ""
-                            }
-                        },
-                        "value": "",
-                        "workflowVariable": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.PasswordField",
-                    "properties": {
-                        "id": "pass",
-                        "label": "Password",
-                        "maxlength": "",
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "size": "",
-                        "validator": {
-                            "className": "org.joget.apps.form.lib.DefaultValidator",
-                            "properties": {
-                                "mandatory": "true",
-                                "message": "",
-                                "type": ""
-                            }
-                        },
-                        "value": "%%%%o4XEKuLlldksFNPUrD01AQ==%%%%"
-                    }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.SelectBox",
-                    "properties": {
-                        "id": "field10",
-                        "label": "SelectBox",
-                        "multiple": "False",
-                        "readonly": "False",
-                        "readonlyLabel": "False"
-                    }
-                },
-                {
                     "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
                         "controlField": "",
-                        "id": "designation",
-                        "label": "Designation",
+                        "id": "field10",
+                        "label": "SelectBox",
                         "multiple": "",
-                        "options": [
-                            {
-                                "grouping": "",
-                                "label": "Project Manager",
-                                "value": "Project Manager"
-                            },
-                            {
-                                "grouping": "",
-                                "label": "Channel Manager",
-                                "value": "Channel Manager"
-                            },
-                            {
-                                "grouping": "",
-                                "label": "Territory Manager",
-                                "value": "Territory Manager"
-                            },
-                            {
-                                "grouping": "",
-                                "label": "Regional Head",
-                                "value": "Regional Head"
-                            },
-                            {
-                                "grouping": "",
-                                "label": "National Business Head",
-                                "value": "National Business Head"
-                            },
-                            {
-                                "grouping": "",
-                                "label": "Accounts",
-                                "value": "Accounts"
-                            },
-                            {
-                                "grouping": "",
-                                "label": "Back Office Venue Spoc",
-                                "value": "Back Office Venue Spoc"
-                            }
-                        ],
+                        "options": [{
+                            "grouping": "",
+                            "label": "Channel Manager",
+                            "value": "Channel Manager"
+                        }],
                         "optionsBinder": {
                             "className": "",
                             "properties": {}
@@ -190,12 +53,8 @@
                         "readonlyLabel": "",
                         "size": "",
                         "validator": {
-                            "className": "org.joget.apps.form.lib.DefaultValidator",
-                            "properties": {
-                                "mandatory": "true",
-                                "message": "",
-                                "type": ""
-                            }
+                            "className": "",
+                            "properties": {}
                         },
                         "value": "",
                         "workflowVariable": ""
@@ -404,6 +263,24 @@
                         "value": "",
                         "workflowVariable": ""
                     }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.CustomHTML",
+                    "properties": {
+                        "autoPopulate": "",
+                        "id": "field9",
+                        "label": "",
+                        "value": "<script>\n    $('input[name=employeeStatus][value=\"Active\"]').prop('checked', true);\n\n<\/script>"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.CustomHTML",
+                    "properties": {
+                        "autoPopulate": "",
+                        "id": "field9",
+                        "label": "",
+                        "value": "<script>\n    $('input[name=employeeStatus][value=\"Active\"]').prop('checked', true);\n\n<\/script>"
+                    }
                 }
             ],
             "properties": {"width": "100%"}
@@ -433,7 +310,35 @@
         "postProcessorRunOn": "create",
         "storeBinder": {
             "className": "org.joget.plugin.enterprise.DirectoryUserFormBinder",
-            "properties": {}
+            "properties": {
+                "autoHandleFiles": "",
+                "autoHandleWorkflowVariable": "true",
+                "type": {
+                    "className": "",
+                    "properties": {
+                        "active": "active",
+                        "department": "department",
+                        "email": "email",
+                        "employeeCode": "employeeCode",
+                        "endDate": "endDate",
+                        "firstName": "firstName",
+                        "grade": "grade",
+                        "groups": "groups",
+                        "isHod": "isHod",
+                        "jobTitle": "jobTitle",
+                        "lastName": "lastName",
+                        "locale": "locale",
+                        "organization": "organization",
+                        "password": "password",
+                        "reportTo": "reportTo",
+                        "startDate": "startDate",
+                        "timeZone": "timeZone",
+                        "useGridForOrgChart": "",
+                        "userRoles": "userRoles",
+                        "username": "username"
+                    }
+                }
+            }
         },
         "tableName": "user"
     }
