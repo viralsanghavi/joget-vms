@@ -356,15 +356,6 @@
                         "label": "",
                         "value": "<script>\n    $('input[name=employeeStatus][value=\"Active\"]').prop('checked', true);\n\n<\/script>"
                     }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.CustomHTML",
-                    "properties": {
-                        "autoPopulate": "",
-                        "id": "field9",
-                        "label": "",
-                        "value": "<script>\n    $('input[name=employeeStatus][value=\"Active\"]').prop('checked', true);\n\n<\/script>"
-                    }
                 }
             ],
             "properties": {"width": "100%"}
