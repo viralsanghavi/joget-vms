@@ -467,13 +467,11 @@
                         "className": "org.joget.apps.form.lib.DatePicker",
                         "properties": {
                             "allowManual": "",
-                            "currentDateAs": "",
-                            "dataFormat": "yyyy-MM-dd",
-                            "datePickerType": "",
+                            "datePickerType": "timeOnly",
                             "endDateFieldId": "",
-                            "format": "",
-                            "id": "start_date",
-                            "label": "start_date",
+                            "format24hr": "",
+                            "id": "start_time",
+                            "label": "start_time",
                             "placeholder": "",
                             "readonly": "",
                             "readonlyLabel": "",
@@ -483,21 +481,18 @@
                                 "properties": {}
                             },
                             "value": "",
-                            "workflowVariable": "",
-                            "yearRange": "c-10:c+10"
+                            "workflowVariable": ""
                         }
                     },
                     {
                         "className": "org.joget.apps.form.lib.DatePicker",
                         "properties": {
                             "allowManual": "",
-                            "currentDateAs": "",
-                            "dataFormat": "yyyy-MM-dd",
-                            "datePickerType": "",
+                            "datePickerType": "timeOnly",
                             "endDateFieldId": "",
-                            "format": "",
-                            "id": "end_date",
-                            "label": "end_date",
+                            "format24hr": "",
+                            "id": "end_time",
+                            "label": "end_time",
                             "placeholder": "",
                             "readonly": "",
                             "readonlyLabel": "",
@@ -507,8 +502,7 @@
                                 "properties": {}
                             },
                             "value": "",
-                            "workflowVariable": "",
-                            "yearRange": "c-10:c+10"
+                            "workflowVariable": ""
                         }
                     },
                     {
@@ -517,7 +511,7 @@
                             "autoPopulate": "",
                             "id": "field16",
                             "label": "sss",
-                            "value": "<script type=\"text/javascript\">\r\n$('form').submit(function(){\r\n    startDate = $(\"input[name='start_date']\").val();\r\n    endDate = $(\"input[name='end_date']\").val();\r\n    if( endDate < startDate ){\r\n        alert(\"End Date must be larger than the Start Date. Please try again.\");\r\n        $.unblockUI();\r\n        return false;\r\n    }else{\r\n        return true;\r\n    }\r\n});\r\n \r\n<\/script>"
+                            "value": "<script type=\"text/javascript\">\r\n$('form').submit(function(){\r\n    startTime = $(\"input[name='start_time']\").val();\r\n    endTime = $(\"input[name='end_time']\").val();\r\n    if( endTime < startTime ){\r\n        alert(\"End Time must be larger than the Start Time. Please try again.\");\r\n        $.unblockUI();\r\n        return false;\r\n    }else{\r\n        return true;\r\n    }\r\n});\r\n \r\n<\/script>"
                         }
                     }
                 ],
