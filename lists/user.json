@@ -1,74 +1,31 @@
 {
     "actions": [],
     "binder": {
-        "className": "org.joget.plugin.enterprise.ExternalDirectoryDatalistBinder",
-        "properties": {"type": "org.joget.directory.model.User"}
+        "className": "org.joget.plugin.enterprise.JdbcDataListBinder",
+        "properties": {
+            "jdbcDatasource": "default",
+            "optimisePaging": "",
+            "primaryKey": "username",
+            "sql": "SELECT * FROM dir_user"
+        }
     },
     "buttonPosition": "bottomLeft",
     "checkboxPosition": "left",
     "columns": [
         {
-            "filterable": false,
-            "hidden": "false",
-            "id": "column_1",
-            "label": "id",
-            "name": "id",
-            "sortable": "false"
-        },
-        {
-            "filterable": false,
-            "hidden": "false",
-            "id": "column_2",
-            "label": "username",
-            "name": "username",
-            "sortable": "false"
-        },
-        {
-            "filterable": false,
+            "filterable": true,
             "hidden": "false",
             "id": "column_0",
-            "label": "email",
-            "name": "email",
-            "sortable": "false"
-        },
-        {
-            "filterable": false,
-            "hidden": "false",
-            "id": "column_6",
             "label": "firstName",
             "name": "firstName",
             "sortable": "false"
         },
         {
-            "filterable": false,
-            "hidden": "false",
-            "id": "column_7",
-            "label": "lastName",
-            "name": "lastName",
-            "sortable": "false"
-        },
-        {
-            "filterable": false,
-            "hidden": "false",
-            "id": "column_3",
-            "label": "email",
-            "name": "email",
-            "sortable": "false"
-        },
-        {
-            "filterable": false,
-            "hidden": "false",
-            "id": "column_4",
-            "label": "password",
-            "name": "password",
-            "sortable": "false"
-        },
-        {
             "filterable": true,
             "hidden": "false",
-            "id": "column_5",
-            "label": "active",
-            "name": "active",
+            "id": "column_1",
+            "label": "firstName",
+            "name": "firstName",
             "sortable": "false"
         }
     ],
