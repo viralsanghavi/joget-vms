@@ -44,8 +44,8 @@
                     "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
                         "controlField": "cityname",
-                        "id": "region",
-                        "label": "Region",
+                        "id": "state",
+                        "label": "State",
                         "multiple": "",
                         "options": [],
                         "optionsBinder": {
@@ -59,8 +59,8 @@
                                 "extraCondition": "",
                                 "formDefId": "pincodeMaster",
                                 "groupingColumn": "city",
-                                "idColumn": "region",
-                                "labelColumn": "region",
+                                "idColumn": "state",
+                                "labelColumn": "state",
                                 "useAjax": "true"
                             }
                         },
@@ -79,8 +79,8 @@
                     "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
                         "controlField": "cityname",
-                        "id": "state",
-                        "label": "State",
+                        "id": "region",
+                        "label": "Region",
                         "multiple": "",
                         "options": [],
                         "optionsBinder": {
@@ -94,8 +94,8 @@
                                 "extraCondition": "",
                                 "formDefId": "pincodeMaster",
                                 "groupingColumn": "city",
-                                "idColumn": "state",
-                                "labelColumn": "state",
+                                "idColumn": "region",
+                                "labelColumn": "region",
                                 "useAjax": "true"
                             }
                         },
