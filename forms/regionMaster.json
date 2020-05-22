@@ -48,7 +48,7 @@
                         "validator": {
                             "className": "org.joget.apps.form.lib.DuplicateValueValidator",
                             "properties": {
-                                "errorDuplicateMsg": "Region already exists",
+                                "errorDuplicateMsg": "Region Code already exists",
                                 "errorFormatMsg": "Wrong Format",
                                 "fieldId": "regionCode",
                                 "formDefId": "regionMaster",
@@ -57,6 +57,28 @@
                             }
                         },
                         "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "",
+                        "id": "status",
+                        "label": "Region Status",
+                        "maxlength": "",
+                        "permissionHidden": "",
+                        "placeholder": "",
+                        "readonly": "true",
+                        "readonlyLabel": "true",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "Active",
                         "workflowVariable": ""
                     }
                 }
