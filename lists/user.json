@@ -18,6 +18,14 @@
         {
             "filterable": false,
             "hidden": "false",
+            "id": "column_0",
+            "label": "email",
+            "name": "email",
+            "sortable": "false"
+        },
+        {
+            "filterable": false,
+            "hidden": "false",
             "id": "column_6",
             "label": "firstName",
             "name": "firstName",
