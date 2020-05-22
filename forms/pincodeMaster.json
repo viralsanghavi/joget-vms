@@ -1,0 +1,200 @@
+{
+    "className": "org.joget.apps.form.model.Form",
+    "elements": [{
+        "className": "org.joget.apps.form.model.Section",
+        "elements": [{
+            "className": "org.joget.apps.form.model.Column",
+            "elements": [
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "",
+                        "id": "pincode",
+                        "label": "Pincode",
+                        "maxlength": "6",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DuplicateValueValidator",
+                            "properties": {
+                                "errorDuplicateMsg": "Pincode already exists",
+                                "errorFormatMsg": "6 digits compulsory!!",
+                                "fieldId": "pincode",
+                                "formDefId": "pincodeMaster",
+                                "mandatory": "true",
+                                "regex": "^[0-9]{6}$"
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "controlField": "",
+                        "id": "city",
+                        "label": "City",
+                        "multiple": "",
+                        "options": [],
+                        "optionsBinder": {
+                            "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                            "properties": {
+                                "addEmptyOption": "",
+                                "autoHandleFiles": "",
+                                "autoHandleWorkflowVariable": "true",
+                                "cacheInterval": "",
+                                "emptyLabel": "",
+                                "extraCondition": "",
+                                "formDefId": "cityMaster",
+                                "groupingColumn": "cityName",
+                                "idColumn": "cityName",
+                                "labelColumn": "cityName",
+                                "useAjax": "true"
+                            }
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "Select one!",
+                                "type": ""
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "controlField": "city",
+                        "id": "state",
+                        "label": "State",
+                        "multiple": "",
+                        "options": [],
+                        "optionsBinder": {
+                            "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                            "properties": {
+                                "addEmptyOption": "",
+                                "autoHandleFiles": "",
+                                "autoHandleWorkflowVariable": "true",
+                                "cacheInterval": "",
+                                "emptyLabel": "",
+                                "extraCondition": "",
+                                "formDefId": "cityMaster",
+                                "groupingColumn": "cityName",
+                                "idColumn": "state",
+                                "labelColumn": "state",
+                                "useAjax": "true"
+                            }
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "",
+                                "type": ""
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "controlField": "state",
+                        "id": "region",
+                        "label": "Region",
+                        "multiple": "",
+                        "options": [],
+                        "optionsBinder": {
+                            "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                            "properties": {
+                                "addEmptyOption": "",
+                                "autoHandleFiles": "",
+                                "autoHandleWorkflowVariable": "true",
+                                "cacheInterval": "",
+                                "emptyLabel": "",
+                                "extraCondition": "",
+                                "formDefId": "stateMaster",
+                                "groupingColumn": "stateName",
+                                "idColumn": "regionName",
+                                "labelColumn": "regionName",
+                                "useAjax": "true"
+                            }
+                        },
+                        "permissionHidden": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "",
+                                "type": ""
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.HiddenField",
+                    "properties": {
+                        "id": "Status",
+                        "useDefaultWhenEmpty": "",
+                        "value": "Active",
+                        "workflowVariable": ""
+                    }
+                }
+            ],
+            "properties": {"width": "100%"}
+        }],
+        "properties": {
+            "comment": "",
+            "id": "section1",
+            "join": "",
+            "label": "Pincode Master",
+            "loadBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "permission": {
+                "className": "",
+                "properties": {}
+            },
+            "permissionReadonly": "",
+            "readonly": "",
+            "readonlyLabel": "",
+            "regex": "",
+            "reverse": "",
+            "storeBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "visibilityControl": "",
+            "visibilityValue": ""
+        }
+    }],
+    "properties": {
+        "description": "",
+        "id": "pincodeMaster",
+        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "name": "Pincode Master",
+        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "tableName": "pincodeMaster"
+    }
+}

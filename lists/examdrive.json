@@ -1,0 +1,327 @@
+{
+    "actions": [{
+        "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+        "icon": "<i class=\"fas fa-link\"><\/i>",
+        "id": "action_0",
+        "label": "Hyperlink",
+        "name": "Data List Hyperlink Action",
+        "properties": {
+            "confirmation": "",
+            "datalist_type": "action",
+            "href": "exam_run",
+            "hrefColumn": "",
+            "hrefParam": "",
+            "label": "Add Exam Drive",
+            "target": "_self",
+            "visible": ""
+        },
+        "type": "text"
+    }],
+    "binder": {
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {
+            "customSelectionValue": "",
+            "extraCondition": "",
+            "filters": [],
+            "formDefId": "examdrive",
+            "functionColumns": [],
+            "groupBy": "",
+            "joins": []
+        }
+    },
+    "buttonPosition": "bottomLeft",
+    "checkboxPosition": "left",
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_3",
+            "label": "Customer Name",
+            "name": "customername",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_4",
+            "label": "Customer Code",
+            "name": "customercode",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_5",
+            "label": "Project Name",
+            "name": "projectname",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_6",
+            "label": "No. of Sessions",
+            "name": "noofsessions",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_7",
+            "label": "Exam Start Time",
+            "name": "examstarttime",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_8",
+            "label": "Exam End Time",
+            "name": "examendtime",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_0",
+            "label": "From Date",
+            "name": "fromdate",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_1",
+            "label": "To Date",
+            "name": "todate",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_9",
+            "label": "CCTV / DVR Availability in Test Rooms",
+            "name": "cctvdvr",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_10",
+            "label": "Air Conditioners in Test Room",
+            "name": "ac",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_2",
+            "label": "Metal Detectors",
+            "name": "metaldetector",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_11",
+            "label": "Manual Frisking",
+            "name": "manualfrisking",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_12",
+            "label": "Jammers",
+            "name": "jammers",
+            "sortable": "false"
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "org.joget.plugin.enterprise.NestedDatalistFormatter",
+                "properties": {
+                    "addEmptyRow": "true",
+                    "customHeaderColor": "",
+                    "exportOptions": "",
+                    "listId": "citywiseForcast",
+                    "requestParams": [{
+                        "defaultValue": "",
+                        "hrefColumn": "id",
+                        "param": "d-8309159-fn_forecast"
+                    }]
+                }
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_13",
+            "label": "City_Forecast",
+            "name": "City_Forecast",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        }
+    ],
+    "considerFilterWhenGetTotal": "",
+    "description": "",
+    "disableResponsive": "",
+    "filters": [
+        {
+            "id": "filter_0",
+            "label": "From Date",
+            "name": "fromdate",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_13",
+            "label": "City_Forecast",
+            "name": "City_Forecast",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_1",
+            "label": "To Date",
+            "name": "todate",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_2",
+            "label": "Metal Detectors",
+            "name": "metaldetector",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_3",
+            "label": "Manual Frisking",
+            "name": "manualfrisking",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_5",
+            "label": "Air Conditioners in Test Room",
+            "name": "ac",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_4",
+            "label": "Jammers",
+            "name": "jammers",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_7",
+            "label": "Exam Start Time",
+            "name": "examstarttime",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_6",
+            "label": "Exam End Time",
+            "name": "examendtime",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_9",
+            "label": "No. of Sessions",
+            "name": "noofsessions",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_8",
+            "label": "CCTV / DVR Availability in Test Rooms",
+            "name": "cctvdvr",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_10",
+            "label": "Project Name",
+            "name": "projectname",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_12",
+            "label": "Customer Name",
+            "name": "customername",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_11",
+            "label": "Customer Code",
+            "name": "customercode",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        }
+    ],
+    "hidePageSize": "",
+    "id": "examdrive",
+    "name": "Exam Drive",
+    "order": "",
+    "orderBy": "",
+    "pageSize": "0",
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "responsiveView": [
+        {
+            "breakpoint": "",
+            "columns": "",
+            "view": "Mobile"
+        },
+        {
+            "breakpoint": "",
+            "columns": "",
+            "view": "Tablet"
+        }
+    ],
+    "rowActions": [],
+    "searchPopup": "",
+    "showDataWhenFilterSet": "",
+    "showPageSizeSelector": "true",
+    "useSession": ""
+}

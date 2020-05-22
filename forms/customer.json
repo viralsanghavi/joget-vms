@@ -1,0 +1,568 @@
+{
+    "className": "org.joget.apps.form.model.Form",
+    "elements": [{
+        "className": "org.joget.apps.form.model.Section",
+        "elements": [{
+            "className": "org.joget.apps.form.model.Column",
+            "elements": [
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "",
+                        "id": "customerName",
+                        "label": "Customer Name",
+                        "maxlength": "200",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "",
+                                "type": ""
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "",
+                        "id": "customerCode",
+                        "label": "Customer Code",
+                        "maxlength": "20",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "Invalid Input ! Only Alphanumeric",
+                                "type": "alphanumeric"
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "",
+                        "id": "customerSpocName",
+                        "label": "Customer SPOC Name",
+                        "maxlength": "50",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "",
+                                "type": ""
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "",
+                        "id": "customerSpocDesignation",
+                        "label": "Customer SPOC Designation",
+                        "maxlength": "50",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "",
+                                "type": ""
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "",
+                        "id": "customerSpocEmail",
+                        "label": "Customer SPOC E-Mail ID",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DuplicateValueValidator",
+                            "properties": {
+                                "errorDuplicateMsg": "E-mail already exists",
+                                "errorFormatMsg": "Enter Proper E-mail",
+                                "fieldId": "customerSpocEmail",
+                                "formDefId": "customer",
+                                "mandatory": "true",
+                                "regex": "^([a-zA-Z0-9_\\-\\.]+)@([a-zA-Z0-9_\\-\\.]+)\\.([a-zA-Z]{2,5})$"
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "",
+                        "id": "customerSpocMobile",
+                        "label": "Customer SPOC Mobile No.",
+                        "maxlength": "10",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DuplicateValueValidator",
+                            "properties": {
+                                "errorDuplicateMsg": "Number already exists",
+                                "errorFormatMsg": "Starting digit (6-9)!!",
+                                "fieldId": "customerSpocMobile",
+                                "formDefId": "customer",
+                                "mandatory": "true",
+                                "regex": "^[6-9]\\d{9}$"
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "",
+                        "id": "customerL2Name",
+                        "label": "Customer L2 Name",
+                        "maxlength": "50",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "",
+                                "type": ""
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "",
+                        "id": "customerL2Designation",
+                        "label": "Customer L2 Designation",
+                        "maxlength": "50",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "",
+                                "type": ""
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "",
+                        "id": "customerL2Email",
+                        "label": "Customer L2 E-Mail ID",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.BeanShellValidator",
+                            "properties": {
+                                "decoration": "",
+                                "script": "import java.util.Arrays;\r\nimport org.joget.apps.app.service.AppUtil;\r\nimport org.joget.apps.form.model.Element;\r\nimport org.joget.apps.form.model.Form;\r\nimport org.joget.apps.form.model.FormData;\r\nimport org.joget.apps.form.service.FormUtil;\r\n \r\npublic boolean validate(Element element, FormData formData, String[] values) {\r\n    boolean result = true;\r\n \r\n    //get field 1 value from form data object\r\n    String field1Id = \"customerSpocEmail\";\r\n    Form form = FormUtil.findRootForm(element);\r\n    Element customerSpocEmail = FormUtil.findElement(field1Id, form, formData);\r\n \r\n    if (customerSpocEmail != null) {\r\n        //get value of field 1\r\n        String[] compareValues = FormUtil.getElementPropertyValues(customerSpocEmail, formData);\r\n \r\n        //compare the value of field 2 and field 1 are equals\r\n        if (Arrays.equals(values, compareValues)) {\r\n            String id = FormUtil.getElementParameterName(element);\r\n            formData.addFormError(id, \"Value equal!!!!\");\r\n            result = false;\r\n        }\r\n    } else {\r\n        //ignore if the field 1 not exist\r\n    }\r\n \r\n    return result;\r\n}\r\n \r\n//call validate method with injected variable\r\nreturn validate(element, formData, values);"
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "",
+                        "id": "customerL2Mobile",
+                        "label": "Customer L2 Mobile No.",
+                        "maxlength": "10",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DuplicateValueValidator",
+                            "properties": {
+                                "errorDuplicateMsg": "Mobile Number already exists",
+                                "errorFormatMsg": "Starting digit (6-9)!!",
+                                "fieldId": "customerL2Mobile",
+                                "formDefId": "customer",
+                                "mandatory": "true",
+                                "regex": "^[6-9]\\d{9}$"
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "",
+                        "id": "customerL3Name",
+                        "label": "Customer L3 / Escalation Name",
+                        "maxlength": "50",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "",
+                                "type": ""
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "",
+                        "id": "customerL3Designation",
+                        "label": "Customer L3 / Escalation Designation",
+                        "maxlength": "50",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "",
+                                "type": ""
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "",
+                        "id": "customerL3Email",
+                        "label": "Customer L3/Escalation E-Mail ID",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DuplicateValueValidator",
+                            "properties": {
+                                "errorDuplicateMsg": "Email already exits",
+                                "errorFormatMsg": "Enter proper Email ID",
+                                "fieldId": "customerL2Email",
+                                "formDefId": "customer",
+                                "mandatory": "true",
+                                "regex": "^([a-zA-Z0-9_\\-\\.]+)@([a-zA-Z0-9_\\-\\.]+)\\.([a-zA-Z]{2,5})$"
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "",
+                        "id": "customerL3Mobile",
+                        "label": "Customer L3 / Escalation Mobile No.",
+                        "maxlength": "10",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DuplicateValueValidator",
+                            "properties": {
+                                "errorDuplicateMsg": "Mobile Number already exists",
+                                "errorFormatMsg": "Starting digit (6-9)!!",
+                                "fieldId": "customerL3Name",
+                                "formDefId": "customer",
+                                "mandatory": "true",
+                                "regex": "^[6-9]\\d{9}$"
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.CheckBox",
+                    "properties": {
+                        "controlField": "",
+                        "id": "examType",
+                        "label": "Exam Type(S)",
+                        "options": [
+                            {
+                                "grouping": "",
+                                "label": "Recruitment",
+                                "value": "Recruitment"
+                            },
+                            {
+                                "grouping": "",
+                                "label": "Certification",
+                                "value": "Certification"
+                            },
+                            {
+                                "grouping": "",
+                                "label": "Admission",
+                                "value": "Admission"
+                            }
+                        ],
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "Select atleast one!",
+                                "type": ""
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "",
+                        "id": "approximateVolume",
+                        "label": "Approximate Volume",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "Only numbers are allowed!",
+                                "type": "numeric"
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "controlField": "",
+                        "id": "examGeography",
+                        "label": "Exam Geography",
+                        "multiple": "",
+                        "options": [
+                            {
+                                "grouping": "",
+                                "label": "- - Select - -",
+                                "value": ""
+                            },
+                            {
+                                "grouping": "",
+                                "label": "State",
+                                "value": "State"
+                            },
+                            {
+                                "grouping": "",
+                                "label": "PAN India",
+                                "value": "PAN India"
+                            }
+                        ],
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "",
+                                "type": ""
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.CheckBox",
+                    "properties": {
+                        "controlField": "",
+                        "id": "jobType",
+                        "label": "Job Type",
+                        "options": [
+                            {
+                                "grouping": "",
+                                "label": "Pre Exam",
+                                "value": "Pre Exam"
+                            },
+                            {
+                                "grouping": "",
+                                "label": "Exam",
+                                "value": "Exam"
+                            },
+                            {
+                                "grouping": "",
+                                "label": "Post Exam",
+                                "value": "Post Exam"
+                            }
+                        ],
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "Select atleast one",
+                                "type": ""
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.HiddenField",
+                    "properties": {
+                        "id": "Status",
+                        "useDefaultWhenEmpty": "",
+                        "value": "Active",
+                        "workflowVariable": ""
+                    }
+                }
+            ],
+            "properties": {"width": "100%"}
+        }],
+        "properties": {
+            "comment": "",
+            "id": "section1",
+            "join": "",
+            "label": "Customer Master",
+            "loadBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "permission": {
+                "className": "",
+                "properties": {}
+            },
+            "permissionReadonly": "",
+            "readonly": "",
+            "readonlyLabel": "",
+            "regex": "",
+            "reverse": "",
+            "storeBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "visibilityControl": "",
+            "visibilityValue": ""
+        }
+    }],
+    "properties": {
+        "description": "",
+        "id": "customer",
+        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "name": "Customer",
+        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "tableName": "cust"
+    }
+}

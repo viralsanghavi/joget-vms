@@ -1,0 +1,83 @@
+{
+    "actions": [],
+    "binder": {
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {
+            "customSelectionValue": "",
+            "extraCondition": "",
+            "filters": [],
+            "formDefId": "regionMaster",
+            "functionColumns": [],
+            "groupBy": "",
+            "joins": []
+        }
+    },
+    "buttonPosition": "bottomLeft",
+    "checkboxPosition": "left",
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_0",
+            "label": "Region Code",
+            "name": "regionCode",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_1",
+            "label": "Region Name",
+            "name": "regionName",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_3",
+            "label": "Status",
+            "name": "Status",
+            "sortable": "false"
+        }
+    ],
+    "considerFilterWhenGetTotal": "",
+    "description": "",
+    "filters": [
+        {
+            "id": "filter_4",
+            "label": "Region Code",
+            "name": "regionCode",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_3",
+            "label": "Region Name",
+            "name": "regionName",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_2",
+            "label": "Status",
+            "name": "Status",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        }
+    ],
+    "id": "region",
+    "name": "Region Master",
+    "order": "",
+    "orderBy": "",
+    "pageSize": "0",
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "rowActions": [],
+    "showPageSizeSelector": "true",
+    "useSession": "false"
+}

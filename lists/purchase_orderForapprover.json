@@ -1,0 +1,17 @@
+{
+    "actions": [],
+    "binder": {
+        "className": "",
+        "name": "",
+        "properties": {}
+    },
+    "columns": [],
+    "description": "",
+    "filters": [],
+    "id": "purchase_orderForapprover",
+    "name": "Purchase Order For Approver",
+    "order": "",
+    "orderBy": "",
+    "pageSize": "0",
+    "rowActions": []
+}

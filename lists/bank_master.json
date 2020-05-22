@@ -1,0 +1,184 @@
+{
+    "actions": [],
+    "binder": {
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {
+            "customSelectionValue": "",
+            "extraCondition": "",
+            "filters": [],
+            "formDefId": "bank_master",
+            "functionColumns": [],
+            "groupBy": "",
+            "joins": []
+        }
+    },
+    "buttonPosition": "bottomLeft",
+    "checkboxPosition": "left",
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_1",
+            "label": "Bank Branch",
+            "name": "bankBranch",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_0",
+            "label": "Bank Name",
+            "name": "bankName",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_2",
+            "label": "IFSC Code",
+            "name": "ifscCode",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_3",
+            "label": "City",
+            "name": "city",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_4",
+            "label": "State",
+            "name": "state",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_5",
+            "label": "Address of the bank",
+            "name": "address",
+            "sortable": "false"
+        }
+    ],
+    "considerFilterWhenGetTotal": "",
+    "description": "",
+    "filters": [
+        {
+            "id": "filter_5",
+            "label": "Bank Branch",
+            "name": "bankBranch",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_4",
+            "label": "Bank Name",
+            "name": "bankName",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_3",
+            "label": "IFSC Code",
+            "name": "ifscCode",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-6944667-fn_city",
+            "hidden": "",
+            "id": "filter_2",
+            "label": "City",
+            "name": "city",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "bank_master",
+                            "groupingColumn": "city",
+                            "idColumn": "city",
+                            "labelColumn": "city",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-6944667-fn_state",
+            "hidden": "",
+            "id": "filter_1",
+            "label": "State",
+            "name": "state",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "bank_master",
+                            "groupingColumn": "state",
+                            "idColumn": "state",
+                            "labelColumn": "state",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
+            }
+        },
+        {
+            "id": "filter_0",
+            "label": "Address of the bank",
+            "name": "address",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        }
+    ],
+    "id": "bank_master",
+    "name": "Bank Master",
+    "order": "",
+    "orderBy": "",
+    "pageSize": "0",
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "rowActions": [],
+    "showPageSizeSelector": "true",
+    "useSession": "false"
+}

@@ -1,0 +1,67 @@
+{
+    "className": "org.joget.apps.form.model.Form",
+    "elements": [{
+        "className": "org.joget.apps.form.model.Section",
+        "elements": [{
+            "className": "org.joget.apps.form.model.Column",
+            "elements": [{
+                "className": "org.joget.plugin.enterprise.AjaxSubForm",
+                "properties": {
+                    "ajax": "true",
+                    "collapsible": "",
+                    "collapsibleExpanded": "true",
+                    "collapsibleLabelCollapsed": "View Details",
+                    "collapsibleLabelExpanded": "Hide Details",
+                    "formDefId": "bank_master",
+                    "hideEmpty": "",
+                    "id": "bankMasterpreview",
+                    "label": "Bank Master Preview",
+                    "noLoad": "",
+                    "noframe": "",
+                    "parentSubFormId": "bank_master",
+                    "readonly": "",
+                    "readonlyLabel": "",
+                    "storeBinder": {
+                        "className": "org.joget.plugin.enterprise.ParentFormBinder",
+                        "properties": {}
+                    },
+                    "subFormParentId": ""
+                }
+            }],
+            "properties": {"width": "100%"}
+        }],
+        "properties": {
+            "comment": "",
+            "id": "section1",
+            "join": "",
+            "label": "",
+            "loadBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "permission": {
+                "className": "",
+                "properties": {}
+            },
+            "permissionReadonly": "",
+            "readonly": "",
+            "readonlyLabel": "",
+            "regex": "",
+            "reverse": "",
+            "storeBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "visibilityControl": "",
+            "visibilityValue": ""
+        }
+    }],
+    "properties": {
+        "description": "",
+        "id": "bank_master_preview",
+        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "name": "Bank Master Preview",
+        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "tableName": "bankMasterPreview"
+    }
+}

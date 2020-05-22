@@ -1,0 +1,74 @@
+{
+    "actions": [],
+    "binder": {
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {
+            "customSelectionValue": "",
+            "extraCondition": "",
+            "filters": [],
+            "formDefId": "CityWiseForcastForExamDrive",
+            "functionColumns": [],
+            "groupBy": "",
+            "joins": []
+        }
+    },
+    "buttonPosition": "bottomLeft",
+    "checkboxPosition": "left",
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_2",
+            "label": "City Name",
+            "name": "cityname",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_0",
+            "label": "Region",
+            "name": "region",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_1",
+            "label": "State",
+            "name": "state",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_3",
+            "label": "No. of Seats",
+            "name": "noofseats",
+            "sortable": "false"
+        }
+    ],
+    "considerFilterWhenGetTotal": "",
+    "description": "",
+    "filters": [{
+        "datalist_type": "filter",
+        "filterParamName": "d-8309159-fn_forecast",
+        "hidden": "",
+        "id": "filter_0",
+        "label": "forecast",
+        "name": "forecast",
+        "type": {
+            "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+            "properties": {"defaultValue": ""}
+        }
+    }],
+    "id": "citywiseForcast",
+    "name": "City Wise Forcast",
+    "order": "",
+    "orderBy": "",
+    "pageSize": "0",
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "rowActions": [],
+    "showPageSizeSelector": "true",
+    "useSession": "false"
+}

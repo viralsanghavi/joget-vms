@@ -1,0 +1,92 @@
+{
+    "className": "org.joget.apps.form.model.Form",
+    "elements": [{
+        "className": "org.joget.apps.form.model.Section",
+        "elements": [{
+            "className": "org.joget.apps.form.model.Column",
+            "elements": [
+                {
+                    "className": "org.joget.apps.form.lib.HiddenField",
+                    "properties": {
+                        "id": "parent",
+                        "useDefaultWhenEmpty": "",
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.SubForm",
+                    "properties": {
+                        "formDefId": "purchase_order",
+                        "id": "purchase_orderPreview",
+                        "label": "Preview",
+                        "loadBinder": {
+                            "className": "org.joget.plugin.enterprise.ParentFormBinder",
+                            "properties": {}
+                        },
+                        "noframe": "true",
+                        "parentSubFormId": "parent",
+                        "permissionHidden": "",
+                        "readonly": "true",
+                        "readonlyLabel": "",
+                        "storeBinder": {
+                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                            "properties": {}
+                        },
+                        "subFormParentId": "purchase_order"
+                    }
+                }
+            ],
+            "properties": {"width": "100%"}
+        }],
+        "properties": {
+            "comment": "",
+            "id": "section1",
+            "join": "",
+            "label": "",
+            "loadBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "permission": {
+                "className": "",
+                "properties": {}
+            },
+            "permissionReadonly": "",
+            "readonly": "",
+            "readonlyLabel": "",
+            "regex": "",
+            "reverse": "",
+            "storeBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "visibilityControl": "",
+            "visibilityValue": ""
+        }
+    }],
+    "properties": {
+        "description": "",
+        "id": "Preview_PuchaseOrder",
+        "loadBinder": {
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
+        },
+        "name": "Preview Purchase Order",
+        "noPermissionMessage": "",
+        "permission": {
+            "className": "",
+            "properties": {}
+        },
+        "postProcessor": {
+            "className": "",
+            "properties": {}
+        },
+        "postProcessorRunOn": "create",
+        "storeBinder": {
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
+        },
+        "tableName": "purchase"
+    }
+}
