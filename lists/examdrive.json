@@ -11,7 +11,7 @@
             "href": "exam_run",
             "hrefColumn": "",
             "hrefParam": "",
-            "label": "Add New Exam Drive",
+            "label": "Add Exam Drive",
             "target": "_self",
             "visible": ""
         },
@@ -23,7 +23,7 @@
             "customSelectionValue": "",
             "extraCondition": "",
             "filters": [],
-            "formDefId": "examdrive_preview",
+            "formDefId": "CityWiseForcastForExamDrive",
             "functionColumns": [],
             "groupBy": "",
             "joins": []
@@ -196,7 +196,7 @@
         {
             "datalist_type": "filter",
             "filterParamName": "d-3629385-fn_metaldetector",
-            "hidden": "true",
+            "hidden": "",
             "id": "filter_10",
             "label": "Metal Detectors",
             "name": "metaldetector",
@@ -209,13 +209,33 @@
                     "options": [
                         {
                             "grouping": "",
-                            "label": "No",
+                            "label": "Yes",
                             "value": "Yes"
                         },
                         {
                             "grouping": "",
                             "label": "No",
+                            "value": "No"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "Yes",
                             "value": "Yes"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "No",
+                            "value": "No"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "Yes",
+                            "value": "Yes"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "No",
+                            "value": "No"
                         }
                     ],
                     "optionsBinder": {
@@ -262,7 +282,7 @@
         {
             "datalist_type": "filter",
             "filterParamName": "d-3629385-fn_jammers",
-            "hidden": "true",
+            "hidden": "",
             "id": "filter_12",
             "label": "Jammers",
             "name": "jammers",
@@ -322,7 +342,7 @@
         {
             "datalist_type": "filter",
             "filterParamName": "d-3629385-fn_ac",
-            "hidden": "true",
+            "hidden": "",
             "id": "filter_7",
             "label": "Air Conditioners in Test Room",
             "name": "ac",
@@ -373,7 +393,7 @@
         {
             "datalist_type": "filter",
             "filterParamName": "d-3629385-fn_cctvdvr",
-            "hidden": "true",
+            "hidden": "",
             "id": "filter_6",
             "label": "CCTV / DVR Availability in Test Rooms",
             "name": "cctvdvr",
@@ -386,13 +406,13 @@
                     "options": [
                         {
                             "grouping": "",
-                            "label": "No",
+                            "label": "Yes",
                             "value": "Yes"
                         },
                         {
                             "grouping": "",
                             "label": "No",
-                            "value": "Yes"
+                            "value": "No"
                         }
                     ],
                     "optionsBinder": {
