@@ -196,7 +196,7 @@
                         "autoPopulate": "",
                         "id": "field7",
                         "label": "",
-                        "value": "<script>\ndocument.getElementById('ifscCode').addEventListener('change',myFunc)\nfunction myFunc(){\n var x = document.getElementById('ifscCode')\nx.value = x.value.toUpperCase();\n}\n<\/script>\n\n<script>\n    $('select[name=\"city\"]').on('click',function(){\n   (document.getElementsByName(\"city\")[0].selectedIndex ==0?document.getElementsByName(\"state\")[0].selectedIndex=0\n    :document.getElementsByName(\"state\")[0].selectedIndex=1\n)\n\n    });\n<\/script>"
+                        "value": "<script>\ndocument.getElementById('ifscCode').addEventListener('change',myFunc)\nfunction myFunc(){\n var x = document.getElementById('ifscCode')\nx.value = x.value.toUpperCase();\n}\n<\/script>\n\n<script>\n$('select[name=\"city\"]').prop('disabled',true)\n$('select[name=\"city\"]').on('click',function(){\n   (document.getElementsByName(\"city\")[0].selectedIndex ==0?document.getElementsByName(\"state\")[0].selectedIndex=0\n    :document.getElementsByName(\"state\")[0].selectedIndex=1\n)\n\n    });\n<\/script>"
                     }
                 }
             ],
