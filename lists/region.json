@@ -30,22 +30,6 @@
             "label": "Region Name",
             "name": "regionName",
             "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_2",
-            "label": "status",
-            "name": "status",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_3",
-            "label": "Region Status",
-            "name": "status",
-            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
@@ -67,39 +51,6 @@
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
                 "properties": {}
-            }
-        },
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-446834-fn_status",
-            "hidden": "",
-            "id": "filter_0",
-            "label": "Status",
-            "name": "status",
-            "type": {
-                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
-                "properties": {
-                    "controlField": "",
-                    "defaultValue": "",
-                    "multiple": "",
-                    "options": [
-                        {
-                            "grouping": "",
-                            "label": "Active",
-                            "value": "Active"
-                        },
-                        {
-                            "grouping": "",
-                            "label": "Inactive",
-                            "value": "Inactive"
-                        }
-                    ],
-                    "optionsBinder": {
-                        "className": "",
-                        "properties": {}
-                    },
-                    "size": ""
-                }
             }
         }
     ],
