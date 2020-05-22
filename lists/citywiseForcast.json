@@ -50,7 +50,18 @@
     ],
     "considerFilterWhenGetTotal": "",
     "description": "",
-    "filters": [],
+    "filters": [{
+        "datalist_type": "filter",
+        "filterParamName": "d-8309159-fn_forecast",
+        "hidden": "",
+        "id": "filter_0",
+        "label": "forecast",
+        "name": "forecast",
+        "type": {
+            "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+            "properties": {"defaultValue": ""}
+        }
+    }],
     "id": "citywiseForcast",
     "name": "City Wise Forcast",
     "order": "",
