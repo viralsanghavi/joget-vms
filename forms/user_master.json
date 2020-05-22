@@ -130,8 +130,15 @@
                             "value": "channelMaster"
                         }],
                         "optionsBinder": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.plugin.enterprise.GroupOptionsBinder",
+                            "properties": {
+                                "addEmptyOption": "",
+                                "autoHandleFiles": "",
+                                "autoHandleWorkflowVariable": "true",
+                                "cacheInterval": "",
+                                "emptyLabel": "",
+                                "orgId": ""
+                            }
                         },
                         "readonly": "",
                         "readonlyLabel": "",
