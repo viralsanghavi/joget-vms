@@ -400,26 +400,26 @@
                 "type": {
                     "className": "",
                     "properties": {
-                        "active": "active",
+                        "active": "employeeStatus",
                         "department": "department",
                         "email": "email",
                         "employeeCode": "employeeCode",
                         "endDate": "endDate",
                         "firstName": "firstName",
                         "grade": "grade",
-                        "groups": "groups",
+                        "groups": "group",
                         "isHod": "isHod",
                         "jobTitle": "jobTitle",
                         "lastName": "lastName",
                         "locale": "locale",
                         "organization": "organization",
-                        "password": "password",
+                        "password": "pass",
                         "reportTo": "reportTo",
                         "startDate": "startDate",
                         "timeZone": "timeZone",
                         "useGridForOrgChart": "",
                         "userRoles": "userRoles",
-                        "username": "username"
+                        "username": "userName"
                     }
                 }
             }
