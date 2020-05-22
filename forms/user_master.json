@@ -392,7 +392,7 @@
                         "endDate": "endDate",
                         "firstName": "firstName",
                         "grade": "grade",
-                        "groups": "groups",
+                        "groups": "channelMaster",
                         "isHod": "isHod",
                         "jobTitle": "jobTitle",
                         "lastName": "lastName",
