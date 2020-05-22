@@ -40,26 +40,12 @@
             "sortable": "false"
         },
         {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
             "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
             "hidden": "false",
             "id": "column_1",
             "label": "Status",
-            "name": "status",
-            "sortable": "false",
-            "style": "",
-            "width": ""
+            "name": "Status",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
@@ -93,36 +79,12 @@
             }
         },
         {
-            "datalist_type": "filter",
-            "filterParamName": "d-149363-fn_status",
-            "hidden": "",
-            "id": "filter_3",
+            "id": "filter_4",
             "label": "Status",
-            "name": "status",
+            "name": "Status",
             "type": {
-                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
-                "properties": {
-                    "controlField": "",
-                    "defaultValue": "",
-                    "multiple": "",
-                    "options": [
-                        {
-                            "grouping": "",
-                            "label": "Active",
-                            "value": "Active"
-                        },
-                        {
-                            "grouping": "",
-                            "label": "Inactive",
-                            "value": "Inactive"
-                        }
-                    ],
-                    "optionsBinder": {
-                        "className": "",
-                        "properties": {}
-                    },
-                    "size": ""
-                }
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
             }
         }
     ],
