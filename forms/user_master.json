@@ -452,7 +452,7 @@
                         "className": "org.joget.apps.form.lib.TextField",
                         "properties": {
                             "encryption": "",
-                            "id": "firstname",
+                            "id": "firstname1",
                             "label": "FirstName",
                             "maxlength": "",
                             "placeholder": "",
@@ -755,7 +755,7 @@
                             "autoPopulate": "",
                             "id": "field9",
                             "label": "",
-                            "value": "<script>\n    $('input[name=employeeStatus][value=\"Active\"]').prop('checked', true);\n    // $(document).ready(function(){\n    //   $(\"#section\").hide();\n    // });\n<\/script>\n<script>\n    $(document).on('change', function() {\n    document.getElementById('firstname').value=document.getElementById('firstName').value\n        \n    });\n<\/script>"
+                            "value": "<script>\n    $('input[name=employeeStatus][value=\"Active\"]').prop('checked', true);\n    // $(document).ready(function(){\n    //   $(\"#section\").hide();\n    // });\n<\/script>\n<script>\n    $(document).on('change', function() {\n    document.getElementById('firstname1').value=document.getElementById('firstName').value\n        \n    });\n<\/script>"
                         }
                     }
                 ],
