@@ -1,0 +1,296 @@
+{
+    "actions": [{
+        "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+        "icon": "<i class=\"fas fa-link\"><\/i>",
+        "id": "action_0",
+        "label": "Hyperlink",
+        "name": "Data List Hyperlink Action",
+        "properties": {
+            "confirmation": "",
+            "datalist_type": "action",
+            "href": "purchase_run",
+            "hrefColumn": "",
+            "hrefParam": "",
+            "label": "Add New",
+            "target": "_self",
+            "visible": ""
+        },
+        "type": "text"
+    }],
+    "binder": {
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {
+            "customSelectionValue": "",
+            "extraCondition": "",
+            "filters": [],
+            "formDefId": "Preview_PuchaseOrderWithStatus",
+            "functionColumns": [],
+            "groupBy": "",
+            "joins": []
+        }
+    },
+    "buttonPosition": "bottomLeft",
+    "checkboxPosition": "left",
+    "columns": [
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "org.joget.plugin.enterprise.OptionsValueFormatter",
+                "properties": {
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "venueMangement",
+                            "groupingColumn": "",
+                            "idColumn": "",
+                            "labelColumn": "organisationName",
+                            "useAjax": ""
+                        }
+                    }
+                }
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_0",
+            "label": "Venue",
+            "name": "purchase_Venue",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_1",
+            "label": "Offer No",
+            "name": "purchase_offerNo",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_2",
+            "label": "Internet Connection (MBPS)",
+            "name": "purchase_internet",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_3",
+            "label": "Exam Dates",
+            "name": "purchase_examDate",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_4",
+            "label": "Authorized Signatory Selection",
+            "name": "purchase_authorizedSignatory",
+            "sortable": "false"
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_5",
+            "label": "PO Template",
+            "name": "purchase_poSubjectTemplate",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_6",
+            "label": "Status",
+            "name": "Status",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_7",
+            "label": "Type",
+            "name": "Type",
+            "sortable": "false"
+        }
+    ],
+    "considerFilterWhenGetTotal": "",
+    "description": "",
+    "filters": [
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-7721494-fn_purchase_Venue",
+            "hidden": "",
+            "id": "filter_3",
+            "label": "Venue",
+            "name": "purchase_Venue",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "defaultValue": "",
+                    "multiple": "autocomplete",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "venueMangement",
+                            "groupingColumn": "",
+                            "idColumn": "",
+                            "labelColumn": "organisationName",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-7721494-fn_purchase_offerNo",
+            "hidden": "",
+            "id": "filter_1",
+            "label": "Offer No",
+            "name": "purchase_offerNo",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "defaultValue": "",
+                    "multiple": "autocomplete",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "Preview_PuchaseOrderWithStatus",
+                            "groupingColumn": "",
+                            "idColumn": "",
+                            "labelColumn": "purchase_offerNo",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
+            }
+        }
+    ],
+    "id": "Preview_PuchaseOrder",
+    "name": "Preview Purchase Order",
+    "order": "",
+    "orderBy": "",
+    "pageSize": "0",
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "rowActions": [
+        {
+            "className": "org.joget.tutorial.DownloadPdfDatalistAction",
+            "icon": "",
+            "id": "rowAction_0",
+            "label": "Download PDF",
+            "name": "Download PDF Datalist Action",
+            "properties": {
+                "confirmation": "",
+                "datalist_type": "row_action",
+                "footerHtml": "",
+                "formDefId": "template_1",
+                "formatting": "",
+                "headerHtml": "",
+                "hideEmptyValueField": "",
+                "label": "Download Template 1",
+                "recordIdColumn": "",
+                "repeatFooter": "",
+                "repeatHeader": "",
+                "rules": [{
+                    "field": "purchase_poSubjectTemplate",
+                    "join": "AND",
+                    "operator": "=",
+                    "value": "Template 1"
+                }],
+                "showNotSelectedOptions": ""
+            },
+            "type": "text"
+        },
+        {
+            "className": "org.joget.tutorial.DownloadPdfDatalistAction",
+            "icon": "",
+            "id": "rowAction_1",
+            "label": "Download PDF",
+            "name": "Download PDF Datalist Action",
+            "properties": {
+                "confirmation": "",
+                "datalist_type": "row_action",
+                "footerHtml": "",
+                "formDefId": "template_2",
+                "formatting": "",
+                "headerHtml": "",
+                "hideEmptyValueField": "",
+                "label": "Download Template 2",
+                "recordIdColumn": "",
+                "repeatFooter": "",
+                "repeatHeader": "",
+                "rules": [{
+                    "field": "purchase_poSubjectTemplate",
+                    "join": "AND",
+                    "operator": "=",
+                    "value": "Template 2"
+                }],
+                "showNotSelectedOptions": ""
+            },
+            "type": "text"
+        }
+    ],
+    "showPageSizeSelector": "true",
+    "useSession": "false"
+}
