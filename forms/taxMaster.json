@@ -306,8 +306,29 @@
                 "properties": {"width": "100%"}
             }],
             "properties": {
+                "comment": "",
                 "id": "section1",
-                "label": "Section"
+                "join": "",
+                "label": "C.G.S.T",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permissionReadonly": "",
+                "readonly": "",
+                "readonlyLabel": "",
+                "regex": "",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityControl": "",
+                "visibilityValue": ""
             }
         },
         {
@@ -558,8 +579,29 @@
                 "properties": {"width": "100%"}
             }],
             "properties": {
+                "comment": "",
                 "id": "section2",
-                "label": "Section"
+                "join": "",
+                "label": "S.G.S.T/U.T.G.S.T",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permissionReadonly": "",
+                "readonly": "",
+                "readonlyLabel": "",
+                "regex": "",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityControl": "",
+                "visibilityValue": ""
             }
         }
     ],
