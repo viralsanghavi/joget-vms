@@ -320,12 +320,36 @@
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-3629385-fn_ac",
+            "hidden": "true",
             "id": "filter_7",
             "label": "Air Conditioners in Test Room",
             "name": "ac",
             "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [
+                        {
+                            "grouping": "",
+                            "label": "Yes",
+                            "value": "Yes"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "No",
+                            "value": "No"
+                        }
+                    ],
+                    "optionsBinder": {
+                        "className": "",
+                        "properties": {}
+                    },
+                    "size": ""
+                }
             }
         },
         {
@@ -347,12 +371,36 @@
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-3629385-fn_cctvdvr",
+            "hidden": "true",
             "id": "filter_6",
             "label": "CCTV / DVR Availability in Test Rooms",
             "name": "cctvdvr",
             "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [
+                        {
+                            "grouping": "",
+                            "label": "No",
+                            "value": "Yes"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "No",
+                            "value": "Yes"
+                        }
+                    ],
+                    "optionsBinder": {
+                        "className": "",
+                        "properties": {}
+                    },
+                    "size": ""
+                }
             }
         },
         {
