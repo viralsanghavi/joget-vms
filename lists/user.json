@@ -15,6 +15,14 @@
         {
             "filterable": true,
             "hidden": "false",
+            "id": "column_5",
+            "label": "username",
+            "name": "username",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
             "id": "column_0",
             "label": "firstName",
             "name": "firstName",
@@ -23,9 +31,33 @@
         {
             "filterable": true,
             "hidden": "false",
+            "id": "column_3",
+            "label": "lastName",
+            "name": "lastName",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_4",
+            "label": "password",
+            "name": "password",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_2",
+            "label": "email",
+            "name": "email",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
             "id": "column_1",
-            "label": "firstName",
-            "name": "firstName",
+            "label": "active",
+            "name": "active",
             "sortable": "false"
         }
     ],
