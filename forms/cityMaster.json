@@ -19,8 +19,14 @@
                         "storeNumeric": "",
                         "style": "",
                         "validator": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "custom-regex": "^[a-zA-Z0-9 ]*$",
+                                "custom-regex-casesensitive": "",
+                                "mandatory": "true",
+                                "message": "Invalid",
+                                "type": "custom"
+                            }
                         },
                         "value": "",
                         "workflowVariable": ""
@@ -40,8 +46,15 @@
                         "storeNumeric": "",
                         "style": "",
                         "validator": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.DuplicateValueValidator",
+                            "properties": {
+                                "errorDuplicateMsg": "City Code already exists!!",
+                                "errorFormatMsg": "Invalid",
+                                "fieldId": "cityCode",
+                                "formDefId": "cityMaster",
+                                "mandatory": "true",
+                                "regex": "^[a-zA-Z0-9]+$"
+                            }
                         },
                         "value": "",
                         "workflowVariable": ""
