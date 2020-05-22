@@ -828,7 +828,14 @@
                     "edit-firstButtonLabel": "",
                     "edit-lastButtonLabel": "",
                     "edit-messageShowAfterComplete": "",
-                    "edit-moreActions": [],
+                    "edit-moreActions": [{
+                        "confirmation": "yes",
+                        "href": "www.ggogle.com",
+                        "hrefColumn": "City_Forecast",
+                        "hrefParam": "Google",
+                        "hrefTarget": "",
+                        "label": ""
+                    }],
                     "edit-nextButtonLabel": "",
                     "edit-prevButtonLabel": "",
                     "edit-readonly": "",
