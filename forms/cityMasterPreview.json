@@ -4,12 +4,91 @@
         "className": "org.joget.apps.form.model.Section",
         "elements": [{
             "className": "org.joget.apps.form.model.Column",
-            "elements": [],
+            "elements": [
+                {
+                    "className": "org.joget.apps.form.lib.SubForm",
+                    "properties": {
+                        "formDefId": "cityMaster",
+                        "id": "cityMasterPreview",
+                        "label": "",
+                        "loadBinder": {
+                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                            "properties": {}
+                        },
+                        "noframe": "true",
+                        "parentSubFormId": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "storeBinder": {
+                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                            "properties": {}
+                        },
+                        "subFormParentId": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.Radio",
+                    "properties": {
+                        "controlField": "",
+                        "id": "Status",
+                        "label": "Status",
+                        "options": [
+                            {
+                                "grouping": "",
+                                "label": "Active",
+                                "value": "Active"
+                            },
+                            {
+                                "grouping": "",
+                                "label": "Inactive",
+                                "value": "Inactive"
+                            }
+                        ],
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "Select one!",
+                                "type": ""
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                }
+            ],
             "properties": {"width": "100%"}
         }],
         "properties": {
+            "comment": "",
             "id": "section1",
-            "label": "Section"
+            "join": "",
+            "label": "",
+            "loadBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "permission": {
+                "className": "",
+                "properties": {}
+            },
+            "permissionReadonly": "",
+            "readonly": "",
+            "readonlyLabel": "",
+            "regex": "",
+            "reverse": "",
+            "storeBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "visibilityControl": "",
+            "visibilityValue": ""
         }
     }],
     "properties": {
