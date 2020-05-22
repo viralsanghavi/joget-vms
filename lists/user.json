@@ -13,31 +13,63 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_6",
+            "id": "column_0",
             "label": "Employee Number",
-            "name": "employeeNumber1",
+            "name": "employeeNumber",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_14",
+            "id": "column_4",
             "label": "Username",
-            "name": "uName1",
+            "name": "uName",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_8",
-            "label": "FirstName",
-            "name": "firstname1",
+            "id": "column_10",
+            "label": "City",
+            "name": "city",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
             "id": "column_9",
+            "label": "Email",
+            "name": "emailId",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_3",
+            "label": "FirstName",
+            "name": "firstname",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_6",
+            "label": "Last Name",
+            "name": "lastName",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_7",
+            "label": "Mobile Number",
+            "name": "mobile",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_5",
             "label": "Group",
             "name": "groups",
             "sortable": "false"
@@ -45,47 +77,88 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_10",
-            "label": "Last Name",
-            "name": "lastName1",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_11",
-            "label": "Mobile Number",
-            "name": "mobile1",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_15",
-            "label": "Email",
-            "name": "emailId1",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_7",
+            "id": "column_2",
             "label": "Employee Status",
-            "name": "employeeStatus1",
+            "name": "employeeStatus",
             "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
     "description": "",
-    "filters": [{
-        "id": "filter_0",
-        "label": "Group",
-        "name": "groups",
-        "type": {
-            "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-            "properties": {}
+    "filters": [
+        {
+            "id": "filter_7",
+            "label": "Username",
+            "name": "uName1",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_6",
+            "label": "Region",
+            "name": "region",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_5",
+            "label": "Last Name",
+            "name": "lastName",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_4",
+            "label": "FirstName",
+            "name": "firstname",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_3",
+            "label": "Employee Status",
+            "name": "employeeStatus",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_2",
+            "label": "Email",
+            "name": "emailId1",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_1",
+            "label": "City",
+            "name": "city",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_0",
+            "label": "Group",
+            "name": "groups",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
         }
-    }],
+    ],
     "id": "user",
     "name": "User Master",
     "order": "",
