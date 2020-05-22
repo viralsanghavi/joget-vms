@@ -1,16 +1,8 @@
 {
     "actions": [],
     "binder": {
-        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
-        "properties": {
-            "customSelectionValue": "",
-            "extraCondition": "",
-            "filters": [],
-            "formDefId": "user_master",
-            "functionColumns": [],
-            "groupBy": "",
-            "joins": []
-        }
+        "className": "org.joget.plugin.enterprise.ExternalDirectoryDatalistBinder",
+        "properties": {"type": "org.joget.directory.model.Group"}
     },
     "buttonPosition": "bottomLeft",
     "checkboxPosition": "left",
@@ -18,74 +10,31 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_0",
-            "label": "Employee Number",
-            "name": "employeeNumber",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_4",
-            "label": "Username",
-            "name": "userName",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
             "id": "column_1",
-            "label": "FirstName",
-            "name": "firstname",
+            "label": "organization.id",
+            "name": "organization.id",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_3",
-            "label": "Last Name",
-            "name": "lastName",
+            "id": "column_0",
+            "label": "name",
+            "name": "name",
             "sortable": "false"
         },
         {
-            "filterable": true,
+            "filterable": false,
             "hidden": "false",
             "id": "column_2",
-            "label": "Mobile Number",
-            "name": "mobile",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_5",
-            "label": "Employee Status",
-            "name": "employeeStatus",
+            "label": "organization.name",
+            "name": "organization.name",
             "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
     "description": "",
-    "filters": [
-        {
-            "id": "filter_4",
-            "label": "Employee Number",
-            "name": "employeeNumber",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
-            }
-        },
-        {
-            "id": "filter_0",
-            "label": "Employee Status",
-            "name": "employeeStatus",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
-            }
-        }
-    ],
+    "filters": [],
     "id": "user",
     "name": "User Master",
     "order": "",
