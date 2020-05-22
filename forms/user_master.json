@@ -451,36 +451,8 @@
                 "regex": "",
                 "reverse": "",
                 "storeBinder": {
-                    "className": "org.joget.plugin.enterprise.DirectoryUserFormBinder",
-                    "properties": {
-                        "autoHandleFiles": "",
-                        "autoHandleWorkflowVariable": "true",
-                        "type": {
-                            "className": "",
-                            "properties": {
-                                "active": "active",
-                                "department": "department",
-                                "email": "email",
-                                "employeeCode": "employeeCode",
-                                "endDate": "endDate",
-                                "firstName": "firstName",
-                                "grade": "grade",
-                                "groups": "groups",
-                                "isHod": "isHod",
-                                "jobTitle": "jobTitle",
-                                "lastName": "lastName",
-                                "locale": "locale",
-                                "organization": "organization",
-                                "password": "password",
-                                "reportTo": "reportTo",
-                                "startDate": "startDate",
-                                "timeZone": "timeZone",
-                                "useGridForOrgChart": "",
-                                "userRoles": "userRoles",
-                                "username": "username"
-                            }
-                        }
-                    }
+                    "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                    "properties": {}
                 },
                 "visibilityControl": "",
                 "visibilityValue": ""
