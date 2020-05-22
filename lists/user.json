@@ -1,45 +1,22 @@
 {
     "actions": [],
     "binder": {
-        "className": "org.joget.plugin.enterprise.ExternalDirectoryDatalistBinder",
-        "properties": {"type": "org.joget.directory.model.Group"}
+        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
+        "properties": {
+            "extraCondition": "",
+            "formDefId": "user_master"
+        }
     },
     "buttonPosition": "bottomLeft",
     "checkboxPosition": "left",
-    "columns": [
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_1",
-            "label": "organization.id",
-            "name": "organization.id",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_0",
-            "label": "name",
-            "name": "name",
-            "sortable": "false"
-        },
-        {
-            "filterable": false,
-            "hidden": "false",
-            "id": "column_3",
-            "label": "organization.description",
-            "name": "organization.description",
-            "sortable": "false"
-        },
-        {
-            "filterable": false,
-            "hidden": "false",
-            "id": "column_2",
-            "label": "organization.name",
-            "name": "organization.name",
-            "sortable": "false"
-        }
-    ],
+    "columns": [{
+        "filterable": true,
+        "hidden": "false",
+        "id": "column_0",
+        "label": "Email",
+        "name": "emailId",
+        "sortable": "false"
+    }],
     "considerFilterWhenGetTotal": "",
     "description": "",
     "filters": [],
