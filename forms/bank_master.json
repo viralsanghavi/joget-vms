@@ -196,7 +196,7 @@
                         "autoPopulate": "",
                         "id": "field7",
                         "label": "",
-                        "value": "<script>\ndocument.getElementById('ifscCode').addEventListener('change',myFunc)\nfunction myFunc(){\n var x = document.getElementById('ifscCode')\nx.value = x.value.toUpperCase();\n}\n<\/script>\n\n<script>\n    $('select[name=\"city\"]').on('change',function(){\n         $(\"select[name='state']\").prop('disabled', true);\n        var x =$(\"select[name='state']\").val('').trigger('chosen:updated')[0]['childNodes'][1]\n        x.remove()\n    });\n<\/script>"
+                        "value": "<script>\ndocument.getElementById('ifscCode').addEventListener('change',myFunc)\nfunction myFunc(){\n var x = document.getElementById('ifscCode')\nx.value = x.value.toUpperCase();\n}\n<\/script>\n\n<script>\n    $('select[name=\"city\"]').on('change',function(){\n        $(\"select[name='state'] option\")[0].remove()\n\n    });\n<\/script>"
                     }
                 }
             ],
