@@ -373,7 +373,7 @@
             "join": "",
             "label": "Section",
             "loadBinder": {
-                "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                "className": "",
                 "properties": {}
             },
             "permission": {
@@ -386,7 +386,7 @@
             "regex": "",
             "reverse": "",
             "storeBinder": {
-                "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                "className": "",
                 "properties": {}
             },
             "visibilityControl": "",
