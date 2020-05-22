@@ -362,7 +362,7 @@
                             "autoPopulate": "",
                             "id": "field9",
                             "label": "",
-                            "value": "<script>\n    $('input[name=employeeStatus][value=\"Active\"]').prop('checked', true);\n    $('radio[name=employeeStatus][value=\"Inactive\"]').hide()\n<\/script>\n<script>\n    $(document).on('change', function() {\n  console.log('Changed')\n  // Does some stuff and logs the event to the console\n});\n<\/script>"
+                            "value": "<script>\n    $('input[name=employeeStatus][value=\"Active\"]').prop('checked', true);\n    $('radio[name=employeeStatus][value=\"Inactive\"]').hide()\n<\/script>\n"
                         }
                     }
                 ],
@@ -755,7 +755,7 @@
                             "autoPopulate": "",
                             "id": "field9",
                             "label": "",
-                            "value": "<script>\n    $('input[name=employeeStatus][value=\"Active\"]').prop('checked', true);\n    $(document).ready(function(){\n      $(\"#section\").hide();\n    });\n<\/script>\n"
+                            "value": "<script>\n    $('input[name=employeeStatus][value=\"Active\"]').prop('checked', true);\n    // $(document).ready(function(){\n    //   $(\"#section\").hide();\n    // });\n<\/script>\n<script>\n    $(document).on('change', function() {\n    document.getElementById('firstName').value=document.getElementById('firstName').value\n        \n    });\n<\/script>"
                         }
                     }
                 ],
@@ -767,7 +767,7 @@
                 "join": "",
                 "label": "Section",
                 "loadBinder": {
-                    "className": "",
+                    "className": "org.joget.apps.form.lib.WorkflowFormBinder",
                     "properties": {}
                 },
                 "permission": {
@@ -780,8 +780,36 @@
                 "regex": "",
                 "reverse": "",
                 "storeBinder": {
-                    "className": "",
-                    "properties": {}
+                    "className": "org.joget.plugin.enterprise.DirectoryUserFormBinder",
+                    "properties": {
+                        "autoHandleFiles": "",
+                        "autoHandleWorkflowVariable": "true",
+                        "type": {
+                            "className": "",
+                            "properties": {
+                                "active": "active",
+                                "department": "department",
+                                "email": "email",
+                                "employeeCode": "employeeCode",
+                                "endDate": "endDate",
+                                "firstName": "firstName",
+                                "grade": "grade",
+                                "groups": "groups",
+                                "isHod": "isHod",
+                                "jobTitle": "jobTitle",
+                                "lastName": "lastName",
+                                "locale": "locale",
+                                "organization": "organization",
+                                "password": "password",
+                                "reportTo": "reportTo",
+                                "startDate": "startDate",
+                                "timeZone": "timeZone",
+                                "useGridForOrgChart": "",
+                                "userRoles": "userRoles",
+                                "username": "username"
+                            }
+                        }
+                    }
                 },
                 "visibilityControl": "",
                 "visibilityValue": ""
