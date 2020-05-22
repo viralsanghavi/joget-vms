@@ -109,8 +109,20 @@
                     "multiple": "",
                     "options": [],
                     "optionsBinder": {
-                        "className": "",
-                        "properties": {}
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "autoHandleFiles": "",
+                            "autoHandleWorkflowVariable": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "bank_master",
+                            "groupingColumn": "city",
+                            "idColumn": "city",
+                            "labelColumn": "city",
+                            "useAjax": ""
+                        }
                     },
                     "size": ""
                 }
