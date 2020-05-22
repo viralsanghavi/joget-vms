@@ -124,11 +124,18 @@
                         "id": "group",
                         "label": "Group",
                         "multiple": "",
-                        "options": [{
-                            "grouping": "",
-                            "label": "Channel Manager",
-                            "value": "Channel Manager"
-                        }],
+                        "options": [
+                            {
+                                "grouping": "",
+                                "label": "Channel Manager",
+                                "value": "Channel Manager"
+                            },
+                            {
+                                "grouping": "",
+                                "label": "Project Manager",
+                                "value": "Project Manager"
+                            }
+                        ],
                         "optionsBinder": {
                             "className": "",
                             "properties": {}
@@ -354,7 +361,7 @@
                         "autoPopulate": "",
                         "id": "field9",
                         "label": "",
-                        "value": "<script>\n    $('input[name=employeeStatus][value=\"Active\"]').prop('checked', true);\n  $('input[name=employeeStatus][value=\"Inactive\"]').hide()\n\n<\/script>"
+                        "value": "<script>\n    $('input[name=employeeStatus][value=\"Active\"]').prop('checked', true);\n    $('radio[name=employeeStatus][value=\"Inactive\"]').hide()\n\n<\/script>"
                     }
                 }
             ],
