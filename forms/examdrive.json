@@ -859,7 +859,7 @@
                                 "className": "",
                                 "properties": {}
                             },
-                            "submit-label-normal": "",
+                            "submit-label-normal": "Add",
                             "submit-label-readonly": "",
                             "uniqueKey": "cityname",
                             "validateMaxRow": "",
