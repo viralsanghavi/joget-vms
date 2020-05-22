@@ -21,7 +21,7 @@
         <Application Id="default_application"/>
     </Applications>
     <WorkflowProcesses>
-        <WorkflowProcess Id="process2" Name="Process 2">
+        <WorkflowProcess Id="process2" Name="Exam Drive Form">
             <ProcessHeader DurationUnit="h"/>
             <DataFields>
                 <DataField Id="status" IsArray="FALSE">
@@ -31,7 +31,7 @@
                 </DataField>
             </DataFields>
             <Activities>
-                <Activity Id="activity1" Name="Activity 1">
+                <Activity Id="activity1" Name="Preview Form">
                     <Implementation>
                         <No/>
                     </Implementation>
