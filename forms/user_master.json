@@ -1,793 +1,398 @@
 {
     "className": "org.joget.apps.form.model.Form",
-    "elements": [
-        {
-            "className": "org.joget.apps.form.model.Section",
-            "elements": [{
-                "className": "org.joget.apps.form.model.Column",
-                "elements": [
-                    {
-                        "className": "org.joget.apps.form.lib.TextField",
-                        "properties": {
-                            "encryption": "",
-                            "id": "employeeNumber",
-                            "label": "Employee Number",
-                            "maxlength": "10",
-                            "placeholder": "",
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "size": "",
-                            "storeNumeric": "",
-                            "style": "",
-                            "validator": {
-                                "className": "org.joget.apps.form.lib.DuplicateValueValidator",
-                                "properties": {
-                                    "errorDuplicateMsg": "Employee Number already exists",
-                                    "errorFormatMsg": "",
-                                    "fieldId": "employeeNumber",
-                                    "formDefId": "user_master",
-                                    "mandatory": "true",
-                                    "regex": ""
-                                }
-                            },
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.TextField",
-                        "properties": {
-                            "encryption": "",
-                            "id": "userName",
-                            "label": "Username",
-                            "maxlength": "",
-                            "placeholder": "",
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "size": "",
-                            "storeNumeric": "",
-                            "style": "",
-                            "validator": {
-                                "className": "",
-                                "properties": {}
-                            },
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.TextField",
-                        "properties": {
-                            "encryption": "",
-                            "id": "firstname",
-                            "label": "FirstName",
-                            "maxlength": "",
-                            "placeholder": "",
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "size": "",
-                            "storeNumeric": "",
-                            "style": "",
-                            "validator": {
-                                "className": "",
-                                "properties": {}
-                            },
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.TextField",
-                        "properties": {
-                            "encryption": "",
-                            "id": "lastName",
-                            "label": "Last Name",
-                            "maxlength": "",
-                            "placeholder": "",
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "size": "",
-                            "storeNumeric": "",
-                            "style": "",
-                            "validator": {
-                                "className": "",
-                                "properties": {}
-                            },
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.TextField",
-                        "properties": {
-                            "encryption": "",
-                            "id": "pass",
-                            "label": "Password",
-                            "maxlength": "",
-                            "placeholder": "",
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "size": "",
-                            "storeNumeric": "",
-                            "style": "",
-                            "validator": {
-                                "className": "",
-                                "properties": {}
-                            },
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.SelectBox",
-                        "properties": {
-                            "controlField": "",
-                            "id": "groups",
-                            "label": "Group",
-                            "multiple": "",
-                            "options": [{
-                                "grouping": "",
-                                "label": "Channel Master",
-                                "value": "channelMaster"
-                            }],
-                            "optionsBinder": {
-                                "className": "org.joget.plugin.enterprise.GroupOptionsBinder",
-                                "properties": {
-                                    "addEmptyOption": "",
-                                    "autoHandleFiles": "",
-                                    "autoHandleWorkflowVariable": "true",
-                                    "cacheInterval": "",
-                                    "emptyLabel": "",
-                                    "orgId": ""
-                                }
-                            },
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "size": "",
-                            "validator": {
-                                "className": "",
-                                "properties": {}
-                            },
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.SelectBox",
-                        "properties": {
-                            "controlField": "",
-                            "id": "city",
-                            "label": "City",
-                            "multiple": "",
-                            "options": [],
-                            "optionsBinder": {
-                                "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                                "properties": {
-                                    "addEmptyOption": "",
-                                    "autoHandleFiles": "",
-                                    "autoHandleWorkflowVariable": "true",
-                                    "cacheInterval": "",
-                                    "emptyLabel": "",
-                                    "extraCondition": "",
-                                    "formDefId": "pincode",
-                                    "groupingColumn": "city",
-                                    "idColumn": "city",
-                                    "labelColumn": "city",
-                                    "useAjax": ""
-                                }
-                            },
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "size": "",
-                            "validator": {
-                                "className": "org.joget.apps.form.lib.DefaultValidator",
-                                "properties": {
-                                    "mandatory": "true",
-                                    "message": "",
-                                    "type": ""
-                                }
-                            },
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.SelectBox",
-                        "properties": {
-                            "controlField": "city",
-                            "id": "state",
-                            "label": "State",
-                            "multiple": "",
-                            "options": [],
-                            "optionsBinder": {
-                                "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                                "properties": {
-                                    "addEmptyOption": "",
-                                    "autoHandleFiles": "",
-                                    "autoHandleWorkflowVariable": "true",
-                                    "cacheInterval": "",
-                                    "emptyLabel": "",
-                                    "extraCondition": "",
-                                    "formDefId": "pincode",
-                                    "groupingColumn": "city",
-                                    "idColumn": "state",
-                                    "labelColumn": "state",
-                                    "useAjax": ""
-                                }
-                            },
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "size": "",
-                            "validator": {
-                                "className": "org.joget.apps.form.lib.DefaultValidator",
-                                "properties": {
-                                    "mandatory": "true",
-                                    "message": "",
-                                    "type": ""
-                                }
-                            },
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.SelectBox",
-                        "properties": {
-                            "controlField": "city",
-                            "id": "region",
-                            "label": "Region",
-                            "multiple": "",
-                            "options": [],
-                            "optionsBinder": {
-                                "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                                "properties": {
-                                    "addEmptyOption": "",
-                                    "autoHandleFiles": "",
-                                    "autoHandleWorkflowVariable": "true",
-                                    "cacheInterval": "",
-                                    "emptyLabel": "",
-                                    "extraCondition": "",
-                                    "formDefId": "pincode",
-                                    "groupingColumn": "city",
-                                    "idColumn": "region",
-                                    "labelColumn": "region",
-                                    "useAjax": ""
-                                }
-                            },
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "size": "",
-                            "validator": {
-                                "className": "org.joget.apps.form.lib.DefaultValidator",
-                                "properties": {
-                                    "mandatory": "true",
-                                    "message": "",
-                                    "type": ""
-                                }
-                            },
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.TextField",
-                        "properties": {
-                            "encryption": "",
-                            "id": "emailId",
-                            "label": "Email",
-                            "maxlength": "",
-                            "placeholder": "",
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "size": "",
-                            "storeNumeric": "",
-                            "style": "",
-                            "validator": {
-                                "className": "org.joget.apps.form.lib.DefaultValidator",
-                                "properties": {
-                                    "custom-regex": "^[_A-Za-z0-9-\\\\+]+(\\\\.[_A-Za-z0-9-]+)*@nseit.com$",
-                                    "custom-regex-casesensitive": "",
-                                    "mandatory": "true",
-                                    "message": "invalid email",
-                                    "type": "custom"
-                                }
-                            },
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.TextField",
-                        "properties": {
-                            "encryption": "",
-                            "id": "mobile",
-                            "label": "Mobile Number",
-                            "maxlength": "10",
-                            "placeholder": "",
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "size": "",
-                            "storeNumeric": "",
-                            "style": "",
-                            "validator": {
-                                "className": "org.joget.apps.form.lib.DuplicateValueValidator",
-                                "properties": {
-                                    "errorDuplicateMsg": "Mobile number already exists",
-                                    "errorFormatMsg": "Invalid",
-                                    "fieldId": "mobile",
-                                    "formDefId": "user_master",
-                                    "mandatory": "true",
-                                    "regex": "^[6-9]\\d{9}$"
-                                }
-                            },
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.Radio",
-                        "properties": {
-                            "controlField": "",
-                            "id": "employeeStatus",
-                            "label": "Employee Status",
-                            "options": [
-                                {
-                                    "grouping": "",
-                                    "label": "Active",
-                                    "value": "Active"
-                                },
-                                {
-                                    "grouping": "",
-                                    "label": "Inactive",
-                                    "value": "Inactive"
-                                }
-                            ],
-                            "optionsBinder": {
-                                "className": "",
-                                "properties": {}
-                            },
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "validator": {
-                                "className": "",
-                                "properties": {}
-                            },
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.CustomHTML",
-                        "properties": {
-                            "autoPopulate": "",
-                            "id": "field9",
-                            "label": "",
-                            "value": "<script>\n    $('input[name=employeeStatus][value=\"Active\"]').prop('checked', true);\n    $('radio[name=employeeStatus][value=\"Inactive\"]').hide()\n\n<\/script>"
-                        }
+    "elements": [{
+        "className": "org.joget.apps.form.model.Section",
+        "elements": [{
+            "className": "org.joget.apps.form.model.Column",
+            "elements": [
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "",
+                        "id": "employeeNumber",
+                        "label": "Employee Number",
+                        "maxlength": "10",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DuplicateValueValidator",
+                            "properties": {
+                                "errorDuplicateMsg": "Employee Number already exists",
+                                "errorFormatMsg": "",
+                                "fieldId": "employeeNumber",
+                                "formDefId": "user_master",
+                                "mandatory": "true",
+                                "regex": ""
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
                     }
-                ],
-                "properties": {"width": "100%"}
-            }],
-            "properties": {
-                "comment": "",
-                "id": "section1",
-                "join": "",
-                "label": "Section",
-                "loadBinder": {
-                    "className": "",
-                    "properties": {}
                 },
-                "permission": {
-                    "className": "",
-                    "properties": {}
-                },
-                "permissionReadonly": "",
-                "readonly": "",
-                "readonlyLabel": "",
-                "regex": "",
-                "reverse": "",
-                "storeBinder": {
-                    "className": "",
-                    "properties": {}
-                },
-                "visibilityControl": "",
-                "visibilityValue": ""
-            }
-        },
-        {
-            "className": "org.joget.apps.form.model.Section",
-            "elements": [{
-                "className": "org.joget.apps.form.model.Column",
-                "elements": [
-                    {
-                        "className": "org.joget.apps.form.lib.TextField",
-                        "properties": {
-                            "encryption": "",
-                            "id": "employeeNumber",
-                            "label": "Employee Number",
-                            "maxlength": "10",
-                            "placeholder": "",
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "size": "",
-                            "storeNumeric": "",
-                            "style": "",
-                            "validator": {
-                                "className": "org.joget.apps.form.lib.DuplicateValueValidator",
-                                "properties": {
-                                    "errorDuplicateMsg": "Employee Number already exists",
-                                    "errorFormatMsg": "",
-                                    "fieldId": "employeeNumber",
-                                    "formDefId": "user_master",
-                                    "mandatory": "true",
-                                    "regex": ""
-                                }
-                            },
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.TextField",
-                        "properties": {
-                            "encryption": "",
-                            "id": "userName",
-                            "label": "Username",
-                            "maxlength": "",
-                            "placeholder": "",
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "size": "",
-                            "storeNumeric": "",
-                            "style": "",
-                            "validator": {
-                                "className": "",
-                                "properties": {}
-                            },
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.TextField",
-                        "properties": {
-                            "encryption": "",
-                            "id": "firstname",
-                            "label": "FirstName",
-                            "maxlength": "",
-                            "placeholder": "",
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "size": "",
-                            "storeNumeric": "",
-                            "style": "",
-                            "validator": {
-                                "className": "",
-                                "properties": {}
-                            },
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.TextField",
-                        "properties": {
-                            "encryption": "",
-                            "id": "lastName",
-                            "label": "Last Name",
-                            "maxlength": "",
-                            "placeholder": "",
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "size": "",
-                            "storeNumeric": "",
-                            "style": "",
-                            "validator": {
-                                "className": "",
-                                "properties": {}
-                            },
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.TextField",
-                        "properties": {
-                            "encryption": "",
-                            "id": "pass",
-                            "label": "Password",
-                            "maxlength": "",
-                            "placeholder": "",
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "size": "",
-                            "storeNumeric": "",
-                            "style": "",
-                            "validator": {
-                                "className": "",
-                                "properties": {}
-                            },
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.SelectBox",
-                        "properties": {
-                            "controlField": "",
-                            "id": "groups",
-                            "label": "Group",
-                            "multiple": "",
-                            "options": [{
-                                "grouping": "",
-                                "label": "Channel Master",
-                                "value": "channelMaster"
-                            }],
-                            "optionsBinder": {
-                                "className": "org.joget.plugin.enterprise.GroupOptionsBinder",
-                                "properties": {
-                                    "addEmptyOption": "",
-                                    "autoHandleFiles": "",
-                                    "autoHandleWorkflowVariable": "true",
-                                    "cacheInterval": "",
-                                    "emptyLabel": "",
-                                    "orgId": ""
-                                }
-                            },
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "size": "",
-                            "validator": {
-                                "className": "",
-                                "properties": {}
-                            },
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.SelectBox",
-                        "properties": {
-                            "controlField": "",
-                            "id": "city",
-                            "label": "City",
-                            "multiple": "",
-                            "options": [],
-                            "optionsBinder": {
-                                "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                                "properties": {
-                                    "addEmptyOption": "",
-                                    "autoHandleFiles": "",
-                                    "autoHandleWorkflowVariable": "true",
-                                    "cacheInterval": "",
-                                    "emptyLabel": "",
-                                    "extraCondition": "",
-                                    "formDefId": "pincode",
-                                    "groupingColumn": "city",
-                                    "idColumn": "city",
-                                    "labelColumn": "city",
-                                    "useAjax": ""
-                                }
-                            },
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "size": "",
-                            "validator": {
-                                "className": "org.joget.apps.form.lib.DefaultValidator",
-                                "properties": {
-                                    "mandatory": "true",
-                                    "message": "",
-                                    "type": ""
-                                }
-                            },
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.SelectBox",
-                        "properties": {
-                            "controlField": "city",
-                            "id": "state",
-                            "label": "State",
-                            "multiple": "",
-                            "options": [],
-                            "optionsBinder": {
-                                "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                                "properties": {
-                                    "addEmptyOption": "",
-                                    "autoHandleFiles": "",
-                                    "autoHandleWorkflowVariable": "true",
-                                    "cacheInterval": "",
-                                    "emptyLabel": "",
-                                    "extraCondition": "",
-                                    "formDefId": "pincode",
-                                    "groupingColumn": "city",
-                                    "idColumn": "state",
-                                    "labelColumn": "state",
-                                    "useAjax": ""
-                                }
-                            },
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "size": "",
-                            "validator": {
-                                "className": "org.joget.apps.form.lib.DefaultValidator",
-                                "properties": {
-                                    "mandatory": "true",
-                                    "message": "",
-                                    "type": ""
-                                }
-                            },
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.SelectBox",
-                        "properties": {
-                            "controlField": "city",
-                            "id": "region",
-                            "label": "Region",
-                            "multiple": "",
-                            "options": [],
-                            "optionsBinder": {
-                                "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                                "properties": {
-                                    "addEmptyOption": "",
-                                    "autoHandleFiles": "",
-                                    "autoHandleWorkflowVariable": "true",
-                                    "cacheInterval": "",
-                                    "emptyLabel": "",
-                                    "extraCondition": "",
-                                    "formDefId": "pincode",
-                                    "groupingColumn": "city",
-                                    "idColumn": "region",
-                                    "labelColumn": "region",
-                                    "useAjax": ""
-                                }
-                            },
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "size": "",
-                            "validator": {
-                                "className": "org.joget.apps.form.lib.DefaultValidator",
-                                "properties": {
-                                    "mandatory": "true",
-                                    "message": "",
-                                    "type": ""
-                                }
-                            },
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.TextField",
-                        "properties": {
-                            "encryption": "",
-                            "id": "emailId",
-                            "label": "Email",
-                            "maxlength": "",
-                            "placeholder": "",
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "size": "",
-                            "storeNumeric": "",
-                            "style": "",
-                            "validator": {
-                                "className": "org.joget.apps.form.lib.DefaultValidator",
-                                "properties": {
-                                    "custom-regex": "^[_A-Za-z0-9-\\\\+]+(\\\\.[_A-Za-z0-9-]+)*@nseit.com$",
-                                    "custom-regex-casesensitive": "",
-                                    "mandatory": "true",
-                                    "message": "invalid email",
-                                    "type": "custom"
-                                }
-                            },
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.TextField",
-                        "properties": {
-                            "encryption": "",
-                            "id": "mobile",
-                            "label": "Mobile Number",
-                            "maxlength": "10",
-                            "placeholder": "",
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "size": "",
-                            "storeNumeric": "",
-                            "style": "",
-                            "validator": {
-                                "className": "org.joget.apps.form.lib.DuplicateValueValidator",
-                                "properties": {
-                                    "errorDuplicateMsg": "Mobile number already exists",
-                                    "errorFormatMsg": "Invalid",
-                                    "fieldId": "mobile",
-                                    "formDefId": "user_master",
-                                    "mandatory": "true",
-                                    "regex": "^[6-9]\\d{9}$"
-                                }
-                            },
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.Radio",
-                        "properties": {
-                            "controlField": "",
-                            "id": "employeeStatus",
-                            "label": "Employee Status",
-                            "options": [
-                                {
-                                    "grouping": "",
-                                    "label": "Active",
-                                    "value": "Active"
-                                },
-                                {
-                                    "grouping": "",
-                                    "label": "Inactive",
-                                    "value": "Inactive"
-                                }
-                            ],
-                            "optionsBinder": {
-                                "className": "",
-                                "properties": {}
-                            },
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "validator": {
-                                "className": "",
-                                "properties": {}
-                            },
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.CustomHTML",
-                        "properties": {
-                            "autoPopulate": "",
-                            "id": "field9",
-                            "label": "",
-                            "value": "<script>\n    $('input[name=employeeStatus][value=\"Active\"]').prop('checked', true);\n    $('radio[name=employeeStatus][value=\"Inactive\"]').hide()\n\n<\/script>"
-                        }
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "",
+                        "id": "userName",
+                        "label": "Username",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
                     }
-                ],
-                "properties": {"width": "100%"}
-            }],
-            "properties": {
-                "comment": "",
-                "id": "section",
-                "join": "",
-                "label": "Section",
-                "loadBinder": {
-                    "className": "",
-                    "properties": {}
                 },
-                "permission": {
-                    "className": "",
-                    "properties": {}
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "",
+                        "id": "firstname",
+                        "label": "FirstName",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
                 },
-                "permissionReadonly": "",
-                "readonly": "",
-                "readonlyLabel": "",
-                "regex": "",
-                "reverse": "",
-                "storeBinder": {
-                    "className": "",
-                    "properties": {}
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "",
+                        "id": "lastName",
+                        "label": "Last Name",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
                 },
-                "visibilityControl": "",
-                "visibilityValue": ""
-            }
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "",
+                        "id": "pass",
+                        "label": "Password",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "controlField": "",
+                        "id": "groups",
+                        "label": "Group",
+                        "multiple": "",
+                        "options": [{
+                            "grouping": "",
+                            "label": "Channel Master",
+                            "value": "channelMaster"
+                        }],
+                        "optionsBinder": {
+                            "className": "org.joget.plugin.enterprise.GroupOptionsBinder",
+                            "properties": {
+                                "addEmptyOption": "",
+                                "autoHandleFiles": "",
+                                "autoHandleWorkflowVariable": "true",
+                                "cacheInterval": "",
+                                "emptyLabel": "",
+                                "orgId": ""
+                            }
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "controlField": "",
+                        "id": "city",
+                        "label": "City",
+                        "multiple": "",
+                        "options": [],
+                        "optionsBinder": {
+                            "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                            "properties": {
+                                "addEmptyOption": "",
+                                "autoHandleFiles": "",
+                                "autoHandleWorkflowVariable": "true",
+                                "cacheInterval": "",
+                                "emptyLabel": "",
+                                "extraCondition": "",
+                                "formDefId": "pincode",
+                                "groupingColumn": "city",
+                                "idColumn": "city",
+                                "labelColumn": "city",
+                                "useAjax": ""
+                            }
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "",
+                                "type": ""
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "controlField": "city",
+                        "id": "state",
+                        "label": "State",
+                        "multiple": "",
+                        "options": [],
+                        "optionsBinder": {
+                            "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                            "properties": {
+                                "addEmptyOption": "",
+                                "autoHandleFiles": "",
+                                "autoHandleWorkflowVariable": "true",
+                                "cacheInterval": "",
+                                "emptyLabel": "",
+                                "extraCondition": "",
+                                "formDefId": "pincode",
+                                "groupingColumn": "city",
+                                "idColumn": "state",
+                                "labelColumn": "state",
+                                "useAjax": ""
+                            }
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "",
+                                "type": ""
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "controlField": "city",
+                        "id": "region",
+                        "label": "Region",
+                        "multiple": "",
+                        "options": [],
+                        "optionsBinder": {
+                            "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                            "properties": {
+                                "addEmptyOption": "",
+                                "autoHandleFiles": "",
+                                "autoHandleWorkflowVariable": "true",
+                                "cacheInterval": "",
+                                "emptyLabel": "",
+                                "extraCondition": "",
+                                "formDefId": "pincode",
+                                "groupingColumn": "city",
+                                "idColumn": "region",
+                                "labelColumn": "region",
+                                "useAjax": ""
+                            }
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "",
+                                "type": ""
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "",
+                        "id": "emailId",
+                        "label": "Email",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "custom-regex": "^[_A-Za-z0-9-\\\\+]+(\\\\.[_A-Za-z0-9-]+)*@nseit.com$",
+                                "custom-regex-casesensitive": "",
+                                "mandatory": "true",
+                                "message": "invalid email",
+                                "type": "custom"
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "encryption": "",
+                        "id": "mobile",
+                        "label": "Mobile Number",
+                        "maxlength": "10",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DuplicateValueValidator",
+                            "properties": {
+                                "errorDuplicateMsg": "Mobile number already exists",
+                                "errorFormatMsg": "Invalid",
+                                "fieldId": "mobile",
+                                "formDefId": "user_master",
+                                "mandatory": "true",
+                                "regex": "^[6-9]\\d{9}$"
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.Radio",
+                    "properties": {
+                        "controlField": "",
+                        "id": "employeeStatus",
+                        "label": "Employee Status",
+                        "options": [
+                            {
+                                "grouping": "",
+                                "label": "Active",
+                                "value": "Active"
+                            },
+                            {
+                                "grouping": "",
+                                "label": "Inactive",
+                                "value": "Inactive"
+                            }
+                        ],
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.CustomHTML",
+                    "properties": {
+                        "autoPopulate": "",
+                        "id": "field9",
+                        "label": "",
+                        "value": "<script>\n    $('input[name=employeeStatus][value=\"Active\"]').prop('checked', true);\n    $('radio[name=employeeStatus][value=\"Inactive\"]').hide()\n\n<\/script>"
+                    }
+                }
+            ],
+            "properties": {"width": "100%"}
+        }],
+        "properties": {
+            "comment": "",
+            "id": "section1",
+            "join": "",
+            "label": "Section",
+            "loadBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "permission": {
+                "className": "",
+                "properties": {}
+            },
+            "permissionReadonly": "",
+            "readonly": "",
+            "readonlyLabel": "",
+            "regex": "",
+            "reverse": "",
+            "storeBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "visibilityControl": "",
+            "visibilityValue": ""
         }
-    ],
+    }],
     "properties": {
         "description": "",
         "id": "user_master",
