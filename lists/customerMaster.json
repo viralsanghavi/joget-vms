@@ -187,8 +187,32 @@
             "filterParamName": "d-134370-fn_customerSpocName",
             "hidden": "",
             "id": "filter_7",
-            "label": "Customer SPOC Name",
+            "label": "SPOC Name",
             "name": "customerSpocName",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-134370-fn_customerSpocDesignation",
+            "hidden": "",
+            "id": "filter_1",
+            "label": "SPOC Designation",
+            "name": "customerSpocDesignation",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-134370-fn_customerSpocEmail",
+            "hidden": "",
+            "id": "filter_9",
+            "label": "SPOC E-Mail ID",
+            "name": "customerSpocEmail",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
                 "properties": {"defaultValue": ""}
@@ -198,8 +222,8 @@
             "datalist_type": "filter",
             "filterParamName": "d-134370-fn_customerSpocMobile",
             "hidden": "",
-            "id": "filter_8",
-            "label": "Customer SPOC Mobile No.",
+            "id": "filter_10",
+            "label": "SPOC Mobile No.",
             "name": "customerSpocMobile",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
@@ -207,93 +231,99 @@
             }
         },
         {
-            "id": "filter_9",
-            "label": "Customer SPOC E-Mail ID",
-            "name": "customerSpocEmail",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
-            }
-        },
-        {
-            "id": "filter_10",
-            "label": "Customer SPOC Mobile No.",
-            "name": "customerSpocMobile",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
-            }
-        },
-        {
+            "datalist_type": "filter",
+            "filterParamName": "d-134370-fn_customerL2Name",
+            "hidden": "",
             "id": "filter_4",
-            "label": "Customer L2 Name",
+            "label": "L2 Name",
             "name": "customerL2Name",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "properties": {"defaultValue": ""}
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-134370-fn_customerL2Designation",
+            "hidden": "",
             "id": "filter_11",
-            "label": "Customer L2 Designation",
+            "label": "L2 Designation",
             "name": "customerL2Designation",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "properties": {"defaultValue": ""}
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-134370-fn_customerL2Email",
+            "hidden": "",
             "id": "filter_12",
-            "label": "Customer L2 E-Mail ID",
+            "label": "L2 E-Mail ID",
             "name": "customerL2Email",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "properties": {"defaultValue": ""}
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-134370-fn_customerL2Mobile",
+            "hidden": "",
             "id": "filter_13",
-            "label": "Customer L2 Mobile No.",
+            "label": "L2 Mobile No.",
             "name": "customerL2Mobile",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "properties": {"defaultValue": ""}
             }
         },
         {
-            "id": "filter_14",
-            "label": "Customer L3/Escalation E-Mail ID",
-            "name": "customerL3Email",
+            "datalist_type": "filter",
+            "filterParamName": "d-134370-fn_customerL3Name",
+            "hidden": "",
+            "id": "filter_8",
+            "label": "L3 Name",
+            "name": "customerL3Name",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "properties": {"defaultValue": ""}
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-134370-fn_customerL3Designation",
+            "hidden": "",
             "id": "filter_15",
-            "label": "Customer L3 / Escalation Designation",
+            "label": "L3  Designation",
             "name": "customerL3Designation",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "properties": {"defaultValue": ""}
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-134370-fn_customerL3Email",
+            "hidden": "",
             "id": "filter_16",
-            "label": "Customer L3/Escalation E-Mail ID",
+            "label": "L3 E-Mail ID",
             "name": "customerL3Email",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "properties": {"defaultValue": ""}
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-134370-fn_customerL3Mobile",
+            "hidden": "",
             "id": "filter_17",
-            "label": "Customer L3 / Escalation Mobile No.",
+            "label": "L3 Mobile No.",
             "name": "customerL3Mobile",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "properties": {"defaultValue": ""}
             }
         },
         {
