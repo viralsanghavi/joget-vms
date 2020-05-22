@@ -33,7 +33,7 @@
                     "className": "org.joget.apps.form.lib.Radio",
                     "properties": {
                         "controlField": "",
-                        "id": "status",
+                        "id": "Status",
                         "label": "Status",
                         "options": [
                             {
