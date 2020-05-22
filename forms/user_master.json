@@ -110,7 +110,7 @@
                                 "className": "",
                                 "properties": {}
                             },
-                            "value": "%%%%SZDOEPdky6S8beqCJvPelg==%%%%"
+                            "value": "%%%%wxrcVZYm1vsTvCnz3syb0w==%%%%"
                         }
                     },
                     {
@@ -475,7 +475,7 @@
                         "className": "org.joget.apps.form.lib.TextField",
                         "properties": {
                             "encryption": "",
-                            "id": "firstname",
+                            "id": "firstname1",
                             "label": "FirstName",
                             "maxlength": "",
                             "placeholder": "",
@@ -496,7 +496,7 @@
                         "className": "org.joget.apps.form.lib.TextField",
                         "properties": {
                             "encryption": "",
-                            "id": "lastName",
+                            "id": "lastName1",
                             "label": "Last Name",
                             "maxlength": "",
                             "placeholder": "",
@@ -516,7 +516,7 @@
                     {
                         "className": "org.joget.apps.form.lib.PasswordField",
                         "properties": {
-                            "id": "uPass",
+                            "id": "uPass1",
                             "label": "Password",
                             "maxlength": "",
                             "readonly": "",
@@ -526,14 +526,14 @@
                                 "className": "",
                                 "properties": {}
                             },
-                            "value": "%%%%SZDOEPdky6S8beqCJvPelg==%%%%"
+                            "value": "%%%%wxrcVZYm1vsTvCnz3syb0w==%%%%"
                         }
                     },
                     {
                         "className": "org.joget.apps.form.lib.SelectBox",
                         "properties": {
                             "controlField": "",
-                            "id": "groups",
+                            "id": "groups1",
                             "label": "Group",
                             "multiple": "",
                             "options": [{
@@ -564,127 +564,10 @@
                         }
                     },
                     {
-                        "className": "org.joget.apps.form.lib.SelectBox",
-                        "properties": {
-                            "controlField": "",
-                            "id": "city",
-                            "label": "City",
-                            "multiple": "",
-                            "options": [],
-                            "optionsBinder": {
-                                "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                                "properties": {
-                                    "addEmptyOption": "",
-                                    "autoHandleFiles": "",
-                                    "autoHandleWorkflowVariable": "true",
-                                    "cacheInterval": "",
-                                    "emptyLabel": "",
-                                    "extraCondition": "",
-                                    "formDefId": "pincode",
-                                    "groupingColumn": "city",
-                                    "idColumn": "city",
-                                    "labelColumn": "city",
-                                    "useAjax": ""
-                                }
-                            },
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "size": "",
-                            "validator": {
-                                "className": "org.joget.apps.form.lib.DefaultValidator",
-                                "properties": {
-                                    "mandatory": "true",
-                                    "message": "",
-                                    "type": ""
-                                }
-                            },
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.SelectBox",
-                        "properties": {
-                            "controlField": "city",
-                            "id": "state",
-                            "label": "State",
-                            "multiple": "",
-                            "options": [],
-                            "optionsBinder": {
-                                "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                                "properties": {
-                                    "addEmptyOption": "",
-                                    "autoHandleFiles": "",
-                                    "autoHandleWorkflowVariable": "true",
-                                    "cacheInterval": "",
-                                    "emptyLabel": "",
-                                    "extraCondition": "",
-                                    "formDefId": "pincode",
-                                    "groupingColumn": "city",
-                                    "idColumn": "state",
-                                    "labelColumn": "state",
-                                    "useAjax": ""
-                                }
-                            },
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "size": "",
-                            "validator": {
-                                "className": "org.joget.apps.form.lib.DefaultValidator",
-                                "properties": {
-                                    "mandatory": "true",
-                                    "message": "",
-                                    "type": ""
-                                }
-                            },
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.SelectBox",
-                        "properties": {
-                            "controlField": "city",
-                            "id": "region",
-                            "label": "Region",
-                            "multiple": "",
-                            "options": [],
-                            "optionsBinder": {
-                                "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                                "properties": {
-                                    "addEmptyOption": "",
-                                    "autoHandleFiles": "",
-                                    "autoHandleWorkflowVariable": "true",
-                                    "cacheInterval": "",
-                                    "emptyLabel": "",
-                                    "extraCondition": "",
-                                    "formDefId": "pincode",
-                                    "groupingColumn": "city",
-                                    "idColumn": "region",
-                                    "labelColumn": "region",
-                                    "useAjax": ""
-                                }
-                            },
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "size": "",
-                            "validator": {
-                                "className": "org.joget.apps.form.lib.DefaultValidator",
-                                "properties": {
-                                    "mandatory": "true",
-                                    "message": "",
-                                    "type": ""
-                                }
-                            },
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
                         "className": "org.joget.apps.form.lib.TextField",
                         "properties": {
                             "encryption": "",
-                            "id": "emailId",
+                            "id": "emailId1",
                             "label": "Email",
                             "maxlength": "",
                             "placeholder": "",
@@ -711,7 +594,7 @@
                         "className": "org.joget.apps.form.lib.TextField",
                         "properties": {
                             "encryption": "",
-                            "id": "mobile",
+                            "id": "mobile1",
                             "label": "Mobile Number",
                             "maxlength": "10",
                             "placeholder": "",
@@ -739,7 +622,7 @@
                         "className": "org.joget.apps.form.lib.Radio",
                         "properties": {
                             "controlField": "",
-                            "id": "employeeStatus",
+                            "id": "employeeStatus1",
                             "label": "Employee Status",
                             "options": [
                                 {
@@ -773,7 +656,7 @@
                             "autoPopulate": "",
                             "id": "field9",
                             "label": "",
-                            "value": "<script>\n    $('input[name=employeeStatus][value=\"Active\"]').prop('checked', true);\n    $('radio[name=employeeStatus][value=\"Inactive\"]').hide()\n<\/script>\n"
+                            "value": "<script>\n    $('input[name=employeeStatus][value=\"Active\"]').prop('checked', true);\n    $('radio[name=employeeStatus][value=\"Inactive\"]').hide()\n<\/script>\n<script>\n  $(\"#employeeStatus\").change(function(){\n  alert(\"The text has been changed.\");\n});\n\n<\/script>"
                         }
                     }
                 ],
