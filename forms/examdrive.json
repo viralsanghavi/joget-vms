@@ -832,15 +832,15 @@
                                 {
                                     "format": "",
                                     "formatType": "text",
-                                    "label": "Region",
-                                    "value": "region",
+                                    "label": "State",
+                                    "value": "state",
                                     "width": ""
                                 },
                                 {
                                     "format": "",
                                     "formatType": "text",
-                                    "label": "State",
-                                    "value": "state",
+                                    "label": "Region",
+                                    "value": "region",
                                     "width": ""
                                 },
                                 {
