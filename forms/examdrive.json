@@ -462,6 +462,57 @@
                             "value": "",
                             "workflowVariable": ""
                         }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.DatePicker",
+                        "properties": {
+                            "allowManual": "",
+                            "currentDateAs": "",
+                            "dataFormat": "",
+                            "datePickerType": "",
+                            "endDateFieldId": "",
+                            "format": "",
+                            "id": "field17",
+                            "label": "Date Picker",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "startDateFieldId": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": "",
+                            "yearRange": "c-10:c+10"
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.DatePicker",
+                        "properties": {
+                            "allowManual": "",
+                            "currentDateAs": "",
+                            "dataFormat": "yyyy-MM-dd",
+                            "datePickerType": "",
+                            "endDateFieldId": "",
+                            "format": "",
+                            "id": "field17",
+                            "label": "Date Picker",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "startDateFieldId": "",
+                            "validator": {
+                                "className": "org.joget.apps.form.lib.BeanShellValidator",
+                                "properties": {
+                                    "decoration": "",
+                                    "script": "<script type=\"text/javascript\">\r\n$('form').submit(function(){\r\n    startDate = $(\"input[name='start_date']\").val();\r\n    endDate = $(\"input[name='end_date']\").val();\r\n    if( endDate < startDate ){\r\n        alert(\"End Date must be larger than the Start Date. Please try again.\");\r\n        $.unblockUI();\r\n        return false;\r\n    }else{\r\n        return true;\r\n    }\r\n});\r\n \r\n<\/script>"
+                                }
+                            },
+                            "value": "",
+                            "workflowVariable": "",
+                            "yearRange": "c-10:c+10"
+                        }
                     }
                 ],
                 "properties": {"width": "100%"}
