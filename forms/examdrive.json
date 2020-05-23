@@ -171,7 +171,7 @@
                         "properties": {
                             "controlField": "",
                             "id": "end_time",
-                            "label": "",
+                            "label": "Start Time",
                             "multiple": "",
                             "options": [
                                 {
@@ -320,19 +320,163 @@
                         }
                     },
                     {
-                        "className": "org.joget.apps.form.lib.CustomHTML",
+                        "className": "org.joget.apps.form.lib.SelectBox",
                         "properties": {
-                            "autoPopulate": "",
-                            "id": "field16",
+                            "controlField": "",
+                            "id": "end_time",
                             "label": "End Time",
-                            "value": "<script type=\"text/javascript\">\r\n$('form').submit(function(){\r\n    startTime = $(\"input[name=Start Time']\").val();\r\n    endTime = $(\"input[name='End Time']\").val();\r\n    if( endTime <= startTime+1 ){\r\n        alert(\"End Time must be greater than the Start Time. Please try again.\");\r\n        $.unblockUI();\r\n        return false;\r\n    }else{\r\n        return true;\r\n    }\r\n});\r\n \r\n<\/script>"
+                            "multiple": "",
+                            "options": [
+                                {
+                                    "grouping": "",
+                                    "label": "",
+                                    "value": ""
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "1:00",
+                                    "value": "1:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "2:00",
+                                    "value": "2:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "3:00",
+                                    "value": "3:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "4:00",
+                                    "value": "4:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "5:00",
+                                    "value": "5:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "6:00",
+                                    "value": "6:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "7:00",
+                                    "value": "7:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "8:00",
+                                    "value": "8:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "9:00",
+                                    "value": "9:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "10:00",
+                                    "value": "10:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "11:00",
+                                    "value": "11:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "12:00",
+                                    "value": "12:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "13:00",
+                                    "value": "13:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "14:00",
+                                    "value": "14:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "15:00",
+                                    "value": "15:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "16:00",
+                                    "value": "16:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "17:00",
+                                    "value": "17:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "18:00",
+                                    "value": "18:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "19:00",
+                                    "value": "19:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "20:00",
+                                    "value": "20:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "21:00",
+                                    "value": "21:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "22:00",
+                                    "value": "22:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "23:00",
+                                    "value": "23:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "24:00",
+                                    "value": "24:00"
+                                }
+                            ],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "validator": {
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "true",
+                                    "message": "",
+                                    "type": ""
+                                }
+                            },
+                            "value": "",
+                            "workflowVariable": ""
                         }
                     },
                     {
                         "className": "org.joget.apps.form.lib.SelectBox",
                         "properties": {
                             "controlField": "",
-                            "id": "start_time",
+                            "id": "end_time",
                             "label": "End Time",
                             "multiple": "",
                             "options": [
@@ -520,7 +664,7 @@
                         "autoPopulate": "",
                         "id": "field20",
                         "label": "",
-                        "value": "<head>\r\n<meta charset=\"UTF-8\">\r\n<title> Date Picker<\/title>\r\n<\/head>\r\n<body>\r\n\r\n<form id=\"my-form\">\r\n <input type=\"text\" id=\"date_picker1\" size=5>From Date:\r\n <br>\r\n <input type=\"text\" id=\"date_picker2\" size=5>To Date:size=5><br>\r\n <button id=\"getBetween\" onsubmit=\"return false;\" >Get Between Dates<\/button>\r\n\r\n<div id=\"results\"><\/div>\r\n\r\n<\/form>\r\n\r\n\r\n\r\n\r\n\r\n<script type=\"text/javascript\">\r\n\r\n$(document).ready(function () {\r\n\r\n$(\"#date_picker1\").datepicker({\r\n\r\ndateFormat: 'dd-mm-yy'\r\n\r\n})\r\n\r\n$(\"#date_picker2\").datepicker({\r\n\r\ndateFormat: 'dd-mm-yy'\r\n\r\n})\r\n\r\n$('#getBetween').click(function (e) {\r\n\r\nvar start = $(\"#date_picker1\").datepicker(\"getDate\"),\r\n\r\nend = $(\"#date_picker2\").datepicker(\"getDate\"),\r\n\r\ncurrentDate = new Date(start),\r\n\r\nbetween = [];\r\n\r\nwhile (currentDate <= end) {\r\n\r\nbetween.push(new Date(currentDate));\r\n\r\ncurrentDate.setDate(currentDate.getDate() + 1);\r\n\r\n}\r\n\r\n$(document).ready(function (e) {\r\n\r\n$(\"#results\").html(between.map(function (value) {\r\n\r\nreturn $('#results:last').after('<div class=\"block\">' + value + '<button class=\"remove\">x<\/button><\/div>')\r\n\r\n}));\r\n\r\n$('.remove').click(function () {\r\n\r\n$(this).parent().remove();\r\n\r\nconsole.log(between)\r\n\r\n})\r\n\r\n// e.preventDefault()\r\n\r\n});\r\n\r\ne.preventDefault()\r\n\r\n});\r\n\r\n\r\n\r\n})\r\n\r\n\r\n\r\n<\/script>\r\n\r\n<\/body>"
+                        "value": "<head>\r\n\r\n\r\n<meta charset=\"UTF-8\">\r\n\r\n\r\n<title> Date Picker<\/title>\r\n\r\n<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>\r\n\r\n\r\n<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>\r\n\r\n<\/head>\r\n\r\n\r\n<body>\r\n\r\n<div class=\"container\">\r\n\r\n<div class=\"container\">\r\n\r\n<form id=\"my-form\">\r\n\r\n\r\n\r\nFrom Date:    \r\n <br>\r\n<input type=\"text\" id=\"date_picker1\" size=9>\r\n\r\nToate: <input type=\"text\" id=\"date_picker2\" size=9>\r\n\r\n<button id=\"getBetween\" onsubmit=\"return false;\" >Get Between Dates<\/button>\r\n <\n\r\n<div id=\"results\">\r\n\r\n\r\n\r\n<\/div>\r\n\r\n<\/form>\r\n\r\n<\/div><\/div>\r\n\r\n\r\n\r\n<script type=\"text/javascript\">\r\n\r\n$(document).ready(function () {\r\n\r\n$(\"#date_picker1\").datepicker({\r\n\r\ndateFormat: 'dd-mm-yy'\r\n\r\n})\r\n\r\n$(\"#date_picker2\").datepicker({\r\n\r\ndateFormat: 'dd-mm-yy'\r\n\r\n})\r\n\r\n$('#getBetween').click(function (e) {\r\n\r\nvar start = $(\"#date_picker1\").datepicker(\"getDate\"),\r\n\r\nend = $(\"#date_picker2\").datepicker(\"getDate\"),\r\n\r\ncurrentDate = new Date(start),\r\n\r\nbetween = [];\r\n\r\nwhile (currentDate <= end) {\r\n\r\nbetween.push(new Date(currentDate));\r\n\r\ncurrentDate.setDate(currentDate.getDate() + 1);\r\n\r\n}\r\n\r\n$(document).ready(function (e) {\r\n\r\n$(\"#results\").html(between.map(function (value) {\r\n\r\nreturn $('#results:last').after('<div class=\"block\">' + value + '<button class=\"remove\">x<\/button><\/div>')\r\n\r\n}));\r\n\r\n$('.remove').click(function () {\r\n\r\n$(this).parent().remove();\r\n\r\nconsole.log(between)\r\n\r\n})\r\n\r\n// e.preventDefault()\r\n\r\n});\r\n\r\ne.preventDefault()\r\n\r\n});\r\n\r\n\r\n\r\n})\r\n\r\n\r\n\r\n<\/script>\r\n\r\n<\/body>"
                     }
                 }],
                 "properties": {"width": "100%"}
