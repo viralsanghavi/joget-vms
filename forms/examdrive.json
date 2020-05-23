@@ -211,8 +211,8 @@
                                 },
                                 {
                                     "grouping": "",
-                                    "label": "7",
-                                    "value": "7"
+                                    "label": "7:00",
+                                    "value": "7:00"
                                 },
                                 {
                                     "grouping": "",
@@ -231,8 +231,8 @@
                                 },
                                 {
                                     "grouping": "",
-                                    "label": "11",
-                                    "value": "11"
+                                    "label": "11:00",
+                                    "value": "11:00"
                                 },
                                 {
                                     "grouping": "",
@@ -384,8 +384,8 @@
                                 },
                                 {
                                     "grouping": "",
-                                    "label": "11",
-                                    "value": "11"
+                                    "label": "11:00",
+                                    "value": "11:00"
                                 },
                                 {
                                     "grouping": "",
@@ -478,7 +478,7 @@
                             "autoPopulate": "",
                             "id": "field15",
                             "label": "",
-                            "value": "<script type=\"text/javascript\">\r\n$('form').submit(function(){\r\n    var startTime = FormUtil.getField(\"start_time\");\r\n    t1=$(startTime).val();\r\n    var endTime = FormUtil.getField(\"end_time\");\r\n    t2=$(endTime).val();\r\n    if( t2 <= t1 ){\r\n        alert(\"End Date must be larger than the Start Date. Please try again.\");\r\n        $.unblockUI();\r\n        return false;\r\n    }else{\r\n        return true;\r\n    }\r\n});\r\n \r\n<\/script>"
+                            "value": "<script type=\"text/javascript\">\r\n$('form').submit(function(){\r\n    var startTime = FormUtil.getField(\"start_time\");\r\n    t1=$(startTime).val();\r\n    var endTime = FormUtil.getField(\"end_time\");\r\n    t2=$(endTime).val();\r\n    if( t2 < t1 || t2=t1 ){\r\n        alert(\"End Date must be larger than the Start Date. Please try again.\");\r\n        $.unblockUI();\r\n        return false;\r\n    }else{\r\n        return true;\r\n    }\r\n});\r\n \r\n<\/script>"
                         }
                     }
                 ],
