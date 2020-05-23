@@ -170,345 +170,150 @@
                         "className": "org.joget.apps.form.lib.SelectBox",
                         "properties": {
                             "controlField": "",
-                            "id": "examstarttime",
-                            "label": "Exam Start Time",
-                            "multiple": "",
-                            "options": [
-                                {
-                                    "grouping": "",
-                                    "label": "",
-                                    "value": ""
-                                },
-                                {
-                                    "grouping": "",
-                                    "label": "7:00 a.m",
-                                    "value": "7:00 a.m"
-                                },
-                                {
-                                    "grouping": "",
-                                    "label": "8:00 a.m",
-                                    "value": "8:00 a.m"
-                                },
-                                {
-                                    "grouping": "",
-                                    "label": "9:00 a.m",
-                                    "value": "9:00 a.m"
-                                },
-                                {
-                                    "grouping": "",
-                                    "label": "10:00 a.m",
-                                    "value": "10:00 a.m"
-                                },
-                                {
-                                    "grouping": "",
-                                    "label": "11:00 a.m",
-                                    "value": "11:00 a.m"
-                                },
-                                {
-                                    "grouping": "",
-                                    "label": "1:00 p.m",
-                                    "value": "1:00 p.m"
-                                },
-                                {
-                                    "grouping": "",
-                                    "label": "12:00 p.m",
-                                    "value": "12:00 p.m"
-                                },
-                                {
-                                    "grouping": "",
-                                    "label": "2:00 p.m",
-                                    "value": "2:00 p.m"
-                                },
-                                {
-                                    "grouping": "",
-                                    "label": "3:00 p.m",
-                                    "value": "3:00 p.m"
-                                },
-                                {
-                                    "grouping": "",
-                                    "label": "4:00 p.m",
-                                    "value": "4:00 p.m"
-                                },
-                                {
-                                    "grouping": "",
-                                    "label": "5:00 p.m",
-                                    "value": "5:00 p.m"
-                                },
-                                {
-                                    "grouping": "",
-                                    "label": "6:00 p.m",
-                                    "value": "6:00 p.m"
-                                },
-                                {
-                                    "grouping": "",
-                                    "label": "7:00 p.m",
-                                    "value": "7:00 p.m"
-                                }
-                            ],
-                            "optionsBinder": {
-                                "className": "",
-                                "properties": {}
-                            },
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "size": "",
-                            "validator": {
-                                "className": "org.joget.apps.form.lib.DefaultValidator",
-                                "properties": {
-                                    "mandatory": "true",
-                                    "message": "",
-                                    "type": ""
-                                }
-                            },
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.SelectBox",
-                        "properties": {
-                            "controlField": "examstarttime",
-                            "id": "examendtime",
-                            "label": "Exam End Time",
-                            "multiple": "",
-                            "options": [
-                                {
-                                    "grouping": "",
-                                    "label": "",
-                                    "value": ""
-                                },
-                                {
-                                    "grouping": "7:00 a.m",
-                                    "label": "8:00 a.m",
-                                    "value": "8:00 a.m"
-                                },
-                                {
-                                    "grouping": "7:00 a.m",
-                                    "label": "9:00 a.m",
-                                    "value": "9:00 a.m"
-                                },
-                                {
-                                    "grouping": "7:00 a.m",
-                                    "label": "10:00 a.m",
-                                    "value": "10:00 a.m"
-                                },
-                                {
-                                    "grouping": "8:00 a.m",
-                                    "label": "9:00 p.m",
-                                    "value": "9:00 p.m"
-                                },
-                                {
-                                    "grouping": "8:00 a.m",
-                                    "label": "10:00 p.m",
-                                    "value": "10:00 p.m"
-                                },
-                                {
-                                    "grouping": "8:00 a.m",
-                                    "label": "11:00 p.m",
-                                    "value": "11:00 p.m"
-                                },
-                                {
-                                    "grouping": "9:00 a.m",
-                                    "label": "10:00 a.m",
-                                    "value": "10:00 a.m"
-                                },
-                                {
-                                    "grouping": "9:00 a.m",
-                                    "label": "11:00 a.m",
-                                    "value": "11:00 a.m"
-                                },
-                                {
-                                    "grouping": "9:00 a.m",
-                                    "label": "12:00 p.m",
-                                    "value": "12:00 p.m"
-                                },
-                                {
-                                    "grouping": "10:00 a.m",
-                                    "label": "11:00 a.m",
-                                    "value": ""
-                                },
-                                {
-                                    "grouping": "10:00 a.m",
-                                    "label": "12:00 p.m",
-                                    "value": "12:00 p.m"
-                                },
-                                {
-                                    "grouping": "10:00 a.m",
-                                    "label": "1:00 p.m",
-                                    "value": "1:00 p.m"
-                                },
-                                {
-                                    "grouping": "11:00 a.m",
-                                    "label": "12:00 p.m",
-                                    "value": "12:00 p.m"
-                                },
-                                {
-                                    "grouping": "11:00 a.m",
-                                    "label": "1:00 p.m",
-                                    "value": "1:00 p.m"
-                                },
-                                {
-                                    "grouping": "11:00 a.m",
-                                    "label": "2:00 p.m",
-                                    "value": "2:00 p.m"
-                                },
-                                {
-                                    "grouping": "12:00 p.m",
-                                    "label": "1:00 p.m",
-                                    "value": "1:00 p.m"
-                                },
-                                {
-                                    "grouping": "12:00 p.m",
-                                    "label": "2:00 p.m",
-                                    "value": "2:00 p.m"
-                                },
-                                {
-                                    "grouping": "12:00 p.m",
-                                    "label": "3:00 p.m",
-                                    "value": "3:00 p.m"
-                                },
-                                {
-                                    "grouping": "1:00 p.m",
-                                    "label": "2:00 p.m",
-                                    "value": "2:00 p.m"
-                                },
-                                {
-                                    "grouping": "1:00 p.m",
-                                    "label": "3:00 p.m",
-                                    "value": "3:00 p.m"
-                                },
-                                {
-                                    "grouping": "1:00 p.m",
-                                    "label": "4:00 p.m",
-                                    "value": "4:00 p.m"
-                                },
-                                {
-                                    "grouping": "2:00 p.m",
-                                    "label": "3:00 p.m",
-                                    "value": "3:00 p.m"
-                                },
-                                {
-                                    "grouping": "2:00 p.m",
-                                    "label": "4:00 p.m",
-                                    "value": "4:00 p.m"
-                                },
-                                {
-                                    "grouping": "2:00 p.m",
-                                    "label": "5:00 p.m",
-                                    "value": "5:00 p.m"
-                                },
-                                {
-                                    "grouping": "3:00 p.m",
-                                    "label": "4:00 p.m",
-                                    "value": "4:00 p.m"
-                                },
-                                {
-                                    "grouping": "3:00 p.m",
-                                    "label": "5:00 p.m",
-                                    "value": "5:00 p.m"
-                                },
-                                {
-                                    "grouping": "3:00 p.m",
-                                    "label": "6:00 p.m",
-                                    "value": "6:00 p.m"
-                                },
-                                {
-                                    "grouping": "4:00 p.m",
-                                    "label": "5:00 p.m",
-                                    "value": "5:00 p.m"
-                                },
-                                {
-                                    "grouping": "4:00 p.m",
-                                    "label": "6:00 p.m",
-                                    "value": "6:00 p.m"
-                                },
-                                {
-                                    "grouping": "4:00 p.m",
-                                    "label": "7:00 p.m",
-                                    "value": "7:00 p.m"
-                                },
-                                {
-                                    "grouping": "5:00 p.m",
-                                    "label": "6:00 p.m",
-                                    "value": "6:00 p.m"
-                                },
-                                {
-                                    "grouping": "5:00 p.m",
-                                    "label": "7:00 p.m",
-                                    "value": "7:00 p.m"
-                                },
-                                {
-                                    "grouping": "5:00 p.m",
-                                    "label": "8:00 p.m",
-                                    "value": "8:00 p.m"
-                                },
-                                {
-                                    "grouping": "6:00 p.m",
-                                    "label": "7:00 p.m",
-                                    "value": "7:00 p.m"
-                                },
-                                {
-                                    "grouping": "6:00 p.m",
-                                    "label": "8:00 p.m",
-                                    "value": "8:00 p.m"
-                                }
-                            ],
-                            "optionsBinder": {
-                                "className": "",
-                                "properties": {}
-                            },
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "size": "",
-                            "validator": {
-                                "className": "org.joget.apps.form.lib.DefaultValidator",
-                                "properties": {
-                                    "mandatory": "true",
-                                    "message": "",
-                                    "type": ""
-                                }
-                            },
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.DatePicker",
-                        "properties": {
-                            "allowManual": "",
-                            "datePickerType": "timeOnly",
-                            "endDateFieldId": "",
-                            "format24hr": "true",
-                            "id": "start_time",
-                            "label": "start_time",
-                            "placeholder": "",
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "startDateFieldId": "",
-                            "validator": {
-                                "className": "",
-                                "properties": {}
-                            },
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.DatePicker",
-                        "properties": {
-                            "allowManual": "",
-                            "datePickerType": "timeOnly",
-                            "endDateFieldId": "",
-                            "format24hr": "true",
                             "id": "end_time",
-                            "label": "end_time",
-                            "placeholder": "",
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "startDateFieldId": "",
-                            "validator": {
+                            "label": "",
+                            "multiple": "",
+                            "options": [
+                                {
+                                    "grouping": "",
+                                    "label": "",
+                                    "value": ""
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "1:00",
+                                    "value": "1:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "2:00",
+                                    "value": "2:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "3:00",
+                                    "value": "3:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "4:00",
+                                    "value": "4:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "5:00",
+                                    "value": "5:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "6:00",
+                                    "value": "6:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "7:00",
+                                    "value": "7:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "8:00",
+                                    "value": "8:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "9:00",
+                                    "value": "9:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "10:00",
+                                    "value": "10:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "11:00",
+                                    "value": "11:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "12:00",
+                                    "value": "12:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "13:00",
+                                    "value": "13:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "14:00",
+                                    "value": "14:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "15:00",
+                                    "value": "15:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "16:00",
+                                    "value": "16:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "17:00",
+                                    "value": "17:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "18:00",
+                                    "value": "18:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "19:00",
+                                    "value": "19:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "20:00",
+                                    "value": "20:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "21:00",
+                                    "value": "21:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "22:00",
+                                    "value": "22:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "23:00",
+                                    "value": "23:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "24:00",
+                                    "value": "24:00"
+                                }
+                            ],
+                            "optionsBinder": {
                                 "className": "",
                                 "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "validator": {
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "true",
+                                    "message": "",
+                                    "type": ""
+                                }
                             },
                             "value": "",
                             "workflowVariable": ""
@@ -519,8 +324,161 @@
                         "properties": {
                             "autoPopulate": "",
                             "id": "field16",
-                            "label": "",
-                            "value": "<script type=\"text/javascript\">\r\n$('form').submit(function(){\r\n    startTime = $(\"input[name='start_time']\").val();\r\n    endTime = $(\"input[name='end_time']\").val();\r\n    if( endTime <= startTime+1 ){\r\n        alert(\"End Time must be larger than the Start Time. Please try again.\");\r\n        $.unblockUI();\r\n        return false;\r\n    }else{\r\n        return true;\r\n    }\r\n});\r\n \r\n<\/script>"
+                            "label": "End Time",
+                            "value": "<script type=\"text/javascript\">\r\n$('form').submit(function(){\r\n    startTime = $(\"input[name=Start Time']\").val();\r\n    endTime = $(\"input[name='End Time']\").val();\r\n    if( endTime <= startTime+1 ){\r\n        alert(\"End Time must be greater than the Start Time. Please try again.\");\r\n        $.unblockUI();\r\n        return false;\r\n    }else{\r\n        return true;\r\n    }\r\n});\r\n \r\n<\/script>"
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.SelectBox",
+                        "properties": {
+                            "controlField": "",
+                            "id": "start_time",
+                            "label": "End Time",
+                            "multiple": "",
+                            "options": [
+                                {
+                                    "grouping": "",
+                                    "label": "",
+                                    "value": ""
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "1:00",
+                                    "value": "1:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "2:00",
+                                    "value": "2:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "3:00",
+                                    "value": "3:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "4:00",
+                                    "value": "4:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "5:00",
+                                    "value": "5:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "6:00",
+                                    "value": "6:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "7:00",
+                                    "value": "7:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "8:00",
+                                    "value": "8:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "9:00",
+                                    "value": "9:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "10:00",
+                                    "value": "10:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "11:00",
+                                    "value": "11:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "12:00",
+                                    "value": "12:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "13:00",
+                                    "value": "13:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "14:00",
+                                    "value": "14:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "15:00",
+                                    "value": "15:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "16:00",
+                                    "value": "16:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "17:00",
+                                    "value": "17:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "18:00",
+                                    "value": "18:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "19:00",
+                                    "value": "19:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "20:00",
+                                    "value": "20:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "21:00",
+                                    "value": "21:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "22:00",
+                                    "value": "22:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "23:00",
+                                    "value": "23:00"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "24:00",
+                                    "value": "24:00"
+                                }
+                            ],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "validator": {
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "true",
+                                    "message": "",
+                                    "type": ""
+                                }
+                            },
+                            "value": "",
+                            "workflowVariable": ""
                         }
                     }
                 ],
@@ -562,83 +520,14 @@
                         "autoPopulate": "",
                         "id": "field20",
                         "label": "",
-                        "value": "<head>\r\n\r\n<meta charset=\"UTF-8\">\r\n\r\n<title> Date Picker<\/title>\r\n\r\n<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>\r\n\r\n<\/head>\r\n\r\n<body>\r\n\r\n<div class=\"container\">\r\n\r\n<form id=\"my-form\">\r\n\r\n<h3> Date Picker<\/h3>\r\n\r\nFrom Date: <input type=\"text\" id=\"date_picker1\" size=9>\r\n\r\nTo Date: <input type=\"text\" id=\"date_picker2\" size=9>\r\n\r\n<button id=\"getBetween\" onsubmit=\"return false;\" >Get Between Dates<\/button>\r\n\r\n<div id=\"results\">\r\n\r\n<\/div>\r\n\r\n<\/form>\r\n\r\n<\/div>\r\n\r\n\r\n\r\n<script type=\"text/javascript\">\r\n\r\n$(document).ready(function () {\r\n\r\n$(\"#date_picker1\").datepicker({\r\n\r\ndateFormat: 'dd-mm-yy'\r\n\r\n})\r\n\r\n$(\"#date_picker2\").datepicker({\r\n\r\ndateFormat: 'dd-mm-yy'\r\n\r\n})\r\n\r\n$('#getBetween').click(function (e) {\r\n\r\nvar start = $(\"#date_picker1\").datepicker(\"getDate\"),\r\n\r\nend = $(\"#date_picker2\").datepicker(\"getDate\"),\r\n\r\ncurrentDate = new Date(start),\r\n\r\nbetween = [];\r\n\r\nwhile (currentDate <= end) {\r\n\r\nbetween.push(new Date(currentDate));\r\n\r\ncurrentDate.setDate(currentDate.getDate() + 1);\r\n\r\n}\r\n\r\n$(document).ready(function (e) {\r\n\r\n$(\"#results\").html(between.map(function (value) {\r\n\r\nreturn $('#results:last').after('<div class=\"block\">' + value + '<button class=\"remove\">x<\/button><\/div>')\r\n\r\n}));\r\n\r\n$('.remove').click(function () {\r\n\r\n$(this).parent().remove();\r\n\r\nconsole.log(between)\r\n\r\n})\r\n\r\n// e.preventDefault()\r\n\r\n});\r\n\r\ne.preventDefault()\r\n\r\n});\r\n\r\n\r\n\r\n})\r\n\r\n\r\n\r\n<\/script>\r\n\r\n<\/body>"
+                        "value": "<head>\r\n<meta charset=\"UTF-8\">\r\n<title> Date Picker<\/title>\r\n<\/head>\r\n<body>\r\n\r\n<form id=\"my-form\">\r\n <input type=\"text\" id=\"date_picker1\" size=5>From Date:\r\n <input type=\"text\" id=\"date_picker2\" size=5>To Date:size=5><button id=\"getBetween\" onsubmit=\"return false;\" >Get Between Dates<\/button>\r\n\r\n<div id=\"results\"><\/div>\r\n\r\n<\/form>\r\n\r\n\r\n\r\n\r\n\r\n<script type=\"text/javascript\">\r\n\r\n$(document).ready(function () {\r\n\r\n$(\"#date_picker1\").datepicker({\r\n\r\ndateFormat: 'dd-mm-yy'\r\n\r\n})\r\n\r\n$(\"#date_picker2\").datepicker({\r\n\r\ndateFormat: 'dd-mm-yy'\r\n\r\n})\r\n\r\n$('#getBetween').click(function (e) {\r\n\r\nvar start = $(\"#date_picker1\").datepicker(\"getDate\"),\r\n\r\nend = $(\"#date_picker2\").datepicker(\"getDate\"),\r\n\r\ncurrentDate = new Date(start),\r\n\r\nbetween = [];\r\n\r\nwhile (currentDate <= end) {\r\n\r\nbetween.push(new Date(currentDate));\r\n\r\ncurrentDate.setDate(currentDate.getDate() + 1);\r\n\r\n}\r\n\r\n$(document).ready(function (e) {\r\n\r\n$(\"#results\").html(between.map(function (value) {\r\n\r\nreturn $('#results:last').after('<div class=\"block\">' + value + '<button class=\"remove\">x<\/button><\/div>')\r\n\r\n}));\r\n\r\n$('.remove').click(function () {\r\n\r\n$(this).parent().remove();\r\n\r\nconsole.log(between)\r\n\r\n})\r\n\r\n// e.preventDefault()\r\n\r\n});\r\n\r\ne.preventDefault()\r\n\r\n});\r\n\r\n\r\n\r\n})\r\n\r\n\r\n\r\n<\/script>\r\n\r\n<\/body>"
                     }
                 }],
                 "properties": {"width": "100%"}
             }],
             "properties": {
-                "id": "section5",
-                "label": "Section"
-            }
-        },
-        {
-            "className": "org.joget.apps.form.model.Section",
-            "elements": [{
-                "className": "org.joget.apps.form.model.Column",
-                "elements": [
-                    {
-                        "className": "org.joget.apps.form.lib.DatePicker",
-                        "properties": {
-                            "allowManual": "true",
-                            "currentDateAs": "",
-                            "dataFormat": "yyyy-MM-dd",
-                            "datePickerType": "",
-                            "endDateFieldId": "",
-                            "format": "",
-                            "id": "fromdate",
-                            "label": "From Date",
-                            "placeholder": "",
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "startDateFieldId": "",
-                            "validator": {
-                                "className": "org.joget.apps.form.lib.DefaultValidator",
-                                "properties": {
-                                    "mandatory": "true",
-                                    "message": "",
-                                    "type": ""
-                                }
-                            },
-                            "value": "",
-                            "workflowVariable": "",
-                            "yearRange": "c-10:c+10"
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.DatePicker",
-                        "properties": {
-                            "allowManual": "true",
-                            "currentDateAs": "",
-                            "dataFormat": "yyyy-MM-dd",
-                            "datePickerType": "",
-                            "endDateFieldId": "",
-                            "format": "",
-                            "id": "todate",
-                            "label": "To Date",
-                            "placeholder": "",
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "startDateFieldId": "",
-                            "validator": {
-                                "className": "org.joget.apps.form.lib.DefaultValidator",
-                                "properties": {
-                                    "mandatory": "true",
-                                    "message": "",
-                                    "type": ""
-                                }
-                            },
-                            "value": "",
-                            "workflowVariable": "",
-                            "yearRange": "c-10:c+10"
-                        }
-                    }
-                ],
-                "properties": {"width": "100%"}
-            }],
-            "properties": {
                 "comment": "",
-                "id": "section4",
+                "id": "section5",
                 "join": "",
                 "label": "Exam Dates",
                 "loadBinder": {
@@ -671,7 +560,7 @@
                         "className": "org.joget.apps.form.lib.Radio",
                         "properties": {
                             "controlField": "",
-                            "id": "cctvdvr",
+                            "id": "cctv",
                             "label": "CCTV / DVR Availability in Test Rooms",
                             "options": [
                                 {
@@ -743,7 +632,7 @@
                         "className": "org.joget.apps.form.lib.Radio",
                         "properties": {
                             "controlField": "",
-                            "id": "metaldetector",
+                            "id": "metaldetectors",
                             "label": "Metal Detectors",
                             "options": [
                                 {
@@ -895,14 +784,11 @@
                             "errorMessage": "Invalid number of rows",
                             "formDefId": "CityWiseForcastForExamDrive",
                             "height": "500",
-                            "id": "citywiseforecast",
+                            "id": "field12",
                             "label": "",
                             "loadBinder": {
-                                "className": "org.joget.plugin.enterprise.MultirowFormBinder",
-                                "properties": {
-                                    "foreignKey": "forecast",
-                                    "formDefId": "CityWiseForcastForExamDrive"
-                                }
+                                "className": "",
+                                "properties": {}
                             },
                             "options": [
                                 {
@@ -939,11 +825,8 @@
                             "readonlyLabel": "",
                             "showRowNumber": "",
                             "storeBinder": {
-                                "className": "org.joget.plugin.enterprise.MultirowFormBinder",
-                                "properties": {
-                                    "foreignKey": "forecast",
-                                    "formDefId": "CityWiseForcastForExamDrive"
-                                }
+                                "className": "",
+                                "properties": {}
                             },
                             "submit-label-normal": "Add",
                             "submit-label-readonly": "",
@@ -961,9 +844,9 @@
                         "className": "org.joget.apps.form.lib.CustomHTML",
                         "properties": {
                             "autoPopulate": "",
-                            "id": "field15",
+                            "id": "field12",
                             "label": "",
-                            "value": "User Cannot Add same cities again.Add one city only once"
+                            "value": "User cannot add the same cities again.Select a city only once."
                         }
                     }
                 ],
@@ -971,7 +854,7 @@
             }],
             "properties": {
                 "comment": "",
-                "id": "section4",
+                "id": "section3",
                 "join": "",
                 "label": "City Wise Forecast",
                 "loadBinder": {
@@ -999,9 +882,25 @@
     "properties": {
         "description": "",
         "id": "examdrive",
-        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "loadBinder": {
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
+        },
         "name": "Exam Drive Form",
-        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "noPermissionMessage": "",
+        "permission": {
+            "className": "",
+            "properties": {}
+        },
+        "postProcessor": {
+            "className": "",
+            "properties": {}
+        },
+        "postProcessorRunOn": "create",
+        "storeBinder": {
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
+        },
         "tableName": "exam_drive"
     }
 }
