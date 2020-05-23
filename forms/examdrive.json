@@ -170,7 +170,7 @@
                         "className": "org.joget.apps.form.lib.SelectBox",
                         "properties": {
                             "controlField": "",
-                            "id": "end_time",
+                            "id": "start_time",
                             "label": "Start Time",
                             "multiple": "",
                             "options": [
