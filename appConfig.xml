@@ -1,7 +1,7 @@
 <appDefinition>
    <id>vms</id>
    <version>1</version>
-   <name>Venue Management</name>
+   <name>VMS</name>
    <packageDefinitionList/>
    <formDefinitionList/>
    <userviewDefinitionList/>
