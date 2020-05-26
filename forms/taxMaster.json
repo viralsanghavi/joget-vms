@@ -199,9 +199,11 @@
                             "validator": {
                                 "className": "org.joget.apps.form.lib.DefaultValidator",
                                 "properties": {
+                                    "custom-regex": "^[a-zA-Z0-9%[/]*#]*$",
+                                    "custom-regex-casesensitive": "",
                                     "mandatory": "true",
-                                    "message": "Invalid",
-                                    "type": "alphanumeric"
+                                    "message": "Invalid Entry",
+                                    "type": "custom"
                                 }
                             },
                             "value": "",
@@ -222,8 +224,14 @@
                             "storeNumeric": "",
                             "style": "",
                             "validator": {
-                                "className": "",
-                                "properties": {}
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "custom-regex": "^[a-zA-Z0-9%[/]*#]*$",
+                                    "custom-regex-casesensitive": "",
+                                    "mandatory": "true",
+                                    "message": "Invalid Entry",
+                                    "type": "custom"
+                                }
                             },
                             "value": "",
                             "workflowVariable": ""
