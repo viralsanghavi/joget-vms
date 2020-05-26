@@ -18,7 +18,7 @@
                     "label": "Bank Master Preview",
                     "noLoad": "",
                     "noframe": "",
-                    "parentSubFormId": "bank_master",
+                    "parentSubFormId": "",
                     "readonly": "",
                     "readonlyLabel": "",
                     "storeBinder": {
