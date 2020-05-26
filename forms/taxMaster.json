@@ -172,9 +172,11 @@
                             "validator": {
                                 "className": "org.joget.apps.form.lib.DefaultValidator",
                                 "properties": {
+                                    "custom-regex": "^[a-zA-Z0-9%*#]*$",
+                                    "custom-regex-casesensitive": "",
                                     "mandatory": "true",
-                                    "message": "Invalid",
-                                    "type": "alphanumeric"
+                                    "message": "Invalid entry",
+                                    "type": "custom"
                                 }
                             },
                             "value": "",
@@ -481,7 +483,7 @@
                             "encryption": "",
                             "id": "nseitGeneratorRate",
                             "label": "Generator Rate",
-                            "maxlength": "",
+                            "maxlength": "2",
                             "placeholder": "",
                             "readonly": "",
                             "readonlyLabel": "",
