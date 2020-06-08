@@ -1,6 +1,6 @@
 <appDefinition>
    <id>vms</id>
-   <version>1</version>
+   <version></version>
    <name>VMS</name>
    <packageDefinitionList>
       <packageDefinition>
